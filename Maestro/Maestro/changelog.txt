@@ -1,0 +1,590 @@
+﻿ 5.1
+ ---
+
+ - mg-desktop updated to 2.5.2.7949
+ - Map Definition Editor now uses a PropertyGrid for editing layer/group properties
+ - Map Definition Editor can now batch edit properties of multiple selected groups/layers
+ - Added missing support for editing symbol instance properties
+ - Initial support for XML element auto-completion
+ - Initial API support for CREATERUNTIMEMAP and DESCRIBERUNTIMEMAP operations in MapGuide 2.6
+ - Resource ID "address bar" now has two buttons: One to open the resource using the designated editor and one to open using the Generic XML editor
+ - Create Package dialog now has a button to read all resource ids from a file when packaging by an explicit list of resource ids
+ - References tab in Resource Properties dialog now has quick access buttons to open upstream/downstream dependent resources in an editor
+ - Added open (Layer Definition) in editor shortcut for a selected layer in the Map Definition editor
+ - The resource of an active editor will now auto-focus on the Site Explorer
+ - Added support for proxy servers
+ - Runtime Map creation for resource previews now fail hard, allowing for immediate error diagnosis instead of waiting of all layers to be processed
+ - Fix: Port legend control fixes from mg-desktop
+ - Fix: Watermark editor not being properly initialized from the underlying Watermark model
+ - Fix: Some options (which do not require a restart) always prompting a restart when applied
+ - Fix: "Show In Legend" checkbox in Layer Definition editor does nothing for CompositeTypeStyle elements
+ - Fix: Error XML validating v2.4.0 Layer Definition documents
+ - Fix: Bad restore center command icon when new WebLayout document is created
+ - Fix: Resource IDs in Load Procedures not being re-mapped when packaged with a custom restore path
+ - Fix: Map Definition Resource ID not being set during preview resource generation in Local Map preview mode
+ - Fix: Double identity properties not supported in MaestroAPI selection
+ - Fix: Missing context menu for granting/denying user/group access to a given resource in the Site Explorer
+ - Fix: Strange cursor behaviour in Generic XML editor
+ - Fix: New Map Definitions always being created as v2.4.0
+ - Fix: Missing Selection from ResourceType enum
+ - Fix: NullReferenceException on Layer Definition Editor when pointing to a multi-schema Feature Source
+ - Fix: Inline SymbolDefinition element in a Layer Definition saved with version and xsi:noNamespaceSchemaLocation attributes
+ - Fix: Infinte loop when compiling a dependency list that includes one or more self-referencing resources
+ - Fix: BaseMapDefinition XML element not cleanly detached when deleting last finite display scale or base layer group in Map Definition editor
+ - Fix: Modified composite rule filters not saved when Layer Definition is saved
+
+5.0
+---
+ - New WebLayout now auto-prompts for Map Definition like its Fusion counterpart
+ - User documentation content updates
+ - XML documentation files included with installation (previously only included with dlls in SDK)
+ - Coordinate System picker now supports entry of arbitrary WKT strings
+ - Fix: Base layer Group field not set when one is selected in Map Definition editor
+ - Fix: ODBC configuraton reset is not saved
+ - Fix: Avoid divide by zero cases in text editor component
+
+5.0 RC2
+-------
+ - Updated known site version list
+ - Added %MG_USERNAME% and %MG_PASSWORD% placeholder token support for the ODBC Feature Source editor under RawConnectionString mode
+ - Remove redundant MRT files in Coordinate System Dictionaries
+ - Feature Class / Geometry is auto-assigned when creating a new Layer Definition if there is only one Feature Class / Geometry in the Feature Source
+ - Layers in the "Layers and Groups" tab of the Map Definition editor can be re-ordered within the group. This has the effect of modifying the draw order of these layers with respect to other layers from the same group
+ - Fix: "Resampling Method" in GDAL Feature Source editor should not be mandatory
+ - Fix: Infinite looping still happening in Maestro MapViewer legend component
+ - Fix: "OK" button not enabled in Create Package dialog under certain conditions
+ - Fix: XML content error in Layer Definition editor due to unwanted attributes inserted into inline SymbolDefinition elements
+ - Fix: Guard against duplicate names when creating a new Extended Feature Class in the Feature Source editor
+ - Fix: Guard against layers being auto-associated to another group with the same name when editing a group's name in the Layer Definition editor
+ - Fix: MgCooker not running in batch mode (patch by dcreado)
+ - Fix: MgCooker requesting wrong tiles from server when using override bounds (patch by dcreado)
+ - Fix: Bad spacing and executable name in MgCooker batch file generation
+ - Fix: Bad console progress format string in MgCooker command-line mode
+
+5.0 RC1
+-------
+ - mg-desktop binary update (2.5.0.7449)
+ - Re-pointer command now supports all resource types with downstream dependencies.
+ - Added support for viewing layer draw order in RtMapInspector
+ - New context menu command to create default layers from a Feature Source
+ - New context menu command to test a Feature Source connection
+ - All specialized Fusion widget editors removed. All widget editing is through XML
+ - Live Map Definition Editor enhancements:
+    - Layers can be added to a map by drag/drop Layer Definitions from the repository view.
+    - Layers can be re-ordered in "Draw Order" view
+    - Layers/Groups can be re-organized in Legend view
+    - Map Settings dialog can now support:
+        - Extent computation based on current layers
+        - Extent computation based on current viewer extents
+    - Assorted bug fixes.
+ - Fusion editor enhancements:
+    - Using ICSharpCode.TextEditor for all XML editing functionality
+    - Fix errant whitespace in widget XML
+    - Basic XML editor support for the Map Widget
+    - Indicate which widgets are dockable
+    - Filter out un-dockable widgets when prompting the user for the widget to attach to a toolbar/container
+ - Support for new Resampling Method paramter in GDAL Feature Source editor
+ - Fix: MgCooker command-line ignoring basegroup parameter
+ - Fix: NullReferenceException when using cut command on an item in the Site Explorer
+ - Fix: Custom scale indexes passed in from command-line ignored by MgCooker
+ - Fix: Dependency list compilation failure on Flexible Layout documents
+ - Fix: OutOfMemoryException on HTTP SETRESOURCEDATA calls involving really large files
+ - Fix: Exceptions during resource preview generation not being shown
+ - Fix: Support WebLayout previews for versions not recognized/supported by Maestro
+ - Fix: Infinite loop in MapViewer legend due to nested group structure
+ - Fix: Layer/Group presentation order in MapViewer legend
+ - Fix: XML editor crash on Ctrl+C due to un-assigned font
+ - Fix: 64-bit ODBC driver flag not set if ODBC connection string references a known 64-bit driver
+ - Fix: Group parentage not being assigned when creating a RuntimeMap
+ - Fix: No legend label for layers not visible in the legend in RtMapInspector
+ - Fix: Display of nested groups in RtMapInspector
+ - Fix: Cannot parse geometry WKT with Z or M coordinates
+ - Fix: "EPSG:" not prepended to epsg codes in WFS metadata tab
+
+5.0 Beta 5
+----------
+
+- First 5.0 release with a matching SDK. Consult the SDK changelog for overview of changes
+- mg-desktop binary update (2.4.0.7056 backend with 2.4.0.7152 viewer)
+- Added support for previewing resources using the MapViewer component
+- New and improved IronPython REPL console. Due to threading issues in Mono, the zip distribution does not include this add-in.
+- IronPython AddIn now includes the python standard library
+- Added XML element code folding support in the Generic XML editor
+- New Expression Editor with support for FDO Expression syntax highlighting. Mono uses the old Expression Editor implementation.
+- LocalNative connection provider fixes
+- Deleting resources with dependencies will now display a specialized confirmation dialog showing such dependencies
+- Added support for creating packages with a list of resource ids, instead of just choosing a folder
+- New command to compile a full dependency list for a given set of resources
+- Added support for creating new http connections off of existing session ids. This means we can now spawn MgCooker from the Map Definition editor without the need to spring up a login dialog.
+- Generic layer validation failures now include full exception information
+- Added support for generating locale-specific resource previews
+- Added support for flipping the order of ColorBrewer color ramps when generating themes
+- Added support for opening affected resources from the Validation Results dialog
+- Fix: Active Document not properly reflected in Mono
+- Fix: Un-intuitive cross-connection copying logic
+- Fix: Make SetResourceData in Local/LocalNative providers more memory-efficient (apparent when loading packages with large data files)
+- Fix: Login Dialog safeguards for Local and LocalNative providers as it is not possible to create subsequent connections with different ini files.
+- Fix: Mono crashes in Web Layout editor
+- Fix: Prevent group node drops into its child group nodes in Map Definition editor.
+- Fix: WMS Feature Source editor fixes and improvements
+- Fix: Persist layer selection in Map Definition editor when moving between logical grouping and draw order tabs
+- Fix: Incorrect FDO class name encoding/decoding for certain cases
+- Fix: Toggling visibility state in Live Map Editor does nothing
+- Fix: Available commands selection wackiness in Web Layout editor
+
+5.0 Beta 4
+----------
+
+- New "address bar" for Resource IDs, allowing for quick navigation and identiifcation of Resource IDs.
+- Layer Definition editor improvements:
+	- Add support for "exploding" themes into individual filtered sub-layers.
+	- Theme generation now considers active layer filter when generating rules
+	- Use GETLEGENDIMAGE for layer style previews
+- Symbol Definitions can now be previewed (via the GETLEGENDIMAGE API)
+- Resource IDs references in the Resource Properties Dialog can now be copied to the clipboard
+- New specialized error dialog for XML content errors, that shows the offending XML contnent.
+- Streamlined localizable strings
+- Add context menu and shortcuts for common operations in Generic XML editor
+- RuntimeMap viewer improvements (ported from mg-desktop):
+   - Delayed tooltip queries
+   - Mouse interaction suppression when viewer is busy
+- Live Map Definition Editor improvements
+   - Add a repository browser view. Layers selected can be added to the current map
+   - Move to a 3 pane interface (ala. AJAX viewer)
+- Use UNIQUE() for fetching distinct values in Expression Editor
+- New Validation rules for Fusion and Feature Join performance
+- Include full stack trace for any general unclassified validation errors triggered by a NullReferenceException
+- Fusion editor fixes
+   - OSM support
+   - Incorrect serialization of widget XML
+   - Flyout Menu support
+   - Improperly enabled/disabled
+   - Missing label in new fusion templates
+- Fusion editor improvements
+   - Can view widget info in the Generic Widget XML editor
+- Fix: Mono workaround for Web Layout editor
+- Fix: Mono workaround for .net 4.0 generated code involving SplitContainers
+- Fix: Dirty state not properly raised for certain Web Layout properties
+- Fix: Node color incorrectly set in Site Explorer for re-activated editors
+- Fix: Updating a dynamic group name in a Map Definition did not update child groups
+- Fix: Have RDBMS Feature Source editor fill a fake password when opening a RDBMS feature source with secured credentials to give appearance of a password filled in.
+- Fix: Theming using first rule as template now preserves transparency
+- Fix: Restore missing checkbox for toggling Tiled Layer Group visibility in a Map Definition
+- Fix: Duplicating vector scale ranges not creating true clones
+- Fix: Prevent Map Definition groups from being dragged and dropped into its child groups/layers
+- Fix: Allow tiled layers to be moved between different tiled layer groups
+- Fix: Thread culture not transferred to background workers, resulting in english resources being returned if the background worker is doing localized resource lookups.
+- Fix: Cannot add top-level aliased raster files to a Composite Raster Feature Source
+
+5.0 Beta 3
+----------
+ - mg-desktop binary update (20 July 2012 release)
+ - Added support for new validations rules regarding Feature Source credentials
+ - Added support for creating Feature Sources with secured credentials
+ - Added support for creating themes using the first style rule as the rule template
+ - mg-desktop viewer enhancements ported over to Live Map Definition editor
+ - Alias UI improvements for SHP/SDF feature source editor
+ - mg-desktop Runtime Map support for Live Map Definition editor
+ - UI space optimization for Point Style Editor
+ - Live Map Definition editor added to Tools menu
+ - Status bar now shows the active site connection
+ - Fix: Double-clicking an already opened resource in the Site Explorer re-activates the associated open editor tab
+ - Fix: Gracefully handle capabilities not supported by the mg-desktop LocalConection
+ - Fix: Show all layers and groups regardless of visibility in the Live Map Definition Editor
+ - Fix: NullReferenceException in the Image Picker for the Watermark Editor
+ - Fix: Incorrect minimum content model for a Simple Symbol Definition
+ - Fix: GetCommonParent for Site Explorer
+ - Fix: "Display as Text" and "Allow Overpost" options not triggering dirty state
+ - Fix: Unable to use Watermarks using the 2.4.0 schema
+ - Fix: Feature Class dropdown for Layer Definition editor only shows first item
+ - Fix: GetClassDefinition for HTTP connection
+
+5.0 Beta 2
+----------
+ - New standalone Live Map Definition editor
+ - New RuntimeMap viewer SDK component
+ - New Preference to toggle visibility of IronPython console.
+ - New AddIn Manager to manage and install thirdparty add-ins for Maestro
+ - Upgrade SharpDevelop Core to 4.2
+ - Revamped XML editor with ICSharpCode.TextEditor control
+ - MgCooker tiling classes now part of the MaestroAPI
+ - Better handling of large Feature Sources
+ - ODBC Editor enhancements
+	- Supports creating ODBC configuration documents with a filtered logical schema. When creating/resetting a configuration document, the user is prompted for the feature classes to include in the configuration document
+	- Supports specifying the coordinate system for the default spatial context
+ - Fix: Maestro/MaestroAPI creates invalid ODBC configuration documents
+ - Fix: Potentially long running tasks are now done on background threads with busy dialogs
+ - Fix: Non-working expression buttons for some color pickers
+ - Fix: Watermarks not showing up as a resource type in Create Package dialog
+ - Fix: HttpServerConnection no longer re-creates MapGuide session on any exception thrown, only ones relating to session expiry.
+ - Fix: Avoid using full schema walks wherever possible. Will improve performance on large data stores.
+ - Fix: Broken Server Status Monitor
+ - Fix: Some MgCooker command line arguments were being ignored
+ - Fix: Raise signficantly the maximum allowed "Meters per unit" value in MgCooker.
+ - Fix: Dragging and dropping onto a layer in the Map Definition editor will add the layer to that layer's parent group instead of the root
+
+5.0 Beta 1
+----------
+
+ - Now requires .net Framework 4.0 / Mono 2.8
+ - Uses a patched version of the DockPanelSuite library for display and management of top-level UI content.
+ - Uses new mg-desktop release (8 May 2012, .net 4.0, VC10)
+ - New IronPython Scripting Engine for application scripting and automation
+ - New command and UI to view the XML diff of an edited resource
+ - New experimental GeoREST AddIn for creating and editing GeoREST configurations
+ - UI usability improvements for Layer Definition editor.
+ - Support for v2.4.0 resources (Web Layout, Map Definition, Layer Definition, Watermark Definition, Symbol Definition)
+ - Added extra symbol definition validation rules
+ - New utility for inspecting the state of a Runtime Map (RtMapInspector.exe)
+ - Imporved Symbol Definition editor UIs with support for missing schema elements
+ - New Feature Manipulation APIs
+ - Http Connection Provider supports a GeoREST url parameter, which allows for feature manipulation support
+ - New command to open sources by entering its resource id
+ - New shortcut buttons to jump from Layer Definition to Feature/Drawing Source
+ - Fix: Missing [Convert Base Layer Group to Regular Group] and [Start MgCooker] buttons in Map Definition Editor
+ - Fix: Raster layer advanced settings not saving.
+ - Fix: Groups/Layer info in Map Definition editor not updating via up/down keypress
+ - Fix: Row/Column mismatch in GetTile API (http implemenation)
+ - Fix: MgCooker crashes with Map Definitions whose schema version is > 1.0.0
+ - Fix: Incorrect RuntimeMapLayer property initialization for tiled maps
+ - Fix: AllowOverpost and DisplayAsText properties for basic point style not exposed in editor UI
+ - Fix: Clear connection status before testing it in Feature Source Editor
+ - Fix: ResourcePicker fixes to optimize usability
+ - Fix: Incorrect map extent serialization
+ - Fix: Incorrect validation flag when saving a Map Definition that references an empty Feature Source
+ - Fix: Incorrect deserialization of Class Definitions
+ - Fix: Browse button in Drawing Source Layer editor does nothing
+ - Fix: Unnecessary dirty state flagging in Generic Feature Source Editor and Layer Definition editors
+ - Fix: Map Definition Editor dirty state flagging
+ - Fix: Web Layout Editor usability and UI fixes
+ - Fix: Inability to handle 3D geometry WKT
+ - Fix: Invalid Property Mappings not being removed when Layer Definition Editor loads
+ - Fix: Workaround Oracle issue with SpatialExtents()
+ - Fix: Select font link in Text Symbol Definition dialog does nothing
+ - Fix: Incorrect resource being flagged for Map Definition validation issues
+ - Fix: Size Context not being saved for composite lines in Line Style Editor
+ - Fix: Web Layout editor not persisting "Keep Connection Alive" option.
+ - Fix: Missing Symbol Definition 1.1.0 resource template
+ - Fix: Stylization functions not shown in Expression Editor
+
+4.0
+---
+
+ - Map Definition Editor support for specifying a Google/Yahoo/Bing/OSM compatible finite scale list
+ - OpenStreetMap layer support in the Fusion editor
+ - Forward-looking fusion enhancements:
+    - Fusion editor support for new Maptip widget in next version of MapGuide/AIMS
+    - Updated default Flexible Layout template for next version of MapGuide/AIMS
+ - Support for localizing Web Layouts and Application Definitions
+ - Tiled maps will be converted to non-tiled maps when previewed in local mode.
+ - A whole assortment of API tweaks to improve general usability.
+ - Uses new mg-desktop release (22 Dec 2011) w/ support for connection pooling and faster feature joins. A new command is available under "Tools" to inspect the status of the connection pool.
+ - Fix: Inability to toggle Task Bar in the Web Layout editor
+ - Fix: Gracefully handle feature sources with no feature classes in the Layer Definition Editor
+ - Fix: Minor usability issue when creating Coordinate System Overrides.
+ - Fix: Resource Properties command bringing up XML header editor instead of properties dialog
+ - Fix: Bad data type serialization when saving configuration documents. Should resolve most/all ODBC table mapping issues.
+ - Fix: Bad data type deserialization when deserializing feature schema xml
+ - Fix: ResourceTypeRegistry not handling unsupported schema versions.
+ - Fix: Deleting a map group in a Map Definition does not do a deep recursive delete of all its children
+ - Fix: Assorted Web Layout Editor defects relating to custom commands
+ - Fix: Incorrect validation rules for Layer Definitions
+ - Fix: Exception editing a line style with no symbolization defined.
+
+4.0 RC1
+-------
+
+ - A warning will now be displayed when attempting to preview a map definition with tiled layers in Local Connection Mode (because the mg-desktop viewer has not implemented support for this yet)
+ - Failed non-transactional package loading operations now include a corresponding exception as part of the results display.
+ - Support for deleting multiple resource data items
+ - New context menu command for editing raw document/header XML
+ - Document tabs now have a context menu for mass tab closure.
+ - Updated mg-desktop binaries for Local Connection mode.
+ - Re-instated the Package editor, which has been missing since Maestro 2.1
+ - Feature Source Preview now shows elapsed query time for executed queries.
+ - MgCooker windows application no longer closes after a successful tiling run.
+ - Improved Color editor field support. Can now use either FDO expressions or pick a color.
+ - Theme Generation will now use the UNIQUE() aggregate function first instead of raw spinning a feature reader for distinct values.
+ - Fix: Non-Transactional package loading will now skip any SETRESOURCE operations with no content
+ - Fix: Layer Property display cannot be re-ordered in Layer Definition editor
+ - Fix: Fields for built-in WebLayout commands are now editable
+ - Fix: Search layer display in WebLayout editor
+ - Fix: SHP Feature Source editor does not properly handle multiple embedded SHP files.
+ - Fix: Duplicate repository items being displayed in Site Explorer
+ - Fix: Min/Max Scale display in Layer Definition editor
+ - Fix: Error re-ordering style rules in Layer Definition editor
+
+4.0 beta 2
+----------
+
+ - Support for non-transactional package loading w/ ability to retry failed operations
+ - Style editor support for FDO expressions in color properties 
+ - If an broken Layer Definition is opened, the user is now given a chance to repair it by selecting a valid feature source
+ - Fix: assorted issues introduced by the new multi-site support.
+ - Updated mg-desktop binaries for Local Connection mode.
+
+4.0 beta 1
+----------
+
+ - Support for working against multiple connections
+ - New Local Connection mode, backed by the new mg-desktop library (http://mg-desktop.googlecode.com). This feature is Windows only
+ - MgCooker updated to support Local Connections
+ - Support drag/drop creation of Drawing Sources from DWF files
+ - Resource Previewing is now a connection provider defined function
+ - API: ResourceMigrator now applies any downgrades if required
+ - API: Each connection provider is now responsible for creating coordinate transformers. Local and LocalNative connections return a MgCoordinateSystem-wrapped transformer.
+ - Fix: SizeContext values not saved
+
+3.5
+---
+
+ - New Copy Resource IDs to clipboard command
+ - Map Extent calculation now is done through an informative progress dialog
+ - New symbol definition validation rules
+ - Added Proj.Net shortcut to support the WGS84.PseudoMercator coordinate system (note that results are not exactly the same as MgCoordinateSystem/CS-Map, but produces approximate results for purposes of setting Map Definition extents)
+ - Update layer editor to handle multiple composite styles per vector scale range
+
+3.5 beta 2
+----------
+
+ - Improved AIMS 2012 support
+    - Fix broken support for Layer Definitions using the 2.3.0 schema
+    - Enabled previews for Watermark Definition editor
+ - Layer Definition editor now supports inline symbol definitions for composite symbolization
+ - Enhanced usability for Map Definition editor
+ - Show resources in sorted order in the Resource Picker
+ - Map Definition Editor now supports re-arranging the logical order of Map Groups
+ - Resource Picker now remembers last selected folder for most resource selection operations
+ - Editors now support in-place upgrade of resources to the latest schema version supported
+ - Productivity enhancements
+    - New name for Rename dialog defaults to current name and field is focused
+    - New Setup Standard Folder Structure command 
+ - API: Support for converting resources to a specified version
+ - API: TF.net dependency replaced with NetToplogySuite. References and namespaces need to be updated in consuming applications
+ - Fix: Changed Migrate Resources to Copy/Move resources command for multiple resource selection context menu
+ - Fix: When renaming a group in the Map Definition Editor, layers belonging to it didn't have their references updated
+ - Fix: Exception when adding a new Image to the graphics collection of a Simple Symbol Definition in editor
+ - Fix: Exception when deleting all finite scale ranges in Map Defintion Editor
+ - Fix: ObjectFactory creating unusable IPrintLayout instances
+ - Fix: Resources are shown in sorted order in Resource Picker
+ - Fix: Broken editor support for Layer Definition 2.3.0 resource
+ - Fix: Exception when enabling composite styles in Layer Editor
+ - Fix: minx > maxx and miny > maxy errors during validation
+
+3.5 beta 1
+----------
+
+ - Watermark Definition editor
+ - Symbol Definition editor (simple and compound). Currently supports the 1.0.0 schema feature set.
+ - Updated Fusion editor to use Google Maps V3
+ - Maestro.Editors library is now fully self-contained, not requiring the WebStudio directory for pattern images.
+ - Preview Web Layouts now include a new command to report current map extents.
+ - Exceptions are now displayed in a more flexible error dialog.
+ - Class and Property nodes in Local Feature Source preview now show tooltips (ala FDO Toolbox).
+ - Layer Definition editor has been re-structured to consume less vertical screen space.
+ - Assorted icon updates for Symbol Definition and Watermark Definition resources.
+ - API: Lots of API changes to Symbol Definitions and Watermarks
+ - API: ObjectFactory API changes to allow creating Map Definitions and Symbol Definitions of different versions
+ - API: New ExtendedObjectModel library which provides easy plumbing to register > 1.0.0 resource types with the ObjectFactory
+ - Fix: Request failure when outbound requests window turned off.
+ - Fix: Client-side workaround for ENUMERATEDRAWINGLAYERS potentially returning duplicate layer names.
+ - Fix: Generic XML editor does not preview currently edited XML content.
+ - Fix: Resource templates based on > 1.0.0 schema versions not being picked up by the new resource dialog
+ - Fix: Exception thrown when opening Layer Definition with no point symbolization
+ - Fix: Cleaner error message instead of the current ugly exception message when MapGuide connection is lost
+ - Fix: Incorrect validation error when saving XML configuration document in the Feature Source
+ - Fix: Assorted defects in reading and writing XML configuration documents
+
+3.1
+---
+
+ - Now comes with a user guide!
+ - Added a tip of the day dialog that is shown on startup (this can be turned off)
+ - This is the first release with a public SDK and samples demonstrating using the Maestro API.
+ - Generated Web Layout previews now have a KML export command
+ - Add a command to view all spatial contexts of a feature source
+ - Implement layer editor support for KML extrusion (RFC16). Thanks to James Murphy for test data needed in implementing this.
+ - API: Add missing Visible property to ITaskPane
+ - API: Small adjustment to selection APIs
+ - API: Re-worked the RuntimeMap API so that draw order of layers can be manipulated like a collection.
+ - API: Add APIs to GdalConfigurationDocument to allow calculation of combined extents.
+ - API: Extend the IMappingService API to support rendering map legend images.
+ - Fix: Show In Legend checkbox does nothing in the Layer Editor
+ - Fix: Map Definition resource id field in a WebLayout 1.1.0 editor does not update when changed.
+ - Fix: DWF Load Procedure not settings sheet extents.
+ - Fix: Site Explorer items incorrectly highlighted when an existing resource is saved under a different resource ID.
+ - Fix: Exception when opening drawing sources.
+ - Fix: Set/Update sheet extents when marking a embedded DWF resource.
+ - Fix: MgDbXmlException when creating a new Drawing Layer Definition from New Resource dialog.
+ - Fix: Exception when deserializing configuration documents with non-english characters.
+ - Fix: Overall extent of GDAL configuraton document not being the computed aggregate of all raster images when rebuilding.
+ - Fix: Adding files to a Load Procedure does nothing.
+ - Fix: Setting size context in Line Style editor does nothing.
+ - Fix: Incorrect raster extent calculation on a GDAL configuration document for non-english systems (thanks Gunter Becker for suggested fix).
+ - Save Resource button is now always enabled. Clicking it on a new resource will do the same thing as clicking Save Resource As
+
+3.0 Final
+---------
+
+ - Add editor support for point styles with dwf symbols. Note that symbol previews are not perfect, but this is better than seeing nothing.
+ - Fix: Ugly layer legend labels when previewing a layer
+ - Fix: Badly generated W2D symbol reference class in the generated Layer Definition schema.
+ - Fix: Save command is enabled regardless of dirty state
+ - Fix: Validate command on toolbar did not validate the resource of active editor
+ - Add an unsupported placeholder UI when opening a Load Procedure or Layer Definition in a specialized editor that contains unsupported elements.
+ - Fix: New resources did not default to dirty state, allowing a save.
+ - Fix: Folder of new Load Procedure should default to where it was made
+ - Fix: Map Definition validation error on extents due to incorrect extent construction.
+ - XML Editor validation icon change (to distinguish from main validation command)
+ - Aliased file/directory support for building GDAL configuration documents via the editor
+ - Fix: GdalRasterLocationItem could have multiple children of the same file name
+
+3.0 RC1
+-------
+ 
+ - Fix: Automatically test the connection first before editing or resetting an ODBC configuration document. Abort the process if connection test fails.
+ - Add an option to determine whether to validate resources on save
+ - Fix: Web Layout and Fusion editors didn't show the generated publish URL
+ - Fix: Layer Definition editor did not update the underlying XML content when deleting a vector scale range.
+ - Fix: Adding a new vector scale range in the Layer Definition editor did not create a default area/line/point rule
+ - Fix: When the "Show Area/Line/Point style checkbox is ticked, the Layer Definition editor would always create a new default rule 
+ - Fix: Add missing coordinate system override functionality from 2.x
+ - Fix: Editors not re-initializing themselves properly after saving, when using Edit As XML command.
+ - Added more labels for main toolbar commands
+ - XML Editor: Add support for validating XML content against local XSD files
+ - Inactive document tabs are now colored differently to distinguish between active/inactive tabs
+ - Fix: Add missing find/replace in XML content functionality
+ - Add F2 keybinding to rename selected item in Site Explorer
+ - Fix: Added missing duplicate resource command from 2.x
+ - Fix: Added missing profiling feature from 2.x
+ - Fix: UI layout changes for Generic Feature Source Editor
+
+3.0 Beta 3
+----------
+ - Added a command to purge cached information for a feature source
+ - Added resource validation error codes
+ - UI layout tweaks for the ODBC Feature Source editor
+ - Fix: Added missing button to close tabs in Feature Source Preview tool
+ - Fix: Prevent ODBC feature source editor configuration/reset functionality if connection is not valid
+ - Fix: Added missing Site Administrator command
+ - Fix: Usability tweaks for the New Resource Dialog
+ - Fix: Refined Load Procedure logic for handling default Coordinate Systems
+
+3.0 Beta 2
+----------
+ - Added WMS specialized feature source editor
+ - Added missing connection testing functionality for various specialized feature source editors
+ - New dialog for creating folders
+ - Fix: Open resources are protected from cut/copy/paste/rename operations
+ - Fix: Add missing raster layer definition item template
+ - Fix: Assorted Map Definition editor defects
+ - Fix: Missing dirty state notifications on various editor components.
+ - Fix: Deleting a directory does not close editors of child resources
+ - Fix: Prompt to save unsaved resources when exiting.
+ - Fix: Cut/Copy/Paste commands occasionally don't work in XML editor
+ - Fix: Cannot create symbol definitions for given item templates.
+ - Fix: Assorted Fusion editor defects
+ - Fix: Text field MaxLength of 32767 lifted to int32.MaxValue in XML Editor
+
+3.0 Beta 1
+----------
+ - Added GDAL specialized feature source editor
+ - Added ODBC specialized feature source editor
+ - Fusion editor now has basic widget management (ie. Most widget will use a generic XML editor)
+ - Added Raster Layer Defintion editor (ported from 2.x)
+ - Fix validation failing on raster feature sources
+
+Test Build 4
+------------
+ - Added drag/drop package loading
+ - Added resource re-pointer function as suggested by Jason Birch
+ - Added warnings about tiled map invalidation when saving any possible affected resource
+ - Add API to create runtime map and infer the meters-per-unit value. Uses TF.net for HTTP implementation and MgCoordinateSystem for Local implementation
+ - Resource Data UI prompts confirmation on delete and when downloading, will show the downloaded location.
+ - Fix layer up/down drag/drop reordering in Map Definition editor
+ - Fix Coodinate System not being set in SHP load procedure editor
+ - Fix feature source extension nodes not being deleted on remove
+ - Improve validation performance by skipping already validated resources and caching commonly accessed objects.
+ - More fusion editor progress:
+    - Drag/drop map support
+    - Remaining missing functionality:
+       - Add/Remove/Edit containers
+       - Widget set configuration
+		  - Add new widget from WidgetInfo
+		  - Edit widget parameters
+		  - Remove widget from widget set
+
+Test Build 3
+------------
+
+ - Migrated: Runtime Map API, with batched layer loading support improving create performance
+ - Specialized SQLite editor
+ - Partially migrated Fusion editor w/ Commerical Map Layer support
+ - API: Resource change events for IResourceService
+ - API: IGetResourceContents custom command
+
+Test Build 2
+------------
+
+ - Drag and drop support
+   - Create feature sources from dropped SDF/SHP/SQLite files
+   - Create matching resource from dropped XML document
+ - Migrated: MgCooker.exe
+ - Migrated: Offical MapGuide API support.
+ - Migrated: Server Status Monitor
+ - Added drag/drop support for Resource Data UI
+ - New validation rules for DWF-based layers
+ - Make creating a new resource remember where you right-click so speed up the saving process.
+ - Resource Dialog fixes and UX enhancements
+ - Mono fixes related to XML and UI sizing.
+ - Added inter-server migration tools
+	- Move/Copy resources to a folder on another server with option to overwrite existing resources
+	- Copy selected resource (and its dependencies) to the same path on another server, with choices of which dependent resources to copy and whether to overwrite existing resources.
+
+Test Build 1
+------------
+
+First public preview release of Maestro 3.0.
+ 
+ - Redesigned User Interface
+	- Now driven by the SharpDevelop Core framework
+		- Allows for easy customization of user interfaces.
+		- AddIn infrastructure allows for easy addition of new functionality.	 
+	- Site Explorer now uses the TreeViewAdv control, allowing for multiple selections and commands that operate on multiple selected resources. This control is compatible with Mono.
+		- Some example commands which were previously not possible.
+			- Delete selected resources
+			- Validate selected resources
+			- Package selected resources
+ - Rewritten resource editor infrastructure
+	- One editor per resource type / version
+	- Uses the INotifyPropertyChanged databinding infrastructure
+	- Allow for upgrades to newer versions of a resource type (eg. LayerDefinition 1.0.0 to LayerDefinition 1.3.0). Upgrades are manual and explicit, with a firefox-style notification bar to indicate whether a resource can be upgraded.
+	- Resources types and/or versions without a specialized editor default to the XML editor.
+	- Support for browsing Symbol Libraries
+	- Flexible new resource templates
+	- New specialized editors for
+		- Drawing Source
+		- Print Layout
+	- Enhancements to existing specialized editors
+		- Web Layout
+			- Support for importing/exporting custom commands.
+	- Editor library can be used outside of Maestro.exe as long as you implement the core service interfaces (IResourceService, IFeatureService)
+ - Redesigned core API
+	- ServerConnectionI -> IServerConnection
+		- Connection interface is now separated into service specific sub-interfaces
+			- IResourceService
+			- IFeatureService
+			- etc.
+	- Cleaner resource object model
+		- All top-level resource classes implement a common IResource interface
+		- Base library includes resource classes generated from v1.0.0 xsd schemas.
+		- Classes generated from newer xsd schemas reside in their own separate assembly.
+	- New connections capabilities API
+		- Allows interrogation of supported features/commands depending on implementation and mapguide server version.
+	- Custom command API
+		- Allows for custom functionality which may only work for newer versions of MapGuide.
+ - Other New Features and Changes
+	- Load Procedure validation support
+	- API and UI support for listening to outbound requests. You can now view outbound requests of your MapGuide Server connections
+	- Validation no longer logs redundant messages. All errors, warnings and other messages are unique for each resource being validated. You won't get repeats
+ 

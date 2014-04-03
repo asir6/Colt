@@ -1,9 +1,0 @@
-SampleExtension.dll
-MgMapGuideCommon.dll
-OSGeo.MapGuide.Desktop.dll
-OSGeo.MapGuide.Foundation.dll
-OSGeo.MapGuide.Geometry.dll
-OSGeo.MapGuide.PlatformBase.dll
-OSGeo.MapGuide.Viewer.Desktop.dll
-OSGeo.MapGuide.Viewer.dll
-OSGeo.MapGuide.Viewer.xml

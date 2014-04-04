@@ -363,16 +363,16 @@ Many thanks to the following people who have translated Maestro into other langu
     <value>Message Log saved to {0}</value>
   </data>
   <data name="Menu_Edit" xml:space="preserve">
-    <value>Edit</value>
+    <value>编辑</value>
   </data>
   <data name="Menu_Edit_Copy" xml:space="preserve">
-    <value>Copy</value>
+    <value>拷贝</value>
   </data>
   <data name="Menu_Edit_Cut" xml:space="preserve">
-    <value>Cut</value>
+    <value>剪切</value>
   </data>
   <data name="Menu_Edit_Paste" xml:space="preserve">
-    <value>Paste</value>
+    <value>粘贴</value>
   </data>
   <data name="Menu_File" xml:space="preserve">
     <value>File</value>

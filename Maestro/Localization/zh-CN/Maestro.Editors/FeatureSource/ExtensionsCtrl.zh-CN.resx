@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -117,4 +117,16 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="btnNewExtension.Text" xml:space="preserve">
+    <value>添加新插件</value>
+  </data>
+  <data name="btnNewCalculation.Text" xml:space="preserve">
+    <value>添加新的计算属性</value>
+  </data>
+  <data name="btnNewJoin.Text" xml:space="preserve">
+    <value>创建联接</value>
+  </data>
+  <data name="btnDelete.Text" xml:space="preserve">
+    <value>删除</value>
+  </data>
 </root>

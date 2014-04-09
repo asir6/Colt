@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -117,4 +117,31 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="COL_SOURCE.HeaderText" xml:space="preserve">
+    <value>源</value>
+  </data>
+  <data name="COL_TARGET.HeaderText" xml:space="preserve">
+    <value>目标</value>
+  </data>
+  <data name="btnAdd.Text" xml:space="preserve">
+    <value>添加</value>
+  </data>
+  <data name="btnEdit.Text" xml:space="preserve">
+    <value>编辑</value>
+  </data>
+  <data name="btnDelete.Text" xml:space="preserve">
+    <value>删除</value>
+  </data>
+  <data name="btnApplyAll.ToolTipText" xml:space="preserve">
+    <value>对所有选中的覆盖应用同一坐标系统</value>
+  </data>
+  <data name="btnLoadFromSc.Text" xml:space="preserve">
+    <value>加载默认值</value>
+  </data>
+  <data name="btnApplyAll.Text" xml:space="preserve">
+    <value>全部应用坐标系统</value>
+  </data>
+  <data name="btnLoadFromSc.ToolTipText" xml:space="preserve">
+    <value>从当前地理空间上下文列表加载覆盖</value>
+  </data>
 </root>

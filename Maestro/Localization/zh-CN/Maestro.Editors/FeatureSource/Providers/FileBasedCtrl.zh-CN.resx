@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -117,4 +117,22 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="grpAlias.Text" xml:space="preserve">
+    <value>别名</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>文件夹或文件路径</value>
+  </data>
+  <data name="rdUnmanaged.Text" xml:space="preserve">
+    <value>非托管文件</value>
+  </data>
+  <data name="rdUnmanaged.ToolTip" xml:space="preserve">
+    <value>服务器文件系统里资源库之外的非托管文件</value>
+  </data>
+  <data name="rdManaged.Text" xml:space="preserve">
+    <value>托管文件</value>
+  </data>
+  <data name="rdManaged.ToolTip" xml:space="preserve">
+    <value>资源库里做为资源数据流的托管文件。只需上传文件并将其标记为数据文件</value>
+  </data>
 </root>

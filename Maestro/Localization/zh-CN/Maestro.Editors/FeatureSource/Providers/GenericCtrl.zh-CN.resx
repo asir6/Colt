@@ -150,4 +150,7 @@
   <data name="$this.HeaderText" xml:space="preserve">
     <value>要素源(用普通编辑器)</value>
   </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>FDO 支持器</value>
+  </data>
 </root>

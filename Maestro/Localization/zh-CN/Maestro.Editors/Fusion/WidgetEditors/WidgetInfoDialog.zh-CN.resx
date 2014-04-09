@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -117,4 +117,13 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="label1.Text" xml:space="preserve">
+    <value>这个插件定义了以下扩展特性。当编辑XML格式的插件，这些属性是在该插件的 &lt;Extension&gt; 元素中指定的。</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>扩展属性</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>插件信息</value>
+  </data>
 </root>

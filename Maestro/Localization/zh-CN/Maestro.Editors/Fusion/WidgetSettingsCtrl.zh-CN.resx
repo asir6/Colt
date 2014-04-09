@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -117,4 +117,34 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="widgetToolStripMenuItem.Text" xml:space="preserve">
+    <value>插件</value>
+  </data>
+  <data name="separatorToolStripMenuItem.Text" xml:space="preserve">
+    <value>分割线</value>
+  </data>
+  <data name="flyoutMenuToolStripMenuItem.Text" xml:space="preserve">
+    <value>弹出菜单</value>
+  </data>
+  <data name="btnAddWidget.Text" xml:space="preserve">
+    <value>添加插件</value>
+  </data>
+  <data name="btnAddContainer.Text" xml:space="preserve">
+    <value>添加容器</value>
+  </data>
+  <data name="btnRemoveWidget.Text" xml:space="preserve">
+    <value>删除</value>
+  </data>
+  <data name="btnMoveUp.Text" xml:space="preserve">
+    <value>上移</value>
+  </data>
+  <data name="btnMoveDown.Text" xml:space="preserve">
+    <value>下移</value>
+  </data>
+  <data name="btnManageWidgets.Text" xml:space="preserve">
+    <value>管理插件</value>
+  </data>
+  <data name="groupBox1.Text" xml:space="preserve">
+    <value>插件</value>
+  </data>
 </root>

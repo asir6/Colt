@@ -123,4 +123,37 @@
   <data name="btnCancel.Text" xml:space="preserve">
     <value>取消</value>
   </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>指定几何和主属性。勾选覆盖编辑。只有重写的行可编辑</value>
+  </data>
+  <data name="COL_OVERRIDE.HeaderText" xml:space="preserve">
+    <value>覆盖</value>
+  </data>
+  <data name="COL_NAME.HeaderText" xml:space="preserve">
+    <value>名称</value>
+  </data>
+  <data name="COL_KEY.HeaderText" xml:space="preserve">
+    <value>主键</value>
+  </data>
+  <data name="COL_X.HeaderText" xml:space="preserve">
+    <value>X 列</value>
+  </data>
+  <data name="COL_Y.HeaderText" xml:space="preserve">
+    <value>Y 列</value>
+  </data>
+  <data name="COL_Z.HeaderText" xml:space="preserve">
+    <value>Z 列</value>
+  </data>
+  <data name="groupBox1.Text" xml:space="preserve">
+    <value>覆盖</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>使用此坐标系</value>
+  </data>
+  <data name="groupBox2.Text" xml:space="preserve">
+    <value>坐标系统</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>表配置</value>
+  </data>
 </root>

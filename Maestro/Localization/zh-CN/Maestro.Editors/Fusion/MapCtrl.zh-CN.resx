@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -117,4 +117,73 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="label1.Text" xml:space="preserve">
+    <value>地图 ID</value>
+  </data>
+  <data name="chkOverride.Text" xml:space="preserve">
+    <value>覆盖初始视图</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>比例</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>地图定义</value>
+  </data>
+  <data name="chkSingleTiled.Text" xml:space="preserve">
+    <value>但瓦块</value>
+  </data>
+  <data name="lblSelColor.Text" xml:space="preserve">
+    <value>选择颜色</value>
+  </data>
+  <data name="chkSelectionAsOverlay.Text" xml:space="preserve">
+    <value>选择作为覆盖</value>
+  </data>
+  <data name="groupBox2.Text" xml:space="preserve">
+    <value>地图设置</value>
+  </data>
+  <data name="chkGoogTerrain.Text" xml:space="preserve">
+    <value>地形</value>
+  </data>
+  <data name="chkGoogStreets.Text" xml:space="preserve">
+    <value>街道</value>
+  </data>
+  <data name="chkGoogSatellite.Text" xml:space="preserve">
+    <value>卫星</value>
+  </data>
+  <data name="chkGoogHybrid.Text" xml:space="preserve">
+    <value>混合</value>
+  </data>
+  <data name="groupBox5.Text" xml:space="preserve">
+    <value>谷歌地图 V3</value>
+  </data>
+  <data name="chkBingStreets.Text" xml:space="preserve">
+    <value>街道</value>
+  </data>
+  <data name="chkBingSatellite.Text" xml:space="preserve">
+    <value>卫星</value>
+  </data>
+  <data name="chkBingHybrid.Text" xml:space="preserve">
+    <value>混合</value>
+  </data>
+  <data name="groupBox4.Text" xml:space="preserve">
+    <value>必应地图</value>
+  </data>
+  <data name="chkYahooStreets.Text" xml:space="preserve">
+    <value>街道</value>
+  </data>
+  <data name="chkYahooSatellite.Text" xml:space="preserve">
+    <value>卫星</value>
+  </data>
+  <data name="chkYahooHybrid.Text" xml:space="preserve">
+    <value>混合</value>
+  </data>
+  <data name="groupBox3.Text" xml:space="preserve">
+    <value>雅虎地图</value>
+  </data>
+  <data name="label7.Text" xml:space="preserve">
+    <value>雅虎地图API键 (雅虎图层需要该设置)</value>
+  </data>
+  <data name="grpCms.Text" xml:space="preserve">
+    <value>商业地图服务图层（勾选您要使用的那些）</value>
+  </data>
 </root>

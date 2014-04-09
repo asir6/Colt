@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -117,4 +117,37 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="label1.Text" xml:space="preserve">
+    <value>查找什么(&amp;N):</value>
+  </data>
+  <data name="lblReplaceWith.Text" xml:space="preserve">
+    <value>替换为(&amp;P):</value>
+  </data>
+  <data name="btnFindNext.Text" xml:space="preserve">
+    <value>查找下一个(&amp;F)</value>
+  </data>
+  <data name="btnReplace.Text" xml:space="preserve">
+    <value>替换(&amp;R)</value>
+  </data>
+  <data name="btnReplaceAll.Text" xml:space="preserve">
+    <value>全部替换（&amp;A）</value>
+  </data>
+  <data name="chkMatchWholeWord.Text" xml:space="preserve">
+    <value>全字匹配(&amp;W)</value>
+  </data>
+  <data name="chkMatchCase.Text" xml:space="preserve">
+    <value>区分大小写(&amp;C)</value>
+  </data>
+  <data name="btnHighlightAll.Text" xml:space="preserve">
+    <value>查找并高亮显示(A)</value>
+  </data>
+  <data name="btnCancel.Text" xml:space="preserve">
+    <value>取消</value>
+  </data>
+  <data name="btnFindPrevious.Text" xml:space="preserve">
+    <value>查找上一个(&amp;V)</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>查找并替换</value>
+  </data>
 </root>

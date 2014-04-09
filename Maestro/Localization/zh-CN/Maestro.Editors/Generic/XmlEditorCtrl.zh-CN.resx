@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -117,4 +117,52 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="btnUndo.Text" xml:space="preserve">
+    <value>撤销</value>
+  </data>
+  <data name="btnCopy.Text" xml:space="preserve">
+    <value>复制</value>
+  </data>
+  <data name="btnCut.Text" xml:space="preserve">
+    <value>剪切</value>
+  </data>
+  <data name="btnPaste.Text" xml:space="preserve">
+    <value>粘贴</value>
+  </data>
+  <data name="btnFormat.Text" xml:space="preserve">
+    <value>格式化文件</value>
+  </data>
+  <data name="btnValidate.Text" xml:space="preserve">
+    <value>验证文件</value>
+  </data>
+  <data name="btnFind.Text" xml:space="preserve">
+    <value>查找</value>
+  </data>
+  <data name="btnFindAndReplace.Text" xml:space="preserve">
+    <value>查找/替换</value>
+  </data>
+  <data name="btnReRead.Text" xml:space="preserve">
+    <value>从数据源重新加载</value>
+  </data>
+  <data name="btnReRead.ToolTipText" xml:space="preserve">
+    <value>根据源资源ID重新加载XML内容</value>
+  </data>
+  <data name="resDataCtrl.HeaderText" xml:space="preserve">
+    <value>资源数据文件</value>
+  </data>
+  <data name="cutToolStripMenuItem.Text" xml:space="preserve">
+    <value>剪切</value>
+  </data>
+  <data name="copyToolStripMenuItem.Text" xml:space="preserve">
+    <value>复制</value>
+  </data>
+  <data name="pasteToolStripMenuItem.Text" xml:space="preserve">
+    <value>粘贴</value>
+  </data>
+  <data name="findToolStripMenuItem.Text" xml:space="preserve">
+    <value>查找</value>
+  </data>
+  <data name="findReplaceToolStripMenuItem.Text" xml:space="preserve">
+    <value>查找/替换</value>
+  </data>
 </root>

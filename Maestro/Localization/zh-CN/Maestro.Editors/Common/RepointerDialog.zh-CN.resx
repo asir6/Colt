@@ -132,4 +132,10 @@
   <data name="btnBrowse.Text" xml:space="preserve">
     <value>...</value>
   </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>当前所有指向指定数据源的资源都将指向目标数据源</value>
+  </data>
+  <data name="groupBox3.Text" xml:space="preserve">
+    <value>资源涉及的数据源</value>
+  </data>
 </root>

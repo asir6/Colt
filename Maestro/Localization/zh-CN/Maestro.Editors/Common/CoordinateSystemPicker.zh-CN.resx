@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -117,4 +117,52 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="SelectByList.Text" xml:space="preserve">
+    <value>根据列表选择</value>
+  </data>
+  <data name="CancelBtn.Text" xml:space="preserve">
+    <value>取消</value>
+  </data>
+  <data name="OKBtn.Text" xml:space="preserve">
+    <value>确认</value>
+  </data>
+  <data name="SelectByEPSGCode.Text" xml:space="preserve">
+    <value>根据EPSG码选择</value>
+  </data>
+  <data name="ValidateEPSG.Text" xml:space="preserve">
+    <value>验证</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>坐标系统代码</value>
+  </data>
+  <data name="SelectByCoordSysCode.Text" xml:space="preserve">
+    <value>根据坐标系统代码选择</value>
+  </data>
+  <data name="ValidateCoordSysCode.Text" xml:space="preserve">
+    <value>验证</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>坐标系统代码</value>
+  </data>
+  <data name="SelectByWKT.Text" xml:space="preserve">
+    <value>根据WKT码选择</value>
+  </data>
+  <data name="ValidateWKT.Text" xml:space="preserve">
+    <value>验证</value>
+  </data>
+  <data name="CoordinateSystemLabel.Text" xml:space="preserve">
+    <value>坐标系统</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>坐标分类</value>
+  </data>
+  <data name="CoordinateWait.Text" xml:space="preserve">
+    <value>正在加载坐标系统。请稍候</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>选择坐标系统</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>熟知文本 (WKT)</value>
+  </data>
 </root>

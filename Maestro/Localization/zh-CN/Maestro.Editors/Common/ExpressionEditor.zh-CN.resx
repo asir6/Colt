@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -117,4 +117,37 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="OKBtn.Text" xml:space="preserve">
+    <value>确认</value>
+  </data>
+  <data name="CancelBtn.Text" xml:space="preserve">
+    <value>取消</value>
+  </data>
+  <data name="btnProperties.Text" xml:space="preserve">
+    <value>属性</value>
+  </data>
+  <data name="btnFunctions.Text" xml:space="preserve">
+    <value>方法</value>
+  </data>
+  <data name="btnCondition.Text" xml:space="preserve">
+    <value>条件</value>
+  </data>
+  <data name="btnSpatial.Text" xml:space="preserve">
+    <value>地理空间</value>
+  </data>
+  <data name="btnDistance.Text" xml:space="preserve">
+    <value>距离</value>
+  </data>
+  <data name="btnFilter.Text" xml:space="preserve">
+    <value>过滤</value>
+  </data>
+  <data name="LookupValues.ToolTipText" xml:space="preserve">
+    <value>点击查询已选列的值</value>
+  </data>
+  <data name="ColumnName.ToolTipText" xml:space="preserve">
+    <value>选择一列以从中读取值</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>表达式编辑器</value>
+  </data>
 </root>

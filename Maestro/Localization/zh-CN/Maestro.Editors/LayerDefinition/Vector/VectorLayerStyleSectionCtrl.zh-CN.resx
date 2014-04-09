@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -117,4 +117,40 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="btnKmlElevation.Text" xml:space="preserve">
+    <value>KML 高程</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>最大比例尺</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>最小比例尺</value>
+  </data>
+  <data name="groupBox1.Text" xml:space="preserve">
+    <value>比例尺范围</value>
+  </data>
+  <data name="btnAdd.Text" xml:space="preserve">
+    <value>添加</value>
+  </data>
+  <data name="btnAdd.ToolTipText" xml:space="preserve">
+    <value>添加比例尺范围</value>
+  </data>
+  <data name="btnDelete.Text" xml:space="preserve">
+    <value>删除</value>
+  </data>
+  <data name="btnDelete.ToolTipText" xml:space="preserve">
+    <value>删除所选比例尺范围</value>
+  </data>
+  <data name="btnDuplicate.Text" xml:space="preserve">
+    <value>复制</value>
+  </data>
+  <data name="btnSort.Text" xml:space="preserve">
+    <value>排序</value>
+  </data>
+  <data name="btnSort.ToolTipText" xml:space="preserve">
+    <value>根据显示范围对比例尺范围排序</value>
+  </data>
+  <data name="$this.HeaderText" xml:space="preserve">
+    <value>图层样式</value>
+  </data>
 </root>

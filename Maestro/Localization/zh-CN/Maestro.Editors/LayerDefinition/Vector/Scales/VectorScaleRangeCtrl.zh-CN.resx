@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -117,4 +117,37 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="chkLine.Text" xml:space="preserve">
+    <value>线</value>
+  </data>
+  <data name="chkArea.Text" xml:space="preserve">
+    <value>面</value>
+  </data>
+  <data name="chkComposite.Text" xml:space="preserve">
+    <value>综合（注：目前不支持预览）</value>
+  </data>
+  <data name="chkPoints.Text" xml:space="preserve">
+    <value>点</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>启用这些样式</value>
+  </data>
+  <data name="chkAllowOverpost.Text" xml:space="preserve">
+    <value>允许Overpost</value>
+  </data>
+  <data name="chkDisplayAsText.Text" xml:space="preserve">
+    <value>显示为文本</value>
+  </data>
+  <data name="TAB_POINTS.Text" xml:space="preserve">
+    <value>点</value>
+  </data>
+  <data name="TAB_LINES.Text" xml:space="preserve">
+    <value>线</value>
+  </data>
+  <data name="TAB_AREAS.Text" xml:space="preserve">
+    <value>面</value>
+  </data>
+  <data name="TAB_COMPOSITE.Text" xml:space="preserve">
+    <value>综合</value>
+  </data>
 </root>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -117,4 +117,13 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="resSettings.HeaderText" xml:space="preserve">
+    <value>资源设置</value>
+  </data>
+  <data name="layerProperties.HeaderText" xml:space="preserve">
+    <value>图层属性在查看器中可见</value>
+  </data>
+  <data name="layerStyles.HeaderText" xml:space="preserve">
+    <value>图层样式</value>
+  </data>
 </root>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -117,4 +117,28 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="label4.Text" xml:space="preserve">
+    <value>背景色</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>前景色</value>
+  </data>
+  <data name="groupBox1.Text" xml:space="preserve">
+    <value>双色调图像的颜色设置</value>
+  </data>
+  <data name="RebuildThreshold.Text" xml:space="preserve">
+    <value>缩放后重建光栅</value>
+  </data>
+  <data name="cmbVisibleTo.Items" xml:space="preserve">
+    <value>无穷大</value>
+  </data>
+  <data name="cmbVisibleTo.Text" xml:space="preserve">
+    <value>无穷大</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>到</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>从...可见</value>
+  </data>
 </root>

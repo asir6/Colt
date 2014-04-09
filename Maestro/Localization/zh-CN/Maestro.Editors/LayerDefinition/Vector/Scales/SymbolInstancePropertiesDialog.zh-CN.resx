@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -117,4 +117,55 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="lblInsertOffsetY.Text" xml:space="preserve">
+    <value>插入偏移 Y</value>
+  </data>
+  <data name="lblInsertOffsetX.Text" xml:space="preserve">
+    <value>插入偏移 X</value>
+  </data>
+  <data name="lblScaleY.Text" xml:space="preserve">
+    <value>缩放 Y</value>
+  </data>
+  <data name="lblScaleX.Text" xml:space="preserve">
+    <value>缩放 X</value>
+  </data>
+  <data name="groupBox1.Text" xml:space="preserve">
+    <value>缩放/插入</value>
+  </data>
+  <data name="lblPositioningAlgorithm.Text" xml:space="preserve">
+    <value>定位算法</value>
+  </data>
+  <data name="lblAddToExclusionRegion.Text" xml:space="preserve">
+    <value>添加到排除区域</value>
+  </data>
+  <data name="lblCheckExclusionRegion.Text" xml:space="preserve">
+    <value>选择排除区域</value>
+  </data>
+  <data name="groupBox2.Text" xml:space="preserve">
+    <value>标签放置</value>
+  </data>
+  <data name="lblGeometryContext.Text" xml:space="preserve">
+    <value>几何形状上下文</value>
+  </data>
+  <data name="lblUsageContext.Text" xml:space="preserve">
+    <value>用法上下文</value>
+  </data>
+  <data name="lblDrawLast.Text" xml:space="preserve">
+    <value>最后绘制</value>
+  </data>
+  <data name="lblSizeContext.Text" xml:space="preserve">
+    <value>大小上下文</value>
+  </data>
+  <data name="lblRenderingPass.Text" xml:space="preserve">
+    <value>渲染途径</value>
+  </data>
+  <data name="groupBox3.Text" xml:space="preserve">
+    <value>杂项</value>
+  </data>
+  <data name="btnClose.Text" xml:space="preserve">
+    <value>关闭</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>符号实例属性</value>
+  </data>
 </root>

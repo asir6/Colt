@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -117,4 +117,37 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="label1.Text" xml:space="preserve">
+    <value>规则</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>要素样式</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>标签样式</value>
+  </data>
+  <data name="AddRuleButton.ToolTip" xml:space="preserve">
+    <value>添加新规则</value>
+  </data>
+  <data name="CopyRuleButton.ToolTip" xml:space="preserve">
+    <value>点击插入当前规则的副本</value>
+  </data>
+  <data name="CreateThemeButton.ToolTip" xml:space="preserve">
+    <value>点击为要素创建一个主题</value>
+  </data>
+  <data name="MoveRuleDownButton.ToolTip" xml:space="preserve">
+    <value>下移所选规则</value>
+  </data>
+  <data name="MoveRuleUpButton.ToolTip" xml:space="preserve">
+    <value>上移所选规则</value>
+  </data>
+  <data name="btnExplodeTheme.ToolTip" xml:space="preserve">
+    <value>展开主题</value>
+  </data>
+  <data name="ShowInLegend.Text" xml:space="preserve">
+    <value>在图例中显示</value>
+  </data>
+  <data name="ShowInLegend.ToolTip" xml:space="preserve">
+    <value>选择使其在图例中显示(仅在LayerDefinition 1.3.0以及更高版本可用)。这样就不必删除已定义的样式规则就可以控制在图例是否显示。</value>
+  </data>
 </root>

@@ -411,7 +411,11 @@ Object.inheritFrom = function(destination, source, args) {
             OpenLayers.Lang[this.locale] = OpenLayers.Lang[OpenLayers.Lang.defaultCode];
           }
           if (!Fusion.Strings[this.locale]) {
-            Fusion.Strings[this.locale] = Fusion.Strings[OpenLayers.Lang.defaultCode];
+            if(this.locale == 'zh-CN') {
+                Fusion.Strings[this.locale] = Fusion.Strings['cn'];
+            }
+            else
+                Fusion.Strings[this.locale] = Fusion.Strings[OpenLayers.Lang.defaultCode];
           }
           OpenLayers.Lang[this.locale] = OpenLayers.Util.extend(OpenLayers.Lang[this.locale],Fusion.Strings[this.locale]);
         },

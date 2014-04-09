@@ -1,0 +1,464 @@
+# Web surround localized strings
+# 中文
+#
+# Important: This file must be saved with UTF-8 encoding
+#
+
+# 常规
+
+# 字体 - the 6 following entries are mandatory
+@fontWindows        = Arial
+@fontsizeWindows    = 8pt
+@fontLinux          = Arial
+@fontsizeLinux      = 8pt
+@fontMacintosh      = Arial
+@fontsizeMacintosh  = 8pt
+
+# Distances
+DISTANCEMILES       = 英里
+DISTANCEKILOMETERS  = 千米
+DISTANCEFEET        = 英尺
+DISTANCEMETERS      = 米
+
+# Fill Patterns/Values
+FILLSOLID           = 实体填充
+FILLNET             = 栅格填充
+FILLLINE            = 水平线
+FILLLINE45          = 45度斜线
+FILLLINE90          = 垂直线
+FILLLINE135         = 135度斜线
+FILLSQUARE          = 方格
+FILLBOX             = 方钢材质
+FILLCROSS           = 十字形
+FILLDASH            = 划线
+FILLDOLMIT          = 地壳岩层
+FILLHEX             = 六边形
+FILLSACNCR          = 混凝土材质
+FILLSTEEL           = 钢材质
+
+# Transparency
+TRANSPARENT         = 透明
+
+# Line Styles/Values
+LINESOLID           = 实线
+LINEDASH            = 虚线
+LINEDOT             = 点线
+LINEDASHDOT         = 点划线
+LINEDASHDOTDOT      = 点点划线
+LINERAIL            = 铁路线
+LINEBORDER          = 边界线
+LINEDIVIDE          = 分水线
+LINEFENCELINE       = 栅栏线 
+
+
+# Buttons
+BUTTONOK            = 确定
+BUTTONDONE          = 完成
+BUTTONCANCEL        = 取消
+BUTTONREFRESH       = 刷新
+BUTTONCLOSE         = 关闭
+BUTTONCLEAR         = 清除
+BUTTONSAVE          = 保存
+
+# Colors
+COLORRED            = 红色
+COLORGREEN          = 绿色
+COLORBLUE           = 蓝色
+
+# BufferReport
+BUFFERREPORTTITLE               = 创建缓冲区
+BUFFERREPORTCREATED             = %s 创建完成.
+BUFFERREPORTUPDATED             = %s 修改完成.
+BUFFERREPORTFEATURESSINGULAR    = %s 缓冲区要素创建完成.
+BUFFERREPORTFEATURESPLURAL      = %s 缓冲区要素创建完成.
+BUFFERREPORTWARNINGSINGULAR     = <b>警告:</b>无法为 %s 图层创建缓冲区，图层坐标系与地图坐标系不匹配或图层没有指定坐标系
+BUFFERREPORTWARNINGPLURAL       = <b>警告:</b>无法为 %s 图层创建缓冲区，图层坐标系与地图坐标系不匹配或图层没有指定坐标系
+BUFFERREPORTERRORTITLE          = 缓冲区出错
+
+# Buffer
+BUFFERCLASSDESCR                = 缓冲图层要素类
+BUFFERSCHEMADESCR               = 临时缓冲区模式
+BUFFERDIFFARBXY                 = 不能使用不同类的'Arbitrary X-Y'坐标系统计算要素周围缓冲区，请不要选择‘合并缓冲区’选项或者仅选择一个图层
+
+# BufferUI
+BUFFERTITLE                     = 创建缓冲区
+BUFFERSUBTITLE                  = &nbsp;缓冲区设置
+BUFFERINFOTEXT                  = 请在图像中选择要素.
+BUFFERDISTANCE                  = 缓冲距离:
+BUFFERLAYERS                    = 缓冲区包含图层:
+BUFFERNOLAYER                   = <没有选择图层>
+BUFFERNAME                      = 缓冲区图层名称:
+BUFFERNAMETEXT                  = 缓冲区 1
+BUFFERMERGE                     = 合并缓冲区区域
+BUFFERFILLSTYLE                 = &nbsp;填充样式
+BUFFERFILLPATTERN               = 填充模式:
+BUFFERFOREGROUNDCOLOR           = 前景色:
+BUFFERTRANSPARENCY              = 透明度:
+BUFFERBACKGROUNDCOLOR           = 背景色:
+BUFFERBORDERSTYLE               = &nbsp;边界样式
+BUFFERBORDERLINEPATTERN         = 线条模式:
+BUFFERBORDERLINECOLOR           = 线条颜色:
+BUFFERBORDERLINETHICKNESS       = 线条粗细:
+BUFFERHELP                      = <li><p align="left">缓冲区计算结果放置于要素图层之上的一个新图层. 在此处指定缓冲区图层名称.</li><li><p align="left">请为不同的缓冲区指定不同的名称.</li><li><p align="left">缓冲区图层可通过图例隐藏</li><li><p align="left">缓冲区图层是临时图层，关闭浏览器后缓冲区将被删除.</li>
+BUFFERERRORZERODISTANCE         = 请输入大于0的距离.
+BUFFERERRORNOLAYERNAME          = 请输入图层名称.
+BUFFERERRORNEGATIVETHICKNESS    = 请输入合法的线条粗细.
+BUFFERERRORNOSELECTION          = 请选择一个或多个要素计算缓冲区.
+
+# ColorPicker
+COLORPICKERDLGTITLE             = 选择颜色
+COLORPICKERTITLE                = 调色板
+COLORPICKERSUBTITLE             = 指定颜色
+COLORPICKER100TRANSPARENCY      = 100%% 透明
+COLORPICKERHEXFORMAT            = Hex 格式
+
+# MeasureUI
+MEASUREDISTANCETITLE    = 测量距离
+MEASUREAREATITLE        = 测量面积
+MEASUREBOTHTITLE        = 测量面积和距离
+MEASUREINFO             = 单击选择起点和终点.
+RESUME                  = 恢复
+STOP                    = 停止
+CLEAR                   = 清除
+MILES                   = 英里
+KILOMETERS              = 千米
+MEASUREHELP             = <li>要测量多段距离，请继续单击点选新的点.</li><li>暂停测量, 点击 &quot;停止&quot;.</li><li>对地图进行平移或缩放，可通过点击 &quot;恢复&quot;继续进行测量.</li><li>重新开始测量, 点击 &quot;清除&quot;.</li>
+SEGMENT                 = 线段
+LENGTH                  = 长度
+TOTALLENGTH             = 总长度
+TOTALAREA               = 总面积
+MEASUREERROR            = 测量出错
+
+# Measure
+MEASUREFEATURECLASS     = 测量图层要素类型
+MEASURESCHEMADESCR      = 临时测量要素模式
+MEASUREPARTIAL          = 局部
+MEASURETOTAL            = 全部
+MEASURELAYER            = 测量
+MEASURESTOP             = 停止
+MEASURESTART            = 开始
+MEASUREHINT             = 测量多段距离，请继续点选. 双击最后一个点结束测量. 取消测量或重新开始测量，点击Esc键或停止/开始按钮.
+
+# FeatureInfoUI
+FEATUREINFOTITLE        = 要素信息
+FEATUREINFOSUBTITLE     = 选择图层
+FEATUREINFOLAYER        = 图层:
+FEATUREINFOSELECTFEATURE= 选择要素:
+FEATUREINFOEXTRAHELP    = 请使用选择工具或通过点选以下几何图形来选取要素
+FEATUREINFODIGITIZE     = 点选:
+FEATUREINFOPOINT        = 点
+FEATUREINFORECTANGLE    = 矩形
+FEATUREINFOPOLYGON      = 多边形
+FEATUREINFOTOTAL        = 总计:
+FEATUREINFONOSELECTED   = 没有选中要素.
+FEATUREINFOERROR        = 错误
+FEATUREINFOFETCHINFO    = 正在获取要素信息 ...
+FEATUREINFOFEATURESEL   = 要素被选中
+FEATUREINFOAREA         = 面积:
+FEATUREINFOAREAUNDEFINE = areaIdx 未定义
+FEATUREINFONOINFO       = 无图层信息
+FEATUREINFONOFEATUREIN  = 选中的图层没有要素.
+FEATUREINFOREFRESH      = 刷新图层
+
+# QueryUI
+QUERYTITLE              = 查询要素
+QUERYSELECTLAYER        = 选择图层
+QUERYLAYER              = 图层:
+QUERYPROPERTYFILTER     = 属性过滤
+QUERYPROPERTY           = 属性:
+QUERYOPERATOR           = 操作符:
+QUERYVALUE              = 值:
+QUERYSPATIALFILTER      = 空间过滤
+QUERYDIGITIZE           = 点选:
+QUERYRECTANGLE          = 矩形
+QUERYPOLYGON            = 多边形
+QUERYCLEAR              = 清除
+QUERYOUTPUT             = 输出
+QUERYOUTPUTPROPERTY     = 输出属性:
+QUERYEXECUTE            = 执行
+QUERYMAXRESULT          = 最多显示结果数量:
+QUERYRESULTS            = 结果
+QUERYSCALE              = 比例:
+QUERYZOOM               = 缩放
+QUERYSELECT             = 选择
+QUERYERROR              = 错误
+QUERYEQUALTO            = 等于
+QUERYNOTEQUALTO         = 不等于
+QUERYGREATTHAN          = 大于
+QUERYGREATTHANEQUAL     = 大于等于
+QUERYLESSTHAN           = 小于
+QUERYLESSTHANEQUAL      = 小于等于
+QUERYBEGIN              = 以字符开始
+QUERYCONTAINS           = 包含字符
+
+# Theme UI
+THEMETITLE              = 专题图图层
+THEMESELECTLAYER        = 选择图层
+THEMELAYER              = 图层:
+THEMENAME               = 专题图名称:
+THEMECONDITIONS         = 定义条件
+THEMEPROPERTY           = 属性:
+THEMEMIN                = 最小值:
+THEMEMAX                = 最大值:
+THEMEDISTRIBUTION       = 分配:
+THEMERULE               = 规则序号:
+THEMESCALERANGE         = 比例范围
+THEMESTYLERAMP          = 渐变样式
+THEMEFILLTRANS          = 填充透明度:
+THEMEFILLCOLOR          = 填充颜色:
+THEMEFROM               = 从:
+THEMETO                 = 到:
+THEMEBORDERCOLOR        = 边线颜色:
+THEMEAPPLY              = 应用
+THEMEERROR              = 错误
+THEMEINDIVIDUAL         = 独立间隔
+THEMEEQUAL              = 均等间隔
+THEMESTANDARD           = 标准差
+THEMEQUANTILE           = 分位数
+THEMEJENKS              = 裂点法
+
+# Redline Management
+REDLINEMANAGE           = 管理批注
+REDLINEAVAILABLELAYERS  = 可用的批注图层
+REDLINELOADEDLAYERS     = 地图上的批注图层
+REDLINENEWSDF           = SDF
+REDLINENEWSHP           = SHP
+REDLINENEWSQLITE        = SQLite
+REDLINECREATENEW        = 创建新批注
+REDLINEADDTOMAP         = 添加到地图
+REDLINEDELETE           = 删除
+REDLINEREFRESH          = 刷新列表
+REDLINEEDIT             = 添加编辑批注
+REDLINEREMOVEFROMMAP    = 从地图中删除
+REDLINEDOWNLOADOPTIONS  = 下载选项
+REDLINEDOWNLOAD         = 下载
+REDLINEDOWNLOADNATIVE   = 原生格式
+REDLINEDOWNLOADKML      = KML 格式
+REDLINEDOWNLOADKMZ      = KMZ 格式
+REDLINEUPLOAD           = 上传批注
+REDLINEOTHEROPTIONS     = 其他批注
+REDLINEEDITSTYLE        = 编辑样式
+REDLINECREATEFAILURE    = 创建批注失败
+REDLINEUPLOADUNKNOWNPROVIDER  = 无法从上传文件中判断FDO供应器
+REDLINEUPLOADNOGEOMETRY = 无法从上传文件中找到几何数据类型
+REDLINEPOINT            = 点
+REDLINELINE             = 线
+REDLINEPOLY             = 多边形
+
+# Edit Redline Style UI
+REDLINEEDITLAYERSTYLE   = 编辑批注样式
+REDLINELAYERSETTINGS    = 批注图层设置
+REDLINENAME             = 批注名称:
+REDLINEPOINTSTYLE       = 点类型
+REDLINEMARKERTYPE       = 记号类型
+REDLINEMARKERSQUARE     = 正方形
+REDLINEMARKERCIRCLE     = 圆形
+REDLINEMARKERTRIANGLE   = 三角形
+REDLINEMARKERSTAR       = 星型
+REDLINEMARKERCROSS      = 十字
+REDLINEMARKERX          = 交叉
+REDLINEUNITSPT          = 像素
+REDLINEUNITSIN          = 英寸
+REDLINEUNITSMM          = 毫米
+REDLINEUNITSCM          = 厘米
+REDLINEUNITSM           = 米
+REDLINEMARKERSIZE       = 记号大小:
+REDLINEMARKERCOLOR      = 记号颜色:
+REDLINELINESTYLE        = 线条样式
+REDLINELINEPATTERN      = 线条模式:
+REDLINEPATTERNSOLID     = 实线
+REDLINEPATTERNDASH      = 虚线
+REDLINEPATTERNDOT       = 点线
+REDLINEPATTERNDASHDOT   = 点划线
+REDLINEPATTERNDASHDOTDOT = 点点划线
+REDLINEPATTERNRAIL      = 铁路线
+REDLINEPATTERNBORDER    = 边界线
+REDLINEPATTERNDIVIDE    = 分水线
+REDLINEPATTERNFENCELINE = 栅栏线 
+REDLINEPATTERNNET       = 栅格填充
+REDLINEPATTERNLINE      = 水平线
+REDLINEPATTERNLINE45    = 45度斜线
+REDLINEPATTERNLINE90    = 垂直线
+REDLINEPATTERNLINE135   = 135度斜线
+REDLINEPATTERNSQUARE    = 方格
+REDLINEPATTERNBOX       = 方钢材质
+REDLINEPATTERNCROSS     = 十字形
+REDLINEPATTERNDOLMIT    = 地壳岩层
+REDLINEPATTERNHEX       = 六边形
+REDLINEPATTERNSACNCR    = 混凝土材质
+REDLINEPATTERNSTEEL     = 钢材质
+REDLINESIZEUNITS        = 尺寸单位:
+REDLINELINETHICKNESS    = 线条宽度:
+REDLINELINECOLOR        = 线条颜色:
+REDLINETRANSPARENT      = 透明
+REDLINEPOLYGONSTYLE     = 多边形样式
+REDLINEFILLPATTERN      = 填充模式:
+REDLINEFILLTRANSPARENCY = 透明度:
+REDLINEFOREGROUND   = 前景色:
+REDLINEBACKGROUND   = 背景色:
+REDLINEBORDERPATTERN    = 边框模式:
+REDLINEBORDERCOLOR      = 边框颜色:
+REDLINELABELSTYLE       = 标签样式
+REDLINEBORDERTHICKNESS  = 边框宽度:
+REDLINELABELFONTSIZE    = 标签字号:
+REDLINEFONTBOLD         = 粗体
+REDLINEFONTITALIC       = 斜体
+REDLINEFONTUNDERLINE    = 下划线
+REDLINELABELCOLOR       = 标签颜色:
+REDLINELABELGHOSTED     = *Ghosted虚化
+REDLINELABELOPAQUE      = *Opaque不透明
+
+# Redline Editing
+REDLINEEDIT             = 编辑批注
+REDLINEEDITDEFAULTHELP  = 批注类型.
+REDLINEEDITPOINTHELP    = 在地图上点击来确定点的位置.
+REDLINEEDITLINEHELP     = 在地图上单击并拖动鼠标确定直线的起点和终点.
+REDLINEEDITLINESTRINGHELP = 在地图上单击来确定折线的顶点, 双击最后一个顶点结束.
+REDLINEEDITRECTANGLEHELP = 在地图上单击来确定矩形的起始点,拖动鼠标生成矩形.
+REDLINEEDITPOLYGONHELP  = 在地图上单击来确定多边形的顶点, 双击最后一个顶点结束.
+REDLINEPROMPTLABEL      = 输入批注项的标签
+REDLINEADD              = 添加批注
+REDLINEDIGITIZE         = 点选批注
+REDLINEOBJECTPOINT      = 点
+REDLINEOBJECTLINE       = 直线
+REDLINEOBJECTLINESTRING = 折线
+REDLINEOBJECTRECTANGLE  = 矩形
+REDLINEOBJECTPOLYGON    = 多边形
+REDLINEMODIFY           = 修改批注
+REDLINESELECTOBJECT     = 选择
+REDLINEDELETEOBJECT     = 删除
+REDLINEUPDATETEXT       = 修改文本
+REDLINEEDITCLOSE        = 关闭
+
+# Redline Upload
+REDLINEUPLOAD           = 上传批注
+REDLINEDATAFILE         = 批注文件
+REDLINEUPLOADNOTE       = 注意：批注文件必须是SDF, SQLite 或 SHP格式，只能够上传由本批注工具生成的或有一致模式的批注文件.<br><br>对于SHP文件, 必须上传包含此SHP文件和其他相关文件(.dbf, .idx, .shx等)的zip文件
+REDLINEUPLOADREQUIRED   = 未指定批注文件
+REDLINEUPLOADTEXT       = 上传
+REDLINEUPLOADCLOSE      = 关闭
+REDLINEUPLOADSHPZIPERROR = 上传zip文件出错. 可能原因:<ul><li>上传文件文件格式不是zip</li><li>上传的zip文件已损坏</li><li>未包含 .shp 文件</li></ul>
+REDLINEUPLOADINVALIDSCHEMA = 上传的批注文件的模式无效. 类型定义中的属性必须符合：<ul><li>类型定义必须命名为 'Markup'</li><li>必须包含自动生成的数字类型的标识属性 (ID 或者 FeatId)</li><li>必须包含几何类型属性 (Geometry)</li><li>必须包含文本类型属性 (Text)</li></ul><br>由本批注工具生成的标识数据文件可满足模式要求.
+
+# HtmlViewerAbout
+HTMLABOUTTITLE          = 关于 %s
+HTMLABOUTTITLEBAR       = COLT 浏览器
+HTMLABOUTSERVERTITLE    = COLT 服务器
+HTMLABOUTVIEWERTITLE    = COLT 浏览器
+HTMLABOUTSERVERVERSION  = %s (版本 %s)
+HTMLABOUTVIEWERVERSION  = %s (版本 %s)
+HTMLABOUTTEXT           = <br>尚未汉化This product is made available subject to the terms of GNU Lesser General Public License Version 2.1 ("LGPL").  A copy of the LGPL, as well as additional copyright notices and license terms applicable to portions of this product are set forth in the <a href="../localized/license_en.htm" target="blank">license</a> file.<br><br>All trademarks and registered trademarks mentioned herein are the property of their respective owners.<br><br>Copyright &copy; 2007 Autodesk, Inc.<br><br>
+HTMLABOUTLICENSE        = license file
+HTMLABOUTLICENSEFILE    = license_en.htm
+
+# LegendUI
+LEGENDLISTSEPARATOR     = ,
+
+# PrintablePageUi
+PRINTTITLE              = 获取可打印页面
+PRINTELEMENTS           = 为打印布局选择元素.
+PRINTPAGETITLE          = 页面标题:
+PRINTLEGEND             = 图例
+PRINTNORTHARROW         = 指北针
+PRINTCREATEPAGE         = 创建页面
+
+# PropertyCtrl
+PROPERTIESNONE          = 尚未选取
+PROPERTIESNAME          = 名称
+PROPERTIESVALUE         = 值
+PROPERTIESITEMSEL       = 选取项目: {0}
+
+# Search
+SEARCHDLGTITLE          = 查询要素
+SEARCHTITLE             = 查询结果
+SEARCHERROR             = 查询错误
+SEARCHREPORT            = 查询报告
+SEARCHLAYERNOTFOUND     = 找不到图层 {0}!
+SEARCHNOMULTIPROP       = 多属性标识暂不支持
+SEARCHTYYPENOTSUP       = 标识属性类型暂不支持 ({0})
+SEARCHNOMATCHES         = 没有匹配的查询结果.
+
+# SearchPrompt
+SEARCHPROMPTFIND        = 查找
+
+# SelectWithinUi
+SELECTWITHINTITLE       = 内部选择
+SELECTWITHINAREAS       = 请在地图中选择区域.
+SELECTWITHINRESTRICTION = 在选中的图层中选择:
+SELECTWITHINTEXT        = <li>如果需要在图像上继续选择区域，点击 &quot;刷新&quot; 更新图层列表.</li><li>结束并且高亮显示所有选择的要素，点击 &quot;完成&quot;.</li><li>重新开始，点击 &quot;清除&quot;.</li>
+
+# Error/Report
+REPORTTITLE             = 报告
+
+# Legend UI
+REFRESH                 = 刷新
+EXPANDALL               = 全部展开
+COLLAPSEALL             = 全部折起
+DISPLAYALLINGROUP       = 全部显示
+HIDEALLINGROUP          = 全部隐藏
+SHOWLONGTHEME           = 显示长专题
+
+# Task Bar
+TASKS                   = 任务
+
+# Viewer Options
+OPTIONSTITLE            = 查看选项
+OPTIONSINFOTEXT         = *选择状态栏和提示的查看选项.
+OPTIONSDISTANCE         = 显示距离方式
+OPTIONSMETRIC           = 公制 (千米, 米)
+OPTIONSUSENGLISH        = 英美 (英里, 英尺)
+OPTIONSPOSITION         = 显示鼠标位置方式
+OPTIONSLATLON           = 纬度, 经度 (度)
+OPTIONSMAPUNITS         = 地图坐标系统 (X,Y)
+
+# AJAX Viewer
+VIEWERLAYERS            = 图层
+VIEWERPROPS             = 属性
+VIEWERPANNORTH          = 向北平移
+VIEWERPANWEST           = 向西平移
+VIEWERPANSOUTH          = 向南平移
+VIEWERPANEAST           = 向东平移
+VIEWERZOOMIN            = 放大
+VIEWERZOOMOUT           = 缩小
+VIEWERMOVESLIDER        = 通过拖拽移动滑块
+VIEWERDRAGZOOM          = 通过拖拽缩放
+ENDSEL                  = CTRL + 单击 结束
+ENDSELSAFARI            = SHIFT + 单击 结束
+DECIMALSEPARATOR        = .
+THOUSANDSEPARATOR       = ,
+
+# Main Frame
+NEEDLOGIN               = 请输入用户名和密码
+ALREADYINMEASURE        = 一个页面中只能有一个测量命令
+ACCESSDENIED            = 权限不足，无法访问
+LATLONCURPOS            = 纬度: {0}, 经度: {1}
+MAPUNITSCURPOS          = X: {0}, Y: {1}
+FEATURESSELECTED        = 选择了 {0} 个要素
+FEATURESELECTED         = 选择了 {0} 个要素
+MI                      = mi
+FT                      = ft
+IN                      = in
+KM                      = km
+MT                      = m
+CM                      = cm
+DIGALREADYRUNNING       = 无法执行测量: 正在进行点选操作.
+MEASALREADYRUNNING      = 无法执行点选: 正在进行测量操作.
+
+# Localized Icon Files
+POWEREDBYICON           = PoweredBy_en.gif
+
+# Quick Plot UI
+QUICKPLOT_HEADER                = 快速出图
+QUICKPLOT_TITLE                 = 标题
+QUICKPLOT_SUBTITLE              = 副标题
+QUICKPLOT_PAPER_SIZE            = 纸张大小
+QUICKPLOT_SCALING               = 缩放
+QUICKPLOT_DPI                   = 打印DPI
+QUICKPLOT_ORIENTATION           = 纸张方向
+QUICKPLOT_ORIENTATION_P         = 纵向
+QUICKPLOT_ORIENTATION_L         = 横向
+QUICKPLOT_GENERATE              = 生成
+QUICKPLOT_ADVANCED_OPTIONS      = 高级选项
+QUICKPLOT_PREVIEW_ERROR         = 出图所需应用程序资源超出管理员设定
+QUICKPLOT_RESOLUTION_WARNING    = 当前设置超出了地图的分辨率. 请尝试缩小地图或提高缩放比例
+QUICKPLOT_SCALE_LABEL           = 缩放比例

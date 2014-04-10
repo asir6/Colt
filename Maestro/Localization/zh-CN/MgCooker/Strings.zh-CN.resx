@@ -118,116 +118,116 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AlreadyAborting" xml:space="preserve">
-    <value>I heard you the first time!
-Please be patient.</value>
+    <value>第一次发生这样的事情！
+请耐心等待</value>
     <comment>A message that is displayed when the user clicks quit more than once</comment>
   </data>
   <data name="ConnectionError" xml:space="preserve">
-    <value>Unable to connect: {0}</value>
+    <value>无法建立连接: {0}</value>
     <comment>An error message that is displayed, when the initial connection fails</comment>
   </data>
   <data name="ConsoleCurrentGroup" xml:space="preserve">
-    <value>Current Group: \t{0} ({1} of {2})</value>
+    <value>当前底图组: \t{0} ({1} / {2})</value>
     <comment>Text displayed in the console to report progress</comment>
   </data>
   <data name="ConsoleCurrentMap" xml:space="preserve">
-    <value>Current Map:   \t{0} ({1} of {2})</value>
+    <value>当前地图:   \t{0} ({1} / {2})</value>
     <comment>Text displayed in the console to report progress</comment>
   </data>
   <data name="ConsoleCurrentScale" xml:space="preserve">
-    <value>Current Scale: \t1:{0} ({1} of {2})</value>
+    <value>当前比例尺: \t1:{0} ({1} / {2})</value>
     <comment>Text displayed in the console to report progress</comment>
   </data>
   <data name="ConsoleCurrentTile" xml:space="preserve">
-    <value>Current Tile:  \t{0} of {1}</value>
+    <value>当前图块:  \t{0} / {1}</value>
     <comment>Text displayed in the console to report progress</comment>
   </data>
   <data name="ConsoleErrorSummary" xml:space="preserve">
-    <value>Error count: {0}, last exception: {1}</value>
+    <value>出错数: {0}, 最新异常信息: {1}</value>
     <comment>Text displayed in the console to report progress</comment>
   </data>
   <data name="ConsoleGroupDuration" xml:space="preserve">
-    <value>Group estimate:  \t{0}</value>
+    <value>底图组预计结束时间:  \t{0}</value>
     <comment>Text displayed in the console to report progress</comment>
   </data>
   <data name="ConsoleGroupEstimate" xml:space="preserve">
-    <value>Group duration:  \t{0}</value>
+    <value>底图组已使用时间:  \t{0}</value>
     <comment>Text displayed in the console to report progress</comment>
   </data>
   <data name="ConsoleOperationBeginGroup" xml:space="preserve">
-    <value>{0}: Rendering group {1} ({2} of {3})</value>
+    <value>{0}: 渲染底图组 {1} ({2} / {3})</value>
     <comment>Text displayed in the console to report progress</comment>
   </data>
   <data name="ConsoleOperationBeginMap" xml:space="preserve">
-    <value>{0}: Rendering map {1}</value>
+    <value>{0}: 渲染地图 {1}</value>
     <comment>Text displayed in the console to report progress</comment>
   </data>
   <data name="ConsoleOperationBeginScale" xml:space="preserve">
-    <value>{0}: Rendering scale 1:{1} ({2} of {3})</value>
+    <value>{0}: 渲染比例尺 1:{1} ({2} / {3})</value>
     <comment>Text displayed in the console to report progress</comment>
   </data>
   <data name="ConsoleOperationFinishGroup" xml:space="preserve">
-    <value>{0}: Rendered group {1} in {2}</value>
+    <value>{0}: 渲染底图组 {1} / {2}</value>
     <comment>Text displayed in the console to report progress</comment>
   </data>
   <data name="ConsoleOperationFinishMap" xml:space="preserve">
-    <value>{0}: Rendered map {1} in {2}</value>
+    <value>{0}: 渲染地图 {1} / {2}</value>
     <comment>Text displayed in the console to report progress</comment>
   </data>
   <data name="ConsoleOperationFinishScale" xml:space="preserve">
-    <value>{0}: Rendered scale 1:{1} in {2}</value>
+    <value>{0}: 渲染比例尺 1:{1} / {2}</value>
     <comment>Text displayed in the console to report progress</comment>
   </data>
   <data name="ConsoleOperationFinishTile" xml:space="preserve">
-    <value>Processed {0} of {1} tiles in {2}, expected duration: {3}</value>
+    <value>已处理 {0} / {1} 底图块 in {2}, 预计处理时间: {3}</value>
     <comment>Text displayed in the console to report progress</comment>
   </data>
   <data name="ConsoleUpdateTime" xml:space="preserve">
-    <value>Update time:   \t{0}</value>
+    <value>更新时间:   \t{0}</value>
     <comment>Text displayed in the console to report progress</comment>
   </data>
   <data name="CurrentGroupStatus" xml:space="preserve">
-    <value>{0} in {1}</value>
+    <value>{0} \ {1}</value>
     <comment>Label that identifies the current group and map, like &lt;group&gt; in &lt;map&gt;</comment>
   </data>
   <data name="CurrentTileCounter" xml:space="preserve">
-    <value>Tile {0:###,###,###,###} of {1:###,###,###,###} {2}</value>
+    <value>第 {0:###,###,###,###} 个图块，总数： {1:###,###,###,###} {2}</value>
     <comment>Label that displays the current tile and the total number of tiles and number of failed tiles, eg: tile 1 of 100 (5 failed tiles)</comment>
   </data>
   <data name="FileTypeAllFiles" xml:space="preserve">
-    <value>All files ({0})</value>
+    <value>所有文件 ({0})</value>
     <comment>The name displayed for the *.* filetype when the user is prompted to save a file</comment>
   </data>
   <data name="FileTypeShellScript" xml:space="preserve">
-    <value>Shell Script ({0})</value>
+    <value>脚本文件 ({0})</value>
     <comment>The name displayed for the *.sh filetype when the user is prompted to save a file</comment>
   </data>
   <data name="InsufficientTimePassed" xml:space="preserve">
-    <value>&lt; Inaccurate measure of remaining time &gt;</value>
+    <value>&lt; 无法精确预估结束时间 &gt;</value>
     <comment>Text displayed when it is not possible to predict the remaning time</comment>
   </data>
   <data name="InternalError" xml:space="preserve">
-    <value>An internal error occured: {0}</value>
+    <value>发生了内部错误: {0}</value>
     <comment>An error message that is displayed if an internal error occurs</comment>
   </data>
   <data name="MissingWebConfigFile" xml:space="preserve">
-    <value>The file {0} was not found, unable to use the Native connection method.
-Either copy in the file, or do not use the Native connection method</value>
+    <value>文件 {0} 找不到，无法使用原生连接方式。
+请输入正确的文件，或者不要使用原生连接方式。</value>
     <comment>A message displayed when the webconfig.ini file is missing</comment>
   </data>
   <data name="PauseMessage" xml:space="preserve">
-    <value>MgCooker is now paused, click OK to resume rendering</value>
+    <value>MgCooker 现在被暂停了, 请点击 OK 按钮来恢复渲染</value>
     <comment>A text message displayed when MgCooker is paused</comment>
   </data>
   <data name="RemainingTime" xml:space="preserve">
-    <value>{0}, remaining time: {1}</value>
+    <value>{0}, 剩余时间: {1}</value>
     <comment>Label that displays the remaining time</comment>
   </data>
   <data name="TileErrorCount" xml:space="preserve">
-    <value>({0} failed tiles)</value>
+    <value>({0} 个未成功渲染图块)</value>
     <comment>Text inserted in the CurrentTileCounter if any tiles are failed</comment>
   </data>
   <data name="TileGenerationCompleted" xml:space="preserve">
-    <value>Tile Generation Complete. The operation completed in {0}h {1}m {2}s</value>
+    <value>图块生成已完成。 操作共耗时 {0}小时 {1}分钟 {2}秒</value>
   </data>
 </root>

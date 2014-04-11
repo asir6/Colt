@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -117,4 +117,40 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="invokeURLToolStripMenuItem.Text" xml:space="preserve">
+    <value>调用地址URL</value>
+  </data>
+  <data name="invokeScriptToolStripMenuItem.Text" xml:space="preserve">
+    <value>调用脚本</value>
+  </data>
+  <data name="searchToolStripMenuItem.Text" xml:space="preserve">
+    <value>搜索</value>
+  </data>
+  <data name="btnAdd.Text" xml:space="preserve">
+    <value>添加</value>
+  </data>
+  <data name="btnDelete.Text" xml:space="preserve">
+    <value>删除</value>
+  </data>
+  <data name="btnDelete.ToolTipText" xml:space="preserve">
+    <value>删除选中命令</value>
+  </data>
+  <data name="btnExport.Text" xml:space="preserve">
+    <value>导出</value>
+  </data>
+  <data name="btnExport.ToolTipText" xml:space="preserve">
+    <value>导出命令到XML文件</value>
+  </data>
+  <data name="btnImport.Text" xml:space="preserve">
+    <value>导入</value>
+  </data>
+  <data name="btnImport.ToolTipText" xml:space="preserve">
+    <value>从XML文件导入命令</value>
+  </data>
+  <data name="groupBox1.Text" xml:space="preserve">
+    <value>自定义命令</value>
+  </data>
+  <data name="grpCommand.Text" xml:space="preserve">
+    <value>自定义命令属性</value>
+  </data>
 </root>

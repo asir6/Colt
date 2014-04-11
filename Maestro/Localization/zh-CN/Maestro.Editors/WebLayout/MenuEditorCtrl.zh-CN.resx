@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -117,4 +117,25 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="mnuBuiltin.Text" xml:space="preserve">
+    <value>内建命令</value>
+  </data>
+  <data name="mnuCustom.Text" xml:space="preserve">
+    <value>自定义命令</value>
+  </data>
+  <data name="toolStripMenuItem3.Text" xml:space="preserve">
+    <value>分隔符</value>
+  </data>
+  <data name="toolStripMenuItem4.Text" xml:space="preserve">
+    <value>延伸菜单</value>
+  </data>
+  <data name="btnDelete.ToolTipText" xml:space="preserve">
+    <value>删除选中项</value>
+  </data>
+  <data name="btnMoveUp.ToolTipText" xml:space="preserve">
+    <value>向上移动选中项</value>
+  </data>
+  <data name="btnMoveDown.ToolTipText" xml:space="preserve">
+    <value>向下移动选中选</value>
+  </data>
 </root>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -117,4 +117,19 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="btnRetry.Text" xml:space="preserve">
+    <value>重试</value>
+  </data>
+  <data name="btnClose.Text" xml:space="preserve">
+    <value>关闭</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>失败的操作</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>包上传结果</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>点击重试按钮来重新上传并重试错误的操作。成功或者被跳过的操作在下次运行时会被跳过。</value>
+  </data>
 </root>

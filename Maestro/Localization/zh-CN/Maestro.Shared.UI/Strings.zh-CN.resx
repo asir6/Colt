@@ -118,15 +118,15 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="Error_ViewContent_Not_Registered" xml:space="preserve">
-    <value>The specified view content type is not registered in any addin files: {0}</value>
+    <value>指定的视图内容类型没有在任何插件文件中注册: {0}</value>
   </data>
   <data name="Error_ViewContent_Type_Not_Singleton" xml:space="preserve">
-    <value>The specified view content type is not a singleton: {0}</value>
+    <value>该指定视图的内容类型不是单例: {0}</value>
   </data>
   <data name="FileSaved" xml:space="preserve">
-    <value>File saved</value>
+    <value>文件已保存</value>
   </data>
   <data name="PickTxt" xml:space="preserve">
-    <value>Text Files</value>
+    <value>文本文件</value>
   </data>
 </root>

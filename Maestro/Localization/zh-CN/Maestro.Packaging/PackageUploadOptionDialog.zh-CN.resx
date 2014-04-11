@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -117,4 +117,16 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="btnOK.Text" xml:space="preserve">
+    <value>确定</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>选择上传包的方式</value>
+  </data>
+  <data name="rdTransactional.Text" xml:space="preserve">
+    <value>事务性方法：操作要么完全成功要么完全失败，这是官方方法。</value>
+  </data>
+  <data name="rdNonTransactional.Text" xml:space="preserve">
+    <value>非事务性方法：操作可以部分失败，但失败的操作都会被记录。</value>
+  </data>
 </root>

@@ -375,67 +375,67 @@ Many thanks to the following people who have translated Maestro into other langu
     <value>粘贴</value>
   </data>
   <data name="Menu_File" xml:space="preserve">
-    <value>File</value>
+    <value>文件</value>
   </data>
   <data name="Menu_File_CloseActiveDocument" xml:space="preserve">
-    <value>Close Active Document</value>
+    <value>关闭当前文件</value>
   </data>
   <data name="Menu_File_CloseAll" xml:space="preserve">
-    <value>Close All Documents</value>
+    <value>关闭所有文件</value>
   </data>
   <data name="Menu_File_Connect" xml:space="preserve">
-    <value>Connect</value>
+    <value>连接</value>
   </data>
   <data name="Menu_File_DeleteResource" xml:space="preserve">
-    <value>Delete Resource</value>
+    <value>删除资源</value>
   </data>
   <data name="Menu_File_EditResourceWithXml" xml:space="preserve">
-    <value>Edit Resource with XML Editor</value>
+    <value>使用XML编辑器编辑资源</value>
   </data>
   <data name="Menu_File_Login" xml:space="preserve">
-    <value>Login</value>
+    <value>登录</value>
   </data>
   <data name="Menu_File_NewResource" xml:space="preserve">
-    <value>New Resource</value>
+    <value>新建资源</value>
   </data>
   <data name="Menu_File_OpenResource" xml:space="preserve">
-    <value>Open Resource</value>
+    <value>打开资源</value>
   </data>
   <data name="Menu_File_PreviewResource" xml:space="preserve">
-    <value>Preview Resource</value>
+    <value>预览资源</value>
   </data>
   <data name="Menu_File_ProfileResource" xml:space="preserve">
     <value>Profile Resource</value>
   </data>
   <data name="Menu_File_Quit" xml:space="preserve">
-    <value>Quit</value>
+    <value>退出</value>
   </data>
   <data name="Menu_File_SaveAll" xml:space="preserve">
-    <value>Save All</value>
+    <value>保存全部</value>
   </data>
   <data name="Menu_File_SaveResource" xml:space="preserve">
-    <value>Save Resource</value>
+    <value>保存资源</value>
   </data>
   <data name="Menu_File_SaveResourceAs" xml:space="preserve">
-    <value>Save Resource As</value>
+    <value>资源另存为</value>
   </data>
   <data name="Menu_File_ValidateEditedResource" xml:space="preserve">
-    <value>Validate Edited Resource</value>
+    <value>验证已编辑资源</value>
   </data>
   <data name="Menu_File_ValidateResource" xml:space="preserve">
-    <value>Validate Resource</value>
+    <value>验证资源</value>
   </data>
   <data name="Menu_Help" xml:space="preserve">
-    <value>Help</value>
+    <value>帮助</value>
   </data>
   <data name="Menu_Help_About" xml:space="preserve">
-    <value>About</value>
+    <value>关于</value>
   </data>
   <data name="Menu_Help_Totd" xml:space="preserve">
-    <value>Tip of the Day</value>
+    <value>今日贴士</value>
   </data>
   <data name="Menu_Help_UserGuide" xml:space="preserve">
-    <value>User Guide</value>
+    <value>用户指南</value>
   </data>
   <data name="Menu_Package" xml:space="preserve">
     <value>Package</value>
@@ -444,31 +444,32 @@ Many thanks to the following people who have translated Maestro into other langu
     <value>Load Package</value>
   </data>
   <data name="Menu_Tools" xml:space="preserve">
-    <value>Tools</value>
+    <value>工具</value>
   </data>
   <data name="Menu_Tools_Options" xml:space="preserve">
-    <value>Options</value>
+    <value>选项</value>
   </data>
   <data name="Menu_Tools_Translate" xml:space="preserve">
-    <value>Translate</value>
+    <value>翻译</value>
   </data>
   <data name="Menu_Tools_Translate_Desc" xml:space="preserve">
     <value>Translate this Layout</value>
   </data>
   <data name="Menu_Tools_XmlChanges" xml:space="preserve">
-    <value>View Changes</value>
+    <value>查看修改</value>
   </data>
   <data name="Menu_Tools_XmlChanges_Desc" xml:space="preserve">
-    <value>View XML content changes of current resource</value>
+    <value>View XML content changes of current resource
+查看当前资源XML内容修改</value>
   </data>
   <data name="Menu_View" xml:space="preserve">
-    <value>View</value>
+    <value>视图</value>
   </data>
   <data name="Menu_View_MessageLog" xml:space="preserve">
-    <value>Message Log</value>
+    <value>消息日志</value>
   </data>
   <data name="Menu_Window" xml:space="preserve">
-    <value>Window</value>
+    <value>窗口</value>
   </data>
   <data name="MgCooker" xml:space="preserve">
     <value>MgCooker</value>

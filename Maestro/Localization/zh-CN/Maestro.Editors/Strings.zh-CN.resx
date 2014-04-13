@@ -124,46 +124,46 @@
     <value>Aggregate Query</value>
   </data>
   <data name="AllResourceTypes" xml:space="preserve">
-    <value>All types</value>
+    <value>所有类型</value>
   </data>
   <data name="AlternateNameMissing" xml:space="preserve">
-    <value>You must enter a alternate name, or remove the checkmark</value>
+    <value>请选择其他的名字，或者删除复选标记</value>
   </data>
   <data name="BaseLayerGroup" xml:space="preserve">
-    <value>Base Layer Group</value>
+    <value>基本图层组</value>
   </data>
   <data name="BaseLayerGroupConvertedToLayerGroup" xml:space="preserve">
-    <value>Base Layer Group ({0}) converted to Regular Group ({1})</value>
+    <value>基本图层组 ({0}) 转换成普通图层组 ({1})</value>
   </data>
   <data name="BetweenLabel" xml:space="preserve">
-    <value>Between {0} and {1}</value>
+    <value>{0} 到 {1}之间</value>
   </data>
   <data name="CheckGeometryFirst" xml:space="preserve">
     <value>Ensure the Geometry box is checked</value>
   </data>
   <data name="CmsBingHybrid" xml:space="preserve">
-    <value>Bing Maps Hybrid</value>
+    <value>Bing混合地图</value>
   </data>
   <data name="CmsBingSatellite" xml:space="preserve">
-    <value>Bing Maps Satellite</value>
+    <value>Bing卫星地图</value>
   </data>
   <data name="CmsBingStreet" xml:space="preserve">
-    <value>Bing Maps Street</value>
+    <value>Bing街道地图</value>
   </data>
   <data name="CmsGoogleHybrid" xml:space="preserve">
-    <value>Google Hybrid</value>
+    <value>谷歌混合地图</value>
   </data>
   <data name="CmsGooglePhysical" xml:space="preserve">
     <value>Google Physical</value>
   </data>
   <data name="CmsGoogleSatellite" xml:space="preserve">
-    <value>Google Satellite</value>
+    <value>谷歌卫星地图</value>
   </data>
   <data name="CmsGoogleStreets" xml:space="preserve">
-    <value>Google Streets</value>
+    <value>谷歌街道地图</value>
   </data>
   <data name="CmsOsm" xml:space="preserve">
-    <value>Open Street Map</value>
+    <value>打开街道地图</value>
   </data>
   <data name="CmsOsmCycle" xml:space="preserve">
     <value>Open Street Map (CycleMap)</value>
@@ -172,13 +172,13 @@
     <value>Open Street Map (TransportMap)</value>
   </data>
   <data name="CmsYahooHybrid" xml:space="preserve">
-    <value>Yahoo! Maps Hybrid</value>
+    <value>雅虎混合地图</value>
   </data>
   <data name="CmsYahooSatellite" xml:space="preserve">
-    <value>Yahoo! Maps Satellite</value>
+    <value>雅虎卫星地图</value>
   </data>
   <data name="CmsYahooStreet" xml:space="preserve">
-    <value>Yahoo! Maps Street</value>
+    <value>雅虎街道地图</value>
   </data>
   <data name="ColHeaderName" xml:space="preserve">
     <value>Name</value>
@@ -187,16 +187,16 @@
     <value>Value</value>
   </data>
   <data name="ColorCountError" xml:space="preserve">
-    <value>Failed to read {0} color(s) in line {1}</value>
+    <value>从{1}读取颜色 {0} 失败</value>
   </data>
   <data name="ColorPicker" xml:space="preserve">
     <value>Color Picker ...</value>
   </data>
   <data name="ColumnHasNoValidDataError" xml:space="preserve">
-    <value>The selected column had no non-null values and cannot be used.</value>
+    <value>你选取的列没有非零值，无法使用。</value>
   </data>
   <data name="ColumnValueError" xml:space="preserve">
-    <value>An error occured while reading column values: {0}</value>
+    <value>读取列出错: {0}</value>
   </data>
   <data name="CommandTypesDataset" xml:space="preserve">
     <value>&lt;?xml version="1.0" encoding="utf-8" ?&gt;
@@ -584,55 +584,55 @@
 </value>
   </data>
   <data name="ConfigurationDocumentReset" xml:space="preserve">
-    <value>Configuration Document has been reset</value>
+    <value>配置文件已被重置</value>
   </data>
   <data name="Confirm" xml:space="preserve">
-    <value>Confirm</value>
+    <value>确认</value>
   </data>
   <data name="ConfirmDeleteResourceData" xml:space="preserve">
-    <value>Are you sure you want to delete this resource data?</value>
+    <value>确认要删除这个资源文件？</value>
   </data>
   <data name="ConfirmGoogleScaleList" xml:space="preserve">
     <value>Are you sure you want to use a Google-compatible Scale List? This will overwrite your existing scale ranges and will only line up with commercial layers in Fusion if your Map's Coordinate System is WGS84.PseudoMercator</value>
   </data>
   <data name="ContentFileMissing" xml:space="preserve">
-    <value>The content file does not exist</value>
+    <value>内容文件不存在</value>
   </data>
   <data name="CoordinateTransformationFailed" xml:space="preserve">
-    <value>Failed to transform coordinates: {0}</value>
+    <value>转换坐标失败: {0}</value>
   </data>
   <data name="CustomCommandsExported" xml:space="preserve">
-    <value>Custom commands exported to {0}</value>
+    <value>用户命令导出到 {0}</value>
   </data>
   <data name="CustomCommandsImported" xml:space="preserve">
-    <value>{0} custom commands imported from {1}. The following commands had to be renamed to prevent clashes: {2}</value>
+    <value>{0} 用户命令从{1}导入。以下命令已经被重命名以避免冲突: {2}</value>
   </data>
   <data name="DataReadError" xml:space="preserve">
-    <value>Unable to read data from the selected column: {0}</value>
+    <value>无法读取数据从以下列: {0}</value>
   </data>
   <data name="DeleteCommand" xml:space="preserve">
-    <value>Delete Command</value>
+    <value>删除命令</value>
   </data>
   <data name="DeleteConfirmation" xml:space="preserve">
-    <value>Do you want to remove the selected item?</value>
+    <value>你要删除选中项吗？</value>
   </data>
   <data name="DivergingName" xml:space="preserve">
     <value>Diverging</value>
   </data>
   <data name="EditWatermarkInstance" xml:space="preserve">
-    <value>Edit Watermark Instance</value>
+    <value>编辑水印</value>
   </data>
   <data name="EmptyText" xml:space="preserve">
-    <value>None</value>
+    <value>空白</value>
   </data>
   <data name="ErrNotAFolder" xml:space="preserve">
-    <value>Not a folder</value>
+    <value>不是文件夹</value>
   </data>
   <data name="ErrorInvalidSymbolLibraryResourceId" xml:space="preserve">
-    <value>Not a valid symbol library resource identifier: {0}</value>
+    <value>非法的符号库资源标记符: {0}</value>
   </data>
   <data name="ErrorLayerDefnitionDoesNotSupportCompositeSymbolization" xml:space="preserve">
-    <value>This Layer Definition version does not support composite symbolization</value>
+    <value>这个图层定义版本不支持混合符号</value>
   </data>
   <data name="ErrorLoadingWmsConfig" xml:space="preserve">
     <value>Error loading WMS configuration document: {0}. A default document will be created</value>

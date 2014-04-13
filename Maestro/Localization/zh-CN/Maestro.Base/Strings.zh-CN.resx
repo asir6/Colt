@@ -112,10 +112,10 @@
     <value>2.0</value>
   </resheader>
   <resheader name="reader">
-    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <resheader name="writer">
-    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="About_LanguageLabel" xml:space="preserve">
     <value>Selected language: {0}, OS Language: {1}</value>
@@ -438,10 +438,10 @@ Many thanks to the following people who have translated Maestro into other langu
     <value>用户指南</value>
   </data>
   <data name="Menu_Package" xml:space="preserve">
-    <value>Package</value>
+    <value>资源包</value>
   </data>
   <data name="Menu_Package_LoadPackage" xml:space="preserve">
-    <value>Load Package</value>
+    <value>加载资源包</value>
   </data>
   <data name="Menu_Tools" xml:space="preserve">
     <value>工具</value>
@@ -453,14 +453,13 @@ Many thanks to the following people who have translated Maestro into other langu
     <value>翻译</value>
   </data>
   <data name="Menu_Tools_Translate_Desc" xml:space="preserve">
-    <value>Translate this Layout</value>
+    <value>翻译这个布局</value>
   </data>
   <data name="Menu_Tools_XmlChanges" xml:space="preserve">
     <value>查看修改</value>
   </data>
   <data name="Menu_Tools_XmlChanges_Desc" xml:space="preserve">
-    <value>View XML content changes of current resource
-查看当前资源XML内容修改</value>
+    <value>查看当前资源XML内容修改</value>
   </data>
   <data name="Menu_View" xml:space="preserve">
     <value>视图</value>
@@ -688,103 +687,103 @@ Error message: {0}</value>
     <value>Create a SHP Feature Source</value>
   </data>
   <data name="SiteAdministrator" xml:space="preserve">
-    <value>Site Administrator</value>
+    <value>站点管理员</value>
   </data>
   <data name="SiteExplorer_CopyMoveToServer" xml:space="preserve">
-    <value>Copy/Move selected items to another server</value>
+    <value>拷贝/移动选择项到其他服务器</value>
   </data>
   <data name="SiteExplorer_CopyResourceIds" xml:space="preserve">
-    <value>Copy Resource IDs to clipboard</value>
+    <value>拷贝资源标记符到剪贴板</value>
   </data>
   <data name="SiteExplorer_CreateFolderStructure" xml:space="preserve">
-    <value>Create Standard Folder Structure</value>
+    <value>创建标准文件夹结构</value>
   </data>
   <data name="SiteExplorer_Disconnect" xml:space="preserve">
-    <value>Disconnect</value>
+    <value>断开连接</value>
   </data>
   <data name="SiteExplorer_DuplicateResources" xml:space="preserve">
-    <value>Duplicate Resources</value>
+    <value>复制资源</value>
   </data>
   <data name="SiteExplorer_FindReplaceXml" xml:space="preserve">
-    <value>Find and Replace XML content</value>
+    <value>查找并替换XML内容</value>
   </data>
   <data name="SiteExplorer_Migrate" xml:space="preserve">
-    <value>Migrate</value>
+    <value>迁移</value>
   </data>
   <data name="SiteExplorer_MigrateResources" xml:space="preserve">
-    <value>Migrate Resources</value>
+    <value>迁移资源</value>
   </data>
   <data name="SiteExplorer_NewFolder" xml:space="preserve">
-    <value>New Folder</value>
+    <value>新建文件夹</value>
   </data>
   <data name="SiteExplorer_PurgeFsCache" xml:space="preserve">
-    <value>Purge Cached Schema Information</value>
+    <value>清除缓存概要信息</value>
   </data>
   <data name="SiteExplorer_Refresh" xml:space="preserve">
-    <value>Refresh</value>
+    <value>刷新</value>
   </data>
   <data name="SiteExplorer_Repoint" xml:space="preserve">
-    <value>Repoint this resource</value>
+    <value>重新指向资源</value>
   </data>
   <data name="SiteExplorer_SaveResource" xml:space="preserve">
-    <value>Save Resource XML</value>
+    <value>保存资源 XML</value>
   </data>
   <data name="SiteExplorer_SelectedFolder_CreatePackage" xml:space="preserve">
-    <value>Create Package</value>
+    <value>创建资源包</value>
   </data>
   <data name="SiteExplorer_SelectedFolder_Paste" xml:space="preserve">
-    <value>Paste into this folder</value>
+    <value>粘贴到这个文件夹</value>
   </data>
   <data name="SiteExplorer_SelectedItem_Copy" xml:space="preserve">
-    <value>Copy selected item(s)</value>
+    <value>拷贝选中项</value>
   </data>
   <data name="SiteExplorer_SelectedItem_Cut" xml:space="preserve">
-    <value>Cut selected items(s)</value>
+    <value>剪切选中项</value>
   </data>
   <data name="SiteExplorer_SelectedItem_Delete" xml:space="preserve">
-    <value>Delete selected item(s)</value>
+    <value>删除选中项</value>
   </data>
   <data name="SiteExplorer_SelectedItem_Open" xml:space="preserve">
-    <value>Open</value>
+    <value>打开</value>
   </data>
   <data name="SiteExplorer_SelectedItem_OpenWithXmlEditor" xml:space="preserve">
-    <value>Open Resource with XML Editor</value>
+    <value>用XML编辑器打开资源</value>
   </data>
   <data name="SiteExplorer_SelectedItem_Properties" xml:space="preserve">
-    <value>Properties</value>
+    <value>属性</value>
   </data>
   <data name="SiteExplorer_SelectedItem_Rename" xml:space="preserve">
-    <value>Rename</value>
+    <value>重命名</value>
   </data>
   <data name="SiteExplorer_ShowSpatialContexts" xml:space="preserve">
-    <value>Show Spatial Contexts</value>
+    <value>显示空间环境</value>
   </data>
   <data name="SiteExplorer_TestResourceCompatibility" xml:space="preserve">
-    <value>Test Resource Compatibility</value>
+    <value>测试资源性能</value>
   </data>
   <data name="SiteExplorer_ValidateResources" xml:space="preserve">
-    <value>Validate</value>
+    <value>验证</value>
   </data>
   <data name="SITE_EXPLORER_TOOLTIP_TEMPLATE" xml:space="preserve">
-    <value>Resource Name: {1}{0}Resource Type: {2}{0}Created: {3}{0}Last Modified: {4}{0}Owner: {5}</value>
+    <value>资源名： {1}{0}资源类型： {2}{0}创建时间： {3}{0}上次修改时间： {4}{0}所有者：{5}</value>
   </data>
   <data name="SkippingResource" xml:space="preserve">
-    <value>Skipping resource: {0}</value>
+    <value>跳过资源： {0}</value>
   </data>
   <data name="SltHandlerAction" xml:space="preserve">
-    <value>Create a SQLite Feature Source</value>
+    <value>创建一个SQLite 要素源</value>
   </data>
   <data name="StatusActiveConnection" xml:space="preserve">
-    <value>Active Connection: {0}</value>
+    <value>活动连接： {0}</value>
   </data>
   <data name="TabClose" xml:space="preserve">
-    <value>Close this tab</value>
+    <value>关闭这个标签</value>
   </data>
   <data name="TabCloseExceptThis" xml:space="preserve">
-    <value>Close all tabs except this</value>
+    <value>关闭除当前标签外的所有标签</value>
   </data>
   <data name="TextReloadNewResource" xml:space="preserve">
-    <value>Sorry, this is a newly created resource. The editor will close instead</value>
+    <value>对比起，这个资源是新创建的。编辑器将会关闭。</value>
   </data>
   <data name="TipNumber" xml:space="preserve">
     <value>Tip: {0} of {1}</value>
@@ -793,16 +792,16 @@ Error message: {0}</value>
     <value>Select FDO Provider</value>
   </data>
   <data name="Toolbar_EditAsXml" xml:space="preserve">
-    <value>Edit as XML</value>
+    <value>编辑为 XML</value>
   </data>
   <data name="Toolbar_Preview" xml:space="preserve">
-    <value>Preview</value>
+    <value>预览</value>
   </data>
   <data name="Toolbar_Profile" xml:space="preserve">
     <value>Profile</value>
   </data>
   <data name="Toolbar_Validate" xml:space="preserve">
-    <value>Validate</value>
+    <value>验证</value>
   </data>
   <data name="TPL_ADF_DESC" xml:space="preserve">
     <value>Create a new Fusion Application Definition (Flexible Layout)</value>
@@ -931,7 +930,7 @@ Error message: {0}</value>
     <value>Unknown version or not connected</value>
   </data>
   <data name="XmlEditor" xml:space="preserve">
-    <value>XML Editor:</value>
+    <value>XML编辑器：</value>
   </data>
   <data name="XmlResHandlerAction" xml:space="preserve">
     <value>Load this resource into the Site Repository</value>
@@ -940,16 +939,16 @@ Error message: {0}</value>
     <value>No Active Connection</value>
   </data>
   <data name="SiteExplorer_SelectedItem_CompileDependencyList" xml:space="preserve">
-    <value>Compile Full Dependency List</value>
+    <value>生产所有的依赖列表</value>
   </data>
   <data name="ConfirmDeleteFolders" xml:space="preserve">
     <value>You about to delete one or more folders which may contain dependent resources. Are you sure you want to proceed with delete?</value>
   </data>
   <data name="SiteExplorer_CreateLayersFromFeatureSource" xml:space="preserve">
-    <value>Create Layers from Feature Source</value>
+    <value>从要素源创建图层</value>
   </data>
   <data name="SiteExplorer_TestFeatureSource" xml:space="preserve">
-    <value>Test Feature Source Connection</value>
+    <value>测试要素源链接</value>
   </data>
   <data name="ConnectionTestFailed" xml:space="preserve">
     <value>Connection Test Failed: {0}</value>

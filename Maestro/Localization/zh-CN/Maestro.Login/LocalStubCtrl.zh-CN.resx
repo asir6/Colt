@@ -120,4 +120,7 @@
   <data name="label2.Text" xml:space="preserve">
     <value>重启应用程序以便使用不同的ini文件</value>
   </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>使用上次的路径进行连接</value>
+  </data>
 </root>

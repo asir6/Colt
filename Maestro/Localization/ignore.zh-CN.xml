@@ -1,4 +1,21 @@
 ﻿<root>
   <ignore>...</ignore>
+  <ignore>X</ignore>
+  <ignore>Y</ignore>
+  <ignore>0</ignore>
+  <ignore>1</ignore>
+  <ignore>Library://</ignore>
+  <ignore>http://localhost/mapguide/mapagent/mapagent.fcgi</ignore>
+  <ignore>1:</ignore>
+  <ignore>png</ignore>
+  <ignore>jpg</ignore>
+  <ignore>gif</ignore>
+  <ignore>1.1.0</ignore>
+  <ignore>1.2.0</ignore>
+  <ignore>1.3.0</ignore>
+  <ignore>{0} - {1}: {2}</ignore>
+  <ignore>{0} - {1}</ignore>
+  <ignore>Administrator</ignore>
+  <ignore>admin</ignore>
 </root>
 

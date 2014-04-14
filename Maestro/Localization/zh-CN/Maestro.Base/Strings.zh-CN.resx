@@ -118,130 +118,134 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="About_LanguageLabel" xml:space="preserve">
-    <value>Selected language: {0}, OS Language: {1}</value>
+    <value>选择语言: {0}, 操作系统语言: {1}</value>
   </data>
   <data name="About_ServerVersionLabel" xml:space="preserve">
-    <value>MapGuide Version: {0} ({1})</value>
+    <value>服务器版本: {0} ({1})</value>
   </data>
   <data name="About_VersionLabel" xml:space="preserve">
-    <value>Version: {0}</value>
+    <value>版本：{0}</value>
   </data>
   <data name="BoundsPicker_BoundsDecodeError" xml:space="preserve">
-    <value>Failed to decode the current bounds,
-you may enter new bounds, and these will replace the current.
-Error message: {0}</value>
+    <value>解码当前边界值出错，
+请输入新的边界值来替代当前边界值。
+错误码为：{0}</value>
   </data>
   <data name="BoundsPicker_IncompleBoundsError" xml:space="preserve">
-    <value>You have not entered all the required information.</value>
+    <value>你没有输入所有必需的信息。</value>
   </data>
   <data name="BoundsPicker_InvalidMaxXError" xml:space="preserve">
-    <value>Failed to convert the Max X value</value>
+    <value>无法转换最大X值</value>
   </data>
   <data name="BoundsPicker_InvalidMaxYError" xml:space="preserve">
-    <value>Failed to convert the Max Y value</value>
+    <value>无法转换最大Y值</value>
   </data>
   <data name="BoundsPicker_InvalidMinXError" xml:space="preserve">
-    <value>Failed to convert the Min X value</value>
+    <value>无法转换最小X值</value>
   </data>
   <data name="BoundsPicker_InvalidMinYError" xml:space="preserve">
-    <value>Failed to convert the Min Y value</value>
+    <value>无法转换最小Y值</value>
   </data>
   <data name="BoundsPicker_MissingBoundsError" xml:space="preserve">
-    <value>Missing bounds tag</value>
+    <value>确实边界值标签</value>
   </data>
   <data name="BoundsPicker_NumbersInRegionalError" xml:space="preserve">
-    <value>The values you have entered appears to be in local regional format, but are required in US regional format.
-Do you want to convert the values?</value>
+    <value>你输入的值是本地格式，需要美国格式。
+你要转换输入值为美国格式吗？</value>
   </data>
   <data name="BoundsPicker_UseInvalidCoordinatesWarning" xml:space="preserve">
-    <value>The coordinates you have entered appears to be invalid, do you want to use them anyway?</value>
+    <value>你输入的坐标是非法的，你还要继续使用该坐标吗？</value>
   </data>
   <data name="Browser_Complete" xml:space="preserve">
-    <value>Done</value>
+    <value>完成</value>
   </data>
   <data name="Browser_Loading" xml:space="preserve">
-    <value>Loading</value>
+    <value>加载中</value>
   </data>
   <data name="CacheView" xml:space="preserve">
-    <value>View Feature Source Cache</value>
+    <value>查看要素源缓存</value>
   </data>
   <data name="Cancelled" xml:space="preserve">
-    <value>Cancelled</value>
+    <value>取消</value>
   </data>
   <data name="CannotRenameAlreadyOpenedResource" xml:space="preserve">
-    <value>Cannot rename resource as it is already opened by another editor</value>
+    <value>无法重命名，有其他编辑器正在打开该资源</value>
   </data>
   <data name="CannotRenameToResourceAlreadyOpened" xml:space="preserve">
-    <value>Cannot rename resource to {0} as it is already opened by another editor</value>
+    <value>无法重命名为{0}，有其他编辑器正在打开该资源</value>
   </data>
   <data name="CannotSaveToResourceAlreadyOpened" xml:space="preserve">
-    <value>Cannot save to {0} as it is already opened by another editor</value>
+    <value>无法无法保存到{0}，有其他编辑器正在打开它</value>
   </data>
   <data name="ClipboardAction" xml:space="preserve">
-    <value>{0} item {1} into {2}</value>
+    <value>{0} 项{1} 到 {2}</value>
   </data>
   <data name="CloseButtonText" xml:space="preserve">
-    <value>Close</value>
+    <value>关闭</value>
   </data>
   <data name="CloseUnsavedResource" xml:space="preserve">
-    <value>This resource {0} has unsaved changes. Close and discard these changes?</value>
+    <value>资源 {0}有未保存的修改。你要关闭该资源放弃修改吗?
+</value>
   </data>
   <data name="ClosingOpenEditor" xml:space="preserve">
-    <value>Closing open editor of {0}</value>
+    <value>正在关闭编辑器 {0}</value>
   </data>
   <data name="CompareError" xml:space="preserve">
-    <value>Compare Error</value>
+    <value>比较出错</value>
   </data>
   <data name="Confirm" xml:space="preserve">
-    <value>Confirm</value>
+    <value>确认</value>
   </data>
   <data name="ConfirmBaseMapInvalidation" xml:space="preserve">
-    <value>This map definition has tiled layers. Saving this map definition will reset the tile cache if these layer existed when you first edited this map. Continue with save?</value>
+    <value>这个地图定义有瓷片图层。保存此地图定义将会重设瓷片缓存。
+你还要继续保存吗？</value>
   </data>
   <data name="ConfirmBaseMapInvalidationFeatureSourceSave" xml:space="preserve">
-    <value>This feature source is refrenced by at least one tiled layer in the following maps: {0} Saving this feature source may reset the cached tiles of these maps. Continue with save?</value>
+    <value>这个要素源被以下地图中的瓷片图层引用： {0}保存这个要素源会重设这些地图瓷片缓存。你还要继续保存吗？</value>
   </data>
   <data name="ConfirmBaseMapInvalidationLayerSave" xml:space="preserve">
-    <value>This layer is used as a tiled layer in the following maps: {0} Saving this layer may reset the cached tiles of these maps. Continue with save?</value>
+    <value>This layer is used as a tiled layer in the following maps: {0} Saving this layer may reset the cached tiles of these maps. Continue with save?
+这个图层被以下地图用作瓷片图层： {0} 保存这个图层会重设这些地图瓷片缓存。你还要继续保存吗？</value>
   </data>
   <data name="ConfirmCloseEditors" xml:space="preserve">
-    <value>You have open editors with unsaved changes. Continue anyway?</value>
+    <value>你的编辑器有未保存的修改。还要继续吗？</value>
   </data>
   <data name="ConfirmDelete" xml:space="preserve">
-    <value>Are you sure you want to delete?</value>
+    <value>确认要删除吗？</value>
   </data>
   <data name="ConfirmDeleteOpenResource" xml:space="preserve">
-    <value>You are about to delete one or more resources which are currently open in an editor. Close these editors and proceed with delete?</value>
+    <value>You are about to delete one or more resources which are currently open in an editor. Close these editors and proceed with delete?
+你将删除资源，这些资源正在被编辑器打开。你要关闭这些编辑器并且继续删除吗？</value>
   </data>
   <data name="ConfirmLoadPackage" xml:space="preserve">
-    <value>Are you sure you want to load this package file?</value>
+    <value>你确定要删除这个资源包吗？</value>
   </data>
   <data name="ConfirmMove" xml:space="preserve">
-    <value>Are you sure you want to move the following resources?</value>
+    <value>你确定要移动一下资源吗？</value>
   </data>
   <data name="ConfirmResetPrefs" xml:space="preserve">
-    <value>You are about to reset all preferences to default values. Are you sure you want to do this?</value>
+    <value>你将要重设所有的选项为默认值。确定要这样做吗？</value>
   </data>
   <data name="ConnectionAlreadyEstablished" xml:space="preserve">
-    <value>You have already established such a connection</value>
+    <value>你已经建立了这个连接</value>
   </data>
   <data name="ConnectionDoesNotSupportRequiredInterfaces" xml:space="preserve">
-    <value>The current connection ({0}) does not support the required interfaces to display properties of this resource</value>
+    <value>当前连接 ({0})不支持必需的接口，所以无法显示这个资源的属性</value>
   </data>
   <data name="Content_Messages" xml:space="preserve">
-    <value>Messages</value>
+    <value>消息</value>
   </data>
   <data name="Content_OutboundRequests" xml:space="preserve">
-    <value>Outbound Requests</value>
+    <value>输出的请求</value>
   </data>
   <data name="Content_SiteExplorer" xml:space="preserve">
-    <value>Site Explorer</value>
+    <value>站点浏览</value>
   </data>
   <data name="Content_WebBrowser" xml:space="preserve">
-    <value>Embedded Web Browser</value>
+    <value>嵌入式网页浏览器</value>
   </data>
   <data name="Content_Welcome" xml:space="preserve">
-    <value>Getting Started</value>
+    <value>入门</value>
   </data>
   <data name="Contributors" xml:space="preserve">
     <value>Programming:
@@ -267,100 +271,100 @@ Many thanks to the following people who have translated Maestro into other langu
   Ivan Miličević (Croatian)</value>
   </data>
   <data name="DefaultSymbolDescription" xml:space="preserve">
-    <value>A description for this symbol</value>
+    <value>该符号的描述</value>
   </data>
   <data name="DefaultSymbolName" xml:space="preserve">
     <value>MySymbol</value>
   </data>
   <data name="DwfHandlerAction" xml:space="preserve">
-    <value>Create a Drawing Source</value>
+    <value>创建一个 Drawing Source</value>
   </data>
   <data name="EditorRegistered" xml:space="preserve">
-    <value>Registered Editor: {0}</value>
+    <value>注册的编辑器: {0}</value>
   </data>
   <data name="EditorTitleTemplate" xml:space="preserve">
-    <value>Resource ID: {0}{1}Connection: {2}{1}Resource Version: {3}</value>
+    <value>资源标记符: {0}{1}连接: {2}{1}资源版本: {3}</value>
   </data>
   <data name="EditPackage" xml:space="preserve">
-    <value>Package Editor</value>
+    <value>资源包编辑器</value>
   </data>
   <data name="EditRawHeader" xml:space="preserve">
-    <value>Edit Raw Header XML</value>
+    <value>编辑裸报头XML</value>
   </data>
   <data name="ErrorUnknownExecutable" xml:space="preserve">
-    <value>Unknown executable specified: {0}</value>
+    <value>未知的可执行程序: {0}</value>
   </data>
   <data name="Error_Closeable_Singleton_Content" xml:space="preserve">
     <value>Singleton view content cannot be closed by users. The AllowUserClose property must return false</value>
   </data>
   <data name="FixErrorsBeforeSaving" xml:space="preserve">
-    <value>Validation detected errors in your resource, please fix them before saving this resource</value>
+    <value>验证是检测到你的资源有错，请修改该错误然后在保存</value>
   </data>
   <data name="FolderNameExists" xml:space="preserve">
-    <value>Folder name already exists</value>
+    <value>文件名已存在</value>
   </data>
   <data name="Folder_Data" xml:space="preserve">
-    <value>Data</value>
+    <value>数据</value>
   </data>
   <data name="Folder_Layers" xml:space="preserve">
-    <value>Layers</value>
+    <value>图层</value>
   </data>
   <data name="Folder_Layouts" xml:space="preserve">
-    <value>Layouts</value>
+    <value>布局</value>
   </data>
   <data name="Folder_Maps" xml:space="preserve">
-    <value>Maps</value>
+    <value>地图</value>
   </data>
   <data name="Folder_Symbols" xml:space="preserve">
-    <value>Symbols</value>
+    <value>符号</value>
   </data>
   <data name="Folder_Watermarks" xml:space="preserve">
-    <value>Watermarks</value>
+    <value>水印</value>
   </data>
   <data name="Global.ErrorText" xml:space="preserve">
-    <value>Error</value>
+    <value>错误</value>
   </data>
   <data name="Global.QuestionText" xml:space="preserve">
-    <value>Question</value>
+    <value>问题</value>
   </data>
   <data name="HelpFileNotFound" xml:space="preserve">
-    <value>Could not find help file</value>
+    <value>无法找到帮助文档</value>
   </data>
   <data name="InvalidResourceId" xml:space="preserve">
-    <value>Invalid Resource ID</value>
+    <value>非法资源标记符</value>
   </data>
   <data name="ItemsCopied" xml:space="preserve">
-    <value>{0} items copied and placed in clipboard</value>
+    <value>{0} 个项目已经被拷贝并放到剪贴板</value>
   </data>
   <data name="ItemsCut" xml:space="preserve">
-    <value>{0} items cut and placed in clipboard</value>
+    <value>{0} 个项目已经被剪切并放到剪贴板</value>
   </data>
   <data name="ItemsMigrated" xml:space="preserve">
-    <value>{0} items migrated</value>
+    <value>{0}个项目已迁移</value>
   </data>
   <data name="ItemsNotMovedDueToBeingOpen" xml:space="preserve">
-    <value>The following items were not moved due to being already open in an editor: {0}</value>
+    <value>以下项目无法移动因为被其他编辑器打开: {0}</value>
   </data>
   <data name="ItemsTranslated" xml:space="preserve">
-    <value>{0} items were successfully translated</value>
+    <value>{0}项目已经翻译成功</value>
   </data>
   <data name="KeepAliveFailed" xml:space="preserve">
-    <value>Failed to keep session ({0}) alive. This would happen if connectivity to the MapGuide Server has been lost (it has been stopped or restarted). Refresh the Site Explorer to create a new session. Also close any existing editors and re-open them.</value>
+    <value>保持连接会话失败。可能是与服务器连接丢失（服务器已停止或重启）。请刷新站点浏览以创建新的连接会话。你也可以关闭当前打开的所有编辑器然后再打开。</value>
   </data>
   <data name="LayerSubTypeNotSupported" xml:space="preserve">
-    <value>Could not determine the sub-layer type or this type is not currently supported</value>
+    <value>无法确认是否支持子图层类型或这个类型</value>
   </data>
   <data name="LiveMapEditor" xml:space="preserve">
-    <value>Live Map Definition Editor</value>
+    <value>地图定义编辑器</value>
   </data>
   <data name="LocalFsPreview" xml:space="preserve">
-    <value>Local Feature Source Preview</value>
+    <value>本地要素源预览</value>
   </data>
   <data name="LocateExecutable" xml:space="preserve">
-    <value>Locate executable: {0}</value>
+    <value>找到可执行程序: {0}</value>
   </data>
   <data name="Log_Saved" xml:space="preserve">
-    <value>Message Log saved to {0}</value>
+    <value>消息日志保存到 {0}</value>
   </data>
   <data name="Menu_Edit" xml:space="preserve">
     <value>编辑</value>
@@ -474,42 +478,43 @@ Many thanks to the following people who have translated Maestro into other langu
     <value>MgCooker</value>
   </data>
   <data name="MgpHandlerAction" xml:space="preserve">
-    <value>Load this package file</value>
+    <value>加载这个资源包文件</value>
   </data>
   <data name="MoveFailure" xml:space="preserve">
-    <value>Failed to move {0} to {1}</value>
+    <value>移动 {0} 到 {1}失败</value>
   </data>
   <data name="NewMap" xml:space="preserve">
-    <value>New Map</value>
+    <value>新建地图</value>
   </data>
   <data name="NewResource" xml:space="preserve">
-    <value>New Resource</value>
+    <value>新建资源</value>
   </data>
   <data name="NoFiniteDisplayScalesSpecified" xml:space="preserve">
-    <value>This Map Definition has tiled layers but has no finite display scales defined. Define some display scales.</value>
+    <value>该地图定义有瓷块图层，但没有定的有限的显示比例尺。请定义一些显示比例尺。
+</value>
   </data>
   <data name="NoOpenConnections" xml:space="preserve">
-    <value>No Open Connections</value>
+    <value>没有打开的连接</value>
   </data>
   <data name="NotCopiedOrMovedDueToOpenEditors" xml:space="preserve">
-    <value>The following resources were not copied or moved because they would be overwriting resources currently open: {0}The following resources were not moved because they are currently open: {1}</value>
+    <value>下面的资源无法复制或移动，因为他们将覆盖当前打开资源的：{0} 下面的资源无法移动，因为它们当前被打开了： {1}</value>
   </data>
   <data name="OpenResourceManager_SkipEditorRegistration" xml:space="preserve">
-    <value>Skipping registration of editor: {0} because an existing editor is already registered to handle {1} v{2}</value>
+    <value>跳过编辑器注册：{0} 因为已经有一个编辑器被成功注册用来处理{1}版本{2}</value>
   </data>
   <data name="PrefsRestartRequired" xml:space="preserve">
-    <value>A restart is required for some changes to take effect. Restart now?</value>
+    <value>重启该应用才能是修改生效。现在要重启吗？</value>
   </data>
   <data name="Prefs_Editor" xml:space="preserve">
-    <value>Editors</value>
+    <value>编辑器</value>
   </data>
   <data name="Prefs_General" xml:space="preserve">
-    <value>General</value>
+    <value>通用</value>
   </data>
   <data name="PrgPreSaveValidation" xml:space="preserve">
-    <value>Performing pre-save validation...
+    <value>执行保存前验证...
 
-You can disable pre-save validation in Maestro options</value>
+你可以在选项菜单中禁止验证</value>
   </data>
   <data name="Prof_LayerDefinitionProfilingError" xml:space="preserve">
     <value>Failed while profiling Layer Definition: {0}{2}============= ERROR DETAILS =========={2}{1}{2} ======== END ERROR DETAILS =============</value>

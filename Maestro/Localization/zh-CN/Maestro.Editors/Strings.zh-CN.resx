@@ -118,10 +118,10 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AddWidgetReference" xml:space="preserve">
-    <value>Add Widget Reference</value>
+    <value>添加工具引用</value>
   </data>
   <data name="AggregateQuery" xml:space="preserve">
-    <value>Aggregate Query</value>
+    <value>集合查找</value>
   </data>
   <data name="AllResourceTypes" xml:space="preserve">
     <value>所有类型</value>
@@ -139,7 +139,7 @@
     <value>{0} 到 {1}之间</value>
   </data>
   <data name="CheckGeometryFirst" xml:space="preserve">
-    <value>Ensure the Geometry box is checked</value>
+    <value>确保几何图像框被选中 </value>
   </data>
   <data name="CmsBingHybrid" xml:space="preserve">
     <value>Bing混合地图</value>
@@ -166,7 +166,7 @@
     <value>打开街道地图</value>
   </data>
   <data name="CmsOsmCycle" xml:space="preserve">
-    <value>Open Street Map (CycleMap)</value>
+    <value>OSM(单车地图)</value>
   </data>
   <data name="CmsOsmTransport" xml:space="preserve">
     <value>Open Street Map (TransportMap)</value>
@@ -181,16 +181,16 @@
     <value>雅虎街道地图</value>
   </data>
   <data name="ColHeaderName" xml:space="preserve">
-    <value>Name</value>
+    <value>名称</value>
   </data>
   <data name="ColHeaderValue" xml:space="preserve">
-    <value>Value</value>
+    <value>值</value>
   </data>
   <data name="ColorCountError" xml:space="preserve">
     <value>从{1}读取颜色 {0} 失败</value>
   </data>
   <data name="ColorPicker" xml:space="preserve">
-    <value>Color Picker ...</value>
+    <value>颜色选择器 ...</value>
   </data>
   <data name="ColumnHasNoValidDataError" xml:space="preserve">
     <value>你选取的列没有非零值，无法使用。</value>
@@ -210,10 +210,10 @@
 &lt;CommandTypesDataset&gt;
 	&lt;Command&gt;
 		&lt;Command&gt;About&lt;/Command&gt;
-		&lt;Label&gt;About&lt;/Label&gt;
-		&lt;ToolTip&gt;About&lt;/ToolTip&gt;
+		&lt;Label&gt;关于&lt;/Label&gt;
+		&lt;ToolTip&gt;关于&lt;/ToolTip&gt;
 		&lt;Action&gt;About&lt;/Action&gt;
-		&lt;Description&gt;Display information about this application&lt;/Description&gt;
+		&lt;Description&gt;显示该应用程序的信息&lt;/Description&gt;
 		&lt;Viewers&gt;All&lt;/Viewers&gt;
 		&lt;Type&gt;Built-In&lt;/Type&gt;
 		&lt;EnabledIcon&gt;&lt;/EnabledIcon&gt;		
@@ -647,10 +647,10 @@
     <value>No custom commands selected. Nothing to export</value>
   </data>
   <data name="ExpressionItem" xml:space="preserve">
-    <value>Expression...</value>
+    <value>表达式...</value>
   </data>
   <data name="ExtendedClassTooltip" xml:space="preserve">
-    <value>Extended class based on: {0}</value>
+    <value>从 {0} 扩展的类</value>
   </data>
   <data name="ExtentsCalculationCompleted" xml:space="preserve">
     <value>Map extents calculation completed. Click Accept to use the calculated extents.</value>
@@ -662,7 +662,7 @@
     <value>Failed to enumerate data stores. Reason: {0}</value>
   </data>
   <data name="FdoConnectionStatus" xml:space="preserve">
-    <value>FDO Connection Status: {0}</value>
+    <value>FDO 连接状态: {0}</value>
   </data>
   <data name="FdoConnectionStringComponentNotFound" xml:space="preserve">
     <value>The component "{0}" could not be found in the specified FDO connection string</value>
@@ -671,25 +671,25 @@
     <value>This field is required: {0}</value>
   </data>
   <data name="FileCopyError" xml:space="preserve">
-    <value>An error occured while copying file: {0}</value>
+    <value>复制文件时发生如下错误: {0}</value>
   </data>
   <data name="FileDownloaded" xml:space="preserve">
-    <value>File Downloaded to {0}</value>
+    <value>文件下载到 {0}</value>
   </data>
   <data name="FilenameValidationError" xml:space="preserve">
-    <value>Failed to validate the filenames: {0}</value>
+    <value>验证文件名失败: {0}</value>
   </data>
   <data name="FiletypeAll" xml:space="preserve">
-    <value>All files ({0})</value>
+    <value>所有文件 ({0})</value>
   </data>
   <data name="FiletypeMGP" xml:space="preserve">
     <value>MapGuide Packages ({0})</value>
   </data>
   <data name="FiletypeZip" xml:space="preserve">
-    <value>Zip files ({0})</value>
+    <value>压缩文件 ({0})</value>
   </data>
   <data name="FindEmptyString" xml:space="preserve">
-    <value>Cannot Find an Empty String</value>
+    <value>不能查找空字符串</value>
   </data>
   <data name="FindNothing" xml:space="preserve">
     <value>Could not find specified string or end of document reached</value>

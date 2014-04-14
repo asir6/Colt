@@ -142,43 +142,43 @@
     <value>确保几何图像框被选中 </value>
   </data>
   <data name="CmsBingHybrid" xml:space="preserve">
-    <value>Bing混合地图</value>
+    <value>必应卫星+标签</value>
   </data>
   <data name="CmsBingSatellite" xml:space="preserve">
-    <value>Bing卫星地图</value>
+    <value>必应卫星</value>
   </data>
   <data name="CmsBingStreet" xml:space="preserve">
-    <value>Bing街道地图</value>
+    <value>必应地图</value>
   </data>
   <data name="CmsGoogleHybrid" xml:space="preserve">
-    <value>谷歌混合地图</value>
+    <value>谷歌卫星+标签</value>
   </data>
   <data name="CmsGooglePhysical" xml:space="preserve">
     <value>Google Physical</value>
   </data>
   <data name="CmsGoogleSatellite" xml:space="preserve">
-    <value>谷歌卫星地图</value>
+    <value>谷歌卫星</value>
   </data>
   <data name="CmsGoogleStreets" xml:space="preserve">
-    <value>谷歌街道地图</value>
+    <value>谷歌地图</value>
   </data>
   <data name="CmsOsm" xml:space="preserve">
     <value>打开街道地图</value>
   </data>
   <data name="CmsOsmCycle" xml:space="preserve">
-    <value>OSM(单车地图)</value>
+    <value>OSM地图(单车地图)</value>
   </data>
   <data name="CmsOsmTransport" xml:space="preserve">
-    <value>Open Street Map (TransportMap)</value>
+    <value>OSM地图(交通图)</value>
   </data>
   <data name="CmsYahooHybrid" xml:space="preserve">
-    <value>雅虎混合地图</value>
+    <value>雅虎卫星+标签</value>
   </data>
   <data name="CmsYahooSatellite" xml:space="preserve">
-    <value>雅虎卫星地图</value>
+    <value>雅虎卫星</value>
   </data>
   <data name="CmsYahooStreet" xml:space="preserve">
-    <value>雅虎街道地图</value>
+    <value>雅虎地图</value>
   </data>
   <data name="ColHeaderName" xml:space="preserve">
     <value>名称</value>

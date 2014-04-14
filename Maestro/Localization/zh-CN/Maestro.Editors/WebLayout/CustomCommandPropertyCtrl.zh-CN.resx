@@ -135,4 +135,10 @@
   <data name="label2.Text" xml:space="preserve">
     <value>标题</value>
   </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>禁用图标</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>激活图标</value>
+  </data>
 </root>

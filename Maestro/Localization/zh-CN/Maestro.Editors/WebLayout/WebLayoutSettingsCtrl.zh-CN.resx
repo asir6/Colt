@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -117,4 +117,68 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="chkPingServer.Text" xml:space="preserve">
+    <value>保持连接</value>
+  </data>
+  <data name="btnShowInBrowser.Text" xml:space="preserve">
+    <value>浏览器中展现</value>
+  </data>
+  <data name="label9.Text" xml:space="preserve">
+    <value>初始化任务面板 URL</value>
+  </data>
+  <data name="label8.Text" xml:space="preserve">
+    <value>宽度(像素)</value>
+  </data>
+  <data name="chkTaskBar.Text" xml:space="preserve">
+    <value>任务栏</value>
+  </data>
+  <data name="chkTaskPane.Text" xml:space="preserve">
+    <value>任务面板</value>
+  </data>
+  <data name="groupBox5.Text" xml:space="preserve">
+    <value>任务面板</value>
+  </data>
+  <data name="chkZoomControl.Text" xml:space="preserve">
+    <value>放大控制
+(AJAX Viewer 有效)</value>
+  </data>
+  <data name="chkStatusBar.Text" xml:space="preserve">
+    <value>状态栏</value>
+  </data>
+  <data name="chkContextMenu.Text" xml:space="preserve">
+    <value>右键菜单</value>
+  </data>
+  <data name="chkToolbar.Text" xml:space="preserve">
+    <value>工具栏</value>
+  </data>
+  <data name="groupBox4.Text" xml:space="preserve">
+    <value>地图面板</value>
+  </data>
+  <data name="label7.Text" xml:space="preserve">
+    <value>宽度(像素)</value>
+  </data>
+  <data name="chkProperties.Text" xml:space="preserve">
+    <value>属性面板</value>
+  </data>
+  <data name="chkLegend.Text" xml:space="preserve">
+    <value>图层控制</value>
+  </data>
+  <data name="groupBox3.Text" xml:space="preserve">
+    <value>信息面板</value>
+  </data>
+  <data name="groupBox2.Text" xml:space="preserve">
+    <value>选项可见性</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>比例尺</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>地图资源编号</value>
+  </data>
+  <data name="$this.HeaderText" xml:space="preserve">
+    <value>通用设置</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>浏览器标题栏文字</value>
+  </data>
 </root>

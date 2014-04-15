@@ -274,7 +274,7 @@ Many thanks to the following people who have translated Maestro into other langu
     <value>该符号的描述</value>
   </data>
   <data name="DefaultSymbolName" xml:space="preserve">
-    <value>MySymbol</value>
+    <value>我的符号</value>
   </data>
   <data name="DwfHandlerAction" xml:space="preserve">
     <value>创建一个 Drawing Source</value>
@@ -295,7 +295,7 @@ Many thanks to the following people who have translated Maestro into other langu
     <value>未知的可执行程序: {0}</value>
   </data>
   <data name="Error_Closeable_Singleton_Content" xml:space="preserve">
-    <value>Singleton view content cannot be closed by users. The AllowUserClose property must return false</value>
+    <value>单例视图内容不能被用户关闭。AllowUserClose 熟悉返回值必须为否</value>
   </data>
   <data name="FixErrorsBeforeSaving" xml:space="preserve">
     <value>验证是检测到你的资源有错，请修改该错误然后在保存</value>
@@ -409,7 +409,7 @@ Many thanks to the following people who have translated Maestro into other langu
     <value>预览资源</value>
   </data>
   <data name="Menu_File_ProfileResource" xml:space="preserve">
-    <value>Profile Resource</value>
+    <value>分析资源</value>
   </data>
   <data name="Menu_File_Quit" xml:space="preserve">
     <value>退出</value>
@@ -517,58 +517,58 @@ Many thanks to the following people who have translated Maestro into other langu
 你可以在选项菜单中禁止验证</value>
   </data>
   <data name="Prof_LayerDefinitionProfilingError" xml:space="preserve">
-    <value>Failed while profiling Layer Definition: {0}{2}============= ERROR DETAILS =========={2}{1}{2} ======== END ERROR DETAILS =============</value>
+    <value>分析图层定义失败: {0}{2}============= 详细的错误信息 =========={2}{1}{2} ======== 详细错误信息--- 结束 =============</value>
   </data>
   <data name="Prof_LogMessageDone" xml:space="preserve">
-    <value>*** Done ***</value>
+    <value>*** 完成***</value>
   </data>
   <data name="Prof_LogMessageFeatureSource" xml:space="preserve">
-    <value>Profiling FeatureSource: {0}</value>
+    <value>正在分析要素源: {0}</value>
   </data>
   <data name="Prof_LogMessageIdentifyFetching" xml:space="preserve">
-    <value>Identity fetching (ms): </value>
+    <value>获取标识用时 (毫秒): </value>
   </data>
   <data name="Prof_LogMessageLayerDefinition" xml:space="preserve">
-    <value>Profiling LayerDefinition: {0}</value>
+    <value>正在分析图层定义: {0}</value>
   </data>
   <data name="Prof_LogMessageMapDefinition" xml:space="preserve">
-    <value>Profiling MapDefinition: {0}</value>
+    <value>正在分析地图定义: {0}</value>
   </data>
   <data name="Prof_LogMessageRenderingMap" xml:space="preserve">
-    <value>Full map rendering (ms): </value>
+    <value>全地图渲染用时 (毫秒): </value>
   </data>
   <data name="Prof_LogMessageRenderingScales" xml:space="preserve">
-    <value>Rendering scales (ms): </value>
+    <value>渲染比例尺用时(毫秒): </value>
   </data>
   <data name="Prof_LogMessageRuntimeLayer" xml:space="preserve">
-    <value>Runtime layer creation (ms): </value>
+    <value>运行时图层创建用时 (毫秒): </value>
   </data>
   <data name="Prof_LogMessageRuntimeMap" xml:space="preserve">
-    <value>Total for runtime Map Generation (ms): </value>
+    <value>运行时地图生成总用时(毫秒): </value>
   </data>
   <data name="Prof_LogMessageRuntimeMapTotal" xml:space="preserve">
-    <value>Runtime map generation in one go (ms):</value>
+    <value>一个运行时地图生成用时 (毫秒):</value>
   </data>
   <data name="Prof_LogMessageScaleRange" xml:space="preserve">
-    <value>Time to render scale range [{0} : {1}] (ms):  </value>
+    <value>渲染比例尺范围 [{0} : {1}]用时 (毫秒):  </value>
   </data>
   <data name="Prof_LogMessageUnsupportedResourceType" xml:space="preserve">
-    <value>The resource type is not supported for profiling</value>
+    <value>此资源类型不支持分析</value>
   </data>
   <data name="Prof_MapRenderingError" xml:space="preserve">
-    <value>Failed while profiling MapDefinition rendering: {0}{2}============= ERROR DETAILS =========={2}{1}{2} ======== END ERROR DETAILS =============</value>
+    <value>分析地图定义渲染失败: {0}{2}============= 详细的错误信息 =========={2}{1}{2} ======== 详细错误信息--- 结束 =============</value>
   </data>
   <data name="Prof_MapRenderingImageSize" xml:space="preserve">
-    <value>Rendered image size is: {0}</value>
+    <value>被渲染的图像尺寸是: {0}</value>
   </data>
   <data name="Prof_RuntimeMapProfilingError" xml:space="preserve">
-    <value>Failed while profiling MapDefinition runtime {0}{2}============= ERROR DETAILS =========={2}{1}{2} ======== END ERROR DETAILS =============</value>
+    <value>分析地图定义运行时失败: {0}{2}============= 详细的错误信息 =========={2}{1}{2} ======== 详细错误信息--- 结束 =============</value>
   </data>
   <data name="ProgressUpdatingReferences" xml:space="preserve">
     <value> 正在更新引用</value>
   </data>
   <data name="PromptOverwriteOnTargetConnection" xml:space="preserve">
-    <value>There are {0} already existing resources that have the same name. Do you want to overwrite these resources?</value>
+    <value>有{0}已存在的资源重名。你要重写这些资源吗？</value>
   </data>
   <data name="PromptSelectFdoProvider" xml:space="preserve">
     <value>Select an FDO Provider</value>
@@ -577,7 +577,7 @@ Many thanks to the following people who have translated Maestro into other langu
     <value>重命名为</value>
   </data>
   <data name="ReplacedXmlContent" xml:space="preserve">
-    <value>Replaced XML content in: {0}</value>
+    <value>替换XML内容在: {0}</value>
   </data>
   <data name="Required" xml:space="preserve">
     <value>必须的</value>
@@ -615,22 +615,22 @@ Many thanks to the following people who have translated Maestro into other langu
 错误消息为: {0}.</value>
   </data>
   <data name="ResProp_EpsgMissingWarning" xml:space="preserve">
-    <value>You must manually enter the EPSG code for the generated bounds.</value>
+    <value>你必须为生成的边界值手动输入 EPSG 代码。</value>
   </data>
   <data name="ResProp_InheritedAccess" xml:space="preserve">
     <value>继承自</value>
   </data>
   <data name="ResProp_MissingBoundsError" xml:space="preserve">
-    <value>Missing bounds tag</value>
+    <value>缺失边界值标签</value>
   </data>
   <data name="ResProp_NoAccess" xml:space="preserve">
     <value>无法访问</value>
   </data>
   <data name="ResProp_NoSpatialDataError" xml:space="preserve">
-    <value>No spatial data found in FeatureSource</value>
+    <value>要素源中未找到空间数据</value>
   </data>
   <data name="ResProp_NoSpatialDataWithFailuresError" xml:space="preserve">
-    <value>No spatial data found in FeatureSource, one or more queries failed to execute</value>
+    <value>要素源中未找到空间数据，有查询执行出错</value>
   </data>
   <data name="ResProp_ReadOnlyAccess" xml:space="preserve">
     <value>只读</value>
@@ -659,10 +659,10 @@ Many thanks to the following people who have translated Maestro into other langu
     <value>Runtime Map Inspector</value>
   </data>
   <data name="SavedResource" xml:space="preserve">
-    <value>Saved resource content to {0}</value>
+    <value>保存资源内容到 {0}</value>
   </data>
   <data name="SchemaInformationPurged" xml:space="preserve">
-    <value>Schema information for {0} purged</value>
+    <value>资源{0}的模式信息已清除</value>
   </data>
   <data name="SdfHandlerAction" xml:space="preserve">
     <value>创建一个SDF 要素源</value>
@@ -803,7 +803,7 @@ Many thanks to the following people who have translated Maestro into other langu
     <value>预览</value>
   </data>
   <data name="Toolbar_Profile" xml:space="preserve">
-    <value>Profile</value>
+    <value>分析</value>
   </data>
   <data name="Toolbar_Validate" xml:space="preserve">
     <value>验证</value>

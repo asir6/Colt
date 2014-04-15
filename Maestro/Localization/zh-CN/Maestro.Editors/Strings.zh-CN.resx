@@ -884,94 +884,94 @@
 &lt;/ComboBoxDataSet&gt;</value>
   </data>
   <data name="GeomFilterTemplate" xml:space="preserve">
-    <value>&lt;geometry property&gt; {0} GeomFromText('&lt;FGF geometry text&gt;')</value>
+    <value>&lt;几何属性&gt; {0} GeomFromText('&lt;FGF 几何文本&gt;')</value>
   </data>
   <data name="HeaderFileMissing" xml:space="preserve">
-    <value>The header file does not exist</value>
+    <value>头文件不存在</value>
   </data>
   <data name="IncompatibleConnection" xml:space="preserve">
-    <value>This connection is not compatible</value>
+    <value>连接不兼容</value>
   </data>
   <data name="InfiniteValue" xml:space="preserve">
-    <value>infinite</value>
+    <value>无穷大</value>
   </data>
   <data name="Infinity" xml:space="preserve">
-    <value>Infinity</value>
+    <value>无穷大</value>
   </data>
   <data name="InlineSymbolDefinition" xml:space="preserve">
-    <value>Inline Symbol Definition</value>
+    <value>内嵌符号定义</value>
   </data>
   <data name="InsertionPointYError" xml:space="preserve">
-    <value>You have entered a non-numeric value in the Reference Y field. Due to a bug in MapGuide, this will likely give an error when saving.</value>
+    <value>您在Y字段输入了一个非数字值。这可能会在您保存时发生错误。</value>
   </data>
   <data name="InvalidColorComponent" xml:space="preserve">
     <value>Invalid {0} color component {1} in line {2}</value>
   </data>
   <data name="InvalidColumnNameError" xml:space="preserve">
-    <value>Invalid column name</value>
+    <value>非法列名</value>
   </data>
   <data name="InvalidConnection" xml:space="preserve">
-    <value>This is not a valid connection: {0}</value>
+    <value>无效连接: {0}</value>
   </data>
   <data name="InvalidFeatureSourceNoClasses" xml:space="preserve">
-    <value>Feature Source ({0}) has no usable feature classes. Choose a different feature source</value>
+    <value>要素源 ({0}) 没有可用的要素类。请另选一个要素源。</value>
   </data>
   <data name="InvalidFieldCountError" xml:space="preserve">
-    <value>Invalid field count in line {0}</value>
+    <value>在第 {0} 行发行非法字段数</value>
   </data>
   <data name="InvalidRecordCountError" xml:space="preserve">
-    <value>Invalid record count in line {0}</value>
+    <value>在第 {0} 行发行非法记录数</value>
   </data>
   <data name="InvalidResourceId" xml:space="preserve">
-    <value>Not a valid resource identifier</value>
+    <value>非法资源编号</value>
   </data>
   <data name="InvalidResourceIdFolder" xml:space="preserve">
-    <value>Must be valid resource id. Cannot be a folder</value>
+    <value>必须是有效的资源编号，不能是文件夹</value>
   </data>
   <data name="InvalidResourceIdNotSpecifiedType" xml:space="preserve">
-    <value>Invalid Resource Identifier. Not the specified type</value>
+    <value>无效的资源编号，不是指定的类型</value>
   </data>
   <data name="InvalidRestorePathError" xml:space="preserve">
-    <value>An error occured while validating the restore path: {0}\nIt should have the format: \"Libray://folder/folder/\".</value>
+    <value>在验证仓库路径时发生如下错误: {0}\n正确的格式为: \"Libray://文件夹/文件夹/\".</value>
   </data>
   <data name="InvalidValueError" xml:space="preserve">
-    <value>Invalid value</value>
+    <value>非法值</value>
   </data>
   <data name="InvokeScriptCmdDescription" xml:space="preserve">
-    <value>Invoke Script Command</value>
+    <value>调用脚本命令</value>
   </data>
   <data name="InvokeUrlCmdDescription" xml:space="preserve">
-    <value>Invoke URL command</value>
+    <value>调用URL命令</value>
   </data>
   <data name="InvokeUrlNoMapDefined" xml:space="preserve">
-    <value>Cannot get layers. No map definition specified</value>
+    <value>未能获得图层。没有指定地图定义</value>
   </data>
   <data name="LastUpdated" xml:space="preserve">
-    <value>Last Updated: </value>
+    <value>上次更新: </value>
   </data>
   <data name="LayerGroupConvertedToBaseLayerGroup" xml:space="preserve">
-    <value>Layer Group ({0}) successfully converted to Base Layer Group ({1})</value>
+    <value>图层组 ({0}) 成功转换到底层组 ({1})</value>
   </data>
   <data name="LessThanLabel" xml:space="preserve">
-    <value>Less than {0}</value>
+    <value>少于 {0}</value>
   </data>
   <data name="LoadProcedureVersionExecutionNotSupported" xml:space="preserve">
-    <value>This connection does not support executing this type of Load Procedure</value>
+    <value>该连接不支持运行这种类型的加载过程</value>
   </data>
   <data name="MapUpdatedToUseGroup" xml:space="preserve">
-    <value>Map widget has been updated to use the map group: {0}</value>
+    <value>地图工具已更新，可以使用地图组: {0}</value>
   </data>
   <data name="MissingColumnError" xml:space="preserve">
-    <value>Missing column "{0}"</value>
+    <value>缺失列 "{0}"</value>
   </data>
   <data name="ModeNotAllowed" xml:space="preserve">
-    <value>Mode not allowed: {0}</value>
+    <value>模式被禁止: {0}</value>
   </data>
   <data name="MoreColorsName" xml:space="preserve">
-    <value>More colors...</value>
+    <value>更多颜色...</value>
   </data>
   <data name="MoreThanLabel" xml:space="preserve">
-    <value>More than {0}</value>
+    <value>大于 {0}</value>
   </data>
   <data name="NewFlyout" xml:space="preserve">
     <value>New Flyout</value>

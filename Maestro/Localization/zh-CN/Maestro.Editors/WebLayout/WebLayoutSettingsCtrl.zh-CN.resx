@@ -181,4 +181,8 @@
   <data name="label1.Text" xml:space="preserve">
     <value>浏览器标题栏文字</value>
   </data>
+  <data name="chkCustomView.Text" xml:space="preserve">
+    <value>覆盖地图原始位置和比例尺
+</value>
+  </data>
 </root>

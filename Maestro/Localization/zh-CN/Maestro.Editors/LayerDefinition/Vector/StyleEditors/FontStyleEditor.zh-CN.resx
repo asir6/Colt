@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -117,4 +117,52 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="label1.Text" xml:space="preserve">
+    <value>属性</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>字体</value>
+  </data>
+  <data name="fontGroup.Text" xml:space="preserve">
+    <value>字体</value>
+  </data>
+  <data name="label9.Text" xml:space="preserve">
+    <value>文字</value>
+  </data>
+  <data name="colorGroup.Text" xml:space="preserve">
+    <value>颜色</value>
+  </data>
+  <data name="label10.Text" xml:space="preserve">
+    <value>旋转</value>
+  </data>
+  <data name="previewGroup.Text" xml:space="preserve">
+    <value>预览</value>
+  </data>
+  <data name="label7.Text" xml:space="preserve">
+    <value>背景类型</value>
+  </data>
+  <data name="label8.Text" xml:space="preserve">
+    <value>背景</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>单位</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>尺寸</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>样式</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>尺寸上下文</value>
+  </data>
+  <data name="verticalLabel.Text" xml:space="preserve">
+    <value>垂直</value>
+  </data>
+  <data name="horizontalLabel.Text" xml:space="preserve">
+    <value>水平</value>
+  </data>
+  <data name="alignmentGroup.Text" xml:space="preserve">
+    <value>对齐</value>
+  </data>
 </root>

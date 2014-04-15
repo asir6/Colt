@@ -132,4 +132,7 @@
   <data name="label3.Text" xml:space="preserve">
     <value>尺寸上下文</value>
   </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>单位</value>
+  </data>
 </root>

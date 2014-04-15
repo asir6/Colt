@@ -165,4 +165,10 @@
   <data name="alignmentGroup.Text" xml:space="preserve">
     <value>对齐</value>
   </data>
+  <data name="sizeCombo.Items" xml:space="preserve">
+    <value>表达式...</value>
+  </data>
+  <data name="DisplayLabel.Text" xml:space="preserve">
+    <value>显示要素标签</value>
+  </data>
 </root>

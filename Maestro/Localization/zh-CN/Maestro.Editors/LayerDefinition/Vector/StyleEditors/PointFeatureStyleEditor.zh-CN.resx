@@ -153,4 +153,58 @@
   <data name="TAB_STYLE.Text" xml:space="preserve">
     <value>点样式</value>
   </data>
+  <data name="chkW2DLineColor.Text" xml:space="preserve">
+    <value>线条颜色</value>
+  </data>
+  <data name="chkW2DTextColor.Text" xml:space="preserve">
+    <value>文字颜色</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>单位</value>
+  </data>
+  <data name="WidthText.Items" xml:space="preserve">
+    <value>表达式...</value>
+  </data>
+  <data name="HeightText.Items" xml:space="preserve">
+    <value>表达式...</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>尺寸上下文</value>
+  </data>
+  <data name="groupBox1.Text" xml:space="preserve">
+    <value>符号样式</value>
+  </data>
+  <data name="grpSymbolFill.Text" xml:space="preserve">
+    <value>符号填充</value>
+  </data>
+  <data name="grpSymbolBorder.Text" xml:space="preserve">
+    <value>符号边界</value>
+  </data>
+  <data name="groupBox4.Text" xml:space="preserve">
+    <value>预览(近视值)</value>
+  </data>
+  <data name="FontBoldButton.ToolTipText" xml:space="preserve">
+    <value>设置粗体</value>
+  </data>
+  <data name="FontItalicButton.ToolTipText" xml:space="preserve">
+    <value>设置斜体</value>
+  </data>
+  <data name="FontUnderlineButton.ToolTipText" xml:space="preserve">
+    <value>设置下划体</value>
+  </data>
+  <data name="MaintainAspectRatio.Text" xml:space="preserve">
+    <value>保持长宽比</value>
+  </data>
+  <data name="groupBoxSymbolLocation.Text" xml:space="preserve">
+    <value>符号本地化</value>
+  </data>
+  <data name="chkW2DFillColor.Text" xml:space="preserve">
+    <value>填充颜色</value>
+  </data>
+  <data name="TAB_FILL_BORDER.Text" xml:space="preserve">
+    <value>填充/边界</value>
+  </data>
+  <data name="grpW2DStyle.Text" xml:space="preserve">
+    <value>覆盖 W2D 符号颜色 (预览不可见)</value>
+  </data>
 </root>

@@ -135,4 +135,10 @@
   <data name="label4.Text" xml:space="preserve">
     <value>单位</value>
   </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>Z 膨化</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>KML高程/膨化设置</value>
+  </data>
 </root>

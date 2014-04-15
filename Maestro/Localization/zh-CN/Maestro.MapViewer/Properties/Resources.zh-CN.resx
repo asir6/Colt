@@ -131,13 +131,13 @@
     <value>..\Resources\control-180.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="CountFormat" xml:space="preserve">
-    <value>{0} features in layer</value>
+    <value>图层中{0}个要素</value>
   </data>
   <data name="DefaultLayerTooltip" xml:space="preserve">
-    <value>Name: {1}{0}Feature Source: {2}{0}Feature Class: {3}</value>
+    <value>名字: {1}{0}要素源: {2}{0}要素类: {3}</value>
   </data>
   <data name="DrawingLayerTooltip" xml:space="preserve">
-    <value>Name: {1}{0}Feature Source: {2}</value>
+    <value>名字: {1}{0}要素源: {2}</value>
   </data>
   <data name="edit_copy" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\edit-copy.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -287,124 +287,124 @@
     <value>..\Resources\select-zoom.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="TextClearSelection" xml:space="preserve">
-    <value>Clear Selection</value>
+    <value>清除选择</value>
   </data>
   <data name="TextCopyMap" xml:space="preserve">
-    <value>Copy map to clipboard</value>
+    <value>拷贝地图到剪贴板</value>
   </data>
   <data name="TextDigitizeCircle" xml:space="preserve">
-    <value>Digitize Circle</value>
+    <value>数字化圆</value>
   </data>
   <data name="TextDigitizeLine" xml:space="preserve">
-    <value>Digitize Line</value>
+    <value>数字化线</value>
   </data>
   <data name="TextDigitizeLineString" xml:space="preserve">
-    <value>Digitize Line String</value>
+    <value>数字化线串</value>
   </data>
   <data name="TextDigitizePoint" xml:space="preserve">
-    <value>Digitize Point</value>
+    <value>数字化点</value>
   </data>
   <data name="TextDigitizePolygon" xml:space="preserve">
-    <value>Digitize Polygon</value>
+    <value>数字化多边形</value>
   </data>
   <data name="TextDigitizeRectangle" xml:space="preserve">
-    <value>Digitize Rectangle</value>
+    <value>数字化矩形</value>
   </data>
   <data name="TextDisableTooltips" xml:space="preserve">
-    <value>Disable Tooltips</value>
+    <value>禁用工具提示</value>
   </data>
   <data name="TextEnableTooltips" xml:space="preserve">
-    <value>Enable Tooltips</value>
+    <value>开启工具提示</value>
   </data>
   <data name="TextExitApplication" xml:space="preserve">
-    <value>Exit</value>
+    <value>退出</value>
   </data>
   <data name="TextLoadPackage" xml:space="preserve">
-    <value>Load Package</value>
+    <value>加载包</value>
   </data>
   <data name="TextNoSelection" xml:space="preserve">
-    <value>Nothing is selected</value>
+    <value>没有选择任何要素</value>
   </data>
   <data name="TextOptionsSaved" xml:space="preserve">
-    <value>Options Saved</value>
+    <value>选项已保存</value>
   </data>
   <data name="TextPackageLoaded" xml:space="preserve">
-    <value>Package Loaded</value>
+    <value>加载的包</value>
   </data>
   <data name="TextPan" xml:space="preserve">
-    <value>Pan</value>
+    <value>拖动</value>
   </data>
   <data name="TextPlotToDwf" xml:space="preserve">
-    <value>Plot to DWF</value>
+    <value>输出到DWF</value>
   </data>
   <data name="TextPrint" xml:space="preserve">
-    <value>Print</value>
+    <value>打印</value>
   </data>
   <data name="TextRefreshMap" xml:space="preserve">
-    <value>Refresh Map</value>
+    <value>刷新地图</value>
   </data>
   <data name="TextScale" xml:space="preserve">
-    <value>Scale</value>
+    <value>比例尺</value>
   </data>
   <data name="TextSelect" xml:space="preserve">
-    <value>Select</value>
+    <value>选择</value>
   </data>
   <data name="TextSelectPolygon" xml:space="preserve">
-    <value>Select Polygon</value>
+    <value>选择多边形</value>
   </data>
   <data name="TextSelectRadius" xml:space="preserve">
-    <value>Select Radius</value>
+    <value>选择半径</value>
   </data>
   <data name="TextTaskPane" xml:space="preserve">
-    <value>Task Pane</value>
+    <value>任务板</value>
   </data>
   <data name="TextViewerOptions" xml:space="preserve">
-    <value>Viewer Options</value>
+    <value>视图选项</value>
   </data>
   <data name="TextZoomExtents" xml:space="preserve">
-    <value>Zoom Extents</value>
+    <value>放大范围</value>
   </data>
   <data name="TextZoomIn" xml:space="preserve">
-    <value>Zoom In</value>
+    <value>放大</value>
   </data>
   <data name="TextZoomNext" xml:space="preserve">
-    <value>Zoom Next</value>
+    <value>继续放大</value>
   </data>
   <data name="TextZoomOut" xml:space="preserve">
-    <value>Zoom Out</value>
+    <value>缩小</value>
   </data>
   <data name="TextZoomPrevious" xml:space="preserve">
-    <value>Zoom Previous</value>
+    <value>撤销放大</value>
   </data>
   <data name="TextZoomToSelection" xml:space="preserve">
-    <value>Zoom to Selection</value>
+    <value>放大到所选</value>
   </data>
   <data name="ThemedLayerTooltip" xml:space="preserve">
-    <value>Name: {1}{0}Feature Source: {2}{0}Feature Class: {3}{0}Number of Rules: {4}</value>
+    <value>名字: {1}{0}要素源: {2}{0}要素类: {3}{0}规则数: {4}</value>
   </data>
   <data name="TitleBuffer" xml:space="preserve">
-    <value>Buffer</value>
+    <value>缓冲</value>
   </data>
   <data name="TitleMeasure" xml:space="preserve">
-    <value>Measure</value>
+    <value>计量</value>
   </data>
   <data name="TitlePrintSettings" xml:space="preserve">
-    <value>Print Settings</value>
+    <value>打印设置</value>
   </data>
   <data name="TitleQuery" xml:space="preserve">
-    <value>Query</value>
+    <value>查询</value>
   </data>
   <data name="TitleTheme" xml:space="preserve">
-    <value>Theme</value>
+    <value>主题</value>
   </data>
   <data name="TitleViewerOptions" xml:space="preserve">
-    <value>Viewer Options</value>
+    <value>图层选项</value>
   </data>
   <data name="TooltipDisableTooltips" xml:space="preserve">
-    <value>Tooltips are enabled. Click to disable</value>
+    <value>工具提示已启用. 点击禁用</value>
   </data>
   <data name="TooltipEnableTooltips" xml:space="preserve">
-    <value>Tooltips are disabled. Click to enable</value>
+    <value>工具提示已禁用. 点击启用</value>
   </data>
   <data name="ui_tooltip_balloon_bottom" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ui-tooltip-balloon-bottom.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -446,33 +446,33 @@
     <value>..\Resources\zoomout.cur;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="TextSelectedFeatures" xml:space="preserve">
-    <value>{0} features selected</value>
+    <value>选择了{0}个要素</value>
   </data>
   <data name="TextCoordinatePosition" xml:space="preserve">
     <value>X: {0:0.0000000}, Y: {1:0.0000000}</value>
   </data>
   <data name="CircleDigitizationPrompt" xml:space="preserve">
-    <value>Click to finish</value>
+    <value>点击完成</value>
   </data>
   <data name="GeneralDigitizationInstructions" xml:space="preserve">
-    <value>Press ESC to cancel</value>
+    <value>按ESC取消</value>
   </data>
   <data name="LineDigitizationPrompt" xml:space="preserve">
-    <value>Click to finish</value>
+    <value>点击完成</value>
   </data>
   <data name="LineStringDigitizationPrompt" xml:space="preserve">
-    <value>Click again to add a new vertex.\nDouble-click to finish</value>
+    <value>再次点击增加新的顶点.\n双击完成</value>
   </data>
   <data name="MultiSegmentDigitzationInstructions" xml:space="preserve">
-    <value>Press Ctrl-Z to undo last point.\nPress ESC to cancel</value>
+    <value>按Ctrl-Z撤销上个点.\n按ESC取消</value>
   </data>
   <data name="PointDigitizationPrompt" xml:space="preserve">
-    <value>Click to finish</value>
+    <value>点击完成</value>
   </data>
   <data name="PolygonDigitizationPrompt" xml:space="preserve">
-    <value>Click again to add a new vertex.\nDouble-click to finish</value>
+    <value>再次点击增加新的顶点.\n双击完成</value>
   </data>
   <data name="RectangleDigitizationPrompt" xml:space="preserve">
-    <value>Click to finish</value>
+    <value>点击完成</value>
   </data>
 </root>

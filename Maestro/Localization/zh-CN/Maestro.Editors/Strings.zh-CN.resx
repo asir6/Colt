@@ -154,7 +154,7 @@
     <value>谷歌卫星+标签</value>
   </data>
   <data name="CmsGooglePhysical" xml:space="preserve">
-    <value>Google Physical</value>
+    <value>谷歌物理</value>
   </data>
   <data name="CmsGoogleSatellite" xml:space="preserve">
     <value>谷歌卫星</value>
@@ -593,7 +593,7 @@
     <value>确认要删除这个资源文件？</value>
   </data>
   <data name="ConfirmGoogleScaleList" xml:space="preserve">
-    <value>Are you sure you want to use a Google-compatible Scale List? This will overwrite your existing scale ranges and will only line up with commercial layers in Fusion if your Map's Coordinate System is WGS84.PseudoMercator</value>
+    <value>您确定要使用谷歌兼容的比例尺列表？这将覆盖您现有的比例尺范围，并且，如果你的地图的坐标系统为WGS84.PseudoMercator，那么在Fusion中只能和commercial 图层对齐。</value>
   </data>
   <data name="ContentFileMissing" xml:space="preserve">
     <value>内容文件不存在</value>
@@ -617,7 +617,7 @@
     <value>你要删除选中项吗？</value>
   </data>
   <data name="DivergingName" xml:space="preserve">
-    <value>Diverging</value>
+    <value>发散</value>
   </data>
   <data name="EditWatermarkInstance" xml:space="preserve">
     <value>编辑水印</value>
@@ -635,16 +635,16 @@
     <value>这个图层定义版本不支持混合符号</value>
   </data>
   <data name="ErrorLoadingWmsConfig" xml:space="preserve">
-    <value>Error loading WMS configuration document: {0}. A default document will be created</value>
+    <value>在加载 WMS 配置文件时发生如下错误: {0}. 将会生成默认文件</value>
   </data>
   <data name="ErrorMapExtentCalculationFailed" xml:space="preserve">
-    <value>Could not transform extents of any layer in this Map Definition. You will have to specify the extents manually.</value>
+    <value>未能将地图定义中的边界成功转换。您必须手动指定边界。</value>
   </data>
   <data name="ExportNoCommandsSelected" xml:space="preserve">
-    <value>No commands selected. Nothing to export</value>
+    <value>没有选择任何命令。不能导出。</value>
   </data>
   <data name="ExportNoCustomCommandsSelected" xml:space="preserve">
-    <value>No custom commands selected. Nothing to export</value>
+    <value>没有选择任何用户命令。不能导出。</value>
   </data>
   <data name="ExpressionItem" xml:space="preserve">
     <value>表达式...</value>
@@ -653,19 +653,19 @@
     <value>从 {0} 扩展的类</value>
   </data>
   <data name="ExtentsCalculationCompleted" xml:space="preserve">
-    <value>Map extents calculation completed. Click Accept to use the calculated extents.</value>
+    <value>地图边界计算完成。点击接受以应用计算出来的边界。</value>
   </data>
   <data name="ExtentsTransformationFailed" xml:space="preserve">
-    <value>Could not transform extent of layer {0} to the map definition's coordinate system. Extents ignored</value>
+    <value>未能将图层 {0} 的边界转换为地图定义的坐标系统。该边界将被忽略</value>
   </data>
   <data name="FailEnumDataStores" xml:space="preserve">
-    <value>Failed to enumerate data stores. Reason: {0}</value>
+    <value>无法列举数据存储。原因为：{0}</value>
   </data>
   <data name="FdoConnectionStatus" xml:space="preserve">
     <value>FDO 连接状态: {0}</value>
   </data>
   <data name="FdoConnectionStringComponentNotFound" xml:space="preserve">
-    <value>The component "{0}" could not be found in the specified FDO connection string</value>
+    <value>没有在指定的FDO连接字符串中发现组件"{0}"</value>
   </data>
   <data name="FieldRequired" xml:space="preserve">
     <value>需要如下文件: {0}</value>
@@ -725,159 +725,159 @@
     <value>名称: {0}{6} 描述: {1}{6} 允许为空: {2}{6} 图像 X 大小: {3}{6} 图像 Y 大小: {4}{6} 空间上下文: {5}</value>
   </data>
   <data name="FsSqlServerSpatial" xml:space="preserve">
-    <value>SQL Server Spatial Feature Source</value>
+    <value>SQL Server 空间要素源</value>
   </data>
   <data name="FunctionTooltip" xml:space="preserve">
-    <value>Function: {1}({2})
-Description: {3}
-Returns: {0}</value>
+    <value>方法: {1}({2})
+描述: {3}
+返回: {0}</value>
   </data>
   <data name="GenericError" xml:space="preserve">
-    <value>An error occured: {0}</value>
+    <value>发生如下错误: {0}</value>
   </data>
   <data name="GeometryStyleComboDataset" xml:space="preserve">
     <value>&lt;?xml version="1.0" standalone="yes"?&gt;
 &lt;ComboBoxDataSet&gt;
 	&lt;SymbolMark&gt;
-		&lt;Display&gt;Square&lt;/Display&gt;
+		&lt;Display&gt;正方形&lt;/Display&gt;
 		&lt;Value&gt;Square&lt;/Value&gt;
 	&lt;/SymbolMark&gt;
 	&lt;SymbolMark&gt;
-		&lt;Display&gt;Circle&lt;/Display&gt;
+		&lt;Display&gt;圆形&lt;/Display&gt;
 		&lt;Value&gt;Circle&lt;/Value&gt;
 	&lt;/SymbolMark&gt;
 	&lt;SymbolMark&gt;
-		&lt;Display&gt;Triangle&lt;/Display&gt;
+		&lt;Display&gt;三角形&lt;/Display&gt;
 		&lt;Value&gt;Triangle&lt;/Value&gt;
 	&lt;/SymbolMark&gt;
 	&lt;SymbolMark&gt;
-		&lt;Display&gt;Star&lt;/Display&gt;
+		&lt;Display&gt;星形&lt;/Display&gt;
 		&lt;Value&gt;Star&lt;/Value&gt;
 	&lt;/SymbolMark&gt;
 	&lt;SymbolMark&gt;
-		&lt;Display&gt;Cross&lt;/Display&gt;
+		&lt;Display&gt;交叉&lt;/Display&gt;
 		&lt;Value&gt;Cross&lt;/Value&gt;
 	&lt;/SymbolMark&gt;
 	&lt;SymbolMark&gt;
-		&lt;Display&gt;X - Mark&lt;/Display&gt;
+		&lt;Display&gt;X - 标记&lt;/Display&gt;
 		&lt;Value&gt;X&lt;/Value&gt;
 	&lt;/SymbolMark&gt;
 	&lt;SymbolMark&gt;
-		&lt;Display&gt;Font...&lt;/Display&gt;
+		&lt;Display&gt;字体...&lt;/Display&gt;
 		&lt;Value&gt;&lt;/Value&gt;
 	&lt;/SymbolMark&gt;
 	&lt;SymbolMark&gt;
-		&lt;Display&gt;Symbol...&lt;/Display&gt;
+		&lt;Display&gt;符号...&lt;/Display&gt;
 		&lt;Value&gt;&lt;/Value&gt;
 	&lt;/SymbolMark&gt;
 	
 	&lt;SizeContext&gt;
-		&lt;Display&gt;Device space&lt;/Display&gt;
+		&lt;Display&gt;设备单位&lt;/Display&gt;
 		&lt;Value&gt;DeviceUnits&lt;/Value&gt;
 	&lt;/SizeContext&gt;
 	&lt;SizeContext&gt;
-		&lt;Display&gt;Map space&lt;/Display&gt;
+		&lt;Display&gt;地图单位&lt;/Display&gt;
 		&lt;Value&gt;MappingUnits&lt;/Value&gt;
 	&lt;/SizeContext&gt;
 	
 	&lt;Units&gt;
-		&lt;Display&gt;Points&lt;/Display&gt;
+		&lt;Display&gt;点&lt;/Display&gt;
 		&lt;Value&gt;Points&lt;/Value&gt;
 	&lt;/Units&gt;
 	&lt;Units&gt;
-		&lt;Display&gt;Inches&lt;/Display&gt;
+		&lt;Display&gt;英寸&lt;/Display&gt;
 		&lt;Value&gt;Inches&lt;/Value&gt;
 	&lt;/Units&gt;
 	&lt;Units&gt;
-		&lt;Display&gt;Feet&lt;/Display&gt;
+		&lt;Display&gt;英尺&lt;/Display&gt;
 		&lt;Value&gt;Feet&lt;/Value&gt;
 	&lt;/Units&gt;
 	&lt;Units&gt;
-		&lt;Display&gt;Yards&lt;/Display&gt;
+		&lt;Display&gt;码&lt;/Display&gt;
 		&lt;Value&gt;Yards&lt;/Value&gt;
 	&lt;/Units&gt;
 	&lt;Units&gt;
-		&lt;Display&gt;Millimeters&lt;/Display&gt;
+		&lt;Display&gt;毫米&lt;/Display&gt;
 		&lt;Value&gt;Millimeters&lt;/Value&gt;
 	&lt;/Units&gt;
 	&lt;Units&gt;
-		&lt;Display&gt;Centimeters&lt;/Display&gt;
+		&lt;Display&gt;厘米&lt;/Display&gt;
 		&lt;Value&gt;Centimeters&lt;/Value&gt;
 	&lt;/Units&gt;
 	&lt;Units&gt;
-		&lt;Display&gt;Meters&lt;/Display&gt;
+		&lt;Display&gt;米&lt;/Display&gt;
 		&lt;Value&gt;Meters&lt;/Value&gt;
 	&lt;/Units&gt;
 	&lt;Units&gt;
-		&lt;Display&gt;Kilometers&lt;/Display&gt;
+		&lt;Display&gt;千米&lt;/Display&gt;
 		&lt;Value&gt;Kilometers&lt;/Value&gt;
 	&lt;/Units&gt;
 
 	&lt;Rotation&gt;
-		&lt;Display&gt;0 degrees&lt;/Display&gt;
+		&lt;Display&gt;0 度&lt;/Display&gt;
 		&lt;Value&gt;0&lt;/Value&gt;
 	&lt;/Rotation&gt;
 	&lt;Rotation&gt;
-		&lt;Display&gt;30 degrees&lt;/Display&gt;
+		&lt;Display&gt;30 度&lt;/Display&gt;
 		&lt;Value&gt;30&lt;/Value&gt;
 	&lt;/Rotation&gt;
 	&lt;Rotation&gt;
-		&lt;Display&gt;45 degrees&lt;/Display&gt;
+		&lt;Display&gt;45 度&lt;/Display&gt;
 		&lt;Value&gt;45&lt;/Value&gt;
 	&lt;/Rotation&gt;
 	&lt;Rotation&gt;
-		&lt;Display&gt;90 degrees&lt;/Display&gt;
+		&lt;Display&gt;90 度&lt;/Display&gt;
 		&lt;Value&gt;90&lt;/Value&gt;
 	&lt;/Rotation&gt;
   &lt;Rotation&gt;
-    &lt;Display&gt;Expression...&lt;/Display&gt;
+    &lt;Display&gt;表达式...&lt;/Display&gt;
     &lt;Value&gt;Expression...&lt;/Value&gt;
   &lt;/Rotation&gt;
 
   &lt;BackgroundType&gt;
-    &lt;Display&gt;Ghosted&lt;/Display&gt;
+    &lt;Display&gt;阴影&lt;/Display&gt;
     &lt;Value&gt;Ghosted&lt;/Value&gt;
   &lt;/BackgroundType&gt;
   &lt;BackgroundType&gt;
-    &lt;Display&gt;Opaque&lt;/Display&gt;
+    &lt;Display&gt;模糊&lt;/Display&gt;
     &lt;Value&gt;Opaque&lt;/Value&gt;
   &lt;/BackgroundType&gt;
   &lt;BackgroundType&gt;
-    &lt;Display&gt;Transparent&lt;/Display&gt;
+    &lt;Display&gt;透明度&lt;/Display&gt;
     &lt;Value&gt;Transparent&lt;/Value&gt;
   &lt;/BackgroundType&gt;
 
   &lt;Vertical&gt;
-    &lt;Display&gt;Baseline&lt;/Display&gt;
+    &lt;Display&gt;基线&lt;/Display&gt;
     &lt;Value&gt;'Baseline'&lt;/Value&gt;
   &lt;/Vertical&gt;
   &lt;Vertical&gt;
-    &lt;Display&gt;Bottom&lt;/Display&gt;
+    &lt;Display&gt;底线&lt;/Display&gt;
     &lt;Value&gt;'Bottom'&lt;/Value&gt;
   &lt;/Vertical&gt;
   &lt;Vertical&gt;
-    &lt;Display&gt;Capline&lt;/Display&gt;
+    &lt;Display&gt;上部线&lt;/Display&gt;
     &lt;Value&gt;'Capline'&lt;/Value&gt;
   &lt;/Vertical&gt;
   &lt;Vertical&gt;
-    &lt;Display&gt;Halfline&lt;/Display&gt;
+    &lt;Display&gt;中线&lt;/Display&gt;
     &lt;Value&gt;'Halfline'&lt;/Value&gt;
   &lt;/Vertical&gt;
   &lt;Vertical&gt;
-    &lt;Display&gt;Top&lt;/Display&gt;
+    &lt;Display&gt;顶线&lt;/Display&gt;
     &lt;Value&gt;'Top'&lt;/Value&gt;
   &lt;/Vertical&gt;
   &lt;Vertical&gt;
-    &lt;Display&gt;Expression...&lt;/Display&gt;
+    &lt;Display&gt;表达式...&lt;/Display&gt;
     &lt;Value&gt;Expression...&lt;/Value&gt;
   &lt;/Vertical&gt;
 
   &lt;Horizontal&gt;
-    &lt;Display&gt;Center&lt;/Display&gt;
+    &lt;Display&gt;中心&lt;/Display&gt;
     &lt;Value&gt;'Center'&lt;/Value&gt;
   &lt;/Horizontal&gt;
   &lt;Horizontal&gt;
-    &lt;Display&gt;Expression...&lt;/Display&gt;
+    &lt;Display&gt;表达式...&lt;/Display&gt;
     &lt;Value&gt;Expression...&lt;/Value&gt;
   &lt;/Horizontal&gt;
 

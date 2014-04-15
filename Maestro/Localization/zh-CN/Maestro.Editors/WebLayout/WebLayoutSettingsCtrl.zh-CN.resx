@@ -185,4 +185,7 @@
     <value>覆盖地图原始位置和比例尺
 </value>
   </data>
+  <data name="label11.Text" xml:space="preserve">
+    <value>AJAX 视图 URL</value>
+  </data>
 </root>

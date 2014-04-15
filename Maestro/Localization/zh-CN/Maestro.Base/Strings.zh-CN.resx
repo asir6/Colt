@@ -565,7 +565,7 @@ Many thanks to the following people who have translated Maestro into other langu
     <value>Failed while profiling MapDefinition runtime {0}{2}============= ERROR DETAILS =========={2}{1}{2} ======== END ERROR DETAILS =============</value>
   </data>
   <data name="ProgressUpdatingReferences" xml:space="preserve">
-    <value>Updating References</value>
+    <value> 正在更新引用</value>
   </data>
   <data name="PromptOverwriteOnTargetConnection" xml:space="preserve">
     <value>There are {0} already existing resources that have the same name. Do you want to overwrite these resources?</value>
@@ -574,57 +574,57 @@ Many thanks to the following people who have translated Maestro into other langu
     <value>Select an FDO Provider</value>
   </data>
   <data name="RenameTo" xml:space="preserve">
-    <value>Rename to</value>
+    <value>重命名为</value>
   </data>
   <data name="ReplacedXmlContent" xml:space="preserve">
     <value>Replaced XML content in: {0}</value>
   </data>
   <data name="Required" xml:space="preserve">
-    <value>Required</value>
+    <value>必须的</value>
   </data>
   <data name="ResourceAlreadyOpened" xml:space="preserve">
-    <value>This resource is already opened in another editor</value>
+    <value>该资源已经被其他编辑器打开</value>
   </data>
   <data name="ResourceDuplicated" xml:space="preserve">
-    <value>Resource Duplicated: {0} ( =&gt; {1})</value>
+    <value>资源复制: {0} ( =&gt; {1})</value>
   </data>
   <data name="ResourceMigrated" xml:space="preserve">
-    <value>Resource Migrated: {0}</value>
+    <value>资源迁移: {0}</value>
   </data>
   <data name="ResourceNotFound" xml:space="preserve">
-    <value>Resource not found</value>
+    <value>未找到资源</value>
   </data>
   <data name="ResourceNotRepointable" xml:space="preserve">
-    <value>This selected resource is not re-pointable</value>
+    <value>选中的资源不可重点的</value>
   </data>
   <data name="ResourcesCompatibleWithSelectedVersion" xml:space="preserve">
-    <value>All resources selected are compatible with the selected site version {0}.</value>
+    <value>所以选中的资源与选中的站点兼容 {0}.</value>
   </data>
   <data name="ResourcesProcessed" xml:space="preserve">
-    <value>{0} resources processed</value>
+    <value>{0}个资源被处理</value>
   </data>
   <data name="ResourcesRepointed" xml:space="preserve">
-    <value>{0} resources re-pointed to {1}</value>
+    <value>{0}资源重定位到 {1}</value>
   </data>
   <data name="ResourceUpgraded" xml:space="preserve">
-    <value>Resource upgraded to schema version {0}.{1}.{2}</value>
+    <value>资源升级到模式版本 {0}.{1}.{2}</value>
   </data>
   <data name="ResProp_BoundsDecodeError" xml:space="preserve">
-    <value>Failed to decode the current bounds,
-you must re-enter the epsg code in the SRS tag manually.
-Error message: {0}.</value>
+    <value>无法解码当前的边界
+你必须重新手动输入espg代码在SRS标签
+错误消息为: {0}.</value>
   </data>
   <data name="ResProp_EpsgMissingWarning" xml:space="preserve">
     <value>You must manually enter the EPSG code for the generated bounds.</value>
   </data>
   <data name="ResProp_InheritedAccess" xml:space="preserve">
-    <value>Inherited</value>
+    <value>继承自</value>
   </data>
   <data name="ResProp_MissingBoundsError" xml:space="preserve">
     <value>Missing bounds tag</value>
   </data>
   <data name="ResProp_NoAccess" xml:space="preserve">
-    <value>No access</value>
+    <value>无法访问</value>
   </data>
   <data name="ResProp_NoSpatialDataError" xml:space="preserve">
     <value>No spatial data found in FeatureSource</value>
@@ -633,27 +633,27 @@ Error message: {0}.</value>
     <value>No spatial data found in FeatureSource, one or more queries failed to execute</value>
   </data>
   <data name="ResProp_ReadOnlyAccess" xml:space="preserve">
-    <value>Read only</value>
+    <value>只读</value>
   </data>
   <data name="ResProp_ReadWriteAccess" xml:space="preserve">
-    <value>Read/write</value>
+    <value>读/写</value>
   </data>
   <data name="ResProp_ReferenceReadError" xml:space="preserve">
-    <value>Failed to read resource references</value>
+    <value>无法读取资源引用</value>
   </data>
   <data name="ResProp_ReferenceReadSpecificError" xml:space="preserve">
-    <value>Failed to read resource references: {0}</value>
+    <value>无法读取资源引用: {0}</value>
   </data>
   <data name="ResProp_SaveError" xml:space="preserve">
-    <value>Failed to save the resource properties: {0}</value>
+    <value>保存资源属性失败: {0}</value>
   </data>
   <data name="ResProp_WFSBoundsReadError" xml:space="preserve">
-    <value>Failed to obtain the extent for the WFS data.
-Error message: {0}</value>
+    <value>获取 WFS 数据的边界失败.
+错误消息为: {0}</value>
   </data>
   <data name="ResProp_WMSBoundsReadError" xml:space="preserve">
-    <value>Failed to obtain the extent for the WMS data.
-Error message: {0}</value>
+    <value>获取 WMS 数据的边界失败.
+错误消息为: {0}</value>
   </data>
   <data name="RtMapInspector" xml:space="preserve">
     <value>Runtime Map Inspector</value>
@@ -665,16 +665,16 @@ Error message: {0}</value>
     <value>Schema information for {0} purged</value>
   </data>
   <data name="SdfHandlerAction" xml:space="preserve">
-    <value>Create a SDF Feature Source</value>
+    <value>创建一个SDF 要素源</value>
   </data>
   <data name="SelectFdoProvider" xml:space="preserve">
     <value>Select FDO Provider</value>
   </data>
   <data name="SelectTemplatePath" xml:space="preserve">
-    <value>Select the user template path</value>
+    <value>选择用户模板路径</value>
   </data>
   <data name="ServerMonitor" xml:space="preserve">
-    <value>Server Status Monitor</value>
+    <value>服务器状态监视器</value>
   </data>
   <data name="Service_Init_Open_Resource_Manager" xml:space="preserve">
     <value>Initialized: Open Resource Manager</value>
@@ -689,7 +689,7 @@ Error message: {0}</value>
     <value>Initialized: View Content Manager</value>
   </data>
   <data name="ShpHandlerAction" xml:space="preserve">
-    <value>Create a SHP Feature Source</value>
+    <value>创建一个SHP 数据源</value>
   </data>
   <data name="SiteAdministrator" xml:space="preserve">
     <value>站点管理员</value>
@@ -908,40 +908,40 @@ Error message: {0}</value>
     <value>Updating open editors of {0} to {1}</value>
   </data>
   <data name="ValidationBuildingList" xml:space="preserve">
-    <value>Building resource list...</value>
+    <value>建立资源列表...</value>
   </data>
   <data name="ValidationFailedError" xml:space="preserve">
-    <value>Failed to save file: {0}</value>
+    <value>保存文件失败: {0}</value>
   </data>
   <data name="ValidationNoIssues" xml:space="preserve">
-    <value>No issues found during validation</value>
+    <value>验证时未发现错误</value>
   </data>
   <data name="ValidationProgressMessage" xml:space="preserve">
-    <value>Validating resource: {0}</value>
+    <value>正在验证资源: {0}</value>
   </data>
   <data name="ValidationResourceLoadFailed" xml:space="preserve">
-    <value>Failed to load resource: {0}</value>
+    <value>加载资源失败: {0}</value>
   </data>
   <data name="ValidationResultFormat" xml:space="preserve">
     <value>{0} - {1}: {2}</value>
   </data>
   <data name="ValidationValidating" xml:space="preserve">
-    <value>Validating ...</value>
+    <value>验证中...</value>
   </data>
   <data name="VersionUnknown" xml:space="preserve">
-    <value>Unknown version</value>
+    <value>未知版本</value>
   </data>
   <data name="VersionUnknownOrNotConnected" xml:space="preserve">
-    <value>Unknown version or not connected</value>
+    <value>未知版本或者尚未连接</value>
   </data>
   <data name="XmlEditor" xml:space="preserve">
     <value>XML编辑器：</value>
   </data>
   <data name="XmlResHandlerAction" xml:space="preserve">
-    <value>Load this resource into the Site Repository</value>
+    <value>加载这个资源到站点资源库</value>
   </data>
   <data name="ErrorNoActiveConnection" xml:space="preserve">
-    <value>No Active Connection</value>
+    <value>没有活动连接</value>
   </data>
   <data name="SiteExplorer_SelectedItem_CompileDependencyList" xml:space="preserve">
     <value>生产所有的依赖列表</value>
@@ -956,30 +956,30 @@ Error message: {0}</value>
     <value>测试要素源链接</value>
   </data>
   <data name="ConnectionTestFailed" xml:space="preserve">
-    <value>Connection Test Failed: {0}</value>
+    <value>连接测试失败: {0}</value>
   </data>
   <data name="ConnectionTestOk" xml:space="preserve">
-    <value>Connection Test OK</value>
+    <value>连接测试成功</value>
   </data>
   <data name="Label_Open" xml:space="preserve">
-    <value>Open</value>
+    <value>打开</value>
   </data>
   <data name="Label_OpenResource" xml:space="preserve">
-    <value>Open this resource</value>
+    <value>打开这个资源</value>
   </data>
   <data name="Label_ResourceID" xml:space="preserve">
-    <value>Resource ID:</value>
+    <value>资源编号:</value>
   </data>
   <data name="ConfirmReloadXmlFromSource" xml:space="preserve">
     <value>Are you sure you want to reload the XML from source? This will discard any un-saved changes you have made.</value>
   </data>
   <data name="XmlReloadedFromSource" xml:space="preserve">
-    <value>XML content reloaded from source</value>
+    <value>从资源重新加载XML内容</value>
   </data>
   <data name="Label_OpenAsXml" xml:space="preserve">
-    <value>Open as XML</value>
+    <value>以 XML格式打开</value>
   </data>
   <data name="Label_OpenResourceAsXml" xml:space="preserve">
-    <value>Open this resource with the Generic XML editor</value>
+    <value>使用通用XML 编辑器打开这个资源</value>
   </data>
 </root>

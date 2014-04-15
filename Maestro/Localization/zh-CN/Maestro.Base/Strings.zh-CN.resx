@@ -204,8 +204,7 @@
     <value>这个要素源被以下地图中的瓷片图层引用： {0}保存这个要素源会重设这些地图瓷片缓存。你还要继续保存吗？</value>
   </data>
   <data name="ConfirmBaseMapInvalidationLayerSave" xml:space="preserve">
-    <value>This layer is used as a tiled layer in the following maps: {0} Saving this layer may reset the cached tiles of these maps. Continue with save?
-这个图层被以下地图用作瓷片图层： {0} 保存这个图层会重设这些地图瓷片缓存。你还要继续保存吗？</value>
+    <value>这个图层被以下地图用作瓷片图层： {0} 保存这个图层会重设这些地图瓷片缓存。你还要继续保存吗？</value>
   </data>
   <data name="ConfirmCloseEditors" xml:space="preserve">
     <value>你的编辑器有未保存的修改。还要继续吗？</value>
@@ -214,8 +213,7 @@
     <value>确认要删除吗？</value>
   </data>
   <data name="ConfirmDeleteOpenResource" xml:space="preserve">
-    <value>You are about to delete one or more resources which are currently open in an editor. Close these editors and proceed with delete?
-你将删除资源，这些资源正在被编辑器打开。你要关闭这些编辑器并且继续删除吗？</value>
+    <value>你将删除资源，这些资源正在被编辑器打开。你要关闭这些编辑器并且继续删除吗？</value>
   </data>
   <data name="ConfirmLoadPackage" xml:space="preserve">
     <value>你确定要删除这个资源包吗？</value>
@@ -277,7 +275,7 @@ Many thanks to the following people who have translated Maestro into other langu
     <value>我的符号</value>
   </data>
   <data name="DwfHandlerAction" xml:space="preserve">
-    <value>创建一个 Drawing Source</value>
+    <value>创建一个图形（Drawing）资源</value>
   </data>
   <data name="EditorRegistered" xml:space="preserve">
     <value>注册的编辑器: {0}</value>
@@ -947,7 +945,7 @@ Many thanks to the following people who have translated Maestro into other langu
     <value>生产所有的依赖列表</value>
   </data>
   <data name="ConfirmDeleteFolders" xml:space="preserve">
-    <value>You about to delete one or more folders which may contain dependent resources. Are you sure you want to proceed with delete?</value>
+    <value>你将要删除的文件夹包含依赖资源。你确认要继续删除吗？</value>
   </data>
   <data name="SiteExplorer_CreateLayersFromFeatureSource" xml:space="preserve">
     <value>从要素源创建图层</value>
@@ -971,7 +969,7 @@ Many thanks to the following people who have translated Maestro into other langu
     <value>资源编号:</value>
   </data>
   <data name="ConfirmReloadXmlFromSource" xml:space="preserve">
-    <value>Are you sure you want to reload the XML from source? This will discard any un-saved changes you have made.</value>
+    <value>你确认要从资源重新加载XML吗？这样会导致没有保存的修改被放弃</value>
   </data>
   <data name="XmlReloadedFromSource" xml:space="preserve">
     <value>从资源重新加载XML内容</value>

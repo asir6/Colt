@@ -1193,13 +1193,13 @@ Are you absolutely sure that is what you want?</value>
     <value>Sequential</value>
   </data>
   <data name="SpatialContextsFound" xml:space="preserve">
-    <value>{0} spatial contexts found</value>
+    <value>找到了 {0} 地理空间上下文</value>
   </data>
   <data name="SpecifyMapForWebLayout" xml:space="preserve">
-    <value>Specify a map for this web layout</value>
+    <value>为网页布局指定一个地图</value>
   </data>
   <data name="SpecifySecondaryFeatureSource" xml:space="preserve">
-    <value>Please specify the secondary feature source</value>
+    <value>请指定次要要素源</value>
   </data>
   <data name="SQLQuery" xml:space="preserve">
     <value>SQL 查询</value>
@@ -1220,7 +1220,7 @@ Are you absolutely sure that is what you want?</value>
     <value>Only symbols of type "Mark" and "Font" are currently supported</value>
   </data>
   <data name="TestConnectionNoErrors" xml:space="preserve">
-    <value>Provider reported no errors</value>
+    <value>支持器未报错</value>
   </data>
   <data name="TextDownloading" xml:space="preserve">
     <value>正在下载</value>
@@ -1333,7 +1333,7 @@ The calculated averages only accounts for the first {0} distinct values.</value>
     <value>Invoking MgCooker is not supported for this connection type: {0}</value>
   </data>
   <data name="UpdatingConfiguration" xml:space="preserve">
-    <value>Updating Configuration Document</value>
+    <value>正在更新配置文件</value>
   </data>
   <data name="ValidateOutputfileError" xml:space="preserve">
     <value>An error occured while validating the output file path: {0}</value>
@@ -1390,16 +1390,16 @@ The calculated averages only accounts for the first {0} distinct values.</value>
     <value>红色值(Red)</value>
   </data>
   <data name="Func_DECAP_Description" xml:space="preserve">
-    <value>String formatting function</value>
+    <value>字符串格式化函数</value>
   </data>
   <data name="Func_DECAP_StringValueDescription" xml:space="preserve">
-    <value>String to format</value>
+    <value>要格式化的字符串</value>
   </data>
   <data name="Func_FEATURECLASS_Description" xml:space="preserve">
-    <value>Returns the active feature class name</value>
+    <value>返回活动的要素类名</value>
   </data>
   <data name="Func_FEATUREID_Description" xml:space="preserve">
-    <value>Returns the active feature Id</value>
+    <value>返回活动的要素编号</value>
   </data>
   <data name="Func_IF_ConditionDescription" xml:space="preserve">
     <value>Boolean expression (filter) encapsulated in a string</value>
@@ -1408,13 +1408,13 @@ The calculated averages only accounts for the first {0} distinct values.</value>
     <value>If evaluator for style theming</value>
   </data>
   <data name="Func_IF_FalseValueDescription" xml:space="preserve">
-    <value>Returned if condition is false</value>
+    <value>如果条件为假则返回该值</value>
   </data>
   <data name="Func_IF_TrueValueDescription" xml:space="preserve">
-    <value>Returned if condition is true</value>
+    <value>如果条件为真则返回该值</value>
   </data>
   <data name="Func_LAYERID_Description" xml:space="preserve">
-    <value>Returns the active layer Id</value>
+    <value>返回活动图层编号</value>
   </data>
   <data name="Func_LOOKUP_DefaultValueDescription" xml:space="preserve">
     <value>Default value returned if expression does not evaluate to any of the keys</value>
@@ -1423,7 +1423,7 @@ The calculated averages only accounts for the first {0} distinct values.</value>
     <value>Lookup table for style theming</value>
   </data>
   <data name="Func_LOOKUP_ExpressionDescription" xml:space="preserve">
-    <value>Key expression</value>
+    <value>关键表达式</value>
   </data>
   <data name="Func_LOOKUP_IndexDescription" xml:space="preserve">
     <value>Lookup index that can be matched by the key expression</value>
@@ -1432,16 +1432,16 @@ The calculated averages only accounts for the first {0} distinct values.</value>
     <value>Value that is returned when the key expression matches the associated index</value>
   </data>
   <data name="Func_MAPNAME_Description" xml:space="preserve">
-    <value>Returns the active map name</value>
+    <value>返回活动的地图名</value>
   </data>
   <data name="Func_RANGE_DefaultValueDescription" xml:space="preserve">
-    <value>Default value returned if expression does not fall into any of the ranges</value>
+    <value>如果表达式的结果没有在这些范围内，则返回默认值</value>
   </data>
   <data name="Func_RANGE_Description" xml:space="preserve">
-    <value>Range table for style theming</value>
+    <value>样式主题图的范围表</value>
   </data>
   <data name="Func_RANGE_ExpressionDescription" xml:space="preserve">
-    <value>Key expression</value>
+    <value>关键表达式</value>
   </data>
   <data name="Func_RANGE_MaxDescription" xml:space="preserve">
     <value>Exclusive maximum of range that can be matched by the key expression</value>
@@ -1453,49 +1453,49 @@ The calculated averages only accounts for the first {0} distinct values.</value>
     <value>Value that is returned when the key expression matches the associated range</value>
   </data>
   <data name="Func_SESSION_Description" xml:space="preserve">
-    <value>Returns the active session</value>
+    <value>返回活动的会话</value>
   </data>
   <data name="Func_URLENCODE_Description" xml:space="preserve">
-    <value>String encoding function</value>
+    <value>字符串编码方法</value>
   </data>
   <data name="Func_URLENCODE_StringValueDescription" xml:space="preserve">
-    <value>String to URL encode</value>
+    <value>对字符串进行URL编码</value>
   </data>
   <data name="LoadingFeatureClasses" xml:space="preserve">
-    <value>Loading Feature Classes</value>
+    <value>正在加载要素类</value>
   </data>
   <data name="Desc_GetExtents" xml:space="preserve">
-    <value>Displays the current map extents</value>
+    <value>显示当前地图范围</value>
   </data>
   <data name="Desc_GetMapKml" xml:space="preserve">
     <value>Gets the current map as a KML document</value>
   </data>
   <data name="Desc_ZoomToScale" xml:space="preserve">
-    <value>Zoom to a specified scale</value>
+    <value>缩放到指定的比例尺</value>
   </data>
   <data name="FailedToCalculateFeatureSourceExtents" xml:space="preserve">
     <value>Could not calculate the extents of the Feature Source. Preview is not possible</value>
   </data>
   <data name="Label_ExtraTools" xml:space="preserve">
-    <value>Extra Tools</value>
+    <value>其他工具</value>
   </data>
   <data name="Label_GetExtents" xml:space="preserve">
-    <value>Get Extents</value>
+    <value>获得范围</value>
   </data>
   <data name="Label_GetMapKml" xml:space="preserve">
-    <value>Get KML</value>
+    <value>获得 KML</value>
   </data>
   <data name="Label_Tools" xml:space="preserve">
-    <value>Tools</value>
+    <value>工具</value>
   </data>
   <data name="Label_ZoomToScale" xml:space="preserve">
-    <value>Zoom to Scale</value>
+    <value>缩放到比例尺</value>
   </data>
   <data name="PreviewMap" xml:space="preserve">
-    <value>Preview Map</value>
+    <value>预览地图</value>
   </data>
   <data name="PrgPreparingResourcePreview" xml:space="preserve">
-    <value>Preparing resource preview</value>
+    <value>正在准备资源预览</value>
   </data>
   <data name="SiteVersionDoesntSupportWatermarks" xml:space="preserve">
     <value>The site version of this current connection is not known to support watermarks</value>
@@ -1507,10 +1507,10 @@ The calculated averages only accounts for the first {0} distinct values.</value>
     <value>No registered previewer for connection: {0}</value>
   </data>
   <data name="FeatureClassNotFound" xml:space="preserve">
-    <value>Feature Class not found: {0}</value>
+    <value>没有找到要素类: {0}</value>
   </data>
   <data name="NoFeatureClassAssigned" xml:space="preserve">
-    <value>No Feature Class assigned</value>
+    <value>没有指定要素类</value>
   </data>
   <data name="LayerAlreadyAtBottomOfGroup" xml:space="preserve">
     <value>The selected layer is already at the bottom of its group</value>
@@ -1531,21 +1531,21 @@ The calculated averages only accounts for the first {0} distinct values.</value>
     <value>The WKT you entered is not recognised by MapGuide's Coordinate System Library. Use it anyway?</value>
   </data>
   <data name="NonMapGuideSupportedCsWkt" xml:space="preserve">
-    <value>Non-supported WKT</value>
+    <value>不支持的 WKT</value>
   </data>
   <data name="MdfEditorExpandInLegend" xml:space="preserve">
-    <value>Expand In Legend</value>
+    <value>在图例中展开</value>
   </data>
   <data name="MdfEditorSelectable" xml:space="preserve">
-    <value>Selectable</value>
+    <value>可选中的</value>
   </data>
   <data name="MdfEditorShowInLegend" xml:space="preserve">
-    <value>Show In Legend</value>
+    <value>在图例中显示</value>
   </data>
   <data name="MdfEditorVisible" xml:space="preserve">
-    <value>Visible</value>
+    <value>可见</value>
   </data>
   <data name="SelectedItemCount" xml:space="preserve">
-    <value>{0} selected items</value>
+    <value>{0} 选中的项目</value>
   </data>
 </root>

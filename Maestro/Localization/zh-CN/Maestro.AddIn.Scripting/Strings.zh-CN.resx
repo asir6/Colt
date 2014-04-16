@@ -118,12 +118,12 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="Error_NoOpenEditor" xml:space="preserve">
-    <value>No Open Editor found for: {0}</value>
+    <value>没有打开的编辑器: {0}</value>
   </data>
   <data name="Error_NoPreviewer" xml:space="preserve">
-    <value>No Previewer found for connection provider: {0}</value>
+    <value>没有发现连接驱动的预览: {0}</value>
   </data>
   <data name="Title_IronPython_Console" xml:space="preserve">
-    <value>IronPython Console</value>
+    <value>IronPython控制台</value>
   </data>
 </root>

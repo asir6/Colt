@@ -118,139 +118,139 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AddInManager.About" xml:space="preserve">
-    <value>About</value>
+    <value>关于</value>
   </data>
   <data name="AddInManager.ActionCancelDeinstallation" xml:space="preserve">
-    <value>Cancel deinstallation</value>
+    <value>取消卸载</value>
   </data>
   <data name="AddInManager.ActionCancelInstallation" xml:space="preserve">
-    <value>Cancel installation</value>
+    <value>取消安装</value>
   </data>
   <data name="AddInManager.ActionCancelUpdate" xml:space="preserve">
-    <value>Cancel update</value>
+    <value>取消更新</value>
   </data>
   <data name="AddInManager.ActionDisable" xml:space="preserve">
-    <value>Disable</value>
+    <value>禁用</value>
   </data>
   <data name="AddInManager.ActionEnable" xml:space="preserve">
-    <value>Enable</value>
+    <value>启用</value>
   </data>
   <data name="AddInManager.ActionInstall" xml:space="preserve">
-    <value>Install</value>
+    <value>安装</value>
   </data>
   <data name="AddInManager.ActionUninstall" xml:space="preserve">
-    <value>Uninstall</value>
+    <value>卸载</value>
   </data>
   <data name="AddInManager.ActionUpdate" xml:space="preserve">
-    <value>Update</value>
+    <value>更新</value>
   </data>
   <data name="AddInManager.AddInDependencyFailed" xml:space="preserve">
-    <value>A dependency for this AddIn was not found. Install it to enable this AddIn.</value>
+    <value>不能发现该插件的一个依赖。安装它以启用该插件。</value>
   </data>
   <data name="AddInManager.AddInDisabled" xml:space="preserve">
-    <value>Disabled</value>
+    <value>禁用</value>
   </data>
   <data name="AddInManager.AddInEnabled" xml:space="preserve">
-    <value>AddIn will be enabled after restarting Maestro</value>
+    <value>插件将在Maestro重启后启用</value>
   </data>
   <data name="AddInManager.AddInInstalled" xml:space="preserve">
-    <value>AddIn will be installed after restarting Maestro</value>
+    <value>插件将在Maestro重启后安装</value>
   </data>
   <data name="AddInManager.AddInInstalledTwice" xml:space="preserve">
-    <value>This AddIns is installed twice. Please uninstall one  copy.</value>
+    <value>该插件安装了两次，请卸载一个。</value>
   </data>
   <data name="AddInManager.AddInRemoved" xml:space="preserve">
-    <value>AddIn will be removed after restarting Maestro</value>
+    <value>插件将在Maestro重启后卸载</value>
   </data>
   <data name="AddInManager.AddInUpdated" xml:space="preserve">
-    <value>AddIn will be updated after restarting Maestro</value>
+    <value>插件将在Maestro重启后更新</value>
   </data>
   <data name="AddInManager.AddInWillBeDisabled" xml:space="preserve">
-    <value>AddIn will be disabled after restarting Maestro</value>
+    <value>插件将在Maestro重启后禁用</value>
   </data>
   <data name="AddInManager.DescriptionCancelDeinstallation" xml:space="preserve">
-    <value>Aborts the deinstallation of the selected AddIn(s).</value>
+    <value>放弃所选插件的卸载</value>
   </data>
   <data name="AddInManager.DescriptionCancelInstall" xml:space="preserve">
-    <value>Aborts the installation of the selected AddIn(s).</value>
+    <value>放弃所选插件的安装</value>
   </data>
   <data name="AddInManager.DescriptionCancelUpdate" xml:space="preserve">
-    <value>Aborts the update of the selected AddIn(s).</value>
+    <value>放弃所选插件的更新</value>
   </data>
   <data name="AddInManager.DescriptionDisable" xml:space="preserve">
-    <value>Disables the selected AddIn(s).</value>
+    <value>禁用所选插件</value>
   </data>
   <data name="AddInManager.DescriptionEnable" xml:space="preserve">
-    <value>Enables the selected AddIn(s).</value>
+    <value>启用所选插件</value>
   </data>
   <data name="AddInManager.DescriptionInconsistentSelection" xml:space="preserve">
-    <value>The selection is inconsistent, please select only AddIns with the same status.</value>
+    <value>所选不一致，请仅选择具有相同状态的插件。</value>
   </data>
   <data name="AddInManager.FileAssociation" xml:space="preserve">
-    <value>AddIn Installation Package</value>
+    <value>插件安装包</value>
   </data>
   <data name="AddInManager.FileFilter" xml:space="preserve">
-    <value>AddIn Files|*.addin;*.sdaddin|All files|*.*</value>
+    <value>插件文件|*.addin;*.sdaddin|所有文件|*.*</value>
   </data>
   <data name="AddInManager.InstallButton" xml:space="preserve">
-    <value>&amp;Install AddIn</value>
+    <value>安装插件(&amp;I)</value>
   </data>
   <data name="AddInManager.NoAddInsInstalled" xml:space="preserve">
-    <value>You don't have any AddIns installed.
-Download an AddIn from the Internet, then click 'Install AddIn' and choose the downloaded file to install it.</value>
+    <value>你没有安装任何插件。
+从网上下载一个插件，然后点击“安装插件”并选择该下载的插件安装。</value>
   </data>
   <data name="AddInManager.OpenWebsite" xml:space="preserve">
-    <value>Open Website</value>
+    <value>打开网站</value>
   </data>
   <data name="AddInManager.Options" xml:space="preserve">
-    <value>Options</value>
+    <value>选项</value>
   </data>
   <data name="AddInManager.RequiredBy" xml:space="preserve">
-    <value>AddIns are required by:</value>
+    <value>所需要的插件:</value>
   </data>
   <data name="AddInManager.RequiredDependencies" xml:space="preserve">
-    <value>Required dependencies:</value>
+    <value>需要的依赖:</value>
   </data>
   <data name="AddInManager.ShowPreinstalledAddIns" xml:space="preserve">
-    <value>Show preinstalled AddIns</value>
+    <value>显示预安装的插件</value>
   </data>
   <data name="AddInManager.Title" xml:space="preserve">
-    <value>Add-In Manager</value>
+    <value>插件管理器</value>
   </data>
   <data name="CMD_AddInManager" xml:space="preserve">
-    <value>Add-In Manager</value>
+    <value>插件管理器</value>
   </data>
   <data name="ErrorLoadingFile" xml:space="preserve">
-    <value>Error loading {0}:{1}{2}</value>
+    <value>加载错误 {0}:{1}{2}</value>
   </data>
   <data name="TextClose" xml:space="preserve">
-    <value>Close</value>
+    <value>关闭</value>
   </data>
   <data name="TitleAddInFile" xml:space="preserve">
-    <value>AddIn File</value>
+    <value>插件文件</value>
   </data>
   <data name="TitleAddInName" xml:space="preserve">
-    <value>AddIn Name</value>
+    <value>插件名字</value>
   </data>
   <data name="TitleAuthor" xml:space="preserve">
-    <value>Author</value>
+    <value>作者</value>
   </data>
   <data name="TitleCopyright" xml:space="preserve">
-    <value>Copyright</value>
+    <value>版权</value>
   </data>
   <data name="TitleDescription" xml:space="preserve">
-    <value>Description</value>
+    <value>描述</value>
   </data>
   <data name="TitleInternalName" xml:space="preserve">
-    <value>Internal Name</value>
+    <value>内部名字</value>
   </data>
   <data name="TitleLicense" xml:space="preserve">
-    <value>License</value>
+    <value>许可</value>
   </data>
   <data name="TitleVersion" xml:space="preserve">
-    <value>Version</value>
+    <value>版本</value>
   </data>
   <data name="TitleWebsite" xml:space="preserve">
-    <value>Website</value>
+    <value>网站</value>
   </data>
 </root>

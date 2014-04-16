@@ -1045,43 +1045,43 @@
     <value>操作完成</value>
   </data>
   <data name="OutputFileMissing" xml:space="preserve">
-    <value>You must enter a full path to the output file</value>
+    <value>您必须为输出文件指定完整的路径</value>
   </data>
   <data name="OverwriteDisplayScales" xml:space="preserve">
-    <value>Overwrite the current display scales?</value>
+    <value>覆盖当前显示比例尺？</value>
   </data>
   <data name="OverwriteResource" xml:space="preserve">
-    <value>This resource already exists, continue with save?</value>
+    <value>资源已存在，继续保存？</value>
   </data>
   <data name="PackageBuildError" xml:space="preserve">
-    <value>An error occured while building package: {0}</value>
+    <value>构建包时发生错误: {0}</value>
   </data>
   <data name="PackageCreationFailedError" xml:space="preserve">
-    <value>Failed to create package, error message: {0}</value>
+    <value>创建包失败，错误信息为: {0}</value>
   </data>
   <data name="PackageReadError" xml:space="preserve">
-    <value>Failed to read package. Error message was: {0}</value>
+    <value>读取包失败，错误信息为: {0}</value>
   </data>
   <data name="ParameterOverrideExists" xml:space="preserve">
-    <value>Parameter Override already specified</value>
+    <value>已经指定参数覆盖</value>
   </data>
   <data name="PreviewQueryElapsed" xml:space="preserve">
-    <value>Preview Completed in {0}ms</value>
+    <value>预览完成，耗时 {0} 毫秒(ms)</value>
   </data>
   <data name="PreviewRecordCount" xml:space="preserve">
-    <value>{0} results found</value>
+    <value>找到 {0} 个结果</value>
   </data>
   <data name="PreviewUrlNotAvailable" xml:space="preserve">
-    <value>The Preview URL is not currently available</value>
+    <value>预览的URL当前不可用</value>
   </data>
   <data name="ProcessedItem" xml:space="preserve">
-    <value>Processed: {0}</value>
+    <value>已处理: {0}</value>
   </data>
   <data name="PromptDeleteCommand" xml:space="preserve">
-    <value>This command is referenced in the following menus: {0}. Do you want to delete this command and all menu items referencing it?</value>
+    <value>该命令被如下菜单引用: {0}. 您确定要删除这个命令以及引用该命令的菜单吗？</value>
   </data>
   <data name="PromptDeleteWidgetAndReferences" xml:space="preserve">
-    <value>Delete this widget and all references to it?</value>
+    <value>删除工具以及对该工具的所有引用？</value>
   </data>
   <data name="PromptDirection" xml:space="preserve">
     <value>Specify Direction to traverse extent history</value>
@@ -1090,10 +1090,10 @@
     <value>输入名称</value>
   </data>
   <data name="PromptRepairBrokenFeatureSource" xml:space="preserve">
-    <value>The resource id {0} could not be found. You will now be prompted to select the correct feature source</value>
+    <value>没有找到资源编号 {0} 。将提示您选择正确的要素源。</value>
   </data>
   <data name="PromptResetOdbcConfigDocument" xml:space="preserve">
-    <value>Changing the DSN will reset the current configuration document. Proceed?</value>
+    <value>更改DSN将重置当前的配置文件。要继续吗？</value>
   </data>
   <data name="PromptSelectBufferUnits" xml:space="preserve">
     <value>选择缓冲区单位</value>
@@ -1102,16 +1102,16 @@
     <value>选择地图</value>
   </data>
   <data name="PromptUpdateMapWidgetReference" xml:space="preserve">
-    <value>Update Map Widget to point to</value>
+    <value>更新所指向的地图工具</value>
   </data>
   <data name="PromptUseOffice2010Drivers" xml:space="preserve">
-    <value>Use Office 2010 Drivers? (these are 64-bit compatible)</value>
+    <value>采用 2010 驱动? (兼容64位)</value>
   </data>
   <data name="PromptViewType" xml:space="preserve">
     <value>选择缩放范围选项</value>
   </data>
   <data name="PropEnumNoValues" xml:space="preserve">
-    <value>Could not find possible values for enumerable property</value>
+    <value>没有为可枚举属性找到可能的值</value>
   </data>
   <data name="PropertyTooltip" xml:space="preserve">
     <value>属性: {0}
@@ -1121,22 +1121,22 @@
     <value>特性名</value>
   </data>
   <data name="QuestionAddItemToFlyout" xml:space="preserve">
-    <value>Add this item to the flyout? Clicking "No" will add it before the flyout</value>
+    <value>将该项添加到弹出框？单击“否”将把它加到弹出框之前。</value>
   </data>
   <data name="QuestionResetFsOverrideList" xml:space="preserve">
-    <value>Reset Feature Source override list?</value>
+    <value>重置要素源覆盖列表？</value>
   </data>
   <data name="RdbmsFeatureSource" xml:space="preserve">
     <value>RDBMS 要素源</value>
   </data>
   <data name="RepositoryWipeWarning" xml:space="preserve">
-    <value>You have selected to restore the package at the root.
-You have also selected to delete the target before restoring.
-This will result in the entire repository being deleted and replaced with this package.
-Are you absolutely sure that is what you want?</value>
+    <value>您选择了在根目录恢复数据包。
+您也选择了恢复前删除目标。
+这将删除整个仓库并用该包替换。
+请务必确认这是您想要的操作？</value>
   </data>
   <data name="RequiredServiceNotSupported" xml:space="preserve">
-    <value>This connection does not support required service: </value>
+    <value>该连接不支持所需的服务: </value>
   </data>
   <data name="ResourceDoesntExist" xml:space="preserve">
     <value>资源不存在</value>
@@ -1217,7 +1217,7 @@ Are you absolutely sure that is what you want?</value>
     <value>&lt;文本&gt;</value>
   </data>
   <data name="SymbolTypeNotSupported" xml:space="preserve">
-    <value>Only symbols of type "Mark" and "Font" are currently supported</value>
+    <value>目前只支持类型为“标志”(Mark)和“字体”(Font)的符号</value>
   </data>
   <data name="TestConnectionNoErrors" xml:space="preserve">
     <value>支持器未报错</value>

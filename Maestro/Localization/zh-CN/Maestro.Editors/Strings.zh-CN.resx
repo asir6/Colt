@@ -974,75 +974,75 @@
     <value>大于 {0}</value>
   </data>
   <data name="NewFlyout" xml:space="preserve">
-    <value>New Flyout</value>
+    <value>创建弹框</value>
   </data>
   <data name="NewFolder" xml:space="preserve">
-    <value>New folder</value>
+    <value>创建文件夹</value>
   </data>
   <data name="NewLayer" xml:space="preserve">
-    <value>New Layer</value>
+    <value>创建图层</value>
   </data>
   <data name="NewLayerGroup" xml:space="preserve">
-    <value>New Layer Group</value>
+    <value>创建图层组</value>
   </data>
   <data name="NoActiveDataFile" xml:space="preserve">
-    <value>No active resource data file selected</value>
+    <value>没有选中可用的资源数据文件</value>
   </data>
   <data name="NoColumnValuesError" xml:space="preserve">
-    <value>No values found in selected column</value>
+    <value>在选定的列中没有找到相应的值</value>
   </data>
   <data name="NoFolderSelected" xml:space="preserve">
-    <value>You have not selected a starting folder, do you want to back up the entire site?</value>
+    <value>您没有选择开始文件夹，您确定要备份整个网站吗？</value>
   </data>
   <data name="NoRasterClasses" xml:space="preserve">
-    <value>This feature source has no class definitions with raster properties</value>
+    <value>该要素源没有光栅属性的类定义</value>
   </data>
   <data name="NoRestorePathWarning" xml:space="preserve">
-    <value>You have selected to restore the package at another location, but not entered one.
-This will cause the package to be restored a the root of the resource tree.
-Are you sure this is what you want?</value>
+    <value>您将要从另一位置恢复数据包，而不是输入的那个。
+这会使数据包被恢复到资源树的跟目录。
+您确定要这么做？</value>
   </data>
   <data name="NoScalesToGenerate" xml:space="preserve">
-    <value>Number of Scales to generate cannot be less than or equal to 0</value>
+    <value>生成比例尺的数量必须大于0</value>
   </data>
   <data name="NoSchemasInFeatureSource" xml:space="preserve">
-    <value>Feature Source has no schemas</value>
+    <value>要素源没有模式定义</value>
   </data>
   <data name="NoSiteService" xml:space="preserve">
-    <value>No site service available</value>
+    <value>没有可用的网站服务</value>
   </data>
   <data name="NotAFolder" xml:space="preserve">
-    <value>Not a folder: {0}</value>
+    <value>不是文件夹: {0}</value>
   </data>
   <data name="NotATiledMap" xml:space="preserve">
-    <value>This is not a Map Definition with tiled layers</value>
+    <value>这不是一个带有地图块图层的地图定义</value>
   </data>
   <data name="NoTransformationRequired" xml:space="preserve">
-    <value>No transformation required</value>
+    <value>无需转换</value>
   </data>
   <data name="NotSessionBasedId" xml:space="preserve">
-    <value>Resource ID must not be session based</value>
+    <value>资源编号不能基于会话</value>
   </data>
   <data name="NoTypesSelected" xml:space="preserve">
-    <value>You must select at least one type</value>
+    <value>您必须选择至少一种类型</value>
   </data>
   <data name="NoWidgetEditorIface" xml:space="preserve">
-    <value>The specified editor does not implement the required IWidgetEditor interface</value>
+    <value>指定的编辑器没有实现所需的IWidgetEditor接口</value>
   </data>
   <data name="OdbcCannotInferDriver" xml:space="preserve">
-    <value>Could not infer ODBC driver from file name: {0}</value>
+    <value>无法从文件名推断ODBC驱动程序：{0}</value>
   </data>
   <data name="OdbcConnectionStringComponentNotFound" xml:space="preserve">
-    <value>The component "{0}" could not be found in the specified ODBC connection string</value>
+    <value>未能在指定的ODBC连接字符串中找到组件 "{0}"</value>
   </data>
   <data name="OdbcNoMarkedFile" xml:space="preserve">
-    <value>Could not infer ODBC driver. No file specified</value>
+    <value>无法推断ODBC驱动程序。没有指定文件</value>
   </data>
   <data name="OperationCancelled" xml:space="preserve">
-    <value>Operation Cancelled</value>
+    <value>操作取消</value>
   </data>
   <data name="OperationCompleted" xml:space="preserve">
-    <value>Operation Completed</value>
+    <value>操作完成</value>
   </data>
   <data name="OutputFileMissing" xml:space="preserve">
     <value>You must enter a full path to the output file</value>
@@ -1087,7 +1087,7 @@ Are you sure this is what you want?</value>
     <value>Specify Direction to traverse extent history</value>
   </data>
   <data name="PromptName" xml:space="preserve">
-    <value>Enter the name</value>
+    <value>输入名称</value>
   </data>
   <data name="PromptRepairBrokenFeatureSource" xml:space="preserve">
     <value>The resource id {0} could not be found. You will now be prompted to select the correct feature source</value>
@@ -1096,10 +1096,10 @@ Are you sure this is what you want?</value>
     <value>Changing the DSN will reset the current configuration document. Proceed?</value>
   </data>
   <data name="PromptSelectBufferUnits" xml:space="preserve">
-    <value>Select Buffer Units</value>
+    <value>选择缓冲区单位</value>
   </data>
   <data name="PromptSelectMap" xml:space="preserve">
-    <value>Select Map</value>
+    <value>选择地图</value>
   </data>
   <data name="PromptUpdateMapWidgetReference" xml:space="preserve">
     <value>Update Map Widget to point to</value>
@@ -1108,17 +1108,17 @@ Are you sure this is what you want?</value>
     <value>Use Office 2010 Drivers? (these are 64-bit compatible)</value>
   </data>
   <data name="PromptViewType" xml:space="preserve">
-    <value>Select zoom extents option</value>
+    <value>选择缩放范围选项</value>
   </data>
   <data name="PropEnumNoValues" xml:space="preserve">
     <value>Could not find possible values for enumerable property</value>
   </data>
   <data name="PropertyTooltip" xml:space="preserve">
-    <value>Property: {0}
-Type: {1}</value>
+    <value>属性: {0}
+类型: {1}</value>
   </data>
   <data name="QualitativeName" xml:space="preserve">
-    <value>Qualitative</value>
+    <value>特性名</value>
   </data>
   <data name="QuestionAddItemToFlyout" xml:space="preserve">
     <value>Add this item to the flyout? Clicking "No" will add it before the flyout</value>
@@ -1127,7 +1127,7 @@ Type: {1}</value>
     <value>Reset Feature Source override list?</value>
   </data>
   <data name="RdbmsFeatureSource" xml:space="preserve">
-    <value>RDBMS Feature Source</value>
+    <value>RDBMS 要素源</value>
   </data>
   <data name="RepositoryWipeWarning" xml:space="preserve">
     <value>You have selected to restore the package at the root.
@@ -1139,55 +1139,55 @@ Are you absolutely sure that is what you want?</value>
     <value>This connection does not support required service: </value>
   </data>
   <data name="ResourceDoesntExist" xml:space="preserve">
-    <value>Resource doesn't exist</value>
+    <value>资源不存在</value>
   </data>
   <data name="SaveMapBeforeTiling" xml:space="preserve">
     <value>You must save this map first before you can run MgCooker</value>
   </data>
   <data name="SaveResource" xml:space="preserve">
-    <value>Save Resource</value>
+    <value>保存资源</value>
   </data>
   <data name="SaveResourceFirst" xml:space="preserve">
-    <value>Please save this resource first</value>
+    <value>请先保存资源</value>
   </data>
   <data name="ScaleRange" xml:space="preserve">
-    <value>Scale Range</value>
+    <value>比例尺范围</value>
   </data>
   <data name="SearchCmdDescription" xml:space="preserve">
-    <value>Search Command</value>
+    <value>查找命令</value>
   </data>
   <data name="SelectColumnPlaceholder" xml:space="preserve">
-    <value>&lt;Select column&gt;</value>
+    <value>&lt;请选择&gt;</value>
   </data>
   <data name="SelectFeatureClass" xml:space="preserve">
-    <value>Select Feature Class</value>
+    <value>选择要素类</value>
   </data>
   <data name="SelectFolder" xml:space="preserve">
-    <value>Select Folder</value>
+    <value>选择文件夹</value>
   </data>
   <data name="SelectLayer" xml:space="preserve">
-    <value>Select Layer</value>
+    <value>选择图层</value>
   </data>
   <data name="SelectLayerFirst" xml:space="preserve">
-    <value>Please select the layer first</value>
+    <value>请先选择图层</value>
   </data>
   <data name="SelectPackageFile" xml:space="preserve">
-    <value>Select the package file to edit</value>
+    <value>选择要编辑的包文件</value>
   </data>
   <data name="SelectProperty" xml:space="preserve">
-    <value>Select Property</value>
+    <value>选择属性</value>
   </data>
   <data name="SelectSpatialContext" xml:space="preserve">
-    <value>Select Spatial Context</value>
+    <value>选择空间上下文</value>
   </data>
   <data name="SelectSymbolLibraryFirst" xml:space="preserve">
-    <value>Please specify the symbol library first</value>
+    <value>请先选择符号库</value>
   </data>
   <data name="SelectWidget" xml:space="preserve">
-    <value>Select widget</value>
+    <value>选择工具</value>
   </data>
   <data name="Separator" xml:space="preserve">
-    <value>Separator</value>
+    <value>分割线</value>
   </data>
   <data name="SequentialName" xml:space="preserve">
     <value>Sequential</value>
@@ -1202,19 +1202,19 @@ Are you absolutely sure that is what you want?</value>
     <value>Please specify the secondary feature source</value>
   </data>
   <data name="SQLQuery" xml:space="preserve">
-    <value>SQL Query</value>
+    <value>SQL 查询</value>
   </data>
   <data name="StandardQuery" xml:space="preserve">
-    <value>Standard Query</value>
+    <value>标准查询</value>
   </data>
   <data name="SymbolGraphicsImagePlaceholder" xml:space="preserve">
-    <value>&lt;image&gt;</value>
+    <value>&lt;图像&gt;</value>
   </data>
   <data name="SymbolGraphicsPathPlaceholder" xml:space="preserve">
-    <value>&lt;path&gt;</value>
+    <value>&lt;路径&gt;</value>
   </data>
   <data name="SymbolGraphicsTextPlaceholder" xml:space="preserve">
-    <value>&lt;text&gt;</value>
+    <value>&lt;文本&gt;</value>
   </data>
   <data name="SymbolTypeNotSupported" xml:space="preserve">
     <value>Only symbols of type "Mark" and "Font" are currently supported</value>
@@ -1223,58 +1223,58 @@ Are you absolutely sure that is what you want?</value>
     <value>Provider reported no errors</value>
   </data>
   <data name="TextDownloading" xml:space="preserve">
-    <value>Downloading</value>
+    <value>正在下载</value>
   </data>
   <data name="TextFind" xml:space="preserve">
-    <value>Find</value>
+    <value>查找</value>
   </data>
   <data name="TextFindAndReplace" xml:space="preserve">
-    <value>Find &amp; Replace</value>
+    <value>查找并替换</value>
   </data>
   <data name="TextInlineCompoundSymbol" xml:space="preserve">
-    <value>Inline Compound Symbol</value>
+    <value>内嵌复合符号</value>
   </data>
   <data name="TextInlineSimpleSymbol" xml:space="preserve">
-    <value>Inline Simple Symbol</value>
+    <value>内嵌简单符号</value>
   </data>
   <data name="TextLoading" xml:space="preserve">
-    <value>Loading</value>
+    <value>正在加载</value>
   </data>
   <data name="TextNoItemSelected" xml:space="preserve">
-    <value>No Items Selected</value>
+    <value>没有选定任何项目</value>
   </data>
   <data name="TextNoOccurrencesFound" xml:space="preserve">
-    <value>No Occurences Found</value>
+    <value>没有找到匹配</value>
   </data>
   <data name="TextNoStringSpecifiedToLookFor" xml:space="preserve">
-    <value>No string specified to look for!</value>
+    <value>没有指定查找字符串！</value>
   </data>
   <data name="TextNotFound" xml:space="preserve">
-    <value>Text Not Found</value>
+    <value>没有找到文本</value>
   </data>
   <data name="TextOccurrencesReplaced" xml:space="preserve">
-    <value>Replaced {0} occurrances</value>
+    <value>已替换 {0} 处匹配</value>
   </data>
   <data name="TextPreparingConfigurationDocument" xml:space="preserve">
-    <value>Preparing Configuration Document</value>
+    <value>正在准备配置文件</value>
   </data>
   <data name="TextRenderPreviewNotAvailable" xml:space="preserve">
-    <value>Preview\nnot available</value>
+    <value>预览\n失败</value>
   </data>
   <data name="TextSearchTextNotFound" xml:space="preserve">
-    <value>Search Text Not Found</value>
+    <value>没有找到搜索文本</value>
   </data>
   <data name="TextSelectDataStore" xml:space="preserve">
-    <value>Select Data Store</value>
+    <value>选择数据仓储</value>
   </data>
   <data name="TextSelectionOnly" xml:space="preserve">
     <value>(Selection Only)</value>
   </data>
   <data name="TextUploading" xml:space="preserve">
-    <value>Uploading</value>
+    <value>正在上传</value>
   </data>
   <data name="TitleBufferUnits" xml:space="preserve">
-    <value>Buffer Units</value>
+    <value>缓冲区单位</value>
   </data>
   <data name="TitleDirection" xml:space="preserve">
     <value>Direction</value>

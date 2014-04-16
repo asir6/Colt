@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -117,4 +117,19 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="viewer.Text" xml:space="preserve">
+    <value>查看器</value>
+  </data>
+  <data name="TAB_LEGEND.Text" xml:space="preserve">
+    <value>图例</value>
+  </data>
+  <data name="TAB_DRAW_ORDER.Text" xml:space="preserve">
+    <value>绘制顺序</value>
+  </data>
+  <data name="TAB_PROPERTIES.Text" xml:space="preserve">
+    <value>属性</value>
+  </data>
+  <data name="toolbar.Text" xml:space="preserve">
+    <value>默认工具栏1</value>
+  </data>
 </root>

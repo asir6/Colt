@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -117,4 +117,37 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="btnGenerateScales.Text" xml:space="preserve">
+    <value>生成</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>比例尺数</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>四舍五入</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>方法</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>最大比例尺</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>最小比例尺</value>
+  </data>
+  <data name="groupBox1.Text" xml:space="preserve">
+    <value>生成比例尺</value>
+  </data>
+  <data name="btnEditScalesManually.ToolTipText" xml:space="preserve">
+    <value>手工编辑比例尺</value>
+  </data>
+  <data name="btnRemoveScale.ToolTipText" xml:space="preserve">
+    <value>删除所选比例尺</value>
+  </data>
+  <data name="btnCmsScaleList.Text" xml:space="preserve">
+    <value>使用谷歌兼容的比例尺列表</value>
+  </data>
+  <data name="groupBox2.Text" xml:space="preserve">
+    <value>显示比例尺</value>
+  </data>
 </root>

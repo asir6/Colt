@@ -171,4 +171,40 @@
   <data name="label12.Text" xml:space="preserve">
     <value>水平</value>
   </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>粗体</value>
+  </data>
+  <data name="lnkSelectFont.Text" xml:space="preserve">
+    <value>(选择)</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>斜体</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>下划体</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>高度</value>
+  </data>
+  <data name="groupBox1.Text" xml:space="preserve">
+    <value>字体</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>内容</value>
+  </data>
+  <data name="label10.Text" xml:space="preserve">
+    <value>定位Y</value>
+  </data>
+  <data name="label9.Text" xml:space="preserve">
+    <value>定位X</value>
+  </data>
+  <data name="groupBox2.Text" xml:space="preserve">
+    <value>大小 / 位置</value>
+  </data>
+  <data name="label7.Text" xml:space="preserve">
+    <value>高度可伸缩</value>
+  </data>
+  <data name="label8.Text" xml:space="preserve">
+    <value>角度</value>
+  </data>
 </root>

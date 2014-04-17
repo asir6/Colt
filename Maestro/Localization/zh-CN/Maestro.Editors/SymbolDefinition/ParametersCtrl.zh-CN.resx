@@ -126,4 +126,13 @@
   <data name="btnDelete.Text" xml:space="preserve">
     <value>删除</value>
   </data>
+  <data name="COL_IDENTIFIER.HeaderText" xml:space="preserve">
+    <value>编号</value>
+  </data>
+  <data name="COL_NAME.HeaderText" xml:space="preserve">
+    <value>显示名称</value>
+  </data>
+  <data name="COL_TYPE.HeaderText" xml:space="preserve">
+    <value>数据类型</value>
+  </data>
 </root>

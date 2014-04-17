@@ -132,4 +132,10 @@
   <data name="btnAdd.Text" xml:space="preserve">
     <value>添加</value>
   </data>
+  <data name="symbolReferenceToolStripMenuItem.Text" xml:space="preserve">
+    <value>符号引用</value>
+  </data>
+  <data name="simpleSymbolToolStripMenuItem.Text" xml:space="preserve">
+    <value>简单符号</value>
+  </data>
 </root>

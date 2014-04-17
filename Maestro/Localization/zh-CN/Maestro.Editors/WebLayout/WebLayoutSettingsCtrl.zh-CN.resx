@@ -188,4 +188,7 @@
   <data name="label11.Text" xml:space="preserve">
     <value>AJAX 视图 URL</value>
   </data>
+  <data name="label10.Text" xml:space="preserve">
+    <value>要素超链接目标</value>
+  </data>
 </root>

@@ -153,4 +153,13 @@
   <data name="label3.Text" xml:space="preserve">
     <value>X大小</value>
   </data>
+  <data name="label7.Text" xml:space="preserve">
+    <value>角度</value>
+  </data>
+  <data name="label8.Text" xml:space="preserve">
+    <value>大小可调</value>
+  </data>
+  <data name="rdInline.Text" xml:space="preserve">
+    <value>内嵌的base64的PNG内容</value>
+  </data>
 </root>

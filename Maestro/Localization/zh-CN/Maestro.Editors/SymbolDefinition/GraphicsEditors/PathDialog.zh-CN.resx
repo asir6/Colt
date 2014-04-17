@@ -123,4 +123,31 @@
   <data name="label3.Text" xml:space="preserve">
     <value>线条颜色</value>
   </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>几何描述</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>线条粗细</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>线条粗细可调</value>
+  </data>
+  <data name="label7.Text" xml:space="preserve">
+    <value>线的连接</value>
+  </data>
+  <data name="btnClose.Text" xml:space="preserve">
+    <value>关闭</value>
+  </data>
+  <data name="TAB_GENERAL.Text" xml:space="preserve">
+    <value>生成</value>
+  </data>
+  <data name="label13.Text" xml:space="preserve">
+    <value>Y方向缩放比例</value>
+  </data>
+  <data name="label14.Text" xml:space="preserve">
+    <value>X方向缩放比例</value>
+  </data>
+  <data name="TAB_ADVANCED.Text" xml:space="preserve">
+    <value>高级</value>
+  </data>
 </root>

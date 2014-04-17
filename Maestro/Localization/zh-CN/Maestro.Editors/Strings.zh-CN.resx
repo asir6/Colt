@@ -1513,22 +1513,22 @@
     <value>没有指定要素类</value>
   </data>
   <data name="LayerAlreadyAtBottomOfGroup" xml:space="preserve">
-    <value>The selected layer is already at the bottom of its group</value>
+    <value>所选图层已经处于组的底部</value>
   </data>
   <data name="LayerAlreadyAtTopOfGroup" xml:space="preserve">
-    <value>The selected layer is already at the top of its group</value>
+    <value>所选图层已经处于组的顶部</value>
   </data>
   <data name="OdbcConnStrMissingMgPlaceholders" xml:space="preserve">
-    <value>The ODBC connection string requires a %MG_USERNAME% and %MG_PASSWORD% placeholder tokens present</value>
+    <value>ODBC 连接字符串必须包含 %MG_USERNAME% 和 %MG_PASSWORD% 占位符</value>
   </data>
   <data name="GroupAlreadyExists" xml:space="preserve">
-    <value>A group named "{0}" already exists. Choose a different name</value>
+    <value>组名 "{0}" 已存在。 选择其他名称</value>
   </data>
   <data name="ExtendedFeatureClassAlreadyExists" xml:space="preserve">
-    <value>An extended feature class named ({0}) already exist. Please choose a different name</value>
+    <value>扩展要素类名称 ({0}) 已存在。请选择其他名称</value>
   </data>
   <data name="ConfirmNonMapGuideSupportedCsWkt" xml:space="preserve">
-    <value>The WKT you entered is not recognised by MapGuide's Coordinate System Library. Use it anyway?</value>
+    <value>您输入的WKT坐标系统库无法识别，仍然使用它？</value>
   </data>
   <data name="NonMapGuideSupportedCsWkt" xml:space="preserve">
     <value>不支持的 WKT</value>

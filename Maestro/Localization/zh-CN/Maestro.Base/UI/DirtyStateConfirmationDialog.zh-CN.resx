@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -117,4 +117,19 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="lblConfirm.Text" xml:space="preserve">
+    <value>资源{0} 有为保存的修改。你要关闭并放弃该修改吗?</value>
+  </data>
+  <data name="btnYes.Text" xml:space="preserve">
+    <value>是</value>
+  </data>
+  <data name="btnNo.Text" xml:space="preserve">
+    <value>否</value>
+  </data>
+  <data name="btnDiff.Text" xml:space="preserve">
+    <value>查看区别</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>为保存的资源</value>
+  </data>
 </root>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -117,4 +117,13 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="btnSpatialContexts.Text" xml:space="preserve">
+    <value>空间上下文</value>
+  </data>
+  <data name="btnEditConfiguration.Text" xml:space="preserve">
+    <value>编辑配置文件</value>
+  </data>
+  <data name="btnLocalPreview.Text" xml:space="preserve">
+    <value>本地预览</value>
+  </data>
 </root>

@@ -569,7 +569,7 @@ Many thanks to the following people who have translated Maestro into other langu
     <value>有{0}已存在的资源重名。你要重写这些资源吗？</value>
   </data>
   <data name="PromptSelectFdoProvider" xml:space="preserve">
-    <value>Select an FDO Provider</value>
+    <value>选择一个 FDO Provider</value>
   </data>
   <data name="RenameTo" xml:space="preserve">
     <value>重命名为</value>
@@ -666,7 +666,7 @@ Many thanks to the following people who have translated Maestro into other langu
     <value>创建一个SDF 要素源</value>
   </data>
   <data name="SelectFdoProvider" xml:space="preserve">
-    <value>Select FDO Provider</value>
+    <value>选择FDO Provider</value>
   </data>
   <data name="SelectTemplatePath" xml:space="preserve">
     <value>选择用户模板路径</value>
@@ -792,7 +792,7 @@ Many thanks to the following people who have translated Maestro into other langu
     <value>Tip: {0} of {1}</value>
   </data>
   <data name="TitleSelectFdoProvider" xml:space="preserve">
-    <value>Select FDO Provider</value>
+    <value>选择FDO Provider</value>
   </data>
   <data name="Toolbar_EditAsXml" xml:space="preserve">
     <value>编辑为 XML</value>
@@ -807,103 +807,105 @@ Many thanks to the following people who have translated Maestro into other langu
     <value>验证</value>
   </data>
   <data name="TPL_ADF_DESC" xml:space="preserve">
-    <value>Create a new Fusion Application Definition (Flexible Layout)</value>
+    <value>创建一个新的Fusion应用程序定义（灵活布局）</value>
   </data>
   <data name="TPL_ADF_NAME" xml:space="preserve">
-    <value>Application Definition</value>
+    <value>应用程序定义</value>
   </data>
   <data name="TPL_CATEGORY_DEFAULT" xml:space="preserve">
-    <value>Default</value>
+    <value>缺省</value>
   </data>
   <data name="TPL_CATEGORY_USERDEF" xml:space="preserve">
-    <value>User Defined</value>
+    <value>用户定义的</value>
   </data>
   <data name="TPL_CSD_DESC" xml:space="preserve">
-    <value>Create a new Compund Symbol Definition using the v1.0.0 schema</value>
+    <value>使用1.0.0版模式创建一个新的复合的符号定义</value>
   </data>
   <data name="TPL_CSD_NAME" xml:space="preserve">
-    <value>Compound Symbol Definition (v1.0.0)</value>
+    <value>符合符号定义 (1.0.0版)</value>
   </data>
   <data name="TPL_DLDF_DESC" xml:space="preserve">
-    <value>Create a new Drawing Layer Definition</value>
+    <value>创建一个新的绘图图层定义</value>
   </data>
   <data name="TPL_DLDF_NAME" xml:space="preserve">
-    <value>Drawing Layer Definition</value>
+    <value>绘图图层定义</value>
   </data>
   <data name="TPL_DS_DESC" xml:space="preserve">
-    <value>Create a new Drawing Source</value>
+    <value>创建一个新的绘图资源</value>
   </data>
   <data name="TPL_DS_NAME" xml:space="preserve">
-    <value>Drawing Source</value>
+    <value>绘图资源</value>
   </data>
   <data name="TPL_FS_DESC" xml:space="preserve">
-    <value>Create a new Feature Source</value>
+    <value>创建一个新的要素源</value>
   </data>
   <data name="TPL_FS_NAME" xml:space="preserve">
-    <value>Feature Source</value>
+    <value>要素源</value>
   </data>
   <data name="TPL_LP_DWF_DESC" xml:space="preserve">
-    <value>Create a DWF Load Procedure</value>
+    <value>创建一个 DWF加载 资源包</value>
   </data>
   <data name="TPL_LP_DWF_NAME" xml:space="preserve">
-    <value>DWF Load Procedure</value>
+    <value>DWF加载资源包</value>
   </data>
   <data name="TPL_LP_SDF_DESC" xml:space="preserve">
-    <value>Create a new SDF Load Procedure</value>
+    <value>创建一 新的SDF加载 资源包</value>
   </data>
   <data name="TPL_LP_SDF_NAME" xml:space="preserve">
-    <value>SDF Load Procedure</value>
+    <value>SDF 加载资源包</value>
   </data>
   <data name="TPL_LP_SHP_DESC" xml:space="preserve">
-    <value>Create a new SHP Load Procedure</value>
+    <value>创建一个新的 SHP 加载 资源包</value>
   </data>
   <data name="TPL_LP_SHP_NAME" xml:space="preserve">
-    <value>SHP Load Procedure</value>
+    <value>SHP 加载资源包</value>
   </data>
   <data name="TPL_MDF_DESC" xml:space="preserve">
-    <value>Create a new Map Definition using the v1.0.0 schema</value>
+    <value>使用1.0.0版模式创建一个新的地图定义
+</value>
   </data>
   <data name="TPL_MDF_NAME" xml:space="preserve">
-    <value>Map Definition (v1.0.0)</value>
+    <value>地图定义(1.0.0版)</value>
   </data>
   <data name="TPL_PL_DESC" xml:space="preserve">
-    <value>Create a new Print Layout</value>
+    <value>创建一个打印布局</value>
   </data>
   <data name="TPL_PL_NAME" xml:space="preserve">
-    <value>Print Layout</value>
+    <value>打印布局</value>
   </data>
   <data name="TPL_RLDF_DESC" xml:space="preserve">
-    <value>Create a new Raster Layer Definition using the v1.0.0 schema</value>
+    <value>使用1.0.0版本模式创建一个光栅图层定义</value>
   </data>
   <data name="TPL_RLDF_NAME" xml:space="preserve">
-    <value>Raster Layer Definition (v1.0.0)</value>
+    <value>光栅图层定义 (1.0.0版)</value>
   </data>
   <data name="TPL_SSD_DESC" xml:space="preserve">
-    <value>Create a new Simple Symbol Definition using the v1.0.0 schema</value>
+    <value>使用1.0.0版模式创建一个新的简单符号定义</value>
   </data>
   <data name="TPL_SSD_NAME" xml:space="preserve">
-    <value>Simple Symbol Definition (v1.0.0)</value>
+    <value>简单符号定义 (1.0.0版)</value>
   </data>
   <data name="TPL_USER_DEFINED" xml:space="preserve">
-    <value>User Defined Resource Templates</value>
+    <value>使用已定义的资源模板</value>
   </data>
   <data name="TPL_VLDF_DESC" xml:space="preserve">
-    <value>Create a new Vector Layer Definition using the v1.0.0 schema</value>
+    <value>Create a new Vector Layer Definition using the v1.0.0 schema
+使用1.0.0版模式创建一个新的矢量图层定义</value>
   </data>
   <data name="TPL_VLDF_NAME" xml:space="preserve">
-    <value>Vector Layer Definition (v1.0.0)</value>
+    <value>矢量图层定义 (1.0.0版)</value>
   </data>
   <data name="TPL_WL_DESC" xml:space="preserve">
-    <value>Create a new Web Layout using the v1.0.0 schema</value>
+    <value>使用1.0.0版模式创建一个新的网络布局定义</value>
   </data>
   <data name="TPL_WL_NAME" xml:space="preserve">
-    <value>Web Layout (v1.0.0)</value>
+    <value>网络布局 (1.0.0版)</value>
   </data>
   <data name="UpdatedOpenEditor" xml:space="preserve">
-    <value>Open editor updated to {0}</value>
+    <value>打开编辑器更新到 {0}</value>
   </data>
   <data name="UpdatingOpenReferences" xml:space="preserve">
-    <value>Updating open editors of {0} to {1}</value>
+    <value>更新打开编辑器 {0} 到 {1}</value>
   </data>
   <data name="ValidationBuildingList" xml:space="preserve">
     <value>建立资源列表...</value>

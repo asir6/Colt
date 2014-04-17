@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -117,4 +117,19 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="label1.Text" xml:space="preserve">
+    <value>在你的布局中未找到以下本地化字符串。点击需要翻译的标签并在对应位置输入翻译。</value>
+  </data>
+  <data name="btnApply.Text" xml:space="preserve">
+    <value>应用</value>
+  </data>
+  <data name="btnCancel.Text" xml:space="preserve">
+    <value>取消</value>
+  </data>
+  <data name="btnCheckAll.Text" xml:space="preserve">
+    <value>检查所有</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>翻译布局</value>
+  </data>
 </root>

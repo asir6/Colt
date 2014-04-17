@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -117,4 +117,22 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="chkCreateLayers.Text" xml:space="preserve">
+    <value>图层定义</value>
+  </data>
+  <data name="chkCreateFeatureSources.Text" xml:space="preserve">
+    <value>要素源</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>文件夹名称</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>在该路径内</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>创建</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>加载资源到文件夹</value>
+  </data>
 </root>

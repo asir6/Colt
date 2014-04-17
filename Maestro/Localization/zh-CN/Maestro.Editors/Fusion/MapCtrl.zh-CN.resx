@@ -186,4 +186,13 @@
   <data name="grpCms.Text" xml:space="preserve">
     <value>商业地图服务图层（勾选您要使用的那些）</value>
   </data>
+  <data name="chkOsmCycleMap.Text" xml:space="preserve">
+    <value>单车地图</value>
+  </data>
+  <data name="chkOsmTransportMap.Text" xml:space="preserve">
+    <value>交通图</value>
+  </data>
+  <data name="groupBox6.Text" xml:space="preserve">
+    <value>OSM地图</value>
+  </data>
 </root>

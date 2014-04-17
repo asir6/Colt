@@ -186,4 +186,7 @@
   <data name="label6.Text" xml:space="preserve">
     <value>角度控制</value>
   </data>
+  <data name="symAreaRepeatY.ToolTip" xml:space="preserve">
+    <value>符号之间纵向上的间隔长度。单位为毫米(mm)。默认值为0</value>
+  </data>
 </root>

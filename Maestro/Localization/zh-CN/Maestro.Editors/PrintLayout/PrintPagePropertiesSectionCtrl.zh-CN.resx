@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -117,4 +117,31 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="label1.Text" xml:space="preserve">
+    <value>背景颜色</value>
+  </data>
+  <data name="grpLayout.Text" xml:space="preserve">
+    <value>布局可见性</value>
+  </data>
+  <data name="chkTitle.Text" xml:space="preserve">
+    <value>标题</value>
+  </data>
+  <data name="chkLegend.Text" xml:space="preserve">
+    <value>图例</value>
+  </data>
+  <data name="chkDateTime.Text" xml:space="preserve">
+    <value>日期/时间</value>
+  </data>
+  <data name="chkCustomText.Text" xml:space="preserve">
+    <value>自定义文字</value>
+  </data>
+  <data name="chkNorthArrow.Text" xml:space="preserve">
+    <value>指北针</value>
+  </data>
+  <data name="chkCustomLogos.Text" xml:space="preserve">
+    <value>自定义商标</value>
+  </data>
+  <data name="chkScaleBar.Text" xml:space="preserve">
+    <value>比例尺</value>
+  </data>
 </root>

@@ -1054,13 +1054,13 @@
     <value>资源已存在，继续保存？</value>
   </data>
   <data name="PackageBuildError" xml:space="preserve">
-    <value>构建包时发生错误: {0}</value>
+    <value>构建资源包时发生错误: {0}</value>
   </data>
   <data name="PackageCreationFailedError" xml:space="preserve">
-    <value>创建包失败，错误信息为: {0}</value>
+    <value>创建资源包失败，错误信息为: {0}</value>
   </data>
   <data name="PackageReadError" xml:space="preserve">
-    <value>读取包失败，错误信息为: {0}</value>
+    <value>读取资源包失败，错误信息为: {0}</value>
   </data>
   <data name="ParameterOverrideExists" xml:space="preserve">
     <value>已经指定参数覆盖</value>
@@ -1132,7 +1132,7 @@
   <data name="RepositoryWipeWarning" xml:space="preserve">
     <value>您选择了在根目录恢复数据包。
 您也选择了恢复前删除目标。
-这将删除整个仓库并用该包替换。
+这将删除整个仓库并用该资源包替换。
 请务必确认这是您想要的操作？</value>
   </data>
   <data name="RequiredServiceNotSupported" xml:space="preserve">
@@ -1142,7 +1142,7 @@
     <value>资源不存在</value>
   </data>
   <data name="SaveMapBeforeTiling" xml:space="preserve">
-    <value>You must save this map first before you can run MgCooker</value>
+    <value>在运行图块生成器之前您必须保存地图</value>
   </data>
   <data name="SaveResource" xml:space="preserve">
     <value>保存资源</value>
@@ -1172,7 +1172,7 @@
     <value>请先选择图层</value>
   </data>
   <data name="SelectPackageFile" xml:space="preserve">
-    <value>选择要编辑的包文件</value>
+    <value>选择要编辑的资源包文件</value>
   </data>
   <data name="SelectProperty" xml:space="preserve">
     <value>选择属性</value>
@@ -1295,18 +1295,18 @@
     <value>警告</value>
   </data>
   <data name="TooManyIndiviualValuesError" xml:space="preserve">
-    <value>The selected column contains more than {0} different values, and thus cannot be used for theming with individual values</value>
+    <value>所选的列包含多于 {0} 个不同的值，因此不能用于只包含单个值的主题图</value>
   </data>
   <data name="TooManyRulesWarning" xml:space="preserve">
-    <value>You are creating a large number of rules, this will likely result in Maestro becoming unresponsive.
-Do you want to continue?</value>
+    <value>您将创建大量规则，这可能会导致系统运行迟缓。
+继续吗？</value>
   </data>
   <data name="TooManyValuesError" xml:space="preserve">
-    <value>The selected column contains more than {0} different values, and thus cannot be used for theming</value>
+    <value>所选的列包含多于 {0} 个不同的值，因此不能用于创建主题图</value>
   </data>
   <data name="TooMuchDataWarning" xml:space="preserve">
-    <value>The selected column contains more than {0} different values.
-The calculated averages only accounts for the first {0} distinct values.</value>
+    <value>所选的列包含多于 {0} 个不同的值。
+计算出的平均值将仅使用前 {0} 不同的值。</value>
   </data>
   <data name="TransparentName" xml:space="preserve">
     <value>透明</value>
@@ -1327,19 +1327,19 @@ The calculated averages only accounts for the first {0} distinct values.</value>
     <value>未知的类型</value>
   </data>
   <data name="UnmanagedBrowserMultiSelectionNotAllowed" xml:space="preserve">
-    <value>Multiple selection is not allowed when SelectFoldersOnly is set to true</value>
+    <value>当“只选文件夹”(SelectFoldersOnly)为真(true)时，多选被禁用</value>
   </data>
   <data name="UnsupportedConnectionType" xml:space="preserve">
-    <value>Invoking MgCooker is not supported for this connection type: {0}</value>
+    <value>如下连接类型不支持调用图块生成器: {0}</value>
   </data>
   <data name="UpdatingConfiguration" xml:space="preserve">
     <value>正在更新配置文件</value>
   </data>
   <data name="ValidateOutputfileError" xml:space="preserve">
-    <value>An error occured while validating the output file path: {0}</value>
+    <value>验证输出文件路径时发生如下错误: {0}</value>
   </data>
   <data name="WarningMapExtentCalculation" xml:space="preserve">
-    <value>Could not transform extents of one or more layers in this Map Definition. These extents have not been factored into the computed result.</value>
+    <value>在该地图定义中有一个或多个图层的区域未能转换。这些区域未计入计算结果。</value>
   </data>
   <data name="WidgetNameExists" xml:space="preserve">
     <value>工具名称 {0} 已存在</value>
@@ -1360,13 +1360,13 @@ The calculated averages only accounts for the first {0} distinct values.</value>
     <value>此功能尚未实现</value>
   </data>
   <data name="ErrorExplodingCompositeStyleNotSupported" xml:space="preserve">
-    <value>Exploding Composite Styles is not currently supported</value>
+    <value>目前不支持展开复合样式</value>
   </data>
   <data name="InvalidLayerNameFormat" xml:space="preserve">
-    <value>Invalid Layer Name Format. Name must have both {0} and {1} format markers</value>
+    <value>非法图层名格式。名称必须同时包含 {0} 和 {1} 标记格式</value>
   </data>
   <data name="ConfirmWmsLogicalClassSwap" xml:space="preserve">
-    <value>In some cases, the actual WMS layer name would be generated in the FDO class description. Swap FDO logical class names with their descriptions?</value>
+    <value>在某些情况下，实际的WMS层名称会生成到FDO类的描述中。交换FDO逻辑类名和它们的类描述？</value>
   </data>
   <data name="FsPreview_GenericPropertyTooltip" xml:space="preserve">
     <value>属性: {0}{2}类型: {1}</value>
@@ -1402,7 +1402,7 @@ The calculated averages only accounts for the first {0} distinct values.</value>
     <value>返回活动的要素编号</value>
   </data>
   <data name="Func_IF_ConditionDescription" xml:space="preserve">
-    <value>Boolean expression (filter) encapsulated in a string</value>
+    <value>被封装在一个字符串内的布尔表达式（过滤器）</value>
   </data>
   <data name="Func_IF_Description" xml:space="preserve">
     <value>If evaluator for style theming</value>
@@ -1417,19 +1417,19 @@ The calculated averages only accounts for the first {0} distinct values.</value>
     <value>返回活动图层编号</value>
   </data>
   <data name="Func_LOOKUP_DefaultValueDescription" xml:space="preserve">
-    <value>Default value returned if expression does not evaluate to any of the keys</value>
+    <value>如果表达式没有和任何一个键值匹配，则返回默认值</value>
   </data>
   <data name="Func_LOOKUP_Description" xml:space="preserve">
-    <value>Lookup table for style theming</value>
+    <value>在表中查找样式主题图</value>
   </data>
   <data name="Func_LOOKUP_ExpressionDescription" xml:space="preserve">
     <value>关键表达式</value>
   </data>
   <data name="Func_LOOKUP_IndexDescription" xml:space="preserve">
-    <value>Lookup index that can be matched by the key expression</value>
+    <value>查找可以和键值表达式匹配的索引值</value>
   </data>
   <data name="Func_LOOKUP_ValueDescription" xml:space="preserve">
-    <value>Value that is returned when the key expression matches the associated index</value>
+    <value>当键值表达式和相关索引值匹配时返回的值</value>
   </data>
   <data name="Func_MAPNAME_Description" xml:space="preserve">
     <value>返回活动的地图名</value>
@@ -1444,13 +1444,13 @@ The calculated averages only accounts for the first {0} distinct values.</value>
     <value>关键表达式</value>
   </data>
   <data name="Func_RANGE_MaxDescription" xml:space="preserve">
-    <value>Exclusive maximum of range that can be matched by the key expression</value>
+    <value>可以和键值表达式匹配的最大值范围</value>
   </data>
   <data name="Func_RANGE_MinDescription" xml:space="preserve">
-    <value>Inclusive minimum of range that can be matched by the key expression</value>
+    <value>可以和键值表达式匹配的最小值范围</value>
   </data>
   <data name="Func_RANGE_ValueDescription" xml:space="preserve">
-    <value>Value that is returned when the key expression matches the associated range</value>
+    <value>当键值表达式和相关索引值匹配时返回的值</value>
   </data>
   <data name="Func_SESSION_Description" xml:space="preserve">
     <value>返回活动的会话</value>
@@ -1468,13 +1468,13 @@ The calculated averages only accounts for the first {0} distinct values.</value>
     <value>显示当前地图范围</value>
   </data>
   <data name="Desc_GetMapKml" xml:space="preserve">
-    <value>Gets the current map as a KML document</value>
+    <value>将当前地图生成到KML文件</value>
   </data>
   <data name="Desc_ZoomToScale" xml:space="preserve">
     <value>缩放到指定的比例尺</value>
   </data>
   <data name="FailedToCalculateFeatureSourceExtents" xml:space="preserve">
-    <value>Could not calculate the extents of the Feature Source. Preview is not possible</value>
+    <value>无法计算要素源的区域。不能预览。</value>
   </data>
   <data name="Label_ExtraTools" xml:space="preserve">
     <value>其他工具</value>
@@ -1498,13 +1498,13 @@ The calculated averages only accounts for the first {0} distinct values.</value>
     <value>正在准备资源预览</value>
   </data>
   <data name="SiteVersionDoesntSupportWatermarks" xml:space="preserve">
-    <value>The site version of this current connection is not known to support watermarks</value>
+    <value>当前连接到的站点版本不支持水印</value>
   </data>
   <data name="UnpreviewableResourceType" xml:space="preserve">
-    <value>The resource type cannot be previewed</value>
+    <value>不能预览该资源类型</value>
   </data>
   <data name="NoRegisteredPreviewerForProvider" xml:space="preserve">
-    <value>No registered previewer for connection: {0}</value>
+    <value>没有该连接相关的预览器: {0}</value>
   </data>
   <data name="FeatureClassNotFound" xml:space="preserve">
     <value>没有找到要素类: {0}</value>

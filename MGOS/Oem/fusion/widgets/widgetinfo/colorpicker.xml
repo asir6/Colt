@@ -1,10 +1,10 @@
 <WidgetInfo>
   <Type>ColorPicker</Type>
-  <LocalizedType>Color Picker</LocalizedType>
-  <Description>The user can pick from a palette of web-safe colors or enter a hex value</Description>
+  <LocalizedType>颜色面板</LocalizedType>
+  <Description>在颜色面板中选择颜色。</Description>
   <Location></Location>
-  <Label>Color picker</Label>
-  <Tooltip>Use this tool to select a color</Tooltip>
+  <Label>颜色面板</Label>
+  <Tooltip>在颜色面板中选择颜色</Tooltip>
   <StatusText></StatusText>
   <ImageUrl></ImageUrl>
   <ImageClass></ImageClass>
@@ -12,9 +12,9 @@
   <ContainableBy></ContainableBy>
   <Parameter>
     <Name>ColorInputId</Name>
-    <Description>The HTML Input element where the selected color should be written</Description>
+    <Description>选中颜色所填充的HTML元素</Description>
     <Type>String</Type>
-    <Label>ColorInputId</Label>
+    <Label>颜色填充元素编号</Label>
     <DefaultValue></DefaultValue>
     <IsMandatory>true</IsMandatory>
   </Parameter>

@@ -1,11 +1,11 @@
 <!-- this widget doesn't work the same was as the scale entry in the existing AJAX viewer, so we may make a new one -->
 <WidgetInfo>
   <Type>ViewSize</Type>
-  <LocalizedType>View Size</LocalizedType>
-  <Description>Display the size of the current view in user-definable units</Description>
+  <LocalizedType>视图尺寸</LocalizedType>
+  <Description>按照用户指定的单位显示当前视图下地图的尺寸。</Description>
   <Location></Location>
-  <Label>ViewSize</Label>
-  <Tooltip>The size of the map</Tooltip>
+  <Label>视图尺寸</Label>
+  <Tooltip>当前视图下地图的尺寸</Tooltip>
   <StatusText></StatusText>
   <ImageUrl></ImageUrl>
   <ImageClass></ImageClass>
@@ -13,45 +13,45 @@
   <ContainableBy>Splitterbar</ContainableBy>
   <Parameter>
     <Name>Units</Name>
-    <Description>the units to display the size in</Description>
+    <Description>地图尺寸单位</Description>
     <Type>String</Type>
-    <Label>Units</Label>
+    <Label>单位</Label>
     <AllowedValue>
       <Name>Meters</Name>
-      <Label>Meters</Label>
+      <Label>米</Label>
     </AllowedValue>
     <AllowedValue>
       <Name>Kilometers</Name>
-      <Label>Kilometers</Label>
+      <Label>千米</Label>
     </AllowedValue>
     <AllowedValue>
       <Name>Feet</Name>
-      <Label>Feet</Label>
+      <Label>英尺</Label>
     </AllowedValue>
     <AllowedValue>
       <Name>Yards</Name>
-      <Label>Yards</Label>
+      <Label>码</Label>
     </AllowedValue>
     <AllowedValue>
       <Name>Miles</Name>
-      <Label>Miles</Label>
+      <Label>英里</Label>
     </AllowedValue>
     <AllowedValue>
       <Name>Degrees</Name>
-      <Label>Degrees</Label>
+      <Label>度</Label>
     </AllowedValue>
     <AllowedValue>
       <Name>Pixels</Name>
-      <Label>Pixels</Label>
+      <Label>像素</Label>
     </AllowedValue>
     <DefaultValue>Meters</DefaultValue>
     <IsMandatory>false</IsMandatory>
   </Parameter>
   <Parameter>
     <Name>Precision</Name>
-    <Description>Precision of the size displayed</Description>
+    <Description>地图尺寸精度</Description>
     <Type>integer</Type>
-    <Label>DistancePrecision</Label>
+    <Label>精度</Label>
     <Min>-1</Min>
     <Max>6</Max>
     <DefaultValue>2</DefaultValue>
@@ -59,9 +59,9 @@
   </Parameter>
   <Parameter>
     <Name>Template</Name>
-    <Description>A template string to display the size. Values in {} will be replaced by actual values</Description>
+    <Description>显示地图尺寸的模板，{}中的值将被实际数值替换。</Description>
     <Type>String</Type>
-    <Label>Template</Label>
+    <Label>显示方式模板</Label>
     <DefaultValue>{w} x {h} {units}</DefaultValue>
     <IsMandatory>false</IsMandatory>
   </Parameter>

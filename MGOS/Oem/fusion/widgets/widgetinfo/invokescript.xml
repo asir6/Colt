@@ -1,7 +1,7 @@
 <WidgetInfo>
   <Type>InvokeScript</Type>
-  <LocalizedType>Invoke Script</LocalizedType>
-  <Description>A widget to execute arbitrary javascript</Description>
+  <LocalizedType>执行脚本</LocalizedType>
+  <Description>执行指定的javascrit脚本。</Description>
   <Location></Location>
   <Label></Label>
   <Tooltip></Tooltip>
@@ -12,9 +12,9 @@
   <ContainableBy>Any</ContainableBy>
   <Parameter>
     <Name>Script</Name>
-    <Description>The JavaScript code to be executed</Description>
+    <Description>JavaScript代码</Description>
     <Type>String</Type>
-    <Label>Script</Label>
+    <Label>脚本</Label>
     <IsMandatory>true</IsMandatory>
   </Parameter>
 </WidgetInfo>

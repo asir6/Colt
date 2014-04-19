@@ -1,9 +1,9 @@
 <WidgetInfo>
   <Type>ClearSelection</Type>
-  <LocalizedType>Clear Selection</LocalizedType>
-  <Description>Clears the current selection</Description>
-  <Label>Clear Selection</Label>
-  <Tooltip>Click to clear the current selection</Tooltip>
+  <LocalizedType>清除选择</LocalizedType>
+  <Description>清除当前选择。</Description>
+  <Label>清除选择</Label>
+  <Tooltip>点击清除当前选择</Tooltip>
   <ImageUrl>images/icons.png</ImageUrl>
   <ImageClass>select-clear</ImageClass>
   <StandardUi>true</StandardUi>

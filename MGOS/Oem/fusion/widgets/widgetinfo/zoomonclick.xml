@@ -1,7 +1,7 @@
 <WidgetInfo>
   <Type>ZoomOnClick</Type>
-  <LocalizedType>Zoom on Click</LocalizedType>
-  <Description>Zoom the map by a fixed amount when a button is clicked</Description>
+  <LocalizedType>点击缩放</LocalizedType>
+  <Description>点击按照设定的值缩放当前地图。</Description>
   <Location></Location>
   <Label></Label>
   <Tooltip></Tooltip>
@@ -12,9 +12,9 @@
   <ContainableBy>Any</ContainableBy>
   <Parameter>
     <Name>Factor</Name>
-    <Description>The factor to zoom by. Values less than 0 zoom out.</Description>
+    <Description>设置缩放值。 正值放大，负值缩小。</Description>
     <Type>double</Type>
-    <Label>Factor</Label>
+    <Label>缩放因子</Label>
     <DefaultValue>2</DefaultValue>
     <IsMandatory>false</IsMandatory>
   </Parameter>

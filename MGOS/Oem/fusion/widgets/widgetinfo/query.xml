@@ -1,19 +1,19 @@
 <WidgetInfo>
     <Type>Query</Type>
     <Location></Location>
-    <LocalizedType>Query</LocalizedType>
-    <Description>This widget will execute a custom query on the map.  Either a popup window or the task pane will be used to gather user input, depending on the setting of the Target parameter</Description>
-    <Label>Query</Label>
-    <Tooltip>Click to execute a custom query</Tooltip>
+    <LocalizedType>查询</LocalizedType>
+    <Description>在当前地图上执行查询操作。</Description>
+    <Label>查询</Label>
+    <Tooltip>点击执行查询操作</Tooltip>
     <ImageUrl>images/icons.png</ImageUrl>
     <ImageClass>query</ImageClass>
     <StandardUi>true</StandardUi>
     <ContainableBy>Any</ContainableBy>
     <Parameter>
         <Name>Target</Name>
-        <Label>Target</Label>
+        <Label>目标</Label>
         <Type>target</Type>
-        <Description>The frame, window, or TaskPane in which to display any UI for the widget. If empty, a new window is used</Description>
+        <Description>指定显示查询界面的框架、窗口或任务面板。 默认为新窗口。</Description>
         <IsMandatory>true</IsMandatory>
         <DefaultValue>TaskPane</DefaultValue>
     </Parameter>

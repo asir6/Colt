@@ -1,9 +1,9 @@
 <WidgetInfo>
   <Type>ScalebarDual</Type>
-  <LocalizedType>Scale Bar Dual</LocalizedType>
-  <Description>A dynamically generated cartographic scalebar that looks like the Google scalebar</Description>
+  <LocalizedType>比例尺 II</LocalizedType>
+  <Description>动态创建的地图比例尺。</Description>
   <Location></Location>
-  <Label>ScalebarDual</Label>
+  <Label>比例尺II</Label>
   <Tooltip></Tooltip>
   <StatusText></StatusText>
   <ImageUrl></ImageUrl>
@@ -12,41 +12,41 @@
   <ContainableBy></ContainableBy>
   <Parameter>
     <Name>MaxWidth</Name>
-    <Description>Maximum width of the scalebar in pixels</Description>
+    <Description>比例尺的最大宽度</Description>
     <Type>integer</Type>
-    <Label>Maximum width</Label>
+    <Label>最大宽度</Label>
     <DefaultValue>300</DefaultValue>
     <IsMandatory>false</IsMandatory>
   </Parameter>
   <Parameter>
     <Name>TopInUnits</Name>
-    <Description>Units for zoomed in on top bar</Description>
+    <Description>顶端栏放大单位</Description>
     <Type>String</Type>
-    <Label>Top bar units (zoomed in)</Label>
-    <DefaultValue>ft</DefaultValue>
+    <Label>顶端栏单位 (放大)</Label>
+    <DefaultValue>km</DefaultValue>
     <IsMandatory>false</IsMandatory>
   </Parameter>
   <Parameter>
     <Name>TopOutUnits</Name>
-    <Description>Units for zoomed out on top bar</Description>
+    <Description>顶端栏缩小单位</Description>
     <Type>String</Type>
-    <Label>Top bar units (zoomed out)</Label>
-    <DefaultValue>mi</DefaultValue>
+    <Label>顶端栏单位（缩小）</Label>
+    <DefaultValue>km</DefaultValue>
     <IsMandatory>false</IsMandatory>
   </Parameter>
   <Parameter>
     <Name>BottomInUnits</Name>
-    <Description>Units for zoomed in on bottom bar</Description>
+    <Description>底端栏放大单位</Description>
     <Type>String</Type>
-    <Label>Bottom bar units (zoomed in)</Label>
-    <DefaultValue>m</DefaultValue>
+    <Label>底端栏单位（放大）</Label>
+    <DefaultValue>km</DefaultValue>
     <IsMandatory>false</IsMandatory>
   </Parameter>
   <Parameter>
     <Name>BottomOutUnits</Name>
-    <Description>Units for zoomed out on bottom bar</Description>
+    <Description>底端栏缩小单位</Description>
     <Type>String</Type>
-    <Label>Bottom bar units (zoomed out)</Label>
+    <Label>底端栏单位（缩小）</Label>
     <DefaultValue>km</DefaultValue>
     <IsMandatory>false</IsMandatory>
   </Parameter>

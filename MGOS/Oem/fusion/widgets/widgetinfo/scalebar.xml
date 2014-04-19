@@ -1,9 +1,9 @@
 <WidgetInfo>
   <Type>Scalebar</Type>
-  <LocalizedType>Scale Bar</LocalizedType>
-  <Description>Outputs a cartographic scalebar</Description>
+  <LocalizedType>比例尺</LocalizedType>
+  <Description>当前地图的显示比例。</Description>
   <Location></Location>
-  <Label>Scalebar</Label>
+  <Label>比例尺</Label>
   <Tooltip></Tooltip>
   <StatusText></StatusText>
   <ImageUrl></ImageUrl>
@@ -12,97 +12,97 @@
   <ContainableBy></ContainableBy>
   <Parameter>
     <Name>Style</Name>
-    <Description>Name of a style for the scalebbar</Description>
+    <Description>比例尺样式</Description>
     <Type>String</Type>
-    <Label>Style</Label>
+    <Label>样式</Label>
     <AllowedValue>
       <Name>fancy</Name>
-      <Label>Fancy</Label>
+      <Label>丰富</Label>
     </AllowedValue>
     <AllowedValue>
       <Name>fat</Name>
-      <Label>Fat</Label>
+      <Label>标准</Label>
     </AllowedValue>
     <AllowedValue>
       <Name>thin</Name>
-      <Label>Thin</Label>
+      <Label>精简</Label>
     </AllowedValue>
     <AllowedValue>
       <Name>thinner</Name>
-      <Label>Thinner</Label>
+      <Label>极简</Label>
     </AllowedValue>
     <DefaultValue>thin</DefaultValue>
     <IsMandatory>false</IsMandatory>
   </Parameter>
   <Parameter>
     <Name>DisplaySystem</Name>
-    <Description>Units to display</Description>
+    <Description>显示单位</Description>
     <Type>String</Type>
-    <Label>Display units</Label>
+    <Label>显示单位</Label>
     <AllowedValue>
       <Name>metric</Name>
-      <Label>Metric</Label>
+      <Label>公制</Label>
     </AllowedValue>
     <AllowedValue>
       <Name>english</Name>
-      <Label>English</Label>
+      <Label>英制</Label>
     </AllowedValue>
     <DefaultValue>metric</DefaultValue>
     <IsMandatory>false</IsMandatory>
   </Parameter>
   <Parameter>
     <Name>MinWidth</Name>
-    <Description>Minimum width of the scalebar in pixels</Description>
+    <Description>比例尺的最小宽度</Description>
     <Type>integer</Type>
-    <Label>Minimum width</Label>
+    <Label>最小宽度</Label>
     <DefaultValue>100</DefaultValue>
     <IsMandatory>false</IsMandatory>
   </Parameter>
   <Parameter>
     <Name>MaxWidth</Name>
-    <Description>Maximum width of the scalebar in pixels</Description>
+    <Description>比例尺的最大宽度</Description>
     <Type>integer</Type>
-    <Label>Maximum width</Label>
+    <Label>最大宽度</Label>
     <DefaultValue>200</DefaultValue>
     <IsMandatory>false</IsMandatory>
   </Parameter>
   <Parameter>
     <Name>Divisions</Name>
-    <Description>The number of major divsions to use</Description>
+    <Description>主分段的数量</Description>
     <Type>integer</Type>
-    <Label>Divisions</Label>
+    <Label>分段</Label>
     <DefaultValue>2</DefaultValue>
     <IsMandatory>false</IsMandatory>
   </Parameter>
   <Parameter>
     <Name>SubDivisions</Name>
-    <Description>The number of minor divisions within each major divsion</Description>
+    <Description>每个主分段中自分段的数量</Description>
     <Type>integer</Type>
-    <Label>SubDivisions</Label>
+    <Label>子分段</Label>
     <DefaultValue>2</DefaultValue>
     <IsMandatory>false</IsMandatory>
   </Parameter>
   <Parameter>
     <Name>ShowMinorMeasures</Name>
-    <Description>A flag to indicate if the minor divsions should be displayed</Description>
+    <Description>是否显示子分段</Description>
     <Type>boolean</Type>
-    <Label>ShowMinorMeasures</Label>
+    <Label>显示子分段</Label>
     <DefaultValue>true</DefaultValue>
     <IsMandatory>false</IsMandatory>
   </Parameter>
   <Parameter>
     <Name>AbbreviateLabel</Name>
-    <Description>A flag to indicate if the full or an abbreviated units name is displayed</Description>
+    <Description>是否以精简方式显示单位</Description>
     <Type>boolean</Type>
-    <Label>Abbreviate label</Label>
+    <Label>精简标签</Label>
     <DefaultValue>true</DefaultValue>
     <IsMandatory>false</IsMandatory>
   </Parameter>
   <Parameter>
     <Name>SingleLine</Name>
-    <Description>A flag to indicate if the scalebar should bee drawn all on a single line</Description>
+    <Description>是否将比例尺显示在同一行上</Description>
     <Type>boolean</Type>
-    <Label>Single line</Label>
+    <Label>同行显示</Label>
     <DefaultValue>false</DefaultValue>
     <IsMandatory>false</IsMandatory>
   </Parameter>

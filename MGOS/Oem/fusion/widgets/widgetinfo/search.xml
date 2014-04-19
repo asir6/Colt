@@ -1,10 +1,10 @@
 <WidgetInfo>
   <Type>Search</Type>
-  <LocalizedType>Search</LocalizedType>
-  <Description>A widget which will perform an attribute based search</Description>
+  <LocalizedType>查找</LocalizedType>
+  <Description>执行基于要素属性的查找。</Description>
   <Location></Location>
-  <Label>Search</Label>
-  <Tooltip>Click to carry out a search on the map data</Tooltip>
+  <Label>查找</Label>
+  <Tooltip>点击查找地图数据</Tooltip>
   <StatusText></StatusText>
   <ImageUrl>images/icons.png</ImageUrl>
   <ImageClass>search</ImageClass>
@@ -13,56 +13,56 @@
   <Parameter>
     <Name>Target</Name>
     <Label>Target</Label>
-    <Type>target</Type>
-    <Description>The frame, window, or TaskPane in which to display any UI for the widget. If empty, a new window is used</Description>
+    <Type>目标</Type>
+    <Description>指定显示查找信息的框架、窗口或任务面板。 默认为新窗口</Description>
     <IsMandatory>true</IsMandatory>
   </Parameter>
   <Parameter>
     <Name>Prompt</Name>
-    <Description>The prompt to display beside the user input</Description>
+    <Description>用户输入框的提示</Description>
     <Type>String</Type>
-    <Label>Prompt</Label>
+    <Label>提示</Label>
     <DefaultValue></DefaultValue>
     <IsMandatory>false</IsMandatory>
   </Parameter>
   <Parameter>
     <Name>Layer</Name>
-    <Description>Layer name in the map on which to carry out the search</Description>
+    <Description>执行查找的图层名称</Description>
     <Type>String</Type>
-    <Label>Layer</Label>
+    <Label>图层</Label>
     <DefaultValue></DefaultValue>
     <IsMandatory>false</IsMandatory>
   </Parameter>
   <Parameter>
     <Name>Filter</Name>
-    <Description>The search expression template to return features</Description>
+    <Description>查找表达式模板</Description>
     <Type>String</Type>
-    <Label>Filter</Label>
+    <Label>过滤</Label>
     <DefaultValue>String</DefaultValue>
     <IsMandatory>false</IsMandatory>
   </Parameter>
   <Parameter>
     <Name>MatchLimit</Name>
-    <Description>The maximum number of hits to return</Description>
+    <Description>返回查找匹配的最大数量</Description>
     <Type>integer</Type>
-    <Label>Match limit</Label>
+    <Label>匹配数量限制</Label>
     <Min>0</Min>
     <DefaultValue>100</DefaultValue>
     <IsMandatory>false</IsMandatory>
   </Parameter>
   <Parameter>
     <Name>ResultColumns</Name>
-    <Description>An XML structure describing the columns to be returned as part of the search and their labels</Description>
+    <Description>查找返回结果数据列的XML结构</Description>
     <Type>XML</Type>
-    <Label>ResultColumns</Label>
+    <Label>显示数据列</Label>
     <DefaultValue></DefaultValue>
     <IsMandatory>false</IsMandatory>
   </Parameter>
   <Parameter>
     <Name>Title</Name>
-    <Description>The title to use for the search form</Description>
+    <Description>查找窗口的标题</Description>
     <Type>String</Type>
-    <Label>Title</Label>
+    <Label>标题</Label>
     <DefaultValue></DefaultValue>
     <IsMandatory>false</IsMandatory>
   </Parameter>

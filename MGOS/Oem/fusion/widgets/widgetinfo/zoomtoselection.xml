@@ -1,10 +1,10 @@
 <WidgetInfo>
   <Type>ZoomToSelection</Type>
-  <LocalizedType>Zoom to Selection</LocalizedType>
-  <Description>A widget that will zoom the map to the currently selected features</Description>
+  <LocalizedType>缩放至选中要素</LocalizedType>
+  <Description>缩放当前地图并显示所有被选中的要素。</Description>
   <Location></Location>
-  <Label>Zoom Selection</Label>
-  <Tooltip>Click to zoom to the selection</Tooltip>
+  <Label>缩放至被选中要素</Label>
+  <Tooltip>点击缩放至选中要素</Tooltip>
   <StatusText></StatusText>
   <ImageUrl>images/icons.png</ImageUrl>
   <ImageClass>select-zoom</ImageClass>
@@ -12,17 +12,17 @@
   <ContainableBy>Any</ContainableBy>
   <Parameter>
     <Name>MaximumZoomDimension</Name>
-    <Description>Controls how much to zoom</Description>
+    <Description>控制最大的缩放比例</Description>
     <Type>integer</Type>
-    <Label>MaximumZoomDimension</Label>
+    <Label>最大缩放尺寸</Label>
     <DefaultValue>-1</DefaultValue>
     <IsMandatory>false</IsMandatory>
   </Parameter>
   <Parameter>
     <Name>ZoomFactor</Name>
-    <Description>The amount to zoom allowing all features to still be displayed</Description>
+    <Description>仍使所有要素都显示在屏幕上的缩放值</Description>
     <Type>float</Type>
-    <Label>Zoom factor</Label>
+    <Label>缩放因子</Label>
     <DefaultValue>2</DefaultValue>
     <IsMandatory>false</IsMandatory>
   </Parameter>

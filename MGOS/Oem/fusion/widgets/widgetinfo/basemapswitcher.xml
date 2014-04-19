@@ -1,10 +1,10 @@
 <WidgetInfo>
   <Type>BasemapSwitcher</Type>
-  <LocalizedType>BasemapSwitcher</LocalizedType>
-  <Description>A widget to allow selection of the basemaps display under the overlay MapGuide layer</Description>
+  <LocalizedType>底图切换</LocalizedType>
+  <Description>选择在地图上作为底图的图层。</Description>
   <Location></Location>
-  <Label>External Providers</Label>
-  <Tooltip>Click to change the basemap</Tooltip>
+  <Label>底图切换</Label>
+  <Tooltip>点击切换底图</Tooltip>
   <StatusText></StatusText>
   <ImageUrl>images/icons.png</ImageUrl>
   <ImageClass>options</ImageClass>

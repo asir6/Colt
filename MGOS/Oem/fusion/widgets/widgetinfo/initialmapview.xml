@@ -1,10 +1,10 @@
 <WidgetInfo>
   <Type>InitialMapView</Type>
-  <LocalizedType>Initial Map View</LocalizedType>
-  <Description>A widget that will zoom the map to the full extents</Description>
+  <LocalizedType>初始视图</LocalizedType>
+  <Description>缩放至初始视图或全显地图。</Description>
   <Location></Location>
-  <Label>Zoom Extents</Label>
-  <Tooltip>Click to zoom to the full map extents</Tooltip>
+  <Label>初始视图</Label>
+  <Tooltip>点击切换至初始视图范围或全显地图</Tooltip>
   <StatusText></StatusText>
   <ImageUrl>images/icons.png</ImageUrl>
   <ImageClass>zoom-full</ImageClass>
@@ -12,16 +12,16 @@
   <ContainableBy>Any</ContainableBy>
   <Parameter>
     <Name>ViewType</Name>
-    <Description>option to zoom to full map extents or just the initial extent</Description>
+    <Description>缩放至原始视图或全显当前地图。</Description>
     <Type>String</Type>
-    <Label>ViewType</Label>
+    <Label>视图类型</Label>
     <AllowedValue>
       <Name>full</Name>
-      <Label>full extent</Label>
+      <Label>全显地图</Label>
     </AllowedValue>
     <AllowedValue>
       <Name>initial</Name>
-      <Label>initial map extent</Label>
+      <Label>初始视图</Label>
     </AllowedValue>
     <DefaultValue>initial</DefaultValue>
     <IsMandatory>false</IsMandatory>

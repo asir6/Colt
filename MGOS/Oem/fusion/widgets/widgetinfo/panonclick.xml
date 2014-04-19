@@ -1,10 +1,10 @@
 <WidgetInfo>
   <Type>PanOnClick</Type>
-  <LocalizedType>Pan on Click</LocalizedType>
-  <Description>Pans the map in the specified direction on a click</Description>
+  <LocalizedType>点击平移</LocalizedType>
+  <Description>鼠标单击时按照设定的方向平移当前地图。</Description>
   <Location></Location>
-  <Label></Label>
-  <Tooltip></Tooltip>
+  <Label>点击平移</Label>
+  <Tooltip>鼠标单击时按照设定的方向平移当前地图</Tooltip>
   <StatusText></StatusText>
   <ImageUrl></ImageUrl>
   <ImageClass></ImageClass>
@@ -12,9 +12,9 @@
   <ContainableBy>Any</ContainableBy>
   <Parameter>
     <Name>Percentage</Name>
-    <Description>Percentage of the map width/height to move in the specified direction</Description>
+    <Description>平移地图宽/高的百分比</Description>
     <Type>integer</Type>
-    <Label>Percentage</Label>
+    <Label>平移比率</Label>
     <Min>10</Min>
     <Max>100</Max>
     <DefaultValue>75</DefaultValue>
@@ -22,24 +22,24 @@
   </Parameter>
   <Parameter>
     <Name>Direction</Name>
-    <Description>The direction in which to pan</Description>
+    <Description>平移方向</Description>
     <Type>String</Type>
-    <Label>Direction</Label>
+    <Label>平移方向</Label>
     <AllowedValue>
       <Name>north</Name>
-      <Label>north</Label>
+      <Label>北</Label>
     </AllowedValue>
     <AllowedValue>
       <Name>south</Name>
-      <Label>south</Label>
+      <Label>南</Label>
     </AllowedValue>
     <AllowedValue>
       <Name>east</Name>
-      <Label>east</Label>
+      <Label>东</Label>
     </AllowedValue>
     <AllowedValue>
       <Name>west</Name>
-      <Label>west</Label>
+      <Label>西</Label>
     </AllowedValue>
     <DefaultValue>none</DefaultValue>
     <IsMandatory>true</IsMandatory>

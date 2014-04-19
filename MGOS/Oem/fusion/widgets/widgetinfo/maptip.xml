@@ -1,10 +1,10 @@
 <WidgetInfo>
   <Type>Maptip</Type>
-  <LocalizedType>Map Tip</LocalizedType>
-  <Description>A widget to display information about features under the mouse as it hovers over the map</Description>
+  <LocalizedType>地图提示</LocalizedType>
+  <Description>当鼠标移动到地图上时显示要素信息。</Description>
   <Location></Location>
-  <Label>Maptip</Label>
-  <Tooltip>Click to Enable/Disable get information about features from Server</Tooltip>
+  <Label>地图提示</Label>
+  <Tooltip>点击使用/禁用地图提示</Tooltip>
   <StatusText></StatusText>
   <ImageUrl>images/maptip.png</ImageUrl>
   <ImageClass>Maptip</ImageClass>
@@ -12,9 +12,9 @@
   <ContainableBy>Any</ContainableBy>
   <Parameter>
     <Name>Delay</Name>
-    <Description>The delay in milliseconds before showing a map tip</Description>
+    <Description>显示地图提示的延时时间(毫秒)。</Description>
     <Type>integer</Type>
-    <Label>Delay</Label>
+    <Label>延时</Label>
     <Min>0</Min>
     <Max>10000</Max>
     <DefaultValue>350</DefaultValue>
@@ -22,16 +22,16 @@
   </Parameter>
   <Parameter>
     <Name>Layer</Name>
-    <Description>The layers to display information about</Description>
+    <Description>显示要素信息的图层。</Description>
     <Type>String</Type>
-    <Label>Layers</Label>
+    <Label>图层</Label>
     <IsMandatory>false</IsMandatory>
   </Parameter>
   <Parameter>
     <Name>Tolerance</Name>
-    <Description>The number of screen pixels around the cursor to query</Description>
+    <Description>鼠标点选可容许的像素误差。</Description>
     <Type>integer</Type>
-    <Label>Tolerance</Label>
+    <Label>容错值</Label>
     <Min>0</Min>
     <Max>10</Max>
     <DefaultValue>2</DefaultValue>
@@ -39,17 +39,17 @@
   </Parameter>
   <Parameter>
     <Name>Target</Name>
-    <Label>Target</Label>
+    <Label>目标</Label>
     <Type>String</Type>
-    <Description>The frame, window, or TaskPane in which to open hyperlinks. If empty, a new window is used</Description>
+    <Description>指定显示要素信息的框架、窗口或任务面板。 默认为新窗口。</Description>
     <IsMandatory>false</IsMandatory>
     <DefaultValue>MaptipWindow</DefaultValue>
   </Parameter>
   <Parameter>
     <Name>WinFeatures</Name>
-    <Label>Window Features</Label>
+    <Label>窗口设置</Label>
     <Type>String</Type>
-    <Description>Options for opening hyperlinks new window, if used</Description>
+    <Description>新窗口的设置信息</Description>
     <IsMandatory>false</IsMandatory>
     <DefaultValue>menubar=no,location=no,resizable=no,status=no</DefaultValue>
   </Parameter>

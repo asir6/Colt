@@ -1,83 +1,83 @@
 <WidgetInfo>
     <Type>QuickPlot</Type>
-    <LocalizedType>QuickPlot</LocalizedType>
-    <Description>This widget offers a quick way to print map</Description>
-    <Label>Quick Plot</Label>
-    <Tooltip>Click to create a plot quickly</Tooltip>
+    <LocalizedType>快速出图</LocalizedType>
+    <Description>快速打印地图。</Description>
+    <Label>快速出图</Label>
+    <Tooltip>点击打印当前地图</Tooltip>
     <ImageUrl>images/icons/print.png</ImageUrl>
     <ImageClass></ImageClass>
     <StandardUi>true</StandardUi>
     <ContainableBy>Any</ContainableBy>
     <Parameter>
         <Name>Target</Name>
-        <Description>The frame, window, or TaskPane in which to display any UI for the widget. If empty, a new window is used</Description>
+        <Description>指定显示快速出图界面的框架、窗口或任务面板。 默认为新窗口。</Description>
         <Type>target</Type>
-        <Label>Target</Label>
+        <Label>目标</Label>
         <DefaultValue>TaskPane</DefaultValue>
         <IsMandatory>true</IsMandatory>
     </Parameter>
     <Parameter>
         <Name>RememberPlotOptions</Name>
-        <Description>Indicates whether to persist the current QuickPlot UI settings to a cookie. If empty or false, these settings will not be saved</Description>
+        <Description>是否保存快速出图的设置</Description>
         <Type>boolean</Type>
-        <Label>RememberPlotOptions</Label>
+        <Label>保存设置</Label>
         <DefaultValue>false</DefaultValue>
         <IsMandatory>false</IsMandatory>
     </Parameter>
     <Parameter>
         <Name>ShowCoordinateLabels</Name>
-        <Description>Indicates whether to show the coordinate labels in the QuickPlot preview dialog. If empty, will default to true</Description>
+        <Description>是否在出图预览中显示坐标标签</Description>
         <Type>boolean</Type>
-        <Label>ShowCoordinateLabels</Label>
+        <Label>显示坐标标签</Label>
         <DefaultValue>true</DefaultValue>
         <IsMandatory>false</IsMandatory>
     </Parameter>
     <Parameter>
         <Name>ShowSubTitle</Name>
-        <Description>Indicates whether to show the sub title in the QuickPlot UI and preview dialog. If empty, will default to true</Description>
+        <Description>是否在出图界面或预览中显示子标题</Description>
         <Type>boolean</Type>
-        <Label>ShowSubTitle</Label>
+        <Label>显示子标题</Label>
         <DefaultValue>true</DefaultValue>
         <IsMandatory>false</IsMandatory>
     </Parameter>
     <Parameter>
         <Name>DefaultDpi</Name>
-        <Description>Indicates the default DPI to use for plotting. If specified, this will hide the DPI field in the QuickPlot UI and will override whatever DPI is used.</Description>
+        <Description>指定默认DPI. 若指定了默认DPI, 在出图界面中指定的DPI值将会被覆盖</Description>
         <Type>integer</Type>
-        <Label>DefaultDpi</Label>
+        <Label>默认DPI</Label>
         <DefaultValue>96</DefaultValue>
         <IsMandatory>false</IsMandatory>
     </Parameter>
     <Parameter>
         <Name>PaperListEntry</Name>
-        <Description>Indicates a list of name/value pairs that will override the paper size list in the QuickPlot UI if specified.</Description>
+        <Description>设置一组名/值对指定在快速出图界面中显示的纸张大小</Description>
         <Type>xml</Type>
-        <Label>PaperListEntry</Label>
+        <Label>纸张列表</Label>
         <DefaultValue></DefaultValue>
         <IsMandatory>false</IsMandatory>
     </Parameter>
     <Parameter>
         <Name>ScaleListEntry</Name>
-        <Description>Indicates a list of name/value pairs that will override the scale list in the QuickPlot UI if specified.</Description>
         <Type>xml</Type>
-        <Label>ScaleListEntry</Label>
+        <Description>设置一组名/值对指定在快速出图界面中显示的比例列表</Description>
+        <Label>比例列表</Label>
         <DefaultValue></DefaultValue>
         <IsMandatory>false</IsMandatory>
     </Parameter>
     <Parameter>
         <Name>DefaultMargin</Name>
-        <Description>Indicates the default Margin to use for plotting. If specified, this will hide the Margin field in the QuickPlot UI and will override whatever Margin is used.</Description>
+        <Description>指定默认边界大小. 若指定了默认边界，在出图界面中指定的边界值将会被覆盖</Description>
         <Type>string</Type>
-        <Label>Margin</Label>
+        <Label>默认边界</Label>
         <DefaultValue>25.4,12.7,12.7,12.7</DefaultValue>
         <IsMandatory>false</IsMandatory>
     </Parameter>
     <Parameter>
         <Name>Disclaimer</Name>
-        <Description>The legal disclaimer text to show in the preview dialog and final printout</Description>
+        <Description>在最终出图或出图预览上显示的声明文字</Description>
         <Type>string</Type>
-        <Label>Disclaimer</Label>
-        <DefaultValue>The materials available at this web site are for informational purposes only and do not constitute a legal document.</DefaultValue>
+        <Label>声明</Label>
+        <DefaultValue>页面显示信息仅供参考，不作为法律依据</DefaultValue>
         <IsMandatory>false</IsMandatory>
     </Parameter>
 </WidgetInfo>

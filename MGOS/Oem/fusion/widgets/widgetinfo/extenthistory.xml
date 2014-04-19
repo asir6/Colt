@@ -1,7 +1,7 @@
 <WidgetInfo>
   <Type>ExtentHistory</Type>
-  <LocalizedType>Extent History</LocalizedType>
-  <Description>A widget to navigate forward or backward in the map view extent history</Description>
+  <LocalizedType>视图历史</LocalizedType>
+  <Description>在以往的视图历史中选择某一视图。</Description>
   <Label></Label>
   <ImageUrl></ImageUrl>
   <ImageClass></ImageClass>
@@ -10,16 +10,16 @@
   <ContainableBy>Any</ContainableBy>
   <Parameter>
     <Name>Direction</Name>
-    <Description>The direction in which to traverse the extent history</Description>
+    <Description>历史视图中的选择方向</Description>
     <Type>string</Type>
-    <Label>Direction</Label>
+    <Label>选择方向</Label>
     <AllowedValue>
       <Name>Next</Name>
-      <Label>Next</Label>
+      <Label>后一个</Label>
     </AllowedValue>
     <AllowedValue>
       <Name>Previous</Name>
-      <Label>Previous</Label>
+      <Label>前一个</Label>
     </AllowedValue>
     <DefaultValue>Previous</DefaultValue>
     <IsMandatory>true</IsMandatory>

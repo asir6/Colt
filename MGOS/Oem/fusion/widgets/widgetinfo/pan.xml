@@ -1,10 +1,10 @@
 <WidgetInfo>
   <Type>Pan</Type>
-  <LocalizedType>Pan</LocalizedType>
-  <Description>Pans the map</Description>
+  <LocalizedType>平移</LocalizedType>
+  <Description>平移当前地图。</Description>
   <Location></Location>
-  <Label>Pan</Label>
-  <Tooltip>Click and drag to pan the map</Tooltip>
+  <Label>平移</Label>
+  <Tooltip>点击并拖拽来平移当前地图</Tooltip>
   <StatusText></StatusText>
   <ImageUrl>images/icons.png</ImageUrl>
   <ImageClass>pan</ImageClass>

@@ -1,10 +1,10 @@
 <WidgetInfo>
   <Type>CenterSelection</Type>
-  <LocalizedType>Center Selection</LocalizedType>
-  <Description>Center the current selection, if any, but maintain the current scale if possible. Zoom out if not</Description>
+  <LocalizedType>平移至选择中心</LocalizedType>
+  <Description>点击平移至当前选择范围的中心。</Description>
   <Location></Location>
-  <Label>Center selection</Label>
-  <Tooltip>Click to center the map on the current selection</Tooltip>
+  <Label>平移至选择中心</Label>
+  <Tooltip>点击平移至当前选择范围的中心</Tooltip>
   <StatusText></StatusText>
   <ImageUrl>images/icons.png</ImageUrl>
   <ImageClass>select-centre</ImageClass>

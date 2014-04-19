@@ -189,4 +189,7 @@
   <data name="symAreaRepeatY.ToolTip" xml:space="preserve">
     <value>符号之间纵向上的间隔长度。单位为毫米(mm)。默认值为0</value>
   </data>
+  <data name="label20.Text" xml:space="preserve">
+    <value>默认 Path</value>
+  </data>
 </root>

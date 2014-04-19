@@ -138,4 +138,19 @@
   <data name="btnCancel.Text" xml:space="preserve">
     <value>取消</value>
   </data>
+  <data name="groupBox1.Text" xml:space="preserve">
+    <value>源头</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>复制/移动资源</value>
+  </data>
+  <data name="chkOverwrite.Text" xml:space="preserve">
+    <value>覆盖名字相同资源</value>
+  </data>
+  <data name="groupBox3.Text" xml:space="preserve">
+    <value>迁移选项</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>迁移动作</value>
+  </data>
 </root>

@@ -1,0 +1,21 @@
+<WidgetInfo>
+  <Type>CTRLClick</Type>
+  <LocalizedType>CTRL点击</LocalizedType>
+  <Description>通过CTRL点击打开在图层上指定的URL表达式。</Description>
+  <Location></Location>
+  <Label>CTRL点击</Label>
+  <Tooltip></Tooltip>
+  <StatusText></StatusText>
+  <ImageUrl></ImageUrl>
+  <ImageClass></ImageClass>
+  <StandardUi>false</StandardUi>
+  <ContainableBy></ContainableBy>
+  <Parameter>
+    <Name>Layer</Name>
+    <Description>支持CTRL点击的图层列表</Description>
+    <Type>String</Type>
+    <Label>图层</Label>
+    <DefaultValue></DefaultValue>
+    <IsMandatory>false</IsMandatory>
+  </Parameter>
+</WidgetInfo>

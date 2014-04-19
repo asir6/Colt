@@ -1,7 +1,7 @@
 <WidgetInfo>
   <Type>About</Type>
   <LocalizedType>关于</LocalizedType>
-  <Description>显示许可和版权信息</Description>
+  <Description>显示许可和版权信息。</Description>
   <Location></Location>
   <Label>关于</Label>
   <Tooltip>点击显示关于页面</Tooltip>
@@ -12,7 +12,7 @@
   <ContainableBy>Any</ContainableBy>
   <Parameter>
     <Name>AboutURL</Name>
-    <Description>关于页面的URL链接地址</Description>
+    <Description>关于页面的URL链接地址。</Description>
     <Type>String</Type>
     <Label>关于页面URL</Label>
     <DefaultValue>widgets/About/About.html</DefaultValue>

@@ -1,10 +1,10 @@
 <WidgetInfo>
   <Type>ActivityIndicator</Type>
-  <LocalizedType>Activity Indicator</LocalizedType>
-  <Description>AcitivityIndicator is a widget that shows or hides its DOM element based on whether the map widget is busy or not. The map widget becomes busy when loading maps, reloading maps or redrawing layers.</Description>
+  <LocalizedType>加载指示</LocalizedType>
+  <Description>当地图加载或重新绘制时，显示页面中的特定控件。加载或绘制完毕时，隐藏该控件。</Description>
   <Location></Location>
-  <Label>Activity Indicator</Label>
-  <Tooltip>The application is busy</Tooltip>
+  <Label>加载指示</Label>
+  <Tooltip>正在加载地图</Tooltip>
   <StatusText></StatusText>
   <ImageUrl>images/icon_loading.gif</ImageUrl>
   <ImageClass></ImageClass>
@@ -12,9 +12,9 @@
   <ContainableBy>Toolbar</ContainableBy>
   <Parameter>
     <Name>ElementId</Name>
-    <Description>ID of the element in the DOM which contains the indicator</Description>
+    <Description>页面中包含加载指示界面的DOM编号/Description>
     <Type>String</Type>
-    <Label>Element ID</Label>
+    <Label>DOM编号</Label>
     <IsMandatory>false</IsMandatory>
   </Parameter>
 </WidgetInfo>

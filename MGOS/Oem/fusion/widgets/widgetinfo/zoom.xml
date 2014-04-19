@@ -1,19 +1,19 @@
 <WidgetInfo>
   <Type>Zoom</Type>
-  <LocalizedType>Zoom</LocalizedType>
-  <Description>Zooms in on the map</Description>
-  <Label>Zoom Rectangle</Label>
-  <Tooltip>Click or click and drag on the map to zoom in</Tooltip>
-  <StatusText>Click or click and drag on the map to zoom in</StatusText>
+  <LocalizedType>缩放</LocalizedType>
+  <Description>缩放当前地图。</Description>
+  <Label>矩形缩放</Label>
+  <Tooltip>点击或拖拽地图进行缩放</Tooltip>
+  <StatusText>点击或拖拽地图进行缩放</StatusText>
   <ImageUrl>images/icons.png</ImageUrl>
   <ImageClass>zoom-in</ImageClass>
   <StandardUi>true</StandardUi>
   <ContainableBy>Any</ContainableBy>
   <Parameter>
     <Name>Tolerance</Name>
-    <Description>Zoom tolerance</Description>
+    <Description>缩放容差</Description>
     <Type>integer</Type>
-    <Label>Tolerance</Label>
+    <Label>容差</Label>
     <Min></Min>
     <Max></Max>
     <DefaultValue>5</DefaultValue>
@@ -21,25 +21,25 @@
   </Parameter>
   <Parameter>
     <Name>Factor</Name>
-    <Description>The amount to zoom in or out</Description>
+    <Description>放大或缩小的值</Description>
     <Type>integer</Type>
-    <Label>Factor</Label>
+    <Label>缩放因子</Label>
     <Min>1</Min>
     <DefaultValue>2</DefaultValue>
     <IsMandatory>false</IsMandatory>
   </Parameter>
   <Parameter>
     <Name>Direction</Name>
-    <Description>Indicates if the map should zoom in or out</Description>
+    <Description>放大或缩小地图</Description>
     <Type>String</Type>
-    <Label>Direction</Label>
+    <Label>缩放方式</Label>
     <AllowedValue>
       <Name>in</Name>
-      <Label>in</Label>
+      <Label>放大</Label>
     </AllowedValue>
     <AllowedValue>
       <Name>out</Name>
-      <Label>out</Label>
+      <Label>缩小</Label>
     </AllowedValue>
     <DefaultValue>in</DefaultValue>
     <IsMandatory>false</IsMandatory>

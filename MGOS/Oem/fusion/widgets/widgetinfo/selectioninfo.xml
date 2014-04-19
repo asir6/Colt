@@ -1,9 +1,9 @@
 <WidgetInfo>
   <Type>SelectionInfo</Type>
-  <LocalizedType>Selection Info</LocalizedType>
-  <Description>Displays the number of features and number of layers in the current selection.</Description>
+  <LocalizedType>选择信息</LocalizedType>
+  <Description>显示选中的要素数目和图层数目。</Description>
   <Location></Location>
-  <Label>Selection info</Label>
+  <Label>选择信息</Label>
   <Tooltip></Tooltip>
   <StatusText></StatusText>
   <ImageUrl></ImageUrl>
@@ -12,18 +12,18 @@
   <ContainableBy>Splitterbar</ContainableBy>
   <Parameter>
     <Name>Template</Name>
-    <Description>The format of the output string.</Description>
+    <Description>输出格式</Description>
     <Type>String</Type>
-    <Label>Template</Label>
-    <DefaultValue>{0} feature(s) selected on {1} layer(s)</DefaultValue>
+    <Label>输出格式模板</Label>
+    <DefaultValue>在{1}个图层中选中了{0}个要素</DefaultValue>
     <IsMandatory>false</IsMandatory>
   </Parameter>
   <Parameter>
     <Name>EmptyText</Name>
-    <Description>The string to display when nothing is selected</Description>
+    <Description>未选中任何要素时显示的信息</Description>
     <Type>String</Type>
-    <Label>Empty selection string</Label>
-    <DefaultValue>No features selected</DefaultValue>
+    <Label>未选中信息</Label>
+    <DefaultValue>尚未选中任何要素</DefaultValue>
     <IsMandatory>false</IsMandatory>
   </Parameter>
 </WidgetInfo>

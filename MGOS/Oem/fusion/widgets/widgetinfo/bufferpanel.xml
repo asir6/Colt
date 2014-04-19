@@ -1,18 +1,18 @@
 <WidgetInfo>
     <Type>BufferPanel</Type>
-    <LocalizedType>Buffer Panel</LocalizedType>
-    <Description>This widget will perform a buffering operation on selected features in the Map.  Either a popup window or the task pane will be used to gather user input, depending on the setting of the Target parameter</Description>
-    <Label>Buffer</Label>
-    <Tooltip>Click to create a buffer</Tooltip>
+    <LocalizedType>缓冲区面板</LocalizedType>
+    <Description>进行缓冲区计算的显示界面。</Description>
+    <Label>缓冲区</Label>
+    <Tooltip>点击创建缓冲区</Tooltip>
     <ImageUrl>images/icons.png</ImageUrl>
     <ImageClass>buffer</ImageClass>
     <StandardUi>true</StandardUi>
     <ContainableBy>Any</ContainableBy>
     <Parameter>
         <Name>Target</Name>
-        <Label>Target</Label>
+        <Label>目标</Label>
         <Type>target</Type>
-        <Description>The frame, window, or TaskPane in which to display any UI for the widget. If empty, a new window is used</Description>
+        <Description>指定显示缓冲区的框架、窗口或任务面板。 默认为新窗口。</Description>
         <IsMandatory>true</IsMandatory>
         <DefaultValue>TaskPane</DefaultValue>
     </Parameter>

@@ -1,10 +1,10 @@
 <WidgetInfo>
   <Type>Measure</Type>
-  <LocalizedType>Measure</LocalizedType>
-  <Description>A widget that allows measurements to be made on the map</Description>
+  <LocalizedType>测量</LocalizedType>
+  <Description>在地图上执行测量操作。</Description>
   <Location></Location>
-  <Label>Measure</Label>
-  <Tooltip>Measure distances and areas on the map</Tooltip>
+  <Label>测量</Label>
+  <Tooltip>在地图上测量距离与面积</Tooltip>
   <StatusText></StatusText>
   <ImageUrl>images/icons.png</ImageUrl>
   <ImageClass>measure</ImageClass>
@@ -12,29 +12,29 @@
   <ContainableBy>Any</ContainableBy>
   <Parameter>
     <Name>Units</Name>
-    <Description>the units to display distances in</Description>
+    <Description>测量单位</Description>
     <Type>String</Type>
-    <Label>Units</Label>
+    <Label>单位</Label>
     <AllowedValue>
       <Name>Meters</Name>
-      <Label>Meters</Label>
+      <Label>米</Label>
     </AllowedValue>
     <AllowedValue>
       <Name>Miles</Name>
-      <Label>Miles</Label>
+      <Label>英里</Label>
     </AllowedValue>
     <AllowedValue>
       <Name>Degrees</Name>
-      <Label>Degrees</Label>
+      <Label>度</Label>
     </AllowedValue>
     <DefaultValue>none</DefaultValue>
     <IsMandatory>false</IsMandatory>
   </Parameter>
   <Parameter>
     <Name>DistancePrecision</Name>
-    <Description>Precision of the distance displayed</Description>
+    <Description>测量距离的精度</Description>
     <Type>integer</Type>
-    <Label>DistancePrecision</Label>
+    <Label>距离精度</Label>
     <Min>1</Min>
     <Max>8</Max>
     <DefaultValue>4</DefaultValue>
@@ -42,9 +42,9 @@
   </Parameter>
   <Parameter>
     <Name>AreaPrecision</Name>
-    <Description>Precision of the area displayed</Description>
+    <Description>测量面积的精度</Description>
     <Type>integer</Type>
-    <Label>Area Precision</Label>
+    <Label>面积精度</Label>
     <Min>1</Min>
     <Max>8</Max>
     <DefaultValue>4</DefaultValue>
@@ -52,45 +52,45 @@
   </Parameter>
   <Parameter>
     <Name>Type</Name>
-    <Description>The type of measurement to display</Description>
+    <Description>测量方式</Description>
     <Type>String</Type>
-    <Label>measurement type</Label>
+    <Label>方式</Label>
     <AllowedValue>
       <Name>Both</Name>
-      <Label>Distance and Area</Label>
+      <Label>距离/面积</Label>
     </AllowedValue>
     <AllowedValue>
       <Name>Distance</Name>
-      <Label>Distance</Label>
+      <Label>距离</Label>
     </AllowedValue>
     <AllowedValue>
       <Name>Area</Name>
-      <Label>Area</Label>
+      <Label>面积</Label>
     </AllowedValue>
     <DefaultValue>Both</DefaultValue>
     <IsMandatory>false</IsMandatory>
   </Parameter>
   <Parameter>
     <Name>MeasureTooltipContainer</Name>
-    <Description>String</Description>
+    <Description>显示当前距离的HTML容器</Description>
     <Type>String</Type>
-    <Label>an HTML container to put the current distance in</Label>
+    <Label>HTML容器</Label>
     <DefaultValue>MeasureContainerBox</DefaultValue>
     <IsMandatory>false</IsMandatory>
   </Parameter>
   <Parameter>
     <Name>FillStyle</Name>
-    <Description>Style for the polygon used for area draw</Description>
+    <Description>绘制矩形的填充样式</Description>
     <Type>String</Type>
-    <Label>Fill style</Label>
+    <Label>填充样式</Label>
     <DefaultValue>rgba(0,0,255, 0.3)</DefaultValue>
     <IsMandatory>false</IsMandatory>
   </Parameter>
   <Parameter>
     <Name>LineStyleWidth</Name>
-    <Description>width of the line to use</Description>
+    <Description>绘制时的线宽</Description>
     <Type>integer</Type>
-    <Label>Line style width</Label>
+    <Label>线条宽度</Label>
     <Min>1</Min>
     <Max>6</Max>
     <DefaultValue>2</DefaultValue>
@@ -98,49 +98,49 @@
   </Parameter>
   <Parameter>
     <Name>LineStyleColor</Name>
-    <Description>color to use for drawing lines</Description>
+    <Description>绘制线条的颜色</Description>
     <Type>String</Type>
-    <Label>Line style color</Label>
+    <Label>线条颜色</Label>
     <DefaultValue>rgba(0,0,255,0.3)</DefaultValue>
     <IsMandatory>false</IsMandatory>
   </Parameter>
   <Parameter>
     <Name>MeasureTooltipType</Name>
-    <Description>Type of tooltip measurement to use</Description>
+    <Description>测量提示的类型</Description>
     <Type>String</Type>
-    <Label>Measure tooltip type</Label>
+    <Label>提示类型</Label>
     <AllowedValue>
       <Name>static</Name>
-      <Label>static</Label>
+      <Label>静态</Label>
     </AllowedValue>
     <AllowedValue>
       <Name>dynamic</Name>
-      <Label>dynamic</Label>
+      <Label>动态</Label>
     </AllowedValue>
     <DefaultValue>static</DefaultValue>
     <IsMandatory>false</IsMandatory>
   </Parameter>
   <Parameter>
     <Name>MeasureTipPositionTop</Name>
-    <Description>Static position of Tooltip Box TOP</Description>
+    <Description>测量提示的上边距</Description>
     <Type>String</Type>
-    <Label>Measure Tip Top Position</Label>
+    <Label>提示上边距</Label>
     <DefaultValue>100</DefaultValue>
     <IsMandatory>false</IsMandatory>
   </Parameter>
   <Parameter>
     <Name>MeasureTipPositionLeft</Name>
-    <Description>Static position of Tooltip Box LEFT</Description>
+    <Description>测量提示左边距</Description>
     <Type>String</Type>
-    <Label>Measure Tip Left Position</Label>
+    <Label>提示左边距</Label>
     <DefaultValue>15</DefaultValue>
     <IsMandatory>false</IsMandatory>
   </Parameter>
   <Parameter>
       <Name>Target</Name>
-      <Label>Target</Label>
+      <Label>目标</Label>
       <Type>target</Type>
-      <Description>The frame, window, or TaskPane in which to display any UI for the widget. If empty, a new window is used</Description>
+      <Description>指定显示测量界面的框架、窗口或任务面板。 默认为新窗口。</Description>
       <IsMandatory>true</IsMandatory>
       <DefaultValue>TaskPane</DefaultValue>
   </Parameter>

@@ -1,10 +1,10 @@
 <WidgetInfo>
   <Type>ViewOptions</Type>
-  <LocalizedType>View Options</LocalizedType>
-  <Description>A widget to allow selection of the display units for various widgets</Description>
+  <LocalizedType>视图选项</LocalizedType>
+  <Description>为当前视图和视图中的其他工具设定显示单位。</Description>
   <Location></Location>
-  <Label>Options</Label>
-  <Tooltip>Click to change the units displayed</Tooltip>
+  <Label>地图单位</Label>
+  <Tooltip>点击切换显示单位</Tooltip>
   <StatusText></StatusText>
   <ImageUrl>images/icons.png</ImageUrl>
   <ImageClass>options</ImageClass>
@@ -12,20 +12,20 @@
   <ContainableBy>Any</ContainableBy>
   <Parameter>
     <Name>DisplayUnits</Name>
-    <Description>The units to use for display by other widgets</Description>
+    <Description>当前视图和视图中的其他工具中的显示单位</Description>
     <Type>String</Type>
-    <Label>Display units</Label>
+    <Label>显示单位</Label>
     <AllowedValue>
       <Name>Miles</Name>
-      <Label>Miles</Label>
+      <Label>英里</Label>
     </AllowedValue>
     <AllowedValue>
       <Name>Meters</Name>
-      <Label>Meters</Label>
+      <Label>米</Label>
     </AllowedValue>
     <AllowedValue>
       <Name>Degrees</Name>
-      <Label>Degrees</Label>
+      <Label>度</Label>
     </AllowedValue>
     <DefaultValue></DefaultValue>
     <IsMandatory>false</IsMandatory>

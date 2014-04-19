@@ -1,19 +1,19 @@
 <WidgetInfo>
     <Type>Theme</Type>
     <Location></Location>
-    <LocalizedType>Theme</LocalizedType>
-    <Description>This widget will create a new themed layer based on an existing map layer.  Either a popup window or the task pane will be used to gather user input, depending on the setting of the Target parameter</Description>
-    <Label>Theme</Label>
-    <Tooltip>Click to create a themed layer</Tooltip>
+    <LocalizedType>专题图</LocalizedType>
+    <Description>基于当前地图图层上生成专题图层。</Description>
+    <Label>专题图</Label>
+    <Tooltip>点击创建专题图</Tooltip>
     <ImageUrl>images/icons.png</ImageUrl>
     <ImageClass>theme</ImageClass>
     <StandardUi>true</StandardUi>
     <ContainableBy>Any</ContainableBy>
     <Parameter>
         <Name>Target</Name>
-        <Label>Target</Label>
+        <Label>目标</Label>
         <Type>target</Type>
-        <Description>The frame, window, or TaskPane in which to display any UI for the widget. If empty, a new window is used</Description>
+        <Description>指定框架、窗口或任务面板作为专题图的显示界面，默认为新窗口。</Description>
         <IsMandatory>true</IsMandatory>
         <DefaultValue>TaskPane</DefaultValue>
     </Parameter>

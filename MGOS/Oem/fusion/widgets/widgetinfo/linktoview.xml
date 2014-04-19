@@ -1,10 +1,10 @@
 <WidgetInfo>
   <Type>LinkToView</Type>
-  <LocalizedType>Link to View</LocalizedType>
-  <Description>Displays a hyperlink to the current view of the application</Description>
+  <LocalizedType>视图链接</LocalizedType>
+  <Description>显示当前视图的链接地址。</Description>
   <Location></Location>
-  <Label>Link to view</Label>
-  <Tooltip>A link to the current map view</Tooltip>
+  <Label>视图链接</Label>
+  <Tooltip>当前地图视图的链接地址</Tooltip>
   <StatusText></StatusText>
   <ImageUrl></ImageUrl>
   <ImageClass></ImageClass>

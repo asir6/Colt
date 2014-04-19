@@ -2,108 +2,108 @@
 wil be merged in the future -->
 <WidgetInfo>
     <Type>Buffer</Type>
-    <LocalizedType>Buffer</LocalizedType>
-    <Description>This widget will perform a buffering operation on selected features in the Map.  Either a popup window or the task pane will be used to gather user input, depending on the setting of the Target parameter</Description>
-    <Label>Create a buffer</Label>
-    <Tooltip>Click to create a buffer</Tooltip>
+    <LocalizedType>缓冲区计算</LocalizedType>
+    <Description>基于被选中的要素进行缓冲区计算。</Description>
+    <Label>创建缓冲区</Label>
+    <Tooltip>点击创建缓冲区</Tooltip>
     <ImageUrl>images/icons.png</ImageUrl>
     <ImageClass>buffer</ImageClass>
     <StandardUi>true</StandardUi>
     <ContainableBy>Any</ContainableBy>
     <Parameter>
         <Name>LayerName</Name>
-        <Label>Layer name</Label>
+        <Label>图层名称</Label>
         <Type>string</Type>
-        <Description>The name of the buffer layer</Description>
-        <DefaultValue>Buffer</DefaultValue>
+        <Description>缓冲区图层名称</Description>
+        <DefaultValue>缓冲区</DefaultValue>
         <IsMandatory>0</IsMandatory>
     </Parameter>
     <Parameter>
         <Name>LayerNameInput</Name>
-        <Label>Layer name input field label</Label>
+        <Label>缓冲区图层标签名称</Label>
         <Type>string</Type>
-        <Description>The label for the buffer layer name input field</Description>
-        <DefaultValue>BufferLayerName</DefaultValue>
+        <Description>缓冲区图层标签名称</Description>
+        <DefaultValue>缓冲区图层名称</DefaultValue>
         <IsMandatory>0</IsMandatory>
     </Parameter>
     <Parameter>
         <Name>BufferDistance</Name>
-        <Label>Buffer distance</Label>
+        <Label>缓冲区半径</Label>
         <Type>double</Type>
-        <Description>The distance to buffer</Description>
+        <Description>用于缓冲区计算的半径</Description>
         <DefaultValue>100</DefaultValue>
         <IsMandatory>0</IsMandatory>
     </Parameter>
     <Parameter>
         <Name>BufferDistanceInput</Name>
-        <Label>Buffer distance input field label</Label>
+        <Label>缓冲区半径标签名称</Label>
         <Type>string</Type>
-        <Description>The label for the buffer distance input field</Description>
-        <DefaultValue>BufferDistance</DefaultValue>
+        <Description>缓冲区半径标签名称</Description>
+        <DefaultValue>缓冲区半径</DefaultValue>
         <IsMandatory>0</IsMandatory>
     </Parameter>
     <Parameter>
         <Name>BufferUnits</Name>
-        <Label>Buffer units</Label>
+        <Label>缓冲区单位</Label>
         <Type>string</Type>
-        <Description>The units for the buffer distance</Description>
+        <Description>用于计算缓冲区的长度单位</Description>
         <AllowedValue>
           <Name>meters</Name>
-          <Label>Meters</Label>
+          <Label>米</Label>
         </AllowedValue>
         <AllowedValue>
           <Name>feet</Name>
-          <Label>Feet</Label>
+          <Label>英尺</Label>
         </AllowedValue>
         <AllowedValue>
           <Name>miles</Name>
-          <Label>Miles</Label>
+          <Label>英里</Label>
         </AllowedValue>
         <AllowedValue>
           <Name>kilometers</Name>
-          <Label>Kilometers</Label>
+          <Label>千米</Label>
         </AllowedValue>
         <DefaultValue>meters</DefaultValue>
         <IsMandatory>0</IsMandatory>
     </Parameter>
     <Parameter>
         <Name>BufferUnitsInput</Name>
-        <Label>Buffer units input field label</Label>
+        <Label>缓冲区单位标签</Label>
         <Type>string</Type>
-        <Description>The label for the buffer units input field</Description>
-        <DefaultValue>BufferUnits</DefaultValue>
+        <Description>缓冲区单位标签</Description>
+        <DefaultValue>缓冲区单位</DefaultValue>
         <IsMandatory>0</IsMandatory>
     </Parameter>
     <Parameter>
         <Name>BorderColor</Name>
-        <Label>Border color</Label>
+        <Label>边界颜色</Label>
         <Type>color</Type>
-        <Description>The color of the buffer border</Description>
+        <Description>缓冲区边界颜色</Description>
         <DefaultValue>ff000000</DefaultValue>
         <IsMandatory>0</IsMandatory>
     </Parameter>
     <Parameter>
         <Name>BorderColorInput</Name>
-        <Label>Border color input field label</Label>
+        <Label>边界颜色标签</Label>
         <Type>string</Type>
-        <Description>The label for the border color input field</Description>
-        <DefaultValue>BufferBorderColor</DefaultValue>
+        <Description>边界颜色标签</Description>
+        <DefaultValue>缓冲区边界颜色</DefaultValue>
         <IsMandatory>0</IsMandatory>
     </Parameter>
     <Parameter>
         <Name>FillColor</Name>
-        <Label>Fill color</Label>
+        <Label>填充颜色</Label>
         <Type>color</Type>
-        <Description>The color of the buffer fill</Description>
+        <Description>缓冲区填充颜色</Description>
         <DefaultValue>33FF0000</DefaultValue>
         <IsMandatory>0</IsMandatory>
     </Parameter>
     <Parameter>
         <Name>FillColorInput</Name>
-        <Label>Fill color input field label</Label>
+        <Label>填充颜色标签</Label>
         <Type>string</Type>
-        <Description>The label for the fill color input field</Description>
-        <DefaultValue>BufferFillColor</DefaultValue>
+        <Description>填充颜色标签</Description>
+        <DefaultValue>缓冲区填充颜色</DefaultValue>
         <IsMandatory>0</IsMandatory>
     </Parameter>
 </WidgetInfo>

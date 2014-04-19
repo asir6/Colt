@@ -1,18 +1,18 @@
 <WidgetInfo>
   <Type>SaveMap</Type>
-  <LocalizedType>Save Map</LocalizedType>
-  <Description>A widget to save the map as an image</Description>
-  <Label>Save map</Label>
-  <Tooltip>Click to save the map as an image</Tooltip>
+  <LocalizedType>保存地图</LocalizedType>
+  <Description>将当前地图作为图片保存。</Description>
+  <Label>保存地图</Label>
+  <Tooltip>点击保存地图</Tooltip>
   <ImageUrl>images/icons.png</ImageUrl>
   <ImageClass>file-save</ImageClass>
   <StandardUi>true</StandardUi>
   <ContainableBy>Any</ContainableBy>
   <Parameter>
     <Name>Format</Name>
-    <Description>The image format to use</Description>
+    <Description>保存地图的图片格式</Description>
     <Type>String</Type>
-    <Label>Format</Label>
+    <Label>图片格式</Label>
     <AllowedValue>
       <Name>dwf</Name>
       <Label>DWF</Label>
@@ -34,17 +34,17 @@
   </Parameter>
   <Parameter>
     <Name>Scale</Name>
-    <Description>The scale at which the map is to be saved, or 0 to use the current map scale</Description>
+    <Description>地图保存比例尺，0为当前地图比例</Description>
     <Type>integer</Type>
-    <Label>Scale</Label>
+    <Label>比例</Label>
     <DefaultValue></DefaultValue>
     <IsMandatory>false</IsMandatory>
   </Parameter>
   <Parameter>
       <Name>ResourceId</Name>
-      <Description>The print layout to be used for DWF creation.  This is mandatory if the format is set to DWF.</Description>
+      <Description>为创建的DWF指定打印布局。</Description>
       <Type>PrintLayout</Type>
-      <Label>Print Layout (DWF Only)</Label>
+      <Label>打印布局 (仅限DWF格式)</Label>
       <DefaultValue></DefaultValue>
       <IsMandatory>false</IsMandatory>
   </Parameter>

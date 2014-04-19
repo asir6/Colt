@@ -1,9 +1,9 @@
 <WidgetInfo>
     <Type>SelectionPanel</Type>
-    <LocalizedType>Selection Panel</LocalizedType>
-    <Description>The SelectionPanel widget displays attributes for the features that are selected on the map.</Description>
+    <LocalizedType>选择面板</LocalizedType>
+    <Description>显示选中要素属性值的界面。</Description>
     <Location></Location>
-    <Label>Selection Panel</Label>
+    <Label>选择面板</Label>
     <Tooltip></Tooltip>
     <StatusText></StatusText>
     <ImageUrl></ImageUrl>
@@ -12,40 +12,40 @@
     <ContainableBy></ContainableBy>
     <Parameter>
         <Name>PreviousImageUrl</Name>
-        <Label>Previous Image URL</Label>
+        <Label>上一页图标URL</Label>
         <Type>string</Type>
-        <Description>Previous Image icon URL</Description>
+        <Description>上一页的图标URL</Description>
         <DefaultValue></DefaultValue>
         <IsMandatory>false</IsMandatory>
     </Parameter>
     <Parameter>
         <Name>NextImageUrl</Name>
-        <Label>Next Image URL</Label>
+        <Label>下一个图标URL</Label>
         <Type>string</Type>
-        <Description>Next Image icon URL</Description>
+        <Description>下一页的图标URL</Description>
         <DefaultValue></DefaultValue>
         <IsMandatory>false</IsMandatory>
     </Parameter>
     <Parameter>
         <Name>ResultsPerPage</Name>
-        <Label>Results Per Page</Label>
+        <Label>每页显示结果数量</Label>
         <Type>integer</Type>
-        <Description>The number of results to show per page</Description>
+        <Description>每个页面上显示的被选中要素信息</Description>
         <DefaultValue>0</DefaultValue>
         <IsMandatory>false</IsMandatory>
     </Parameter>
     <Parameter>
         <Name>SelectionRenderer</Name>
-        <Label>Selection Renderer</Label>
+        <Label>渲染方式</Label>
         <Type>string</Type>
-        <Description>The type of selection renderer to use</Description>
+        <Description>渲染选中要素的方式</Description>
         <AllowedValue>
           <Name>Fusion.Widget.SelectionPanel.SelectionRendererDefault</Name>
-          <Label>Default</Label>
+          <Label>默认方式</Label>
         </AllowedValue>
         <AllowedValue>
           <Name>Fusion.Widget.SelectionPanel.SelectionRendererHorizontal</Name>
-          <Label>Horizontal</Label>
+          <Label>水平方式</Label>
         </AllowedValue>
         <DefaultValue>Fusion.Widget.SelectionPanel.SelectionRendererDefault</DefaultValue>
         <IsMandatory>true</IsMandatory>

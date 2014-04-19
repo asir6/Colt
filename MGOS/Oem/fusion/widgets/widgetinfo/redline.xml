@@ -1,43 +1,43 @@
 <WidgetInfo>
     <Type>Redline</Type>
     <Location></Location>
-    <LocalizedType>Redline</LocalizedType>
-    <Description>This widget opens a panel in the TaskPane and allows the user to digitize features that can be downloaded as a GML file or uploaded to restore previously digitized features.</Description>
-    <Label>Redline</Label>
-    <Tooltip>Click to draw redline features</Tooltip>
+    <LocalizedType>批注</LocalizedType>
+    <Description>创建批注并将批注文件保存在本地，或上传显示本地已创建好的批注文件。</Description>
+    <Label>批注</Label>
+    <Tooltip>点击创建批注要素</Tooltip>
     <ImageUrl>images/icons.png</ImageUrl>
     <ImageClass>redline</ImageClass>
     <StandardUi>true</StandardUi>
     <ContainableBy>Any</ContainableBy>
     <Parameter>
         <Name>Target</Name>
-        <Label>Target</Label>
+        <Label>目标</Label>
         <Type>target</Type>
-        <Description>The frame, window, or TaskPane in which to display any UI for the widget. If empty, a new window is used</Description>
+        <Description>指定显示批注界面的框架、窗口或任务面板。 默认为任务面板。</Description>
         <IsMandatory>true</IsMandatory>
         <DefaultValue>TaskPane</DefaultValue>
     </Parameter>
     <Parameter>
         <Name>PromptForRedlineLabels</Name>
-        <Description>Indicates whether to prompt the user for label input when recording redlines. Default is false</Description>
+        <Description>是否提示用户输入批注名称</Description>
         <Type>boolean</Type>
-        <Label>PromptForRedlineLabels</Label>
+        <Label>批注名称提示</Label>
         <DefaultValue>false</DefaultValue>
         <IsMandatory>false</IsMandatory>
     </Parameter>
     <Parameter>
         <Name>AutogenerateLayerNames</Name>
-        <Description>Indicates whether to prompt the auto-generate redline layer names when creating a new redline layer or to prompt the user. Default is true (don't prompt)</Description>
+        <Description>是否自动生成批注图层名称</Description>
         <Type>boolean</Type>
-        <Label>AutogenerateLayerNames</Label>
+        <Label>自动生成批注图层名称</Label>
         <DefaultValue>true</DefaultValue>
         <IsMandatory>false</IsMandatory>
     </Parameter>
     <Parameter>
         <Name>UseMapMessage</Name>
-        <Description>Indicates to use the map message bar for digitization prompts. Default is true</Description>
+        <Description>当创建批注时，是否在地图上显示提示栏</Description>
         <Type>boolean</Type>
-        <Label>UseMapMessage</Label>
+        <Label>显示提示栏</Label>
         <DefaultValue>true</DefaultValue>
         <IsMandatory>false</IsMandatory>
     </Parameter>

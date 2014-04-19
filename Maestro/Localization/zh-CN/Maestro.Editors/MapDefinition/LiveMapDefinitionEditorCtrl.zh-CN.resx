@@ -132,4 +132,7 @@
   <data name="toolbar.Text" xml:space="preserve">
     <value>默认工具栏1</value>
   </data>
+  <data name="TAB_REPO.Text" xml:space="preserve">
+    <value>资源库视图</value>
+  </data>
 </root>

@@ -138,4 +138,7 @@
   <data name="$this.Text" xml:space="preserve">
     <value>正在计算范围</value>
   </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>右上角</value>
+  </data>
 </root>

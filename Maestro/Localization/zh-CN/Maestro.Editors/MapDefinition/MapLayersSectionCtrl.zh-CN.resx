@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -117,4 +117,76 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="TAB_GROUP.Text" xml:space="preserve">
+    <value>按组显示图层</value>
+  </data>
+  <data name="TAB_DRAWING_ORDER.Text" xml:space="preserve">
+    <value>按绘画顺序显示图层</value>
+  </data>
+  <data name="btnAddGroup.ToolTipText" xml:space="preserve">
+    <value>添加新组</value>
+  </data>
+  <data name="btnGRPAddLayer.ToolTipText" xml:space="preserve">
+    <value>添加图层</value>
+  </data>
+  <data name="btnRemoveGroup.ToolTipText" xml:space="preserve">
+    <value>移除选中组</value>
+  </data>
+  <data name="TAB_BASE_LAYERS.Text" xml:space="preserve">
+    <value>基准图层组</value>
+  </data>
+  <data name="btnGRPRemoveLayer.ToolTipText" xml:space="preserve">
+    <value>移除选中图层</value>
+  </data>
+  <data name="btnDLAddLayer.ToolTipText" xml:space="preserve">
+    <value>添加图层</value>
+  </data>
+  <data name="btnDLRemoveLayer.ToolTipText" xml:space="preserve">
+    <value>移除选中图层</value>
+  </data>
+  <data name="btnDLMoveLayerUp.ToolTipText" xml:space="preserve">
+    <value>向上移动选中图层</value>
+  </data>
+  <data name="btnDLMoveLayerDown.ToolTipText" xml:space="preserve">
+    <value>向下移动选中图层</value>
+  </data>
+  <data name="btnDLMoveLayerTop.ToolTipText" xml:space="preserve">
+    <value>移动选中图层到顶</value>
+  </data>
+  <data name="btnDLMoveLayerBottom.ToolTipText" xml:space="preserve">
+    <value>移动选中图层到底部</value>
+  </data>
+  <data name="btnNewBaseLayerGroup.ToolTipText" xml:space="preserve">
+    <value>添加新组</value>
+  </data>
+  <data name="btnRemoveBaseLayerGroup.ToolTipText" xml:space="preserve">
+    <value>移除选中组</value>
+  </data>
+  <data name="btnAddBaseLayer.ToolTipText" xml:space="preserve">
+    <value>添加图层</value>
+  </data>
+  <data name="btnRemoveBaseLayer.ToolTipText" xml:space="preserve">
+    <value>移除选中图层</value>
+  </data>
+  <data name="btnMoveBaseLayerUp.ToolTipText" xml:space="preserve">
+    <value>向上移动选中图层</value>
+  </data>
+  <data name="btnMoveBaseLayerDown.ToolTipText" xml:space="preserve">
+    <value>向下移动选中图层</value>
+  </data>
+  <data name="$this.HeaderText" xml:space="preserve">
+    <value>图层</value>
+  </data>
+  <data name="btnBaseLayerGroupToRegular.Text" xml:space="preserve">
+    <value>转换瓦片组到普通组</value>
+  </data>
+  <data name="btnConvertLayerGroupToBaseGroup.ToolTipText" xml:space="preserve">
+    <value>选中组转换为基准图层组</value>
+  </data>
+  <data name="btnMoveLayerOrGroupDown.Text" xml:space="preserve">
+    <value>向下移动选中组到合理位置</value>
+  </data>
+  <data name="btnMoveLayerOrGroupUp.Text" xml:space="preserve">
+    <value>向上移动选中组到合理位置</value>
+  </data>
 </root>

@@ -1,10 +1,10 @@
 <WidgetInfo>
   <Type>Help</Type>
-  <LocalizedType>Help</LocalizedType>
-  <Description>Outputs a user help page</Description>
+  <LocalizedType>帮助</LocalizedType>
+  <Description>显示帮助页面</Description>
   <Location></Location>
-  <Label>Help</Label>
-  <Tooltip>Click to get help</Tooltip>
+  <Label>帮助</Label>
+  <Tooltip>点击打开帮助页面</Tooltip>
   <StatusText></StatusText>
   <ImageUrl>images/icons.png</ImageUrl>
   <ImageClass>help</ImageClass>
@@ -12,17 +12,17 @@
   <ContainableBy>Any</ContainableBy>
   <Parameter>
     <Name>Target</Name>
-    <Description>The frame, window, or TaskPane in which to display any UI for the widget. If empty, a new window is used</Description>
+    <Description>指定显示帮助页面的框架、窗口或任务面板。 默认为新窗口。</Description>
     <Type>String</Type>
-    <Label>Target</Label>
+    <Label>目标</Label>
     <DefaultValue>HelpWindow</DefaultValue>
     <IsMandatory>false</IsMandatory>
   </Parameter>
   <Parameter>
     <Name>Url</Name>
-    <Description>The URL which contaions the help page contents.</Description>
+    <Description>帮助页面链接地址</Description>
     <Type>String</Type>
-    <Label>Help URL</Label>
+    <Label>帮助页面URL链接</Label>
     <DefaultValue>widgets/Help/Help.html</DefaultValue>
     <IsMandatory>false</IsMandatory>
   </Parameter>

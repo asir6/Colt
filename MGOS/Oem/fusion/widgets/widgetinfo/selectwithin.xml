@@ -1,10 +1,10 @@
 <WidgetInfo>
   <Type>SelectWithin</Type>
-  <LocalizedType>Select Within</LocalizedType>
-  <Description>A widget to perform a selection within a currently selected set of features</Description>
+  <LocalizedType>深入选择</LocalizedType>
+  <Description>在以选中的要素中选择要素</Description>
   <Location></Location>
-  <Label>Select within</Label>
-  <Tooltip>Click to select features within this selection</Tooltip>
+  <Label>深入选择</Label>
+  <Tooltip>在当前选中要素中选择</Tooltip>
   <StatusText></StatusText>
   <ImageUrl>images/icons.png</ImageUrl>
   <ImageClass>select-features</ImageClass>
@@ -12,17 +12,17 @@
   <ContainableBy>Any</ContainableBy>
   <Parameter>
     <Name>Target</Name>
-    <Label>Target</Label>
+    <Label>目标</Label>
     <Type>target</Type>
-    <Description>The frame, window, or TaskPane in which to display any UI for the widget. If empty, a new window is used</Description>
+    <Description>指定显示选中要素信息界面的框架、窗口或任务面板。 默认为新窗口</Description>
     <DefaultValue>TaskPane</DefaultValue>
     <IsMandatory>false</IsMandatory>
   </Parameter>
   <Parameter>
     <Name>DisableIfSelectionEmpty</Name>
-    <Description>A flag to indicate if this widget should only be enabled if there is a selection available on the map</Description>
+    <Description>当未有任何要素选中时禁用当前工具</Description>
     <Type>boolean</Type>
-    <Label>Disable If Selection Empty</Label>
+    <Label>未选中时禁用</Label>
     <DefaultValue>true</DefaultValue>
     <IsMandatory>false</IsMandatory>
   </Parameter>

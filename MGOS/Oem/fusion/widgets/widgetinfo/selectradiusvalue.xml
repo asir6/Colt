@@ -1,10 +1,10 @@
 <WidgetInfo>
   <Type>SelectRadiusValue</Type>
-  <LocalizedType>Select Radius Value</LocalizedType>
-  <Description>A widget to allow the user can manually enter a radius for the SelectRadius widget</Description>
+  <LocalizedType>半径值选择</LocalizedType>
+  <Description>通过用户输入的半径值选择要素。</Description>
   <Location></Location>
-  <Label>Select radius value</Label>
-  <Tooltip>enter the radius for the Select by Radius tool</Tooltip>
+  <Label>半径值选择</Label>
+  <Tooltip>为半径选择指定半径值</Tooltip>
   <StatusText></StatusText>
   <ImageUrl></ImageUrl>
   <ImageClass></ImageClass>
@@ -12,25 +12,25 @@
   <ContainableBy>Any</ContainableBy>
   <Parameter>
     <Name>RadiusName</Name>
-    <Description>The name of the SelectRadius widget this applies to</Description>
+    <Description>应用本工具的半径选择工具名称</Description>
     <Type>String</Type>
-    <Label>SelectRadius widget name</Label>
+    <Label>半径选择工具名</Label>
     <DefaultValue>SelectRadius</DefaultValue>
     <IsMandatory>false</IsMandatory>
   </Parameter>
   <Parameter>
     <Name>Label</Name>
-    <Description>Label to use for this widget</Description>
+    <Description>本工具的标签名称</Description>
     <Type>String</Type>
-    <Label>Label</Label>
+    <Label>标签</Label>
     <DefaultValue></DefaultValue>
     <IsMandatory>false</IsMandatory>
   </Parameter>
   <Parameter>
     <Name>ClassName</Name>
-    <Description>CSS class name for the Label</Description>
+    <Description>标签的CSS类型名称</Description>
     <Type>String</Type>
-    <Label>CSS Class name</Label>
+    <Label>CSS类型名称</Label>
     <DefaultValue></DefaultValue>
     <IsMandatory>false</IsMandatory>
   </Parameter>

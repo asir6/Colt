@@ -1,58 +1,58 @@
 <WidgetInfo>
   <Type>SelectRadius</Type>
-  <LocalizedType>Select Radius</LocalizedType>
-  <Description>Perform a selection within a certain radius of a click</Description>
-  <Label>Select Radius</Label>
-  <Tooltip>Click to select within a radius</Tooltip>
+  <LocalizedType>半径选择</LocalizedType>
+  <Description>通过绘制圆形选择要素。</Description>
+  <Label>半径选择</Label>
+  <Tooltip>在绘制的圆形半径内选择要素</Tooltip>
   <ImageUrl>images/icons.png</ImageUrl>
   <ImageClass>select-radius</ImageClass>
   <StandardUi>true</StandardUi>
   <ContainableBy>Any</ContainableBy>
   <Parameter>
     <Name>SelectionType</Name>
-    <Description>The type of selection to do</Description>
+    <Description>选择要素的方式</Description>
     <Type>String</Type>
-    <Label>Selection type</Label>
+    <Label>选择方式</Label>
     <DefaultValue>INTERSECTS</DefaultValue>
     <IsMandatory>false</IsMandatory>
   </Parameter>
   <Parameter>
     <Name>Tolerance</Name>
-    <Description>Pixel tolerance for a point click</Description>
+    <Description>鼠标点选可容许的像素误差</Description>
     <Type>integer</Type>
-    <Label>Tolerance</Label>
+    <Label>容错值</Label>
     <Min>1</Min>
     <DefaultValue>3</DefaultValue>
     <IsMandatory>false</IsMandatory>
   </Parameter>
   <Parameter>
     <Name>DefaultRadius</Name>
-    <Description>The radius in pixels to use for the selection</Description>
+    <Description>选取要素的默认半径（像素）</Description>
     <Type>integer</Type>
-    <Label>Default radius</Label>
+    <Label>默认半径</Label>
     <DefaultValue>20</DefaultValue>
     <IsMandatory>false</IsMandatory>
   </Parameter>
   <Parameter>
     <Name>RadiusTooltipContainer</Name>
-    <Description>String</Description>
+    <Description>显示半径值的HTML控件</Description>
     <Type>String</Type>
-    <Label>An HTML container to put the radius value in</Label>
+    <Label>HTML控件</Label>
     <DefaultValue></DefaultValue>
     <IsMandatory>false</IsMandatory>
   </Parameter>
   <Parameter>
     <Name>RadiusTooltipType</Name>
-    <Description>Type of tooltip to use</Description>
+    <Description>提示框显示方式</Description>
     <Type>String</Type>
-    <Label>Radius tooltip type</Label>
+    <Label>半径提示方式</Label>
     <AllowedValue>
       <Name>static</Name>
-      <Label>static</Label>
+      <Label>静态</Label>
     </AllowedValue>
     <AllowedValue>
       <Name>dynamic</Name>
-      <Label>dynamic</Label>
+      <Label>动态</Label>
     </AllowedValue>
     <DefaultValue>dynamic</DefaultValue>
     <IsMandatory>false</IsMandatory>

@@ -1,10 +1,10 @@
 <WidgetInfo>
   <Type>SelectPolygon</Type>
-  <LocalizedType>Select Polygon</LocalizedType>
-  <Description>Perform a selection using a polygon</Description>
+  <LocalizedType>多边形选择</LocalizedType>
+  <Description>通过绘制多边形选择要素。</Description>
   <Location></Location>
-  <Label>Select Polygon</Label>
-  <Tooltip>Draw a polygon to perform a selection</Tooltip>
+  <Label>多边形选择</Label>
+  <Tooltip>绘制一个多边形选择地图上的要素</Tooltip>
   <StatusText></StatusText>
   <ImageUrl>images/icons.png</ImageUrl>
   <ImageClass>select-polygon</ImageClass>
@@ -12,17 +12,17 @@
   <ContainableBy>Any</ContainableBy>
   <Parameter>
     <Name>SelectionType</Name>
-    <Description>The type of selection to do</Description>
+    <Description>选择要素的方式</Description>
     <Type>String</Type>
-    <Label>Selection type</Label>
+    <Label>选择方式</Label>
     <DefaultValue>INTERSECTS</DefaultValue>
     <IsMandatory>false</IsMandatory>
   </Parameter>
   <Parameter>
     <Name>Tolerance</Name>
-    <Description>pixel tolerance for a point click</Description>
+    <Description>鼠标点选可容许的像素误差</Description>
     <Type>integer</Type>
-    <Label>Tolerance</Label>
+    <Label>容错值</Label>
     <Min>1</Min>
     <DefaultValue>3</DefaultValue>
     <IsMandatory>false</IsMandatory>

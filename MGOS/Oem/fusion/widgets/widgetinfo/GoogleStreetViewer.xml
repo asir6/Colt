@@ -1,51 +1,51 @@
 <WidgetInfo>
   <Type>GoogleStreetViewer</Type>
-  <LocalizedType>Google StreetViewer</LocalizedType>
-  <Description>This widget is used to show Google StreetView on the map</Description>
+  <LocalizedType>谷歌街景</LocalizedType>
+  <Description>在地图上显示谷歌街景。</Description>
   <Location></Location>
-  <Label>Google StreetView</Label>
-  <Tooltip>Click to show Google StreetView</Tooltip>
+  <Label>谷歌街景</Label>
+  <Tooltip>点击显示谷歌街景</Tooltip>
   <StatusText></StatusText>
   <ImageUrl>../../../widgets/GoogleStreetViewer/GoogleStreetView.png</ImageUrl>
   <StandardUi>true</StandardUi>
   <ContainableBy>Any</ContainableBy>
   <Parameter>
     <Name>Target</Name>
-    <Label>Target</Label>
+    <Label>目标</Label>
     <Type>target</Type>
-    <Description>The frame, window, or TaskPane in which to display Google StreetView for the widget. If empty, a new window is used</Description>
+    <Description>指定显示谷歌街景的框架、窗口或任务面板。 默认为新窗口</Description>
     <IsMandatory>true</IsMandatory>
     <DefaultValue>TaskPane</DefaultValue>
   </Parameter>
   <Parameter>
     <Name>SymbolLayerName</Name>
-    <Label>Symbol Layer Name</Label>
-    <Description>The name of layer that shows the navigator symbol on map</Description>
+    <Label>导航符号图层名称</Label>
+    <Description>地图上显示的导航符号图层的名称</Description>
     <Type>string</Type>
     <IsMandatory>false</IsMandatory>
-    <DefaultValue>GoogleStreetViewerSymbolLayer</DefaultValue>
+    <DefaultValue>街景导航</DefaultValue>
   </Parameter>
   <Parameter>
     <Name>ShowDirection</Name>
-    <Label>Show Direction</Label>
+    <Label>显示方向线</Label>
     <Type>boolean</Type>
-    <Description>Whether to show a line to describe the current direction of the camera</Description>
+    <Description>是否通过方向线显示当先视角的方向</Description>
     <IsMandatory>false</IsMandatory>
     <DefaultValue>true</DefaultValue>
   </Parameter>
   <Parameter>
     <Name>DirectionLength</Name>
-    <Label>Direction Line Length</Label>
+    <Label>方向线长度</Label>
     <Type>integer</Type>
-    <Description>The length of the line to describe the current direction of the camera</Description>
+    <Description>方向线的长度</Description>
     <IsMandatory>false</IsMandatory>
     <DefaultValue>22</DefaultValue>
   </Parameter>
   <Parameter>
     <Name>AdditionalParameter</Name>
-    <Description>A list of key/value pairs that will be added to the URL</Description>
+    <Description>作为URL参数的一组名/值对</Description>
     <Type>XML</Type>
-    <Label>Additional parameter</Label>
+    <Label>附加参数</Label>
     <DefaultValue></DefaultValue>
     <IsMandatory>false</IsMandatory>
   </Parameter>

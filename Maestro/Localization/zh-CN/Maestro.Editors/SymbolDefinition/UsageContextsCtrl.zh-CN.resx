@@ -192,4 +192,16 @@
   <data name="label20.Text" xml:space="preserve">
     <value>默认 Path</value>
   </data>
+  <data name="symAreaOriginY.ToolTip" xml:space="preserve">
+    <value>符号在Y坐标方向从原点的偏移量(毫米)。仅当原点控制(OriginControl)设置为"全局"或"局部"时起作用。默认值为0</value>
+  </data>
+  <data name="symAreaAngle.ToolTip" xml:space="preserve">
+    <value>每个符号的旋转角度。仅当角度控制(AngleControl)设置为“从角度”时起作用。默认值为0</value>
+  </data>
+  <data name="symAreaBufferWidth.ToolTip" xml:space="preserve">
+    <value>符号被渲染到的缓冲区的宽度(毫米)。默认值为0</value>
+  </data>
+  <data name="symAreaOriginControl.ToolTip" xml:space="preserve">
+    <value>指定原点的定义。其值为“全局”，“本地”，或“中间对其”之一。默认为“全局”</value>
+  </data>
 </root>

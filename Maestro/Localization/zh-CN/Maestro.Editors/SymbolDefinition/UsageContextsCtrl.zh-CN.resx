@@ -217,4 +217,74 @@
     <value>Specifies how the symbol angle is defined.  This must evaluate to one of: FromAngle (default) or FromGeometry
 指定了符号旋转角度的定义。 必须指定为：FromAngle(通过角度值，默认值)或FromGeometry(通过几何图形)</value>
   </data>
+  <data name="symLineVertexMiterLimit.ToolTip" xml:space="preserve">
+    <value>描绘多短线拐角斜接的限长。当斜接长度和符号高度的比值大于该值时，斜接会被描绘出来。该值必须大于0.默认值为5.</value>
+  </data>
+  <data name="label18.Text" xml:space="preserve">
+    <value>顶点斜切限制</value>
+  </data>
+  <data name="label17.Text" xml:space="preserve">
+    <value>顶点角度限制</value>
+  </data>
+  <data name="symLineVertexAngleLimit.ToolTip" xml:space="preserve">
+    <value>指定限制角度(单位为度)。该值若指定，则必须大于等于0。默认值为0</value>
+  </data>
+  <data name="symLineEndOffset.ToolTip" xml:space="preserve">
+    <value>指定符号到哪里结束，从要素的终点算起。默认值为0</value>
+  </data>
+  <data name="symLineAngle.ToolTip" xml:space="preserve">
+    <value>指定符号的角度(单位为度)。该值仅当AngleControl(角度控制)被设置为FromAngle(通过角度值)时起作用。默认值为0</value>
+  </data>
+  <data name="symLineUnitsControl.ToolTip" xml:space="preserve">
+    <value>指定参数是一个固定的数字(毫米)还是参数化的。该值必须为Absolute(绝对的)或Parametric(参数化的)。默认值为Absolute</value>
+  </data>
+  <data name="symLineVertexJoin.ToolTip" xml:space="preserve">
+    <value>Specifies the wrapping behavior at vertices for all graphic elements.  Only applies if VertexControl evaluates to OverlapWrap.  This must evaluate to one of: None, Bevel, Round (default), or Miter
+指定图形元素顶点的环绕行为。仅当VertexControl(顶点控制)设置为OverlapWrap(重叠环绕)时起作用。该值必须为：None(空)，Bevel(斜切), Round(圆形), 或 Miter(斜接)</value>
+  </data>
+  <data name="symLineRepeat.ToolTip" xml:space="preserve">
+    <value>指定符号之间重复的间隔。默认值为0</value>
+  </data>
+  <data name="symLineStartOffset.ToolTip" xml:space="preserve">
+    <value>指定符号从哪里开始描绘，从要素的起点算起。默认值为0</value>
+  </data>
+  <data name="symLineVertexControl.ToolTip" xml:space="preserve">
+    <value>指定符号在顶点的行为。该值必须为：OverlapNone(不重叠), OverlapDirect(直接重叠), OverlapNoWrap(重叠而不环绕), 或 OverlapWrap(重叠环绕)。默认值为OverlapNone</value>
+  </data>
+  <data name="symLineAngleControl.ToolTip" xml:space="preserve">
+    <value>指定符号旋转角度是如何被定义的。该值必须为：FromAngle(通过角度值) 或 FromGeometry(通过几何图形)</value>
+  </data>
+  <data name="textBox16.ToolTip" xml:space="preserve">
+    <value>指定在描绘符号时的默认路径属性。当符号不能被正常描绘或者路径没有指定属性时，会描绘一条中心线。此时，路径中定义的几何图形被忽略</value>
+  </data>
+  <data name="symPointOriginOffsetY.ToolTip" xml:space="preserve">
+    <value>指定符号在Y方向上距离原点的偏移量(毫米)。该偏移量会在符号被缩放以及旋转前应用。默认值为0</value>
+  </data>
+  <data name="symPointAngle.ToolTip" xml:space="preserve">
+    <value>指定符号的角度(单位为度)。该值仅当AngleControl(角度控制)被设置为FromAngle(通过角度值)时起作用。默认值为0</value>
+  </data>
+  <data name="symPointOriginOffsetX.ToolTip" xml:space="preserve">
+    <value>指定符号在X方向上距离原点的偏移量(毫米)。该偏移量会在符号被缩放以及旋转前应用。默认值为0</value>
+  </data>
+  <data name="symPointAngleControl.ToolTip" xml:space="preserve">
+    <value>指定符号旋转角度是如何被定义的。该值必须为：FromAngle(通过角度值) 或 FromGeometry(通过几何图形)</value>
+  </data>
+  <data name="chkArea.Text" xml:space="preserve">
+    <value>定义面(多边形)的用法上下文</value>
+  </data>
+  <data name="chkLine.Text" xml:space="preserve">
+    <value>定义线的用法上下文</value>
+  </data>
+  <data name="chkPoint.Text" xml:space="preserve">
+    <value>定义点的用法上下文</value>
+  </data>
+  <data name="chkArea.ToolTip" xml:space="preserve">
+    <value>勾选以允许在多边形上下文中使用符号定义</value>
+  </data>
+  <data name="chkLine.ToolTip" xml:space="preserve">
+    <value>勾选以允许在线上下文中使用符号定义</value>
+  </data>
+  <data name="chkPoint.ToolTip" xml:space="preserve">
+    <value>勾选以允许在点上下文中使用符号定义</value>
+  </data>
 </root>

@@ -150,4 +150,13 @@
   <data name="TAB_ADVANCED.Text" xml:space="preserve">
     <value>高级</value>
   </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>路径</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>线头</value>
+  </data>
+  <data name="label8.Text" xml:space="preserve">
+    <value>线端斜接限制</value>
+  </data>
 </root>

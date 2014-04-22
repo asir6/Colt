@@ -193,15 +193,28 @@
     <value>默认 Path</value>
   </data>
   <data name="symAreaOriginY.ToolTip" xml:space="preserve">
-    <value>符号在Y坐标方向从原点的偏移量(毫米)。仅当原点控制(OriginControl)设置为"全局"或"局部"时起作用。默认值为0</value>
+    <value>符号在Y坐标方向从原点的偏移量(毫米)。仅当OriginControl(原点控制)设置为Global(全局)或Local(局部)时起作用。默认值为0</value>
   </data>
   <data name="symAreaAngle.ToolTip" xml:space="preserve">
-    <value>每个符号的旋转角度。仅当角度控制(AngleControl)设置为“从角度”时起作用。默认值为0</value>
+    <value>每个符号的旋转角度。仅当AngleControl(角度控制)设置为“通过角度值”时起作用。默认值为0</value>
   </data>
   <data name="symAreaBufferWidth.ToolTip" xml:space="preserve">
     <value>符号被渲染到的缓冲区的宽度(毫米)。默认值为0</value>
   </data>
   <data name="symAreaOriginControl.ToolTip" xml:space="preserve">
-    <value>指定原点的定义。其值为“全局”，“本地”，或“中间对其”之一。默认为“全局”</value>
+    <value>指定原点的定义。其值为Global(全局)或Local(局部)，或“中间对齐”之一。默认为Global</value>
+  </data>
+  <data name="symAreaRepeatX.ToolTip" xml:space="preserve">
+    <value>符号之间的水平间隔距离(毫米)。默认值为0</value>
+  </data>
+  <data name="symAreaOriginX.ToolTip" xml:space="preserve">
+    <value>符号在X方向距离原点的偏移距离(毫米)。仅在OriginControl(原点控制)为Global(全局)或Local(本地)时起作用。默认值为0</value>
+  </data>
+  <data name="symAreaClippingControl.ToolTip" xml:space="preserve">
+    <value>指定了当符号位于几何边框上时的裁剪行为。必须指定为：Clip(裁剪，默认值)，Inside(内部)，或重叠(Overlap)</value>
+  </data>
+  <data name="symAreaAngleControl.ToolTip" xml:space="preserve">
+    <value>Specifies how the symbol angle is defined.  This must evaluate to one of: FromAngle (default) or FromGeometry
+指定了符号旋转角度的定义。 必须指定为：FromAngle(通过角度值，默认值)或FromGeometry(通过几何图形)</value>
   </data>
 </root>

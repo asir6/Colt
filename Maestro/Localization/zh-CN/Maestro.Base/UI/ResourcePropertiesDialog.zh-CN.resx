@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -117,4 +117,142 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="UseInherited.Text" xml:space="preserve">
+    <value>使用继承的安全设置</value>
+  </data>
+  <data name="columnHeader1.Text" xml:space="preserve">
+    <value>名称</value>
+  </data>
+  <data name="columnHeader2.Text" xml:space="preserve">
+    <value>描述</value>
+  </data>
+  <data name="columnHeader3.Text" xml:space="preserve">
+    <value>访问权限</value>
+  </data>
+  <data name="readWriteAccessToolStripMenuItem.Text" xml:space="preserve">
+    <value>读写访问</value>
+  </data>
+  <data name="readOnlyAccessToolStripMenuItem.Text" xml:space="preserve">
+    <value>只读访问</value>
+  </data>
+  <data name="denyAccessToolStripMenuItem.Text" xml:space="preserve">
+    <value>禁止访问</value>
+  </data>
+  <data name="inheritedAccessRightsToolStripMenuItem.Text" xml:space="preserve">
+    <value>继承的访问权限</value>
+  </data>
+  <data name="SecurityTab.Text" xml:space="preserve">
+    <value>安全</value>
+  </data>
+  <data name="WMSClearHeaderButton.Text" xml:space="preserve">
+    <value>清除所有的WMS数据</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>边界</value>
+  </data>
+  <data name="WMSOpaque.Text" xml:space="preserve">
+    <value>不透明</value>
+  </data>
+  <data name="WMSQueryable.Text" xml:space="preserve">
+    <value>可查询</value>
+  </data>
+  <data name="WMSAvalible.Text" xml:space="preserve">
+    <value>可用的</value>
+  </data>
+  <data name="groupBox2.Text" xml:space="preserve">
+    <value>功能</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>标题</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>摘要</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>元数据</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>关键字</value>
+  </data>
+  <data name="groupBox1.Text" xml:space="preserve">
+    <value>描述</value>
+  </data>
+  <data name="WFSClearHeaderButton.Text" xml:space="preserve">
+    <value>清除所有的 WFS 数据</value>
+  </data>
+  <data name="label12.Text" xml:space="preserve">
+    <value>其他的SRS</value>
+  </data>
+  <data name="label11.Text" xml:space="preserve">
+    <value>主SRS</value>
+  </data>
+  <data name="label10.Text" xml:space="preserve">
+    <value>边界</value>
+  </data>
+  <data name="WFSAvailable.Text" xml:space="preserve">
+    <value>可用性</value>
+  </data>
+  <data name="groupBox4.Text" xml:space="preserve">
+    <value>功能</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>标题</value>
+  </data>
+  <data name="label7.Text" xml:space="preserve">
+    <value>摘要</value>
+  </data>
+  <data name="label8.Text" xml:space="preserve">
+    <value>元数据</value>
+  </data>
+  <data name="label9.Text" xml:space="preserve">
+    <value>关键字</value>
+  </data>
+  <data name="groupBox3.Text" xml:space="preserve">
+    <value>描述</value>
+  </data>
+  <data name="ClearHeaderButton.Text" xml:space="preserve">
+    <value>清除所有元素据</value>
+  </data>
+  <data name="ItemKey.HeaderText" xml:space="preserve">
+    <value>键</value>
+  </data>
+  <data name="ItemValue.HeaderText" xml:space="preserve">
+    <value>值</value>
+  </data>
+  <data name="CustomTab.Text" xml:space="preserve">
+    <value>用户元数据</value>
+  </data>
+  <data name="copyResourceIDToolStripMenuItem.Text" xml:space="preserve">
+    <value>拷贝资源标识</value>
+  </data>
+  <data name="btnReferencesOpenSelected.Text" xml:space="preserve">
+    <value>打开所选</value>
+  </data>
+  <data name="OutReferences.Text" xml:space="preserve">
+    <value>此资源引用</value>
+  </data>
+  <data name="copyResourceIDToolStripMenuItem1.Text" xml:space="preserve">
+    <value>拷贝资源标识</value>
+  </data>
+  <data name="btnReferencedByOpenSelected.Text" xml:space="preserve">
+    <value>打开所选</value>
+  </data>
+  <data name="InReferences.Text" xml:space="preserve">
+    <value>此资源引用</value>
+  </data>
+  <data name="ReferenceTab.Text" xml:space="preserve">
+    <value>引用</value>
+  </data>
+  <data name="label13.Text" xml:space="preserve">
+    <value>资源标识</value>
+  </data>
+  <data name="CancelBtn.Text" xml:space="preserve">
+    <value>取消</value>
+  </data>
+  <data name="OKBtn.Text" xml:space="preserve">
+    <value>确定</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>资源属性</value>
+  </data>
 </root>

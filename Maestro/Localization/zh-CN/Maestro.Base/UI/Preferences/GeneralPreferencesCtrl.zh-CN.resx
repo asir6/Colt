@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -117,4 +117,37 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="label1.Text" xml:space="preserve">
+    <value>使用以下视图进行预览</value>
+  </data>
+  <data name="rdAjax.Text" xml:space="preserve">
+    <value>AJAX 视图</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>用户模板路径</value>
+  </data>
+  <data name="groupBox1.Text" xml:space="preserve">
+    <value>启动时显示</value>
+  </data>
+  <data name="chkShowTipOfTheDay.Text" xml:space="preserve">
+    <value>今日提示</value>
+  </data>
+  <data name="chkOutbound.Text" xml:space="preserve">
+    <value>发出请求</value>
+  </data>
+  <data name="chkMessages.Text" xml:space="preserve">
+    <value>消息</value>
+  </data>
+  <data name="groupBox2.Text" xml:space="preserve">
+    <value>工具路径</value>
+  </data>
+  <data name="groupBox3.Text" xml:space="preserve">
+    <value>站点浏览</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>修改后的资源颜色</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>打开的资源颜色</value>
+  </data>
 </root>

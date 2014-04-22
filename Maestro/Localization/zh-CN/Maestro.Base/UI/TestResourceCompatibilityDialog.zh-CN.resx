@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -117,4 +117,19 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="label1.Text" xml:space="preserve">
+    <value>站点版本</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>此工具会检查所有受影响资源的模式版本，以确保所选择的站点版本的兼容性</value>
+  </data>
+  <data name="btnCheck.Text" xml:space="preserve">
+    <value>检查</value>
+  </data>
+  <data name="btnCancel.Text" xml:space="preserve">
+    <value>取消</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>测试资源兼容性</value>
+  </data>
 </root>

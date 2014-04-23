@@ -207,4 +207,22 @@
   <data name="label8.Text" xml:space="preserve">
     <value>角度</value>
   </data>
+  <data name="label20.Text" xml:space="preserve">
+    <value>线型间隔</value>
+  </data>
+  <data name="label23.Text" xml:space="preserve">
+    <value>行间距</value>
+  </data>
+  <data name="label22.Text" xml:space="preserve">
+    <value>斜角</value>
+  </data>
+  <data name="label18.Text" xml:space="preserve">
+    <value>模糊色</value>
+  </data>
+  <data name="label11.Text" xml:space="preserve">
+    <value>版面</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>族类</value>
+  </data>
 </root>

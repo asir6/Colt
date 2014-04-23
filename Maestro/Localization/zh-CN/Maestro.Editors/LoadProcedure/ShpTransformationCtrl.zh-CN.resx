@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -117,4 +117,16 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="chkConvertToSdf.Text" xml:space="preserve">
+    <value>转换到 SDF</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>注意：Maestro不支持禁用的要素</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>如果没有找到合适的，则使用以下坐标系</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>根据百分比生成数据</value>
+  </data>
 </root>

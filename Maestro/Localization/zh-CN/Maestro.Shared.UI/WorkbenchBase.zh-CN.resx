@@ -124,6 +124,6 @@
     <value>关闭所有</value>
   </data>
   <data name="closeAllButThisToolStripMenuItem.Text" xml:space="preserve">
-    <value>关闭除此外所有</value>
+    <value>关闭其它窗口</value>
   </data>
 </root>

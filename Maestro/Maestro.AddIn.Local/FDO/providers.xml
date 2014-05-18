@@ -18,7 +18,7 @@
     <FeatureDataObjectsVersion>3.8.0.0</FeatureDataObjectsVersion>
     <LibraryPath>.\SHPProvider.dll</LibraryPath>
   </FeatureProvider>
-  <FeatureProvider>
+  <!--<FeatureProvider>
     <Name>OSGeo.ArcSDE.3.8</Name>
     <DisplayName>OSGeo FDO Provider for ArcSDE</DisplayName>
     <Description>Read/write access to an ESRI ArcSDE-based data store, using Oracle and SQL Server.</Description>
@@ -35,7 +35,7 @@
     <Version>3.8.0.0</Version>
     <FeatureDataObjectsVersion>3.8.0.0</FeatureDataObjectsVersion>
     <LibraryPath>.\WFSProvider.dll</LibraryPath>
-  </FeatureProvider>
+  </FeatureProvider>-->
   <FeatureProvider>
     <Name>OSGeo.WMS.3.8</Name>
     <DisplayName>OSGeo FDO Provider for WMS</DisplayName>
@@ -45,7 +45,7 @@
     <FeatureDataObjectsVersion>3.8.0.0</FeatureDataObjectsVersion>
     <LibraryPath>.\WMSProvider.dll</LibraryPath>
   </FeatureProvider>
-  <FeatureProvider>
+  <!--<FeatureProvider>
     <Name>OSGeo.ODBC.3.8</Name> 
     <DisplayName>OSGeo FDO Provider for ODBC</DisplayName> 
     <Description>FDO Provider for ODBC</Description> 
@@ -116,5 +116,5 @@
     <Version>3.8.0.0</Version>
     <FeatureDataObjectsVersion>3.8.0.0</FeatureDataObjectsVersion>
     <LibraryPath>.\PostgreSQLProvider.dll</LibraryPath>
-  </FeatureProvider>
+  </FeatureProvider>-->
 </FeatureProviderRegistry>

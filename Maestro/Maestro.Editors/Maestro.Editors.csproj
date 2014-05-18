@@ -1457,6 +1457,7 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Fusion\FlexLayoutSettingsCtrl.resx">
       <DependentUpon>FlexLayoutSettingsCtrl.cs</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="Fusion\MapCtrl.resx">
       <DependentUpon>MapCtrl.cs</DependentUpon>
@@ -2595,9 +2596,6 @@
     <None Include="Resources\map--arrow.png" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="DrawingSource\Preview\" />
-  </ItemGroup>
-  <ItemGroup>
     <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
       <Visible>False</Visible>
       <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
@@ -2613,6 +2611,9 @@
       <ProductName>Windows Installer 3.1</ProductName>
       <Install>true</Install>
     </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="DrawingSource\Preview\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

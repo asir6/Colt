@@ -150,15 +150,15 @@ namespace Maestro.Login
                 }
             }
             //Mono = No LocalNativeConnection for you (for now...)
-            if (Platform.IsRunningOnMono || !isNativeApiAvailable)
-            {
-                rdTcpIp.Enabled = false;
-            }
+            //if (Platform.IsRunningOnMono || !isNativeApiAvailable)
+            //{
+            //    rdTcpIp.Enabled = false;
+            //}
 
-            if (Platform.IsRunningOnMono || !isLocalApiAvailable)
-            {
-                rdLocal.Enabled = false;
-            }
+            //if (Platform.IsRunningOnMono || !isLocalApiAvailable)
+            //{
+            //    rdLocal.Enabled = false;
+            //}
         }
 
         private void OnEnableOk(object sender, EventArgs e)
@@ -332,20 +332,20 @@ namespace Maestro.Login
                 SetLoginControl((Control)_controls[_selectedIndex]);
                 _controls[_selectedIndex].UpdateLoginStatus();
             }
-            else if (rdTcpIp.Checked)
-            {
-                if (ConnectionProviderRegistry.GetInvocationCount("Maestro.LocalNative") == 0)
-                {
-                    _selectedIndex = 1;
-                }
-                else
-                {
-                    _selectedIndex = 3;
-                    _localNativeStub.SetLastIniPath(LocalNativeLoginCtrl.LastIniPath);
-                }
-                SetLoginControl((Control)_controls[_selectedIndex]);
-                _controls[_selectedIndex].UpdateLoginStatus();
-            }
+            //else if (rdTcpIp.Checked)
+            //{
+            //    if (ConnectionProviderRegistry.GetInvocationCount("Maestro.LocalNative") == 0)
+            //    {
+            //        _selectedIndex = 1;
+            //    }
+            //    else
+            //    {
+            //        _selectedIndex = 3;
+            //        _localNativeStub.SetLastIniPath(LocalNativeLoginCtrl.LastIniPath);
+            //    }
+            //    SetLoginControl((Control)_controls[_selectedIndex]);
+            //    _controls[_selectedIndex].UpdateLoginStatus();
+            //}
             else
             {
                 _selectedIndex = 2;

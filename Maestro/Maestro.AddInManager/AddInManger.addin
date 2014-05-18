@@ -15,11 +15,11 @@
     </Runtime>
 
     <Path name = "/Workspace/Tools">
-        <MenuItem id = "ShowAddInManager"
+        <!--<MenuItem id = "ShowAddInManager"
 		          label = "${res:CMD_AddInManager}"
                   icon = "plugin" 
                   insertbefore="PrefSeparator" 
-		          class = "Maestro.AddInManager.ShowCommand"/>
+		          class = "Maestro.AddInManager.ShowCommand"/>-->
     </Path>
 
     <Path name="/Workbench/Toolbar">

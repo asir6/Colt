@@ -1,0 +1,1008 @@
+Index: Maestro.AddIn.Local/FDO/providers.xml
+===================================================================
+--- Maestro.AddIn.Local/FDO/providers.xml	(revision 113)
++++ Maestro.AddIn.Local/FDO/providers.xml	(working copy)
+@@ -18,7 +18,7 @@
+     <FeatureDataObjectsVersion>3.8.0.0</FeatureDataObjectsVersion>
+     <LibraryPath>.\SHPProvider.dll</LibraryPath>
+   </FeatureProvider>
+-  <FeatureProvider>
++  <!--<FeatureProvider>
+     <Name>OSGeo.ArcSDE.3.8</Name>
+     <DisplayName>OSGeo FDO Provider for ArcSDE</DisplayName>
+     <Description>Read/write access to an ESRI ArcSDE-based data store, using Oracle and SQL Server.</Description>
+@@ -35,7 +35,7 @@
+     <Version>3.8.0.0</Version>
+     <FeatureDataObjectsVersion>3.8.0.0</FeatureDataObjectsVersion>
+     <LibraryPath>.\WFSProvider.dll</LibraryPath>
+-  </FeatureProvider>
++  </FeatureProvider>-->
+   <FeatureProvider>
+     <Name>OSGeo.WMS.3.8</Name>
+     <DisplayName>OSGeo FDO Provider for WMS</DisplayName>
+@@ -45,7 +45,7 @@
+     <FeatureDataObjectsVersion>3.8.0.0</FeatureDataObjectsVersion>
+     <LibraryPath>.\WMSProvider.dll</LibraryPath>
+   </FeatureProvider>
+-  <FeatureProvider>
++  <!--<FeatureProvider>
+     <Name>OSGeo.ODBC.3.8</Name> 
+     <DisplayName>OSGeo FDO Provider for ODBC</DisplayName> 
+     <Description>FDO Provider for ODBC</Description> 
+@@ -116,5 +116,5 @@
+     <Version>3.8.0.0</Version>
+     <FeatureDataObjectsVersion>3.8.0.0</FeatureDataObjectsVersion>
+     <LibraryPath>.\PostgreSQLProvider.dll</LibraryPath>
+-  </FeatureProvider>
++  </FeatureProvider>-->
+ </FeatureProviderRegistry>
+Index: Maestro.Base/Commands/StartupCommand.cs
+===================================================================
+--- Maestro.Base/Commands/StartupCommand.cs	(revision 113)
++++ Maestro.Base/Commands/StartupCommand.cs	(working copy)
+@@ -56,15 +56,15 @@
+                 ServiceRegistry.GetService<NewItemTemplateService>().InitUserTemplates();
+                 var wb = Workbench.Instance;
+                 wb.FormClosing += new System.Windows.Forms.FormClosingEventHandler(OnWorkbenchClosing);
+-                wb.Text = "MapGuide Maestro"; //NOXLATE
++                wb.Text = "地图编辑器"; //NOXLATE
+ 
+                 var mgr = ServiceRegistry.GetService<ViewContentManager>();
+                 
+-                if (Props.Get(ConfigProperties.ShowMessages, true))
+-                    mgr.OpenContent<MessageViewer>(ViewRegion.Bottom);
++                //if (Props.Get(ConfigProperties.ShowMessages, true))
++                //    mgr.OpenContent<MessageViewer>(ViewRegion.Bottom);
+ 
+-                if (Props.Get(ConfigProperties.ShowOutboundRequests, true))
+-                    mgr.OpenContent<OutboundRequestViewer>(ViewRegion.Bottom);
++                //if (Props.Get(ConfigProperties.ShowOutboundRequests, true))
++                //    mgr.OpenContent<OutboundRequestViewer>(ViewRegion.Bottom);
+ 
+                 TipOfTheDayDialog.FirstTimeOpen();
+                 new LoginCommand().Run();
+Index: Maestro.Base/Maestro.Base.addin
+===================================================================
+--- Maestro.Base/Maestro.Base.addin	(revision 113)
++++ Maestro.Base/Maestro.Base.addin	(working copy)
+@@ -59,19 +59,19 @@
+     <!-- Registered System Templates -->
+     <Path name="/Maestro/NewItemTemplates">
+         <Class id="FlexLayout100" class="Maestro.Base.Templates.ApplicationDefinitionItemTemplate" />
+-        <Class id="DrawingSource100" class="Maestro.Base.Templates.DrawingSourceItemTemplate" />
++        <!--<Class id="DrawingSource100" class="Maestro.Base.Templates.DrawingSourceItemTemplate" />-->
+         <Class id="FeatureSource100" class="Maestro.Base.Templates.FeatureSourceItemTemplate" />
+         <Class id="VectorLayerDefinition100" class="Maestro.Base.Templates.VectorLayerDefinitionItemTemplate" />
+         <Class id="RasterLayerDefinition100" class="Maestro.Base.Templates.RasterLayerDefinitionItemTemplate" />
+-        <Class id="DrawingLayerDefinition100" class="Maestro.Base.Templates.DrawingLayerDefinitionItemTemplate" />
++        <!--<Class id="DrawingLayerDefinition100" class="Maestro.Base.Templates.DrawingLayerDefinitionItemTemplate" />-->
+         <Class id="MapDefinition100" class="Maestro.Base.Templates.MapDefinitionItemTemplate" />
+-        <Class id="PrintLayout100" class="Maestro.Base.Templates.PrintLayoutItemTemplate" />
+-        <Class id="SdfLoadProcedure100" class="Maestro.Base.Templates.SdfLoadProcedureItemTemplate" />
+-        <Class id="ShpLoadProcedure100" class="Maestro.Base.Templates.ShpLoadProcedureItemTemplate" />
+-        <Class id="DwfLoadProcedure100" class="Maestro.Base.Templates.DwfLoadProcedureItemTemplate" />
++        <!--<Class id="PrintLayout100" class="Maestro.Base.Templates.PrintLayoutItemTemplate" />-->
++        <!--<Class id="SdfLoadProcedure100" class="Maestro.Base.Templates.SdfLoadProcedureItemTemplate" />-->
++        <!--<Class id="ShpLoadProcedure100" class="Maestro.Base.Templates.ShpLoadProcedureItemTemplate" />-->
++        <!--<Class id="DwfLoadProcedure100" class="Maestro.Base.Templates.DwfLoadProcedureItemTemplate" />-->
+         <Class id="SimpleSymbol100" class="Maestro.Base.Templates.SimpleSymbolDefinitionItemTemplate" />
+         <Class id="CompoundSymbol100" class="Maestro.Base.Templates.CompoundSymbolDefinitionItemTemplate" />
+-        <Class id="WebLayout100" class="Maestro.Base.Templates.WebLayoutItemTemplate" />
++        <!--<Class id="WebLayout100" class="Maestro.Base.Templates.WebLayoutItemTemplate" />-->
+     </Path>
+     
+     <!-- Main Menu Definition -->
+@@ -197,10 +197,10 @@
+                   label="${res:Menu_Tools}">
+             <Include id="ToolList" path="/Workspace/Tools" />
+             <MenuItem type="Separator" />
+-            <MenuItem id="Menu_Tools_Options"
++            <!--<MenuItem id="Menu_Tools_Options"
+                       label="${res:Menu_Tools_Options}"
+                       icon="application_task"
+-                      class="Maestro.Base.Commands.OptionsCommand"/>
++                      class="Maestro.Base.Commands.OptionsCommand"/>-->
+         </MenuItem>
+         <MenuItem id="Menu_Window"
+                   type="Menu"
+@@ -238,7 +238,7 @@
+                       icon="box__pencil"
+                       class="Maestro.Base.Commands.EditPackageCommand"/>
+         </MenuItem>
+-        <MenuItem id="Menu_Help"
++        <!--<MenuItem id="Menu_Help"
+                   type="Menu"
+                   label="${res:Menu_Help}">
+             <MenuItem id="Menu_Help_UserGuide"
+@@ -251,7 +251,7 @@
+             <MenuItem id="Menu_Help_About"
+                       label="${res:Menu_Help_About}"
+                       class="Maestro.Base.Commands.AboutCommand" />
+-        </MenuItem>
++        </MenuItem>-->
+     </Path>
+ 
+     <!-- Auto-start commands -->
+@@ -272,8 +272,8 @@
+ 
+     <!-- Singleton view content -->
+     <Path name="/Maestro/Shell/SingleViewContent">
+-        <Class id="MessageViewer" class="Maestro.Base.UI.MessageViewer" />
+-        <Class id="OutboundRequestViewer" class="Maestro.Base.UI.OutboundRequestViewer" />
++        <!--<Class id="MessageViewer" class="Maestro.Base.UI.MessageViewer" />
++        <Class id="OutboundRequestViewer" class="Maestro.Base.UI.OutboundRequestViewer" />-->
+     </Path>
+     
+     <!-- Toolbar Definition -->
+@@ -339,7 +339,7 @@
+                          tooltip="${res:Menu_File_PreviewResource}"
+                          class="Maestro.Base.Commands.PreviewResourceCommand" />
+         </Condition>
+-        <Condition action="Disable" name="EditorFunction" property="CanEditAsXml">
++        <!--<Condition action="Disable" name="EditorFunction" property="CanEditAsXml">
+             <ToolbarItem id="XmlEdit"
+                          icon="document_code"
+                          label="${res:Toolbar_EditAsXml}"
+@@ -352,7 +352,7 @@
+                          label="${res:Toolbar_Profile}"
+                          tooltip="${res:Menu_File_ProfileResource}"
+                          class="Maestro.Base.Commands.ProfileResourceCommand" />
+-        </Condition>
++        </Condition>-->
+         <Condition action="Disable" name="EditorFunction" property="CanValidate">
+             <ToolbarItem id="Validate"
+                          icon="tick"
+@@ -360,7 +360,7 @@
+                          tooltip="${res:Menu_File_ValidateEditedResource}"
+                          class="Maestro.Base.Commands.ValidateEditedResourceCommand" />
+         </Condition>
+-        <Condition action="Disable" name="EditorOfType" types="WebLayout,ApplicationDefinition">
++        <!--<Condition action="Disable" name="EditorOfType" types="WebLayout,ApplicationDefinition">
+             <ToolbarItem id="Translate"
+                          icon="edit_language"
+                          label="${res:Menu_Tools_Translate}"
+@@ -373,7 +373,7 @@
+                          label="${res:Menu_Tools_XmlChanges}"
+                          tooltip="${res:Menu_Tools_XmlChanges_Desc}"
+                          class="Maestro.Base.Commands.ViewXmlChangesCommand" />
+-        </Condition>
++        </Condition>-->
+         <!-- 
+         Only needed if our custom drawn close buttons don't appear on document
+         tabs (I'm looking at you Mono). So far this isn't the case. 
+@@ -471,17 +471,17 @@
+                           label="${res:SiteExplorer_SelectedItem_Delete}"
+                           class="Maestro.Base.Commands.SiteExplorer.DeleteSelectedItemsCommand" />
+             </Condition>
+-            <MenuItem id="TestCompatibility"
++            <!--<MenuItem id="TestCompatibility"
+                       label="${res:SiteExplorer_TestResourceCompatibility}"
+-                      class="Maestro.Base.Commands.SiteExplorer.TestResourceCompatibilityCommand" />
++                      class="Maestro.Base.Commands.SiteExplorer.TestResourceCompatibilityCommand" />-->
+             <MenuItem id="Validate"
+                       icon="tick"
+                       label="${res:SiteExplorer_ValidateResources}"
+                       class="Maestro.Base.Commands.SiteExplorer.ValidateCommand" />
+-            <MenuItem id="EditRawFolderHeader"
++            <!--<MenuItem id="EditRawFolderHeader"
+                       label="${res:EditRawHeader}"
+                       class="Maestro.Base.Commands.SiteExplorer.EditResourceHeaderCommand" />
+-            <MenuItem type="Separator" />
++            <MenuItem type="Separator" />-->
+             <MenuItem id="Properties"
+                       label="${res:SiteExplorer_SelectedItem_Properties}"
+                       class="Maestro.Base.Commands.SiteExplorer.ResourcePropertiesCommand" />
+@@ -524,10 +524,10 @@
+             <MenuItem id="Open"
+                       label="${res:SiteExplorer_SelectedItem_Open}"
+                       class="Maestro.Base.Commands.SiteExplorer.OpenResourceCommand" />
+-            <MenuItem id="OpenXml"
++            <!--<MenuItem id="OpenXml"
+                       icon="document_code"
+                       label="${res:SiteExplorer_SelectedItem_OpenWithXmlEditor}"
+-                      class="Maestro.Base.Commands.SiteExplorer.OpenWithXmlEditorCommand" />
++                      class="Maestro.Base.Commands.SiteExplorer.OpenWithXmlEditorCommand" />-->
+             <MenuItem id="Rename"
+                       label="${res:SiteExplorer_SelectedItem_Rename}"
+                       class="Maestro.Base.Commands.SiteExplorer.RenameCommand" />
+@@ -540,16 +540,16 @@
+                       icon="document_copy"
+                       label="${res:SiteExplorer_DuplicateResources}"
+                       class="Maestro.Base.Commands.SiteExplorer.DuplicateResourceCommand" />
+-            <MenuItem id="FindReplaceXml"
++            <!--<MenuItem id="FindReplaceXml"
+                       label="${res:SiteExplorer_FindReplaceXml}"
+-                      class="Maestro.Base.Commands.SiteExplorer.FindReplaceXmlContentCommand" />
++                      class="Maestro.Base.Commands.SiteExplorer.FindReplaceXmlContentCommand" />-->
+             <MenuItem type="Separator" />
+-            <Condition action="Disable" name="ResourceType" types="FeatureSource,LayerDefinition">
++            <!--<Condition action="Disable" name="ResourceType" types="FeatureSource,LayerDefinition">
+                 <MenuItem id="PurgeFsCache"
+                           label="${res:SiteExplorer_PurgeFsCache}"
+                           icon="arrow_circle_double"
+                           class="Maestro.Base.Commands.SiteExplorer.PurgeFeatureSourceCacheCommand" />
+-            </Condition>
++            </Condition>-->
+             <Condition action="Disable" name="ResourceType" types="FeatureSource">
+                 <MenuItem id="TestFeatureSource"
+                           label="${res:SiteExplorer_TestFeatureSource}"
+@@ -592,17 +592,17 @@
+                       icon="disk"
+                       class="Maestro.Base.Commands.SiteExplorer.SaveResourceContentToDiskCommand" />
+             <MenuItem type="Separator" />
+-            <MenuItem id="Repoint"
++            <!--<MenuItem id="Repoint"
+                       icon="document__arrow"
+                       label="${res:SiteExplorer_Repoint}"
+-                      class="Maestro.Base.Commands.SiteExplorer.RepointCommand" />
++                      class="Maestro.Base.Commands.SiteExplorer.RepointCommand" />-->
+             <MenuItem id="Validate"
+                       icon="tick"
+                       label="${res:SiteExplorer_ValidateResources}"
+                       class="Maestro.Base.Commands.SiteExplorer.ValidateCommand" />
+-            <MenuItem id="EditRawDocumentHeader"
++            <!--<MenuItem id="EditRawDocumentHeader"
+                       label="${res:EditRawHeader}"
+-                      class="Maestro.Base.Commands.SiteExplorer.EditResourceHeaderCommand" />
++                      class="Maestro.Base.Commands.SiteExplorer.EditResourceHeaderCommand" />-->
+             <MenuItem id="CompileDependencyList"
+                       label="${res:SiteExplorer_SelectedItem_CompileDependencyList}"
+                       class="Maestro.Base.Commands.SiteExplorer.CompileFullDependencyListCommand" />
+@@ -702,22 +702,22 @@
+         <MenuItem id="MgCooker"
+                   label="${res:MgCooker}"
+                   class="Maestro.Base.Commands.MgCookerCommand"/>
+-        <MenuItem id="LocalFsPreview"
++        <!--<MenuItem id="LocalFsPreview"
+                   label="${res:LocalFsPreview}"
+                   class="Maestro.Base.Commands.LocalFeatureSourcePreviewCommand"/>
+         <MenuItem id="RtMapInspector"
+                   label="${res:RtMapInspector}"
+-                  class="Maestro.Base.Commands.RtMapInspectorCommand"/>
++                  class="Maestro.Base.Commands.RtMapInspectorCommand"/>-->
+         <MenuItem id="ServerMonitor"
+                   label="${res:ServerMonitor}"
+                   icon="system_monitor"
+                   class="Maestro.Base.Commands.ServerMonitorCommand"/>
+-        <MenuItem id="CacheView"
++        <!--<MenuItem id="CacheView"
+                   label="${res:CacheView}"
+                   class="Maestro.Base.Commands.CacheViewerCommand"/>
+         <MenuItem id="LiveMapEditor"
+                   label="${res:LiveMapEditor}"
+-                  class="Maestro.Base.Commands.LiveMapEditorCommand"/>
++                  class="Maestro.Base.Commands.LiveMapEditorCommand"/>-->
+     </Path>
+     
+ </AddIn>
+Index: Maestro.Base/UI/ResourceIdNavigator.cs
+===================================================================
+--- Maestro.Base/UI/ResourceIdNavigator.cs	(revision 113)
++++ Maestro.Base/UI/ResourceIdNavigator.cs	(working copy)
+@@ -98,6 +98,7 @@
+             _btnOpenAsXml.TextImageRelation = TextImageRelation.TextBeforeImage;
+             _btnOpenAsXml.ToolTipText = Strings.Label_OpenResourceAsXml;
+             _btnOpenAsXml.Click += btnOpenAsXml_Click;
++            _btnOpenAsXml.Visible = false;
+ 
+             UpdateConnectionList();
+             UpdateNavigationState();
+Index: Maestro.Editors/Maestro.Editors.csproj
+===================================================================
+--- Maestro.Editors/Maestro.Editors.csproj	(revision 113)
++++ Maestro.Editors/Maestro.Editors.csproj	(working copy)
+@@ -1457,6 +1457,7 @@
+     </EmbeddedResource>
+     <EmbeddedResource Include="Fusion\FlexLayoutSettingsCtrl.resx">
+       <DependentUpon>FlexLayoutSettingsCtrl.cs</DependentUpon>
++      <SubType>Designer</SubType>
+     </EmbeddedResource>
+     <EmbeddedResource Include="Fusion\MapCtrl.resx">
+       <DependentUpon>MapCtrl.cs</DependentUpon>
+@@ -2595,9 +2596,6 @@
+     <None Include="Resources\map--arrow.png" />
+   </ItemGroup>
+   <ItemGroup>
+-    <Folder Include="DrawingSource\Preview\" />
+-  </ItemGroup>
+-  <ItemGroup>
+     <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+       <Visible>False</Visible>
+       <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+@@ -2614,6 +2612,9 @@
+       <Install>true</Install>
+     </BootstrapperPackage>
+   </ItemGroup>
++  <ItemGroup>
++    <Folder Include="DrawingSource\Preview\" />
++  </ItemGroup>
+   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+        Other similar extension points exist, see Microsoft.Common.targets.
+Index: Maestro.Login/HttpLoginCtrl.cs
+===================================================================
+--- Maestro.Login/HttpLoginCtrl.cs	(revision 113)
++++ Maestro.Login/HttpLoginCtrl.cs	(working copy)
+@@ -47,39 +47,41 @@
+             base.OnLoad(e);
+ 
+             List<CultureInfo> supported = new List<CultureInfo>();
+-            supported.Add(CultureInfo.GetCultureInfo("en-US")); //NOXLATE
++            supported.Add(CultureInfo.GetCultureInfo("zh-CN")); //NOXLATE
+ 
+             //Probe for language bundles and add them as well
+-            System.Text.RegularExpressions.Regex cix = new System.Text.RegularExpressions.Regex("[A-z][A-z](\\-[A-z][A-z])?"); //NOXLATE
+-            foreach (string f in System.IO.Directory.GetDirectories(Application.StartupPath))
+-            {
+-                if (cix.Match(System.IO.Path.GetFileName(f)).Length == System.IO.Path.GetFileName(f).Length)
+-                {
+-                    try
+-                    {
+-                        supported.Add(System.Globalization.CultureInfo.GetCultureInfo(System.IO.Path.GetFileName(f)));
+-                    }
+-                    catch { }
+-                }
+-            }
++            //System.Text.RegularExpressions.Regex cix = new System.Text.RegularExpressions.Regex("[A-z][A-z](\\-[A-z][A-z])?"); //NOXLATE
++            //foreach (string f in System.IO.Directory.GetDirectories(Application.StartupPath))
++            //{
++            //    if (cix.Match(System.IO.Path.GetFileName(f)).Length == System.IO.Path.GetFileName(f).Length)
++            //    {
++            //        try
++            //        {
++            //            supported.Add(System.Globalization.CultureInfo.GetCultureInfo(System.IO.Path.GetFileName(f)));
++            //        }
++            //        catch { }
++            //    }
++            //}
+ 
+             cmbLanguage.DisplayMember = "DisplayName"; //NOXLATE
+             cmbLanguage.ValueMember = "Name"; //NOXLATE
++            cmbLanguage.Items.Add(supported[0]);
++            ////Set default language based on current thread culture
++            //int selected = -1;
++            //foreach (var ci in supported)
++            //{
++            //    int index = cmbLanguage.Items.Add(ci);
++            //    if (string.Compare(ci.Name, System.Threading.Thread.CurrentThread.CurrentUICulture.Name, true) == 0)
++            //    {
++            //        selected = index;
++            //    }
++            //}
+ 
+-            //Set default language based on current thread culture
+-            int selected = -1;
+-            foreach (var ci in supported)
+-            {
+-                int index = cmbLanguage.Items.Add(ci);
+-                if (string.Compare(ci.Name, System.Threading.Thread.CurrentThread.CurrentUICulture.Name, true) == 0)
+-                {
+-                    selected = index;
+-                }
+-            }
++            //if (selected >= 0)
++                //cmbLanguage.SelectedIndex = selected;
+ 
+-            if (selected >= 0)
+-                cmbLanguage.SelectedIndex = selected;
+-
++            cmbLanguage.SelectedIndex = 0;
++            cmbLanguage.Hide();
+             _loading = false;
+             UpdateLoginStatus();
+         }
+Index: Maestro.Login/HttpLoginCtrl.designer.cs
+===================================================================
+--- Maestro.Login/HttpLoginCtrl.designer.cs	(revision 113)
++++ Maestro.Login/HttpLoginCtrl.designer.cs	(working copy)
+@@ -104,10 +104,9 @@
+             // 
+             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
+             this.Controls.Add(this.cmbLanguage);
+-            this.Controls.Add(this.label5);
+             this.Controls.Add(this.txtPassword);
++            this.Controls.Add(this.label5);
+             this.Controls.Add(this.txtUsername);
+-            this.Controls.Add(this.txtStartingpoint);
+             this.Controls.Add(this.label4);
+             this.Controls.Add(this.label3);
+             this.Controls.Add(this.label2);
+Index: Maestro.Login/HttpLoginCtrl.resx
+===================================================================
+--- Maestro.Login/HttpLoginCtrl.resx	(revision 113)
++++ Maestro.Login/HttpLoginCtrl.resx	(working copy)
+@@ -169,13 +169,13 @@
+     <value>$this</value>
+   </data>
+   <data name="&gt;&gt;label5.ZOrder" xml:space="preserve">
+-    <value>1</value>
++    <value>2</value>
+   </data>
+   <data name="txtPassword.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+     <value>Top, Left, Right</value>
+   </data>
+   <data name="txtPassword.Location" type="System.Drawing.Point, System.Drawing">
+-    <value>82, 82</value>
++    <value>82, 56</value>
+   </data>
+   <data name="txtPassword.PasswordChar" type="System.Char, mscorlib" xml:space="preserve">
+     <value>*</value>
+@@ -196,13 +196,13 @@
+     <value>$this</value>
+   </data>
+   <data name="&gt;&gt;txtPassword.ZOrder" xml:space="preserve">
+-    <value>2</value>
++    <value>1</value>
+   </data>
+   <data name="txtUsername.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+     <value>Top, Left, Right</value>
+   </data>
+   <data name="txtUsername.Location" type="System.Drawing.Point, System.Drawing">
+-    <value>82, 56</value>
++    <value>82, 30</value>
+   </data>
+   <data name="txtUsername.Size" type="System.Drawing.Size, System.Drawing">
+     <value>279, 20</value>
+@@ -243,17 +243,11 @@
+   <data name="&gt;&gt;txtStartingpoint.Type" xml:space="preserve">
+     <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+   </data>
+-  <data name="&gt;&gt;txtStartingpoint.Parent" xml:space="preserve">
+-    <value>$this</value>
+-  </data>
+-  <data name="&gt;&gt;txtStartingpoint.ZOrder" xml:space="preserve">
+-    <value>4</value>
+-  </data>
+   <data name="label4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+     <value>NoControl</value>
+   </data>
+   <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
+-    <value>2, 82</value>
++    <value>3, 53</value>
+   </data>
+   <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
+     <value>80, 16</value>
+@@ -274,13 +268,13 @@
+     <value>$this</value>
+   </data>
+   <data name="&gt;&gt;label4.ZOrder" xml:space="preserve">
+-    <value>5</value>
++    <value>4</value>
+   </data>
+   <data name="label3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+     <value>NoControl</value>
+   </data>
+   <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
+-    <value>2, 56</value>
++    <value>3, 27</value>
+   </data>
+   <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
+     <value>80, 16</value>
+@@ -301,7 +295,7 @@
+     <value>$this</value>
+   </data>
+   <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
+-    <value>6</value>
++    <value>5</value>
+   </data>
+   <data name="label2.Enabled" type="System.Boolean, mscorlib">
+     <value>False</value>
+@@ -331,7 +325,7 @@
+     <value>$this</value>
+   </data>
+   <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
+-    <value>7</value>
++    <value>6</value>
+   </data>
+   <data name="cmbServerUrl.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+     <value>Top, Left, Right</value>
+@@ -355,7 +349,7 @@
+     <value>$this</value>
+   </data>
+   <data name="&gt;&gt;cmbServerUrl.ZOrder" xml:space="preserve">
+-    <value>8</value>
++    <value>7</value>
+   </data>
+   <data name="label1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+     <value>NoControl</value>
+@@ -382,13 +376,13 @@
+     <value>$this</value>
+   </data>
+   <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+-    <value>9</value>
++    <value>8</value>
+   </data>
+   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+     <value>True</value>
+   </metadata>
+   <data name="$this.Size" type="System.Drawing.Size, System.Drawing">
+-    <value>364, 133</value>
++    <value>364, 79</value>
+   </data>
+   <data name="&gt;&gt;$this.Name" xml:space="preserve">
+     <value>HttpLoginCtrl</value>
+Index: Maestro.Login/LoginDialog.cs
+===================================================================
+--- Maestro.Login/LoginDialog.cs	(revision 113)
++++ Maestro.Login/LoginDialog.cs	(working copy)
+@@ -150,15 +150,15 @@
+                 }
+             }
+             //Mono = No LocalNativeConnection for you (for now...)
+-            if (Platform.IsRunningOnMono || !isNativeApiAvailable)
+-            {
+-                rdTcpIp.Enabled = false;
+-            }
++            //if (Platform.IsRunningOnMono || !isNativeApiAvailable)
++            //{
++            //    rdTcpIp.Enabled = false;
++            //}
+ 
+-            if (Platform.IsRunningOnMono || !isLocalApiAvailable)
+-            {
+-                rdLocal.Enabled = false;
+-            }
++            //if (Platform.IsRunningOnMono || !isLocalApiAvailable)
++            //{
++            //    rdLocal.Enabled = false;
++            //}
+         }
+ 
+         private void OnEnableOk(object sender, EventArgs e)
+@@ -332,20 +332,20 @@
+                 SetLoginControl((Control)_controls[_selectedIndex]);
+                 _controls[_selectedIndex].UpdateLoginStatus();
+             }
+-            else if (rdTcpIp.Checked)
+-            {
+-                if (ConnectionProviderRegistry.GetInvocationCount("Maestro.LocalNative") == 0)
+-                {
+-                    _selectedIndex = 1;
+-                }
+-                else
+-                {
+-                    _selectedIndex = 3;
+-                    _localNativeStub.SetLastIniPath(LocalNativeLoginCtrl.LastIniPath);
+-                }
+-                SetLoginControl((Control)_controls[_selectedIndex]);
+-                _controls[_selectedIndex].UpdateLoginStatus();
+-            }
++            //else if (rdTcpIp.Checked)
++            //{
++            //    if (ConnectionProviderRegistry.GetInvocationCount("Maestro.LocalNative") == 0)
++            //    {
++            //        _selectedIndex = 1;
++            //    }
++            //    else
++            //    {
++            //        _selectedIndex = 3;
++            //        _localNativeStub.SetLastIniPath(LocalNativeLoginCtrl.LastIniPath);
++            //    }
++            //    SetLoginControl((Control)_controls[_selectedIndex]);
++            //    _controls[_selectedIndex].UpdateLoginStatus();
++            //}
+             else
+             {
+                 _selectedIndex = 2;
+Index: Maestro.Login/LoginDialog.designer.cs
+===================================================================
+--- Maestro.Login/LoginDialog.designer.cs	(revision 113)
++++ Maestro.Login/LoginDialog.designer.cs	(working copy)
+@@ -33,13 +33,13 @@
+             this.btnCancel = new System.Windows.Forms.Button();
+             this.btnOK = new System.Windows.Forms.Button();
+             this.rdHttp = new System.Windows.Forms.RadioButton();
+-            this.rdTcpIp = new System.Windows.Forms.RadioButton();
+             this.loginPanel = new System.Windows.Forms.Panel();
+-            this.rdLocal = new System.Windows.Forms.RadioButton();
+             this.SuspendLayout();
+             // 
+             // chkSavePassword
+             // 
++            this.chkSavePassword.Checked = true;
++            this.chkSavePassword.CheckState = System.Windows.Forms.CheckState.Checked;
+             resources.ApplyResources(this.chkSavePassword, "chkSavePassword");
+             this.chkSavePassword.Name = "chkSavePassword";
+             // 
+@@ -64,34 +64,16 @@
+             this.rdHttp.UseVisualStyleBackColor = true;
+             this.rdHttp.CheckedChanged += new System.EventHandler(this.rdHttp_CheckedChanged);
+             // 
+-            // rdTcpIp
+-            // 
+-            resources.ApplyResources(this.rdTcpIp, "rdTcpIp");
+-            this.rdTcpIp.Name = "rdTcpIp";
+-            this.rdTcpIp.TabStop = true;
+-            this.rdTcpIp.UseVisualStyleBackColor = true;
+-            this.rdTcpIp.CheckedChanged += new System.EventHandler(this.rdTcpIp_CheckedChanged);
+-            // 
+             // loginPanel
+             // 
+             resources.ApplyResources(this.loginPanel, "loginPanel");
+             this.loginPanel.Name = "loginPanel";
+             // 
+-            // rdLocal
+-            // 
+-            resources.ApplyResources(this.rdLocal, "rdLocal");
+-            this.rdLocal.Name = "rdLocal";
+-            this.rdLocal.TabStop = true;
+-            this.rdLocal.UseVisualStyleBackColor = true;
+-            this.rdLocal.CheckedChanged += new System.EventHandler(this.rdLocal_CheckedChanged);
+-            // 
+             // LoginDialog
+             // 
+             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
+             resources.ApplyResources(this, "$this");
+-            this.Controls.Add(this.rdLocal);
+             this.Controls.Add(this.loginPanel);
+-            this.Controls.Add(this.rdTcpIp);
+             this.Controls.Add(this.rdHttp);
+             this.Controls.Add(this.chkSavePassword);
+             this.Controls.Add(this.btnCancel);
+@@ -111,8 +93,6 @@
+         private System.Windows.Forms.Button btnCancel;
+         private System.Windows.Forms.Button btnOK;
+         private System.Windows.Forms.RadioButton rdHttp;
+-        private System.Windows.Forms.RadioButton rdTcpIp;
+         private System.Windows.Forms.Panel loginPanel;
+-        private System.Windows.Forms.RadioButton rdLocal;
+     }
+ }
+\ No newline at end of file
+Index: Maestro.Login/LoginDialog.resx
+===================================================================
+--- Maestro.Login/LoginDialog.resx	(revision 113)
++++ Maestro.Login/LoginDialog.resx	(working copy)
+@@ -138,6 +138,9 @@
+   <data name="chkSavePassword.Text" xml:space="preserve">
+     <value>Save password on computer</value>
+   </data>
++  <data name="chkSavePassword.Visible" type="System.Boolean, mscorlib">
++    <value>False</value>
++  </data>
+   <data name="&gt;&gt;chkSavePassword.Name" xml:space="preserve">
+     <value>chkSavePassword</value>
+   </data>
+@@ -148,7 +151,7 @@
+     <value>$this</value>
+   </data>
+   <data name="&gt;&gt;chkSavePassword.ZOrder" xml:space="preserve">
+-    <value>4</value>
++    <value>2</value>
+   </data>
+   <data name="btnCancel.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+     <value>System</value>
+@@ -157,7 +160,7 @@
+     <value>NoControl</value>
+   </data>
+   <data name="btnCancel.Location" type="System.Drawing.Point, System.Drawing">
+-    <value>206, 233</value>
++    <value>206, 113</value>
+   </data>
+   <data name="btnCancel.Size" type="System.Drawing.Size, System.Drawing">
+     <value>96, 32</value>
+@@ -178,7 +181,7 @@
+     <value>$this</value>
+   </data>
+   <data name="&gt;&gt;btnCancel.ZOrder" xml:space="preserve">
+-    <value>5</value>
++    <value>3</value>
+   </data>
+   <data name="btnOK.Enabled" type="System.Boolean, mscorlib">
+     <value>False</value>
+@@ -190,7 +193,7 @@
+     <value>NoControl</value>
+   </data>
+   <data name="btnOK.Location" type="System.Drawing.Point, System.Drawing">
+-    <value>94, 233</value>
++    <value>79, 113</value>
+   </data>
+   <data name="btnOK.Size" type="System.Drawing.Size, System.Drawing">
+     <value>96, 32</value>
+@@ -211,7 +214,7 @@
+     <value>$this</value>
+   </data>
+   <data name="&gt;&gt;btnOK.ZOrder" xml:space="preserve">
+-    <value>6</value>
++    <value>4</value>
+   </data>
+   <data name="rdHttp.AutoSize" type="System.Boolean, mscorlib">
+     <value>True</value>
+@@ -228,6 +231,9 @@
+   <data name="rdHttp.Text" xml:space="preserve">
+     <value>Connect via HTTP</value>
+   </data>
++  <data name="rdHttp.Visible" type="System.Boolean, mscorlib">
++    <value>False</value>
++  </data>
+   <data name="&gt;&gt;rdHttp.Name" xml:space="preserve">
+     <value>rdHttp</value>
+   </data>
+@@ -238,40 +244,13 @@
+     <value>$this</value>
+   </data>
+   <data name="&gt;&gt;rdHttp.ZOrder" xml:space="preserve">
+-    <value>3</value>
++    <value>1</value>
+   </data>
+-  <data name="rdTcpIp.AutoSize" type="System.Boolean, mscorlib">
+-    <value>True</value>
+-  </data>
+-  <data name="rdTcpIp.Location" type="System.Drawing.Point, System.Drawing">
+-    <value>61, 202</value>
+-  </data>
+-  <data name="rdTcpIp.Size" type="System.Drawing.Size, System.Drawing">
+-    <value>121, 17</value>
+-  </data>
+-  <data name="rdTcpIp.TabIndex" type="System.Int32, mscorlib">
+-    <value>17</value>
+-  </data>
+-  <data name="rdTcpIp.Text" xml:space="preserve">
+-    <value>Connect via TCP/IP</value>
+-  </data>
+-  <data name="&gt;&gt;rdTcpIp.Name" xml:space="preserve">
+-    <value>rdTcpIp</value>
+-  </data>
+-  <data name="&gt;&gt;rdTcpIp.Type" xml:space="preserve">
+-    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+-  </data>
+-  <data name="&gt;&gt;rdTcpIp.Parent" xml:space="preserve">
+-    <value>$this</value>
+-  </data>
+-  <data name="&gt;&gt;rdTcpIp.ZOrder" xml:space="preserve">
+-    <value>2</value>
+-  </data>
+   <data name="loginPanel.Location" type="System.Drawing.Point, System.Drawing">
+     <value>12, 12</value>
+   </data>
+   <data name="loginPanel.Size" type="System.Drawing.Size, System.Drawing">
+-    <value>374, 160</value>
++    <value>364, 79</value>
+   </data>
+   <data name="loginPanel.TabIndex" type="System.Int32, mscorlib">
+     <value>18</value>
+@@ -286,40 +265,13 @@
+     <value>$this</value>
+   </data>
+   <data name="&gt;&gt;loginPanel.ZOrder" xml:space="preserve">
+-    <value>1</value>
+-  </data>
+-  <data name="rdLocal.AutoSize" type="System.Boolean, mscorlib">
+-    <value>True</value>
+-  </data>
+-  <data name="rdLocal.Location" type="System.Drawing.Point, System.Drawing">
+-    <value>206, 202</value>
+-  </data>
+-  <data name="rdLocal.Size" type="System.Drawing.Size, System.Drawing">
+-    <value>101, 17</value>
+-  </data>
+-  <data name="rdLocal.TabIndex" type="System.Int32, mscorlib">
+-    <value>19</value>
+-  </data>
+-  <data name="rdLocal.Text" xml:space="preserve">
+-    <value>Connect Locally</value>
+-  </data>
+-  <data name="&gt;&gt;rdLocal.Name" xml:space="preserve">
+-    <value>rdLocal</value>
+-  </data>
+-  <data name="&gt;&gt;rdLocal.Type" xml:space="preserve">
+-    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+-  </data>
+-  <data name="&gt;&gt;rdLocal.Parent" xml:space="preserve">
+-    <value>$this</value>
+-  </data>
+-  <data name="&gt;&gt;rdLocal.ZOrder" xml:space="preserve">
+     <value>0</value>
+   </data>
+   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+     <value>True</value>
+   </metadata>
+   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+-    <value>398, 277</value>
++    <value>398, 157</value>
+   </data>
+   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+     <value>
+Index: Maestro/Maestro_All.sln
+===================================================================
+--- Maestro/Maestro_All.sln	(revision 113)
++++ Maestro/Maestro_All.sln	(working copy)
+@@ -1,6 +1,6 @@
+ ﻿
+ Microsoft Visual Studio Solution File, Format Version 12.00
+-# Visual Studio Express 2013 for Windows Desktop
++# Visual Studio 2013
+ VisualStudioVersion = 12.0.21005.1
+ MinimumVisualStudioVersion = 10.0.40219.1
+ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ICSharpCode.Core", "..\Thirdparty\SharpDevelop\ICSharpCode.Core\ICSharpCode.Core.csproj", "{35CEF10F-2D4C-45F2-9DD1-161E0FEC583C}"
+@@ -18,21 +18,6 @@
+ 		{5AD2CDBA-952E-4148-98A1-31D2E0D540D5} = {5AD2CDBA-952E-4148-98A1-31D2E0D540D5}
+ 	EndProjectSection
+ EndProject
+-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Maestro.AddIn.ExtendedObjectModels", "..\Maestro.AddIn.ExtendedObjectModels\Maestro.AddIn.ExtendedObjectModels.csproj", "{32BA7DF6-1AFA-441D-9231-5624C5920706}"
+-	ProjectSection(ProjectDependencies) = postProject
+-		{B3A2B816-9F41-4857-A111-09D2DF2550D6} = {B3A2B816-9F41-4857-A111-09D2DF2550D6}
+-		{D525B343-66D6-4D6B-9A55-78A173D94A51} = {D525B343-66D6-4D6B-9A55-78A173D94A51}
+-		{CFD19053-2172-41D3-8460-0FD2123A1E88} = {CFD19053-2172-41D3-8460-0FD2123A1E88}
+-		{80FA3158-8B5F-48D1-A393-0378AFE48A7E} = {80FA3158-8B5F-48D1-A393-0378AFE48A7E}
+-		{BF6E996E-27AF-44CD-B3CF-A40874E15B2E} = {BF6E996E-27AF-44CD-B3CF-A40874E15B2E}
+-		{EDDB0F74-6FE7-4969-80B0-817A629722CD} = {EDDB0F74-6FE7-4969-80B0-817A629722CD}
+-		{B5EA049C-6AB7-4686-A2F4-4BA2EAC0E585} = {B5EA049C-6AB7-4686-A2F4-4BA2EAC0E585}
+-		{B2A1F69E-52AA-42A2-8DED-89ADB9B14A38} = {B2A1F69E-52AA-42A2-8DED-89ADB9B14A38}
+-		{0A93ACA8-5B21-44E6-B0B7-5D1E72D3A6A2} = {0A93ACA8-5B21-44E6-B0B7-5D1E72D3A6A2}
+-		{5AD2CDBA-952E-4148-98A1-31D2E0D540D5} = {5AD2CDBA-952E-4148-98A1-31D2E0D540D5}
+-		{AC5068F6-CFBE-4BCD-B68B-062725E424D4} = {AC5068F6-CFBE-4BCD-B68B-062725E424D4}
+-	EndProjectSection
+-EndProject
+ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MgCooker", "..\MgCooker\MgCooker.csproj", "{C7DCF771-5982-4859-A17F-01126E6F9BA6}"
+ 	ProjectSection(ProjectDependencies) = postProject
+ 		{07588440-5F9F-4C30-AA06-9CF30BA6DDE6} = {07588440-5F9F-4C30-AA06-9CF30BA6DDE6}
+@@ -69,10 +54,6 @@
+ EndProject
+ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aga.Controls", "..\Thirdparty\TreeViewAdv\Aga.Controls\Aga.Controls.csproj", "{E73BB233-D88B-44A7-A98F-D71EE158381D}"
+ EndProject
+-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaestroAPITests", "..\MaestroAPITests\MaestroAPITests.csproj", "{351D49A3-2E4A-4EC3-AFC2-D56598F44F51}"
+-EndProject
+-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaestroAPITestRunner", "..\MaestroAPITestRunner\MaestroAPITestRunner.csproj", "{50C12B5C-387C-4007-A1D1-CB181CB474CC}"
+-EndProject
+ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OSGeo.MapGuide.ObjectModels.LayerDefinition-2.3.0", "..\ExtendedModels\LayerDefinition-2.3.0\OSGeo.MapGuide.ObjectModels.LayerDefinition-2.3.0.csproj", "{F976A709-D9DB-407E-A4CD-2CEA31C6B1D9}"
+ EndProject
+ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OSGeo.MapGuide.ObjectModels.MapDefinition-2.3.0", "..\ExtendedModels\MapDefinition-2.3.0\OSGeo.MapGuide.ObjectModels.MapDefinition-2.3.0.csproj", "{C8DB3E77-3AF4-471D-A214-69DBEB32750E}"
+@@ -90,12 +71,6 @@
+ EndProject
+ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OSGeo.MapGuide.MaestroAPI.Local", "..\OSGeo.MapGuide.MaestroAPI.Local\OSGeo.MapGuide.MaestroAPI.Local.csproj", "{3DDF6501-0148-474C-8674-7C7DA49C7F02}"
+ EndProject
+-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Maestro.AddIn.Local", "..\Maestro.AddIn.Local\Maestro.AddIn.Local.csproj", "{2419F940-BFB7-4F3F-B5DA-1052EB4706E5}"
+-	ProjectSection(ProjectDependencies) = postProject
+-		{3DDF6501-0148-474C-8674-7C7DA49C7F02} = {3DDF6501-0148-474C-8674-7C7DA49C7F02}
+-		{80FA3158-8B5F-48D1-A393-0378AFE48A7E} = {80FA3158-8B5F-48D1-A393-0378AFE48A7E}
+-	EndProjectSection
+-EndProject
+ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LocalConfigure", "..\LocalConfigure\LocalConfigure.csproj", "{6EE16FFD-296E-42FF-B994-8902C27AA0F4}"
+ EndProject
+ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignMapGuideApi", "..\SignMapGuideApi\SignMapGuideApi.csproj", "{D24F724A-1CBF-4EB6-A48B-92C08353C4CC}"
+@@ -122,20 +97,12 @@
+ 		{222CB020-5336-47D7-9BB9-A22D18953C80} = {222CB020-5336-47D7-9BB9-A22D18953C80}
+ 	EndProjectSection
+ EndProject
+-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Maestro.AddIn.FdoToolbox", "..\Maestro.AddIn.FdoToolbox\Maestro.AddIn.FdoToolbox.csproj", "{8787FF3F-552F-46BE-B9D7-548B6162B079}"
+-EndProject
+ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RtMapInspector", "..\RtMapInspector\RtMapInspector.csproj", "{E204559D-EE92-4792-96E2-06F45654FAFC}"
+ EndProject
+-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Maestro.AddIn.GeoRest", "..\Maestro.AddIn.GeoRest\Maestro.AddIn.GeoRest.csproj", "{19A769B5-7CFA-4E9F-90D8-BF4A17F918C4}"
+-EndProject
+-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Maestro.AddIn.Scripting", "..\Maestro.AddIn.Scripting\Maestro.AddIn.Scripting.csproj", "{3591C5BB-2B87-4FB4-AD87-9C8176DF9835}"
+-EndProject
+ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinFormsUI", "..\Thirdparty\WinFormsUI\WinFormsUI.csproj", "{C75532C4-765B-418E-B09B-46D36B2ABDB1}"
+ EndProject
+ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ICSharpCode.TextEditor", "..\Thirdparty\SharpDevelop\ICSharpCode.TextEditor\ICSharpCode.TextEditor.csproj", "{2D18BE89-D210-49EB-A9DD-2246FBB3DF6D}"
+ EndProject
+-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Maestro.AddInManager", "..\Maestro.AddInManager\Maestro.AddInManager.csproj", "{9CC51643-37D6-4B8F-A0EA-E7606AA561EB}"
+-EndProject
+ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Maestro.MapViewer", "..\Maestro.MapViewer\Maestro.MapViewer.csproj", "{4F9658DE-D16F-4B40-B830-BB1E0136DBD7}"
+ EndProject
+ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Maestro.LiveMapEditor", "..\Maestro.LiveMapEditor\Maestro.LiveMapEditor.csproj", "{F1EDEB83-D09F-46E0-B655-B43D4D9682DD}"
+@@ -151,11 +118,6 @@
+ EndProject
+ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Maestro", "Maestro.csproj", "{E0C36475-2B70-4F6D-ACE0-8943167806DC}"
+ EndProject
+-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaestroAPITestRunner64", "..\MaestroAPITestRunner\MaestroAPITestRunner64.csproj", "{AA5EF530-B95C-4C8F-BE9F-52C225613DF9}"
+-	ProjectSection(ProjectDependencies) = postProject
+-		{50C12B5C-387C-4007-A1D1-CB181CB474CC} = {50C12B5C-387C-4007-A1D1-CB181CB474CC}
+-	EndProjectSection
+-EndProject
+ Global
+ 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+ 		Debug|Any CPU = Debug|Any CPU
+@@ -178,10 +140,6 @@
+ 		{59BE5E18-17B6-431D-836E-C0AABA6D69E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+ 		{59BE5E18-17B6-431D-836E-C0AABA6D69E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+ 		{59BE5E18-17B6-431D-836E-C0AABA6D69E8}.Release|Any CPU.Build.0 = Release|Any CPU
+-		{32BA7DF6-1AFA-441D-9231-5624C5920706}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+-		{32BA7DF6-1AFA-441D-9231-5624C5920706}.Debug|Any CPU.Build.0 = Debug|Any CPU
+-		{32BA7DF6-1AFA-441D-9231-5624C5920706}.Release|Any CPU.ActiveCfg = Release|Any CPU
+-		{32BA7DF6-1AFA-441D-9231-5624C5920706}.Release|Any CPU.Build.0 = Release|Any CPU
+ 		{C7DCF771-5982-4859-A17F-01126E6F9BA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+ 		{C7DCF771-5982-4859-A17F-01126E6F9BA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+ 		{C7DCF771-5982-4859-A17F-01126E6F9BA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+@@ -246,14 +204,6 @@
+ 		{E73BB233-D88B-44A7-A98F-D71EE158381D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+ 		{E73BB233-D88B-44A7-A98F-D71EE158381D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+ 		{E73BB233-D88B-44A7-A98F-D71EE158381D}.Release|Any CPU.Build.0 = Release|Any CPU
+-		{351D49A3-2E4A-4EC3-AFC2-D56598F44F51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+-		{351D49A3-2E4A-4EC3-AFC2-D56598F44F51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+-		{351D49A3-2E4A-4EC3-AFC2-D56598F44F51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+-		{351D49A3-2E4A-4EC3-AFC2-D56598F44F51}.Release|Any CPU.Build.0 = Release|Any CPU
+-		{50C12B5C-387C-4007-A1D1-CB181CB474CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+-		{50C12B5C-387C-4007-A1D1-CB181CB474CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+-		{50C12B5C-387C-4007-A1D1-CB181CB474CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+-		{50C12B5C-387C-4007-A1D1-CB181CB474CC}.Release|Any CPU.Build.0 = Release|Any CPU
+ 		{F976A709-D9DB-407E-A4CD-2CEA31C6B1D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+ 		{F976A709-D9DB-407E-A4CD-2CEA31C6B1D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+ 		{F976A709-D9DB-407E-A4CD-2CEA31C6B1D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+@@ -274,10 +224,6 @@
+ 		{3DDF6501-0148-474C-8674-7C7DA49C7F02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+ 		{3DDF6501-0148-474C-8674-7C7DA49C7F02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+ 		{3DDF6501-0148-474C-8674-7C7DA49C7F02}.Release|Any CPU.Build.0 = Release|Any CPU
+-		{2419F940-BFB7-4F3F-B5DA-1052EB4706E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+-		{2419F940-BFB7-4F3F-B5DA-1052EB4706E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+-		{2419F940-BFB7-4F3F-B5DA-1052EB4706E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+-		{2419F940-BFB7-4F3F-B5DA-1052EB4706E5}.Release|Any CPU.Build.0 = Release|Any CPU
+ 		{6EE16FFD-296E-42FF-B994-8902C27AA0F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+ 		{6EE16FFD-296E-42FF-B994-8902C27AA0F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+ 		{6EE16FFD-296E-42FF-B994-8902C27AA0F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+@@ -310,22 +256,10 @@
+ 		{E367FE8E-E46F-4DA0-86CE-E6F37E78DEE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+ 		{E367FE8E-E46F-4DA0-86CE-E6F37E78DEE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+ 		{E367FE8E-E46F-4DA0-86CE-E6F37E78DEE0}.Release|Any CPU.Build.0 = Release|Any CPU
+-		{8787FF3F-552F-46BE-B9D7-548B6162B079}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+-		{8787FF3F-552F-46BE-B9D7-548B6162B079}.Debug|Any CPU.Build.0 = Debug|Any CPU
+-		{8787FF3F-552F-46BE-B9D7-548B6162B079}.Release|Any CPU.ActiveCfg = Release|Any CPU
+-		{8787FF3F-552F-46BE-B9D7-548B6162B079}.Release|Any CPU.Build.0 = Release|Any CPU
+ 		{E204559D-EE92-4792-96E2-06F45654FAFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+ 		{E204559D-EE92-4792-96E2-06F45654FAFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+ 		{E204559D-EE92-4792-96E2-06F45654FAFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+ 		{E204559D-EE92-4792-96E2-06F45654FAFC}.Release|Any CPU.Build.0 = Release|Any CPU
+-		{19A769B5-7CFA-4E9F-90D8-BF4A17F918C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+-		{19A769B5-7CFA-4E9F-90D8-BF4A17F918C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+-		{19A769B5-7CFA-4E9F-90D8-BF4A17F918C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+-		{19A769B5-7CFA-4E9F-90D8-BF4A17F918C4}.Release|Any CPU.Build.0 = Release|Any CPU
+-		{3591C5BB-2B87-4FB4-AD87-9C8176DF9835}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+-		{3591C5BB-2B87-4FB4-AD87-9C8176DF9835}.Debug|Any CPU.Build.0 = Debug|Any CPU
+-		{3591C5BB-2B87-4FB4-AD87-9C8176DF9835}.Release|Any CPU.ActiveCfg = Release|Any CPU
+-		{3591C5BB-2B87-4FB4-AD87-9C8176DF9835}.Release|Any CPU.Build.0 = Release|Any CPU
+ 		{C75532C4-765B-418E-B09B-46D36B2ABDB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+ 		{C75532C4-765B-418E-B09B-46D36B2ABDB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+ 		{C75532C4-765B-418E-B09B-46D36B2ABDB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+@@ -334,10 +268,6 @@
+ 		{2D18BE89-D210-49EB-A9DD-2246FBB3DF6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+ 		{2D18BE89-D210-49EB-A9DD-2246FBB3DF6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+ 		{2D18BE89-D210-49EB-A9DD-2246FBB3DF6D}.Release|Any CPU.Build.0 = Release|Any CPU
+-		{9CC51643-37D6-4B8F-A0EA-E7606AA561EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+-		{9CC51643-37D6-4B8F-A0EA-E7606AA561EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+-		{9CC51643-37D6-4B8F-A0EA-E7606AA561EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+-		{9CC51643-37D6-4B8F-A0EA-E7606AA561EB}.Release|Any CPU.Build.0 = Release|Any CPU
+ 		{4F9658DE-D16F-4B40-B830-BB1E0136DBD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+ 		{4F9658DE-D16F-4B40-B830-BB1E0136DBD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+ 		{4F9658DE-D16F-4B40-B830-BB1E0136DBD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+@@ -354,10 +284,6 @@
+ 		{E0C36475-2B70-4F6D-ACE0-8943167806DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+ 		{E0C36475-2B70-4F6D-ACE0-8943167806DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+ 		{E0C36475-2B70-4F6D-ACE0-8943167806DC}.Release|Any CPU.Build.0 = Release|Any CPU
+-		{AA5EF530-B95C-4C8F-BE9F-52C225613DF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+-		{AA5EF530-B95C-4C8F-BE9F-52C225613DF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+-		{AA5EF530-B95C-4C8F-BE9F-52C225613DF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+-		{AA5EF530-B95C-4C8F-BE9F-52C225613DF9}.Release|Any CPU.Build.0 = Release|Any CPU
+ 	EndGlobalSection
+ 	GlobalSection(SolutionProperties) = preSolution
+ 		HideSolutionNode = FALSE
+Index: MaestroAPITestRunner/MaestroAPITestRunner.csproj
+===================================================================
+--- MaestroAPITestRunner/MaestroAPITestRunner.csproj	(revision 113)
++++ MaestroAPITestRunner/MaestroAPITestRunner.csproj	(working copy)
+@@ -85,10 +85,6 @@
+     <Compile Include="Properties\AssemblyInfo.cs" />
+   </ItemGroup>
+   <ItemGroup>
+-    <ProjectReference Include="..\MaestroAPITests\MaestroAPITests.csproj">
+-      <Project>{351D49A3-2E4A-4EC3-AFC2-D56598F44F51}</Project>
+-      <Name>MaestroAPITests</Name>
+-    </ProjectReference>
+     <ProjectReference Include="..\OSGeo.MapGuide.MaestroAPI.Local\OSGeo.MapGuide.MaestroAPI.Local.csproj">
+       <Project>{3ddf6501-0148-474c-8674-7c7da49c7f02}</Project>
+       <Name>OSGeo.MapGuide.MaestroAPI.Local</Name>
+Index: MaestroAPITestRunner/MaestroAPITestRunner64.csproj
+===================================================================
+--- MaestroAPITestRunner/MaestroAPITestRunner64.csproj	(revision 113)
++++ MaestroAPITestRunner/MaestroAPITestRunner64.csproj	(working copy)
+@@ -85,10 +85,6 @@
+     <Compile Include="Properties\AssemblyInfo.cs" />
+   </ItemGroup>
+   <ItemGroup>
+-    <ProjectReference Include="..\MaestroAPITests\MaestroAPITests.csproj">
+-      <Project>{351D49A3-2E4A-4EC3-AFC2-D56598F44F51}</Project>
+-      <Name>MaestroAPITests</Name>
+-    </ProjectReference>
+     <ProjectReference Include="..\OSGeo.MapGuide.MaestroAPI.Local\OSGeo.MapGuide.MaestroAPI.Local.csproj">
+       <Project>{3ddf6501-0148-474c-8674-7c7da49c7f02}</Project>
+       <Name>OSGeo.MapGuide.MaestroAPI.Local</Name>

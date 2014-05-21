@@ -196,7 +196,7 @@
                   type="Menu"
                   label="${res:Menu_Tools}">
             <Include id="ToolList" path="/Workspace/Tools" />
-            <MenuItem type="Separator" />
+            <!--<MenuItem type="Separator" />-->
             <!--<MenuItem id="Menu_Tools_Options"
                       label="${res:Menu_Tools_Options}"
                       icon="application_task"

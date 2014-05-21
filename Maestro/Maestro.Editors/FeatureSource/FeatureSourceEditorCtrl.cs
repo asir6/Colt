@@ -75,8 +75,8 @@ namespace Maestro.Editors.FeatureSource
 
             ext.Dock = DockStyle.Top;
             
-            this.Controls.Add(ext);
-            this.Controls.Add(ov);
+            //this.Controls.Add(ext);
+            //this.Controls.Add(ov);
             this.Controls.Add(panel);
         }
     }

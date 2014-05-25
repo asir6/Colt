@@ -105,7 +105,7 @@
             // MapSettingsCtrl
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
-            this.HeaderText = "Maps";
+            this.HeaderText = "地图";
             this.Name = "MapSettingsCtrl";
             resources.ApplyResources(this, "$this");
             this.contentPanel.ResumeLayout(false);

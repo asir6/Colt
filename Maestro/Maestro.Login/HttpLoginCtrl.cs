@@ -47,39 +47,41 @@ namespace Maestro.Login
             base.OnLoad(e);
 
             List<CultureInfo> supported = new List<CultureInfo>();
-            supported.Add(CultureInfo.GetCultureInfo("en-US")); //NOXLATE
+            supported.Add(CultureInfo.GetCultureInfo("zh-CN")); //NOXLATE
 
             //Probe for language bundles and add them as well
-            System.Text.RegularExpressions.Regex cix = new System.Text.RegularExpressions.Regex("[A-z][A-z](\\-[A-z][A-z])?"); //NOXLATE
-            foreach (string f in System.IO.Directory.GetDirectories(Application.StartupPath))
-            {
-                if (cix.Match(System.IO.Path.GetFileName(f)).Length == System.IO.Path.GetFileName(f).Length)
-                {
-                    try
-                    {
-                        supported.Add(System.Globalization.CultureInfo.GetCultureInfo(System.IO.Path.GetFileName(f)));
-                    }
-                    catch { }
-                }
-            }
+            //System.Text.RegularExpressions.Regex cix = new System.Text.RegularExpressions.Regex("[A-z][A-z](\\-[A-z][A-z])?"); //NOXLATE
+            //foreach (string f in System.IO.Directory.GetDirectories(Application.StartupPath))
+            //{
+            //    if (cix.Match(System.IO.Path.GetFileName(f)).Length == System.IO.Path.GetFileName(f).Length)
+            //    {
+            //        try
+            //        {
+            //            supported.Add(System.Globalization.CultureInfo.GetCultureInfo(System.IO.Path.GetFileName(f)));
+            //        }
+            //        catch { }
+            //    }
+            //}
 
             cmbLanguage.DisplayMember = "DisplayName"; //NOXLATE
             cmbLanguage.ValueMember = "Name"; //NOXLATE
+            cmbLanguage.Items.Add(supported[0]);
+            ////Set default language based on current thread culture
+            //int selected = -1;
+            //foreach (var ci in supported)
+            //{
+            //    int index = cmbLanguage.Items.Add(ci);
+            //    if (string.Compare(ci.Name, System.Threading.Thread.CurrentThread.CurrentUICulture.Name, true) == 0)
+            //    {
+            //        selected = index;
+            //    }
+            //}
 
-            //Set default language based on current thread culture
-            int selected = -1;
-            foreach (var ci in supported)
-            {
-                int index = cmbLanguage.Items.Add(ci);
-                if (string.Compare(ci.Name, System.Threading.Thread.CurrentThread.CurrentUICulture.Name, true) == 0)
-                {
-                    selected = index;
-                }
-            }
+            //if (selected >= 0)
+                //cmbLanguage.SelectedIndex = selected;
 
-            if (selected >= 0)
-                cmbLanguage.SelectedIndex = selected;
-
+            cmbLanguage.SelectedIndex = 0;
+            cmbLanguage.Hide();
             _loading = false;
             UpdateLoginStatus();
         }

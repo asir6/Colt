@@ -85,10 +85,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\MaestroAPITests\MaestroAPITests.csproj">
-      <Project>{351D49A3-2E4A-4EC3-AFC2-D56598F44F51}</Project>
-      <Name>MaestroAPITests</Name>
-    </ProjectReference>
     <ProjectReference Include="..\OSGeo.MapGuide.MaestroAPI.Local\OSGeo.MapGuide.MaestroAPI.Local.csproj">
       <Project>{3ddf6501-0148-474c-8674-7c7da49c7f02}</Project>
       <Name>OSGeo.MapGuide.MaestroAPI.Local</Name>

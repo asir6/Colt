@@ -39,7 +39,7 @@
             resources.ApplyResources(this.mapSettingsCtrl, "mapSettingsCtrl");
             this.mapSettingsCtrl.HeaderBackgroundColor = System.Drawing.Color.LightSteelBlue;
             this.mapSettingsCtrl.HeaderFont = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.mapSettingsCtrl.HeaderText = "Map Settings";
+            this.mapSettingsCtrl.HeaderText = "地图设置";
             this.mapSettingsCtrl.Name = "mapSettingsCtrl";
             // 
             // mapLayersCtrl
@@ -48,7 +48,7 @@
             resources.ApplyResources(this.mapLayersCtrl, "mapLayersCtrl");
             this.mapLayersCtrl.HeaderBackgroundColor = System.Drawing.Color.LightSteelBlue;
             this.mapLayersCtrl.HeaderFont = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.mapLayersCtrl.HeaderText = "Layers";
+            this.mapLayersCtrl.HeaderText = "图层";
             this.mapLayersCtrl.Name = "mapLayersCtrl";
             // 
             // MapDefinitionEditorCtrl

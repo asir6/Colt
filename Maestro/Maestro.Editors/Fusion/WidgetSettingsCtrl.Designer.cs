@@ -185,7 +185,7 @@
             // WidgetSettingsCtrl
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
-            this.HeaderText = "Widgets";
+            this.HeaderText = "插件";
             this.Name = "WidgetSettingsCtrl";
             resources.ApplyResources(this, "$this");
             this.contentPanel.ResumeLayout(false);

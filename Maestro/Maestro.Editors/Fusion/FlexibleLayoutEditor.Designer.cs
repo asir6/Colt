@@ -40,7 +40,7 @@
             resources.ApplyResources(this.settingsCtrl, "settingsCtrl");
             this.settingsCtrl.HeaderBackgroundColor = System.Drawing.Color.LightSteelBlue;
             this.settingsCtrl.HeaderFont = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.settingsCtrl.HeaderText = "Flexible Layout Settings";
+            this.settingsCtrl.HeaderText = "布局设置";
             this.settingsCtrl.Name = "settingsCtrl";
             // 
             // mapsCtrl
@@ -49,7 +49,7 @@
             resources.ApplyResources(this.mapsCtrl, "mapsCtrl");
             this.mapsCtrl.HeaderBackgroundColor = System.Drawing.Color.LightSteelBlue;
             this.mapsCtrl.HeaderFont = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.mapsCtrl.HeaderText = "Maps";
+            this.mapsCtrl.HeaderText = "地图";
             this.mapsCtrl.Name = "mapsCtrl";
             // 
             // widgetsCtrl
@@ -58,7 +58,7 @@
             resources.ApplyResources(this.widgetsCtrl, "widgetsCtrl");
             this.widgetsCtrl.HeaderBackgroundColor = System.Drawing.Color.LightSteelBlue;
             this.widgetsCtrl.HeaderFont = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.widgetsCtrl.HeaderText = "Widgets";
+            this.widgetsCtrl.HeaderText = "插件";
             this.widgetsCtrl.Name = "widgetsCtrl";
             // 
             // FlexibleLayoutEditor

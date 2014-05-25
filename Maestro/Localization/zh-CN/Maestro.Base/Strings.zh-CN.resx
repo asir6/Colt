@@ -822,7 +822,7 @@ Many thanks to the following people who have translated Maestro into other langu
     <value>使用1.0.0版模式创建一个新的复合的符号定义</value>
   </data>
   <data name="TPL_CSD_NAME" xml:space="preserve">
-    <value>符合符号定义 (1.0.0版)</value>
+    <value>复合符号定义 (1.0.0版)</value>
   </data>
   <data name="TPL_DLDF_DESC" xml:space="preserve">
     <value>创建一个新的绘图图层定义</value>

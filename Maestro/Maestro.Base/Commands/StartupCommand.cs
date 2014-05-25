@@ -56,15 +56,15 @@ namespace Maestro.Base.Commands
                 ServiceRegistry.GetService<NewItemTemplateService>().InitUserTemplates();
                 var wb = Workbench.Instance;
                 wb.FormClosing += new System.Windows.Forms.FormClosingEventHandler(OnWorkbenchClosing);
-                wb.Text = "MapGuide Maestro"; //NOXLATE
+                wb.Text = "地图编辑器"; //NOXLATE
 
                 var mgr = ServiceRegistry.GetService<ViewContentManager>();
                 
-                if (Props.Get(ConfigProperties.ShowMessages, true))
-                    mgr.OpenContent<MessageViewer>(ViewRegion.Bottom);
+                //if (Props.Get(ConfigProperties.ShowMessages, true))
+                //    mgr.OpenContent<MessageViewer>(ViewRegion.Bottom);
 
-                if (Props.Get(ConfigProperties.ShowOutboundRequests, true))
-                    mgr.OpenContent<OutboundRequestViewer>(ViewRegion.Bottom);
+                //if (Props.Get(ConfigProperties.ShowOutboundRequests, true))
+                //    mgr.OpenContent<OutboundRequestViewer>(ViewRegion.Bottom);
 
                 TipOfTheDayDialog.FirstTimeOpen();
                 new LoginCommand().Run();

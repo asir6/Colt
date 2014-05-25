@@ -66,7 +66,7 @@
             // FsEditorOptionPanel
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
-            this.HeaderText = "Other Options";
+            this.HeaderText = "其他选项";
             this.Name = "FsEditorOptionPanel";
             resources.ApplyResources(this, "$this");
             this.contentPanel.ResumeLayout(false);

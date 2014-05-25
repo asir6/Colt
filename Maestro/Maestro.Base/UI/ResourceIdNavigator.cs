@@ -98,6 +98,7 @@ namespace Maestro.Base.UI
             _btnOpenAsXml.TextImageRelation = TextImageRelation.TextBeforeImage;
             _btnOpenAsXml.ToolTipText = Strings.Label_OpenResourceAsXml;
             _btnOpenAsXml.Click += btnOpenAsXml_Click;
+            _btnOpenAsXml.Visible = false;
 
             UpdateConnectionList();
             UpdateNavigationState();

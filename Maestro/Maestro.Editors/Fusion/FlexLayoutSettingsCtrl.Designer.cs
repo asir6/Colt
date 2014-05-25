@@ -54,6 +54,7 @@
             this.contentPanel.Controls.Add(this.groupBox1);
             this.contentPanel.Controls.Add(this.label2);
             this.contentPanel.Controls.Add(this.label1);
+            resources.ApplyResources(this.contentPanel, "contentPanel");
             // 
             // label1
             // 
@@ -119,7 +120,7 @@
             // FlexLayoutSettingsCtrl
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
-            this.HeaderText = "Flexible Layout Settings";
+            resources.ApplyResources(this, "$this");
             this.Name = "FlexLayoutSettingsCtrl";
             this.contentPanel.ResumeLayout(false);
             this.contentPanel.PerformLayout();

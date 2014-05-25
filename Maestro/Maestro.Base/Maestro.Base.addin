@@ -59,19 +59,19 @@
     <!-- Registered System Templates -->
     <Path name="/Maestro/NewItemTemplates">
         <Class id="FlexLayout100" class="Maestro.Base.Templates.ApplicationDefinitionItemTemplate" />
-        <Class id="DrawingSource100" class="Maestro.Base.Templates.DrawingSourceItemTemplate" />
+        <!--<Class id="DrawingSource100" class="Maestro.Base.Templates.DrawingSourceItemTemplate" />-->
         <Class id="FeatureSource100" class="Maestro.Base.Templates.FeatureSourceItemTemplate" />
         <Class id="VectorLayerDefinition100" class="Maestro.Base.Templates.VectorLayerDefinitionItemTemplate" />
         <Class id="RasterLayerDefinition100" class="Maestro.Base.Templates.RasterLayerDefinitionItemTemplate" />
-        <Class id="DrawingLayerDefinition100" class="Maestro.Base.Templates.DrawingLayerDefinitionItemTemplate" />
+        <!--<Class id="DrawingLayerDefinition100" class="Maestro.Base.Templates.DrawingLayerDefinitionItemTemplate" />-->
         <Class id="MapDefinition100" class="Maestro.Base.Templates.MapDefinitionItemTemplate" />
-        <Class id="PrintLayout100" class="Maestro.Base.Templates.PrintLayoutItemTemplate" />
-        <Class id="SdfLoadProcedure100" class="Maestro.Base.Templates.SdfLoadProcedureItemTemplate" />
-        <Class id="ShpLoadProcedure100" class="Maestro.Base.Templates.ShpLoadProcedureItemTemplate" />
-        <Class id="DwfLoadProcedure100" class="Maestro.Base.Templates.DwfLoadProcedureItemTemplate" />
+        <!--<Class id="PrintLayout100" class="Maestro.Base.Templates.PrintLayoutItemTemplate" />-->
+        <!--<Class id="SdfLoadProcedure100" class="Maestro.Base.Templates.SdfLoadProcedureItemTemplate" />-->
+        <!--<Class id="ShpLoadProcedure100" class="Maestro.Base.Templates.ShpLoadProcedureItemTemplate" />-->
+        <!--<Class id="DwfLoadProcedure100" class="Maestro.Base.Templates.DwfLoadProcedureItemTemplate" />-->
         <Class id="SimpleSymbol100" class="Maestro.Base.Templates.SimpleSymbolDefinitionItemTemplate" />
         <Class id="CompoundSymbol100" class="Maestro.Base.Templates.CompoundSymbolDefinitionItemTemplate" />
-        <Class id="WebLayout100" class="Maestro.Base.Templates.WebLayoutItemTemplate" />
+        <!--<Class id="WebLayout100" class="Maestro.Base.Templates.WebLayoutItemTemplate" />-->
     </Path>
     
     <!-- Main Menu Definition -->
@@ -196,11 +196,11 @@
                   type="Menu"
                   label="${res:Menu_Tools}">
             <Include id="ToolList" path="/Workspace/Tools" />
-            <MenuItem type="Separator" />
-            <MenuItem id="Menu_Tools_Options"
+            <!--<MenuItem type="Separator" />-->
+            <!--<MenuItem id="Menu_Tools_Options"
                       label="${res:Menu_Tools_Options}"
                       icon="application_task"
-                      class="Maestro.Base.Commands.OptionsCommand"/>
+                      class="Maestro.Base.Commands.OptionsCommand"/>-->
         </MenuItem>
         <MenuItem id="Menu_Window"
                   type="Menu"
@@ -238,7 +238,7 @@
                       icon="box__pencil"
                       class="Maestro.Base.Commands.EditPackageCommand"/>
         </MenuItem>
-        <MenuItem id="Menu_Help"
+        <!--<MenuItem id="Menu_Help"
                   type="Menu"
                   label="${res:Menu_Help}">
             <MenuItem id="Menu_Help_UserGuide"
@@ -251,7 +251,7 @@
             <MenuItem id="Menu_Help_About"
                       label="${res:Menu_Help_About}"
                       class="Maestro.Base.Commands.AboutCommand" />
-        </MenuItem>
+        </MenuItem>-->
     </Path>
 
     <!-- Auto-start commands -->
@@ -272,8 +272,8 @@
 
     <!-- Singleton view content -->
     <Path name="/Maestro/Shell/SingleViewContent">
-        <Class id="MessageViewer" class="Maestro.Base.UI.MessageViewer" />
-        <Class id="OutboundRequestViewer" class="Maestro.Base.UI.OutboundRequestViewer" />
+        <!--<Class id="MessageViewer" class="Maestro.Base.UI.MessageViewer" />
+        <Class id="OutboundRequestViewer" class="Maestro.Base.UI.OutboundRequestViewer" />-->
     </Path>
     
     <!-- Toolbar Definition -->
@@ -339,7 +339,7 @@
                          tooltip="${res:Menu_File_PreviewResource}"
                          class="Maestro.Base.Commands.PreviewResourceCommand" />
         </Condition>
-        <Condition action="Disable" name="EditorFunction" property="CanEditAsXml">
+        <!--<Condition action="Disable" name="EditorFunction" property="CanEditAsXml">
             <ToolbarItem id="XmlEdit"
                          icon="document_code"
                          label="${res:Toolbar_EditAsXml}"
@@ -352,7 +352,7 @@
                          label="${res:Toolbar_Profile}"
                          tooltip="${res:Menu_File_ProfileResource}"
                          class="Maestro.Base.Commands.ProfileResourceCommand" />
-        </Condition>
+        </Condition>-->
         <Condition action="Disable" name="EditorFunction" property="CanValidate">
             <ToolbarItem id="Validate"
                          icon="tick"
@@ -360,7 +360,7 @@
                          tooltip="${res:Menu_File_ValidateEditedResource}"
                          class="Maestro.Base.Commands.ValidateEditedResourceCommand" />
         </Condition>
-        <Condition action="Disable" name="EditorOfType" types="WebLayout,ApplicationDefinition">
+        <!--<Condition action="Disable" name="EditorOfType" types="WebLayout,ApplicationDefinition">
             <ToolbarItem id="Translate"
                          icon="edit_language"
                          label="${res:Menu_Tools_Translate}"
@@ -373,7 +373,7 @@
                          label="${res:Menu_Tools_XmlChanges}"
                          tooltip="${res:Menu_Tools_XmlChanges_Desc}"
                          class="Maestro.Base.Commands.ViewXmlChangesCommand" />
-        </Condition>
+        </Condition>-->
         <!-- 
         Only needed if our custom drawn close buttons don't appear on document
         tabs (I'm looking at you Mono). So far this isn't the case. 
@@ -471,17 +471,17 @@
                           label="${res:SiteExplorer_SelectedItem_Delete}"
                           class="Maestro.Base.Commands.SiteExplorer.DeleteSelectedItemsCommand" />
             </Condition>
-            <MenuItem id="TestCompatibility"
+            <!--<MenuItem id="TestCompatibility"
                       label="${res:SiteExplorer_TestResourceCompatibility}"
-                      class="Maestro.Base.Commands.SiteExplorer.TestResourceCompatibilityCommand" />
+                      class="Maestro.Base.Commands.SiteExplorer.TestResourceCompatibilityCommand" />-->
             <MenuItem id="Validate"
                       icon="tick"
                       label="${res:SiteExplorer_ValidateResources}"
                       class="Maestro.Base.Commands.SiteExplorer.ValidateCommand" />
-            <MenuItem id="EditRawFolderHeader"
+            <!--<MenuItem id="EditRawFolderHeader"
                       label="${res:EditRawHeader}"
                       class="Maestro.Base.Commands.SiteExplorer.EditResourceHeaderCommand" />
-            <MenuItem type="Separator" />
+            <MenuItem type="Separator" />-->
             <MenuItem id="Properties"
                       label="${res:SiteExplorer_SelectedItem_Properties}"
                       class="Maestro.Base.Commands.SiteExplorer.ResourcePropertiesCommand" />
@@ -524,10 +524,10 @@
             <MenuItem id="Open"
                       label="${res:SiteExplorer_SelectedItem_Open}"
                       class="Maestro.Base.Commands.SiteExplorer.OpenResourceCommand" />
-            <MenuItem id="OpenXml"
+            <!--<MenuItem id="OpenXml"
                       icon="document_code"
                       label="${res:SiteExplorer_SelectedItem_OpenWithXmlEditor}"
-                      class="Maestro.Base.Commands.SiteExplorer.OpenWithXmlEditorCommand" />
+                      class="Maestro.Base.Commands.SiteExplorer.OpenWithXmlEditorCommand" />-->
             <MenuItem id="Rename"
                       label="${res:SiteExplorer_SelectedItem_Rename}"
                       class="Maestro.Base.Commands.SiteExplorer.RenameCommand" />
@@ -540,16 +540,16 @@
                       icon="document_copy"
                       label="${res:SiteExplorer_DuplicateResources}"
                       class="Maestro.Base.Commands.SiteExplorer.DuplicateResourceCommand" />
-            <MenuItem id="FindReplaceXml"
+            <!--<MenuItem id="FindReplaceXml"
                       label="${res:SiteExplorer_FindReplaceXml}"
-                      class="Maestro.Base.Commands.SiteExplorer.FindReplaceXmlContentCommand" />
+                      class="Maestro.Base.Commands.SiteExplorer.FindReplaceXmlContentCommand" />-->
             <MenuItem type="Separator" />
-            <Condition action="Disable" name="ResourceType" types="FeatureSource,LayerDefinition">
+            <!--<Condition action="Disable" name="ResourceType" types="FeatureSource,LayerDefinition">
                 <MenuItem id="PurgeFsCache"
                           label="${res:SiteExplorer_PurgeFsCache}"
                           icon="arrow_circle_double"
                           class="Maestro.Base.Commands.SiteExplorer.PurgeFeatureSourceCacheCommand" />
-            </Condition>
+            </Condition>-->
             <Condition action="Disable" name="ResourceType" types="FeatureSource">
                 <MenuItem id="TestFeatureSource"
                           label="${res:SiteExplorer_TestFeatureSource}"
@@ -592,17 +592,17 @@
                       icon="disk"
                       class="Maestro.Base.Commands.SiteExplorer.SaveResourceContentToDiskCommand" />
             <MenuItem type="Separator" />
-            <MenuItem id="Repoint"
+            <!--<MenuItem id="Repoint"
                       icon="document__arrow"
                       label="${res:SiteExplorer_Repoint}"
-                      class="Maestro.Base.Commands.SiteExplorer.RepointCommand" />
+                      class="Maestro.Base.Commands.SiteExplorer.RepointCommand" />-->
             <MenuItem id="Validate"
                       icon="tick"
                       label="${res:SiteExplorer_ValidateResources}"
                       class="Maestro.Base.Commands.SiteExplorer.ValidateCommand" />
-            <MenuItem id="EditRawDocumentHeader"
+            <!--<MenuItem id="EditRawDocumentHeader"
                       label="${res:EditRawHeader}"
-                      class="Maestro.Base.Commands.SiteExplorer.EditResourceHeaderCommand" />
+                      class="Maestro.Base.Commands.SiteExplorer.EditResourceHeaderCommand" />-->
             <MenuItem id="CompileDependencyList"
                       label="${res:SiteExplorer_SelectedItem_CompileDependencyList}"
                       class="Maestro.Base.Commands.SiteExplorer.CompileFullDependencyListCommand" />
@@ -702,22 +702,22 @@
         <MenuItem id="MgCooker"
                   label="${res:MgCooker}"
                   class="Maestro.Base.Commands.MgCookerCommand"/>
-        <MenuItem id="LocalFsPreview"
+        <!--<MenuItem id="LocalFsPreview"
                   label="${res:LocalFsPreview}"
                   class="Maestro.Base.Commands.LocalFeatureSourcePreviewCommand"/>
         <MenuItem id="RtMapInspector"
                   label="${res:RtMapInspector}"
-                  class="Maestro.Base.Commands.RtMapInspectorCommand"/>
+                  class="Maestro.Base.Commands.RtMapInspectorCommand"/>-->
         <MenuItem id="ServerMonitor"
                   label="${res:ServerMonitor}"
                   icon="system_monitor"
                   class="Maestro.Base.Commands.ServerMonitorCommand"/>
-        <MenuItem id="CacheView"
+        <!--<MenuItem id="CacheView"
                   label="${res:CacheView}"
                   class="Maestro.Base.Commands.CacheViewerCommand"/>
         <MenuItem id="LiveMapEditor"
                   label="${res:LiveMapEditor}"
-                  class="Maestro.Base.Commands.LiveMapEditorCommand"/>
+                  class="Maestro.Base.Commands.LiveMapEditorCommand"/>-->
     </Path>
     
 </AddIn>

@@ -33,13 +33,13 @@
             this.btnCancel = new System.Windows.Forms.Button();
             this.btnOK = new System.Windows.Forms.Button();
             this.rdHttp = new System.Windows.Forms.RadioButton();
-            this.rdTcpIp = new System.Windows.Forms.RadioButton();
             this.loginPanel = new System.Windows.Forms.Panel();
-            this.rdLocal = new System.Windows.Forms.RadioButton();
             this.SuspendLayout();
             // 
             // chkSavePassword
             // 
+            this.chkSavePassword.Checked = true;
+            this.chkSavePassword.CheckState = System.Windows.Forms.CheckState.Checked;
             resources.ApplyResources(this.chkSavePassword, "chkSavePassword");
             this.chkSavePassword.Name = "chkSavePassword";
             // 
@@ -64,34 +64,16 @@
             this.rdHttp.UseVisualStyleBackColor = true;
             this.rdHttp.CheckedChanged += new System.EventHandler(this.rdHttp_CheckedChanged);
             // 
-            // rdTcpIp
-            // 
-            resources.ApplyResources(this.rdTcpIp, "rdTcpIp");
-            this.rdTcpIp.Name = "rdTcpIp";
-            this.rdTcpIp.TabStop = true;
-            this.rdTcpIp.UseVisualStyleBackColor = true;
-            this.rdTcpIp.CheckedChanged += new System.EventHandler(this.rdTcpIp_CheckedChanged);
-            // 
             // loginPanel
             // 
             resources.ApplyResources(this.loginPanel, "loginPanel");
             this.loginPanel.Name = "loginPanel";
             // 
-            // rdLocal
-            // 
-            resources.ApplyResources(this.rdLocal, "rdLocal");
-            this.rdLocal.Name = "rdLocal";
-            this.rdLocal.TabStop = true;
-            this.rdLocal.UseVisualStyleBackColor = true;
-            this.rdLocal.CheckedChanged += new System.EventHandler(this.rdLocal_CheckedChanged);
-            // 
             // LoginDialog
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             resources.ApplyResources(this, "$this");
-            this.Controls.Add(this.rdLocal);
             this.Controls.Add(this.loginPanel);
-            this.Controls.Add(this.rdTcpIp);
             this.Controls.Add(this.rdHttp);
             this.Controls.Add(this.chkSavePassword);
             this.Controls.Add(this.btnCancel);
@@ -111,8 +93,6 @@
         private System.Windows.Forms.Button btnCancel;
         private System.Windows.Forms.Button btnOK;
         private System.Windows.Forms.RadioButton rdHttp;
-        private System.Windows.Forms.RadioButton rdTcpIp;
         private System.Windows.Forms.Panel loginPanel;
-        private System.Windows.Forms.RadioButton rdLocal;
     }
 }

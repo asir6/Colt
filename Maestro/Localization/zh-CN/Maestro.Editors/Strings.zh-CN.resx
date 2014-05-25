@@ -1548,4 +1548,7 @@
   <data name="SelectedItemCount" xml:space="preserve">
     <value>{0} 选中的项目</value>
   </data>
+  <data name="CoordSysOverrideCtrlHeaderText" xml:space="preserve">
+    <value>坐标系覆盖</value>
+  </data>
 </root>

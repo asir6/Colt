@@ -136,7 +136,8 @@
             // CoordSysOverrideCtrl
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
-            this.HeaderText = "Coordinate System Overrides";
+            this.HeaderText = Strings.CoordSysOverrideCtrlHeaderText;
+            //this.HeaderText = "Coordinate System Overrides";
             this.Name = "CoordSysOverrideCtrl";
             resources.ApplyResources(this, "$this");
             this.contentPanel.ResumeLayout(false);
